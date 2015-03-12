@@ -1,0 +1,614 @@
+Jerarquía;Descripción;esHoja;Puntuación
+1;Documento;false;0
+1.2;Documento > Párrafos;false;0
+1.3;Documento > FootNotes;false;0
+1.4;Documento > PageSetup;false;0
+1.5;Documento > Sections;false;0
+1.6;Documento > Tables;true;0
+1.2.7;Documento > Párrafos > Párrafo;false;0
+1.2.7.8;Documento > Párrafos > Párrafo > Alineación;true;1
+1.2.7.9;Documento > Párrafos > Párrafo > Letra capital;true;0
+1.2.7.10;Documento > Párrafos > Párrafo > Sang. 1ª línea;true;1
+1.2.7.11;Documento > Párrafos > Párrafo > KeepTogether;true;1
+1.2.7.12;Documento > Párrafos > Párrafo > KeepWithNext;true;1
+1.2.7.13;Documento > Párrafos > Párrafo > Sang. izq.;true;1
+1.2.7.14;Documento > Párrafos > Párrafo > Interlineado;true;1
+1.2.7.15;Documento > Párrafos > Párrafo > Interlineado;true;1
+1.2.7.16;Documento > Párrafos > Párrafo > SpaceAfter;true;0
+1.2.7.17;Documento > Párrafos > Párrafo > SpaceBefore;true;1
+1.2.7.18;Documento > Párrafos > Párrafo > OutlineLevel;true;1
+1.2.7.19;Documento > Párrafos > Párrafo > PageBreakBefore;true;1
+1.2.7.20;Documento > Párrafos > Párrafo > Sang. dcha.;true;1
+1.2.7.21;Documento > Párrafos > Párrafo > TabStops;false;0
+1.2.7.22;Documento > Párrafos > Párrafo > WidowControl;true;1
+1.2.7.23;Documento > Párrafos > Párrafo > Range;false;0
+1.2.7.24;Documento > Párrafos > Párrafo > División automática de palabras;true;1
+1.2.7.25;Documento > Párrafos > Párrafo > Rango-Prop. espec. párrafo;false;0
+1.2.7.21.26;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.27;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.28;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.29;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.30;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.31;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.32;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.33;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.34;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.35;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.36;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.37;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.38;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.39;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.40;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.41;Documento > Párrafos > Párrafo > TabStops > Tabulación;false;0
+1.2.7.21.26.42;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.26.43;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.26.44;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.27.45;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.27.46;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.27.47;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.28.48;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.28.49;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.28.50;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.29.51;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.29.52;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.29.53;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.30.54;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.30.55;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.30.56;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.31.57;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.31.58;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.31.59;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.32.60;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.32.61;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.32.62;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.33.63;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.33.64;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.33.65;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.34.66;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.34.67;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.34.68;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.35.69;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.35.70;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.35.71;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.36.72;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.36.73;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.36.74;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.37.75;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.37.76;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.37.77;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.38.78;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.38.79;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.38.80;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.39.81;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.39.82;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.39.83;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.40.84;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.40.85;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.40.86;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.21.41.87;Documento > Párrafos > Párrafo > TabStops > Tabulación > Alineación;true;1
+1.2.7.21.41.88;Documento > Párrafos > Párrafo > TabStops > Tabulación > Relleno;true;1
+1.2.7.21.41.89;Documento > Párrafos > Párrafo > TabStops > Tabulación > Posición;true;1
+1.2.7.23.90;Documento > Párrafos > Párrafo > Range > Bordes;false;0
+1.2.7.23.91;Documento > Párrafos > Párrafo > Range > Shading;false;0
+1.2.7.23.92;Documento > Párrafos > Párrafo > Range > Bold;true;1
+1.2.7.23.93;Documento > Párrafos > Párrafo > Range > Font;false;0
+1.2.7.23.94;Documento > Párrafos > Párrafo > Range > HighlightColorIndex;true;1
+1.2.7.23.95;Documento > Párrafos > Párrafo > Range > InlineShapes;true;0
+1.2.7.23.96;Documento > Párrafos > Párrafo > Range > Italic;true;1
+1.2.7.23.97;Documento > Párrafos > Párrafo > Range > Text;true;0
+1.2.7.23.98;Documento > Párrafos > Párrafo > Range > Underline;true;1
+1.2.7.23.90.99;Documento > Párrafos > Párrafo > Range > Bordes > Borde;false;0
+1.2.7.23.90.100;Documento > Párrafos > Párrafo > Range > Bordes > Borde;false;0
+1.2.7.23.90.101;Documento > Párrafos > Párrafo > Range > Bordes > Borde;false;0
+1.2.7.23.90.102;Documento > Párrafos > Párrafo > Range > Bordes > Borde;false;0
+1.2.7.23.90.103;Documento > Párrafos > Párrafo > Range > Bordes > Borde;false;0
+1.2.7.23.90.104;Documento > Párrafos > Párrafo > Range > Bordes > Dist. Inferior;true;0
+1.2.7.23.90.105;Documento > Párrafos > Párrafo > Range > Bordes > Dist. Izquierda;true;0
+1.2.7.23.90.106;Documento > Párrafos > Párrafo > Range > Bordes > Dist. Derecha;true;0
+1.2.7.23.90.107;Documento > Párrafos > Párrafo > Range > Bordes > Dist. Superior;true;0
+1.2.7.23.90.99.108;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Estilo de línea;true;0
+1.2.7.23.90.99.110;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Color;true;0
+1.2.7.23.90.100.111;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Estilo de línea;true;0
+1.2.7.23.90.100.113;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Color;true;0
+1.2.7.23.90.101.114;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Estilo de línea;true;0
+1.2.7.23.90.101.116;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Color;true;0
+1.2.7.23.90.102.117;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Estilo de línea;true;0
+1.2.7.23.90.102.119;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Color;true;0
+1.2.7.23.90.103.120;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Estilo de línea;true;0
+1.2.7.23.90.103.122;Documento > Párrafos > Párrafo > Range > Bordes > Borde > Color;true;0
+1.2.7.23.91.123;Documento > Párrafos > Párrafo > Range > Shading > BackgroundPatternColor;true;0
+1.2.7.23.91.124;Documento > Párrafos > Párrafo > Range > Shading > ForegroundPatternColor;true;0
+1.2.7.23.91.125;Documento > Párrafos > Párrafo > Range > Shading > Texture;true;0
+1.2.7.23.93.126;Documento > Párrafos > Párrafo > Range > Font > Shading;false;0
+1.2.7.23.93.127;Documento > Párrafos > Párrafo > Range > Font > Color;true;1
+1.2.7.23.93.128;Documento > Párrafos > Párrafo > Range > Font > Bold;true;1
+1.2.7.23.93.129;Documento > Párrafos > Párrafo > Range > Font > Italic;true;1
+1.2.7.23.93.130;Documento > Párrafos > Párrafo > Range > Font > Underline;true;1
+1.2.7.23.93.131;Documento > Párrafos > Párrafo > Range > Font > DoubleStrikeThrough;true;1
+1.2.7.23.93.132;Documento > Párrafos > Párrafo > Range > Font > Emboss;true;1
+1.2.7.23.93.133;Documento > Párrafos > Párrafo > Range > Font > Engrave;true;1
+1.2.7.23.93.134;Documento > Párrafos > Párrafo > Range > Font > Kerning;true;1
+1.2.7.23.93.135;Documento > Párrafos > Párrafo > Range > Font > Name;true;1
+1.2.7.23.93.136;Documento > Párrafos > Párrafo > Range > Font > Outline;true;1
+1.2.7.23.93.137;Documento > Párrafos > Párrafo > Range > Font > Position;true;1
+1.2.7.23.93.138;Documento > Párrafos > Párrafo > Range > Font > Scaling;true;1
+1.2.7.23.93.139;Documento > Párrafos > Párrafo > Range > Font > Shadow;true;1
+1.2.7.23.93.140;Documento > Párrafos > Párrafo > Range > Font > Size;true;1
+1.2.7.23.93.141;Documento > Párrafos > Párrafo > Range > Font > Spacing;true;1
+1.2.7.23.93.142;Documento > Párrafos > Párrafo > Range > Font > StrikeThrough;true;1
+1.2.7.23.93.143;Documento > Párrafos > Párrafo > Range > Font > Subscript;true;1
+1.2.7.23.93.144;Documento > Párrafos > Párrafo > Range > Font > Superscript;true;1
+1.2.7.23.93.145;Documento > Párrafos > Párrafo > Range > Font > UnderlineColor;true;1
+1.2.7.23.93.126.146;Documento > Párrafos > Párrafo > Range > Font > Shading > BackgroundPatternColor;true;1
+1.2.7.23.93.126.147;Documento > Párrafos > Párrafo > Range > Font > Shading > ForegroundPatternColor;true;1
+1.2.7.23.93.126.148;Documento > Párrafos > Párrafo > Range > Font > Shading > Texture;true;1
+1.2.7.25.149;Documento > Párrafos > Párrafo > Rango-Prop. espec. párrafo > Formato de lista;false;0
+1.2.7.25.149.150;Documento > Párrafos > Párrafo > Rango-Prop. espec. párrafo > Formato de lista > Nivel de lista;true;1
+1.2.7.25.149.151;Documento > Párrafos > Párrafo > Rango-Prop. espec. párrafo > Formato de lista > Expr. Lista;true;1
+1.2.7.25.149.152;Documento > Párrafos > Párrafo > Rango-Prop. espec. párrafo > Formato de lista > Tipo de lista;true;1
+1.2.7.25.149.153;Documento > Párrafos > Párrafo > Rango-Prop. espec. párrafo > Formato de lista > Núm. Lista;true;1
+1.3.154;Documento > FootNotes > Location;true;1
+1.3.155;Documento > FootNotes > NumberingRule;true;1
+1.3.156;Documento > FootNotes > NumberStyle;true;1
+1.3.157;Documento > FootNotes > StartingNumber;true;1
+1.4.158;Documento > PageSetup > Margen superior;true;0
+1.4.159;Documento > PageSetup > Margen izquierdo;true;0
+1.4.160;Documento > PageSetup > Margen derecho;true;0
+1.4.161;Documento > PageSetup > Margen inferior;true;0
+1.4.162;Documento > PageSetup > Encabezados y pies. Primera página diferente.;true;1
+1.4.163;Documento > PageSetup > Pie, desde el borde;true;0
+1.4.164;Documento > PageSetup > Encabezado, desde el borde;true;0
+1.4.165;Documento > PageSetup > Márgenes simétricos;true;1
+1.4.166;Documento > PageSetup > Encabezados y pies pares e impares diferentes;true;1
+1.4.167;Documento > PageSetup > Orientación;true;1
+1.4.168;Documento > PageSetup > Ancho;true;1
+1.4.169;Documento > PageSetup > Alto;true;1
+1.4.170;Documento > PageSetup > Alineación vertical;true;1
+1.4.171;Documento > PageSetup > Encuadernación;true;1
+1.4.172;Documento > PageSetup > Posición del margen interno;true;1
+1.5.173;Documento > Sections > Sección;false;0
+1.5.173.174;Documento > Sections > Sección > PageSetup;false;0
+1.5.173.175;Documento > Sections > Sección > Bordes (de página);false;0
+1.5.173.176;Documento > Sections > Sección > Pies;false;0
+1.5.173.177;Documento > Sections > Sección > Encabezados;false;0
+1.5.173.178;Documento > Sections > Sección > Protegido para form.;true;1
+1.5.173.174.179;Documento > Sections > Sección > PageSetup > Margen superior;true;0
+1.5.173.174.180;Documento > Sections > Sección > PageSetup > Margen izquierdo;true;0
+1.5.173.174.181;Documento > Sections > Sección > PageSetup > Margen derecho;true;0
+1.5.173.174.182;Documento > Sections > Sección > PageSetup > Margen inferior;true;0
+1.5.173.174.183;Documento > Sections > Sección > PageSetup > Encabezados y pies. Primera página diferente.;true;1
+1.5.173.174.184;Documento > Sections > Sección > PageSetup > Pie, desde el borde;true;0
+1.5.173.174.185;Documento > Sections > Sección > PageSetup > Encabezado, desde el borde;true;0
+1.5.173.174.186;Documento > Sections > Sección > PageSetup > Márgenes simétricos;true;1
+1.5.173.174.187;Documento > Sections > Sección > PageSetup > Encabezados y pies pares e impares diferentes;true;1
+1.5.173.174.188;Documento > Sections > Sección > PageSetup > Orientación;true;1
+1.5.173.174.189;Documento > Sections > Sección > PageSetup > Ancho;true;1
+1.5.173.174.190;Documento > Sections > Sección > PageSetup > Alto;true;1
+1.5.173.174.191;Documento > Sections > Sección > PageSetup > Alineación vertical;true;1
+1.5.173.174.192;Documento > Sections > Sección > PageSetup > Encuadernación;true;1
+1.5.173.174.193;Documento > Sections > Sección > PageSetup > Posición del margen interno;true;1
+1.5.173.175.194;Documento > Sections > Sección > Bordes (de página) > Borde;false;0
+1.5.173.175.195;Documento > Sections > Sección > Bordes (de página) > Borde;false;0
+1.5.173.175.196;Documento > Sections > Sección > Bordes (de página) > Borde;false;0
+1.5.173.175.197;Documento > Sections > Sección > Bordes (de página) > Borde;false;0
+1.5.173.175.198;Documento > Sections > Sección > Bordes (de página) > Dist. Inferior;true;0
+1.5.173.175.199;Documento > Sections > Sección > Bordes (de página) > Dist. Izquierda;true;0
+1.5.173.175.200;Documento > Sections > Sección > Bordes (de página) > Dist. Derecha;true;0
+1.5.173.175.201;Documento > Sections > Sección > Bordes (de página) > Dist. Superior;true;0
+1.5.173.175.202;Documento > Sections > Sección > Bordes (de página) > Sólo primera página;true;0
+1.5.173.175.203;Documento > Sections > Sección > Bordes (de página) > Todas menos primera pág.;true;0
+1.5.173.175.194.204;Documento > Sections > Sección > Bordes (de página) > Borde > Estilo de línea;true;0
+1.5.173.175.194.206;Documento > Sections > Sección > Bordes (de página) > Borde > Color;true;0
+1.5.173.175.195.207;Documento > Sections > Sección > Bordes (de página) > Borde > Estilo de línea;true;0
+1.5.173.175.195.209;Documento > Sections > Sección > Bordes (de página) > Borde > Color;true;0
+1.5.173.175.196.210;Documento > Sections > Sección > Bordes (de página) > Borde > Estilo de línea;true;0
+1.5.173.175.196.212;Documento > Sections > Sección > Bordes (de página) > Borde > Color;true;0
+1.5.173.175.197.213;Documento > Sections > Sección > Bordes (de página) > Borde > Estilo de línea;true;0
+1.5.173.175.197.215;Documento > Sections > Sección > Bordes (de página) > Borde > Color;true;0
+1.5.173.176.216;Documento > Sections > Sección > Pies > Encabezado o pie;false;0
+1.5.173.176.217;Documento > Sections > Sección > Pies > Encabezado o pie;false;0
+1.5.173.176.218;Documento > Sections > Sección > Pies > Encabezado o pie;false;0
+1.5.173.176.216.219;Documento > Sections > Sección > Pies > Encabezado o pie > Range;false;0
+1.5.173.176.216.220;Documento > Sections > Sección > Pies > Encabezado o pie > Existe;true;1
+1.5.173.176.216.221;Documento > Sections > Sección > Pies > Encabezado o pie > Es Encabezado;true;1
+1.5.173.176.216.222;Documento > Sections > Sección > Pies > Encabezado o pie > Como sección anterior;true;1
+1.5.173.176.216.223;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página;false;0
+1.5.173.176.216.219.224;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes;false;0
+1.5.173.176.216.219.225;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading;false;0
+1.5.173.176.216.219.226;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bold;true;1
+1.5.173.176.216.219.227;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font;false;0
+1.5.173.176.216.219.228;Documento > Sections > Sección > Pies > Encabezado o pie > Range > HighlightColorIndex;true;1
+1.5.173.176.216.219.229;Documento > Sections > Sección > Pies > Encabezado o pie > Range > InlineShapes;true;0
+1.5.173.176.216.219.230;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Italic;true;1
+1.5.173.176.216.219.231;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Text;true;1
+1.5.173.176.216.219.232;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Underline;true;1
+1.5.173.176.216.219.224.233;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.216.219.224.234;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.216.219.224.235;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.216.219.224.236;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.216.219.224.237;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.216.219.224.238;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Inferior;true;0
+1.5.173.176.216.219.224.239;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Izquierda;true;0
+1.5.173.176.216.219.224.240;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Derecha;true;0
+1.5.173.176.216.219.224.241;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Superior;true;0
+1.5.173.176.216.219.224.233.242;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.216.219.224.233.244;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.216.219.224.234.245;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.216.219.224.234.247;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.216.219.224.235.248;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.216.219.224.235.250;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.216.219.224.236.251;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.216.219.224.236.253;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.216.219.224.237.254;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.216.219.224.237.256;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.216.219.225.257;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > BackgroundPatternColor;true;1
+1.5.173.176.216.219.225.258;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > ForegroundPatternColor;true;1
+1.5.173.176.216.219.225.259;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > Texture;true;1
+1.5.173.176.216.219.227.260;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading;false;0
+1.5.173.176.216.219.227.261;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Color;true;1
+1.5.173.176.216.219.227.262;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Bold;true;1
+1.5.173.176.216.219.227.263;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Italic;true;1
+1.5.173.176.216.219.227.264;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Underline;true;1
+1.5.173.176.216.219.227.265;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > DoubleStrikeThrough;true;1
+1.5.173.176.216.219.227.266;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Emboss;true;1
+1.5.173.176.216.219.227.267;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Engrave;true;1
+1.5.173.176.216.219.227.268;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Kerning;true;1
+1.5.173.176.216.219.227.269;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Name;true;1
+1.5.173.176.216.219.227.270;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Outline;true;1
+1.5.173.176.216.219.227.271;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Position;true;1
+1.5.173.176.216.219.227.272;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Scaling;true;1
+1.5.173.176.216.219.227.273;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shadow;true;1
+1.5.173.176.216.219.227.274;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Size;true;1
+1.5.173.176.216.219.227.275;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Spacing;true;1
+1.5.173.176.216.219.227.276;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > StrikeThrough;true;1
+1.5.173.176.216.219.227.277;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Subscript;true;1
+1.5.173.176.216.219.227.278;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Superscript;true;1
+1.5.173.176.216.219.227.279;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > UnderlineColor;true;1
+1.5.173.176.216.219.227.260.280;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > BackgroundPatternColor;true;1
+1.5.173.176.216.219.227.260.281;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > ForegroundPatternColor;true;1
+1.5.173.176.216.219.227.260.282;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > Texture;true;1
+1.5.173.176.216.223.283;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Separados;true;1
+1.5.173.176.216.223.284;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Estilo núm. capítulo;true;1
+1.5.173.176.216.223.285;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Incluir núm. capítulo;true;1
+1.5.173.176.216.223.286;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Estilo núm.;true;1
+1.5.173.176.216.223.287;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Reiniciar núm. en sección;true;1
+1.5.173.176.216.223.288;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Mostrar primer núm. página;true;0
+1.5.173.176.216.223.289;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Núm. pág. inicial;true;1
+1.5.173.176.217.290;Documento > Sections > Sección > Pies > Encabezado o pie > Range;false;0
+1.5.173.176.217.291;Documento > Sections > Sección > Pies > Encabezado o pie > Existe;true;0
+1.5.173.176.217.292;Documento > Sections > Sección > Pies > Encabezado o pie > Es Encabezado;true;1
+1.5.173.176.217.293;Documento > Sections > Sección > Pies > Encabezado o pie > Como sección anterior;true;1
+1.5.173.176.217.294;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página;false;0
+1.5.173.176.217.290.295;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes;false;0
+1.5.173.176.217.290.296;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading;false;0
+1.5.173.176.217.290.297;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bold;true;1
+1.5.173.176.217.290.298;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font;false;0
+1.5.173.176.217.290.299;Documento > Sections > Sección > Pies > Encabezado o pie > Range > HighlightColorIndex;true;1
+1.5.173.176.217.290.300;Documento > Sections > Sección > Pies > Encabezado o pie > Range > InlineShapes;true;0
+1.5.173.176.217.290.301;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Italic;true;1
+1.5.173.176.217.290.302;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Text;true;1
+1.5.173.176.217.290.303;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Underline;true;1
+1.5.173.176.217.290.295.304;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.217.290.295.305;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.217.290.295.306;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.217.290.295.307;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.217.290.295.308;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.217.290.295.309;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Inferior;true;0
+1.5.173.176.217.290.295.310;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Izquierda;true;0
+1.5.173.176.217.290.295.311;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Derecha;true;0
+1.5.173.176.217.290.295.312;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Superior;true;0
+1.5.173.176.217.290.295.304.313;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.217.290.295.304.315;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.217.290.295.305.316;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.217.290.295.305.318;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.217.290.295.306.319;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.217.290.295.306.321;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.217.290.295.307.322;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.217.290.295.307.324;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.217.290.295.308.325;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.217.290.295.308.327;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.217.290.296.328;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > BackgroundPatternColor;true;1
+1.5.173.176.217.290.296.329;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > ForegroundPatternColor;true;1
+1.5.173.176.217.290.296.330;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > Texture;true;1
+1.5.173.176.217.290.298.331;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading;false;0
+1.5.173.176.217.290.298.332;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Color;true;1
+1.5.173.176.217.290.298.333;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Bold;true;1
+1.5.173.176.217.290.298.334;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Italic;true;1
+1.5.173.176.217.290.298.335;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Underline;true;1
+1.5.173.176.217.290.298.336;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > DoubleStrikeThrough;true;1
+1.5.173.176.217.290.298.337;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Emboss;true;1
+1.5.173.176.217.290.298.338;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Engrave;true;1
+1.5.173.176.217.290.298.339;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Kerning;true;1
+1.5.173.176.217.290.298.340;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Name;true;1
+1.5.173.176.217.290.298.341;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Outline;true;1
+1.5.173.176.217.290.298.342;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Position;true;1
+1.5.173.176.217.290.298.343;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Scaling;true;1
+1.5.173.176.217.290.298.344;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shadow;true;1
+1.5.173.176.217.290.298.345;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Size;true;1
+1.5.173.176.217.290.298.346;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Spacing;true;1
+1.5.173.176.217.290.298.347;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > StrikeThrough;true;1
+1.5.173.176.217.290.298.348;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Subscript;true;1
+1.5.173.176.217.290.298.349;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Superscript;true;1
+1.5.173.176.217.290.298.350;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > UnderlineColor;true;1
+1.5.173.176.217.290.298.331.351;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > BackgroundPatternColor;true;1
+1.5.173.176.217.290.298.331.352;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > ForegroundPatternColor;true;1
+1.5.173.176.217.290.298.331.353;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > Texture;true;1
+1.5.173.176.217.294.354;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Separados;true;1
+1.5.173.176.217.294.355;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Estilo núm. capítulo;true;1
+1.5.173.176.217.294.356;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Incluir núm. capítulo;true;1
+1.5.173.176.217.294.357;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Estilo núm.;true;1
+1.5.173.176.217.294.358;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Reiniciar núm. en sección;true;1
+1.5.173.176.217.294.359;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Mostrar primer núm. página;true;0
+1.5.173.176.217.294.360;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Núm. pág. inicial;true;1
+1.5.173.176.218.361;Documento > Sections > Sección > Pies > Encabezado o pie > Range;false;0
+1.5.173.176.218.362;Documento > Sections > Sección > Pies > Encabezado o pie > Existe;true;0
+1.5.173.176.218.363;Documento > Sections > Sección > Pies > Encabezado o pie > Es Encabezado;true;1
+1.5.173.176.218.364;Documento > Sections > Sección > Pies > Encabezado o pie > Como sección anterior;true;1
+1.5.173.176.218.365;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página;false;0
+1.5.173.176.218.361.366;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes;false;0
+1.5.173.176.218.361.367;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading;false;0
+1.5.173.176.218.361.368;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bold;true;1
+1.5.173.176.218.361.369;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font;false;0
+1.5.173.176.218.361.370;Documento > Sections > Sección > Pies > Encabezado o pie > Range > HighlightColorIndex;true;1
+1.5.173.176.218.361.371;Documento > Sections > Sección > Pies > Encabezado o pie > Range > InlineShapes;true;0
+1.5.173.176.218.361.372;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Italic;true;1
+1.5.173.176.218.361.373;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Text;true;1
+1.5.173.176.218.361.374;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Underline;true;1
+1.5.173.176.218.361.366.375;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.218.361.366.376;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.218.361.366.377;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.218.361.366.378;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.218.361.366.379;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.176.218.361.366.380;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Inferior;true;0
+1.5.173.176.218.361.366.381;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Izquierda;true;0
+1.5.173.176.218.361.366.382;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Derecha;true;0
+1.5.173.176.218.361.366.383;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Dist. Superior;true;0
+1.5.173.176.218.361.366.375.384;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.218.361.366.375.386;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.218.361.366.376.387;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.218.361.366.376.389;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.218.361.366.377.390;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.218.361.366.377.392;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.218.361.366.378.393;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.218.361.366.378.395;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.218.361.366.379.396;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.176.218.361.366.379.398;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.176.218.361.367.399;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > BackgroundPatternColor;true;1
+1.5.173.176.218.361.367.400;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > ForegroundPatternColor;true;1
+1.5.173.176.218.361.367.401;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Shading > Texture;true;1
+1.5.173.176.218.361.369.402;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading;false;0
+1.5.173.176.218.361.369.403;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Color;true;1
+1.5.173.176.218.361.369.404;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Bold;true;1
+1.5.173.176.218.361.369.405;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Italic;true;1
+1.5.173.176.218.361.369.406;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Underline;true;1
+1.5.173.176.218.361.369.407;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > DoubleStrikeThrough;true;1
+1.5.173.176.218.361.369.408;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Emboss;true;1
+1.5.173.176.218.361.369.409;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Engrave;true;1
+1.5.173.176.218.361.369.410;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Kerning;true;1
+1.5.173.176.218.361.369.411;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Name;true;1
+1.5.173.176.218.361.369.412;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Outline;true;1
+1.5.173.176.218.361.369.413;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Position;true;1
+1.5.173.176.218.361.369.414;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Scaling;true;1
+1.5.173.176.218.361.369.415;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shadow;true;1
+1.5.173.176.218.361.369.416;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Size;true;1
+1.5.173.176.218.361.369.417;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Spacing;true;1
+1.5.173.176.218.361.369.418;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > StrikeThrough;true;1
+1.5.173.176.218.361.369.419;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Subscript;true;1
+1.5.173.176.218.361.369.420;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Superscript;true;1
+1.5.173.176.218.361.369.421;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > UnderlineColor;true;1
+1.5.173.176.218.361.369.402.422;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > BackgroundPatternColor;true;1
+1.5.173.176.218.361.369.402.423;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > ForegroundPatternColor;true;1
+1.5.173.176.218.361.369.402.424;Documento > Sections > Sección > Pies > Encabezado o pie > Range > Font > Shading > Texture;true;1
+1.5.173.176.218.365.425;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Separados;true;1
+1.5.173.176.218.365.426;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Estilo núm. capítulo;true;1
+1.5.173.176.218.365.427;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Incluir núm. capítulo;true;1
+1.5.173.176.218.365.428;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Estilo núm.;true;1
+1.5.173.176.218.365.429;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Reiniciar núm. en sección;true;1
+1.5.173.176.218.365.430;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Mostrar primer núm. página;true;0
+1.5.173.176.218.365.431;Documento > Sections > Sección > Pies > Encabezado o pie > Números de página > Núm. pág. inicial;true;1
+1.5.173.177.432;Documento > Sections > Sección > Encabezados > Encabezado o pie;false;0
+1.5.173.177.433;Documento > Sections > Sección > Encabezados > Encabezado o pie;false;0
+1.5.173.177.434;Documento > Sections > Sección > Encabezados > Encabezado o pie;false;0
+1.5.173.177.432.435;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range;false;0
+1.5.173.177.432.436;Documento > Sections > Sección > Encabezados > Encabezado o pie > Existe;true;1
+1.5.173.177.432.437;Documento > Sections > Sección > Encabezados > Encabezado o pie > Es Encabezado;true;1
+1.5.173.177.432.438;Documento > Sections > Sección > Encabezados > Encabezado o pie > Como sección anterior;true;1
+1.5.173.177.432.439;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página;false;0
+1.5.173.177.432.435.440;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes;false;0
+1.5.173.177.432.435.441;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading;false;0
+1.5.173.177.432.435.442;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bold;true;1
+1.5.173.177.432.435.443;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font;false;0
+1.5.173.177.432.435.444;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > HighlightColorIndex;true;1
+1.5.173.177.432.435.445;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > InlineShapes;true;0
+1.5.173.177.432.435.446;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Italic;true;1
+1.5.173.177.432.435.447;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Text;true;1
+1.5.173.177.432.435.448;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Underline;true;1
+1.5.173.177.432.435.440.449;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.432.435.440.450;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.432.435.440.451;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.432.435.440.452;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.432.435.440.453;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.432.435.440.454;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Inferior;true;0
+1.5.173.177.432.435.440.455;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Izquierda;true;0
+1.5.173.177.432.435.440.456;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Derecha;true;0
+1.5.173.177.432.435.440.457;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Superior;true;0
+1.5.173.177.432.435.440.449.458;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.432.435.440.449.459;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Ancho de línea;true;1
+1.5.173.177.432.435.440.449.460;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.432.435.440.450.461;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.432.435.440.450.462;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Ancho de línea;true;1
+1.5.173.177.432.435.440.450.463;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.432.435.440.451.464;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.432.435.440.451.465;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Ancho de línea;true;1
+1.5.173.177.432.435.440.451.466;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.432.435.440.452.467;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.432.435.440.452.468;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Ancho de línea;true;1
+1.5.173.177.432.435.440.452.469;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.432.435.440.453.470;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.432.435.440.453.472;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.432.435.441.473;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > BackgroundPatternColor;true;1
+1.5.173.177.432.435.441.474;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > ForegroundPatternColor;true;1
+1.5.173.177.432.435.441.475;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > Texture;true;1
+1.5.173.177.432.435.443.476;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading;false;0
+1.5.173.177.432.435.443.477;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Color;true;1
+1.5.173.177.432.435.443.478;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Bold;true;1
+1.5.173.177.432.435.443.479;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Italic;true;1
+1.5.173.177.432.435.443.480;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Underline;true;1
+1.5.173.177.432.435.443.481;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > DoubleStrikeThrough;true;1
+1.5.173.177.432.435.443.482;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Emboss;true;1
+1.5.173.177.432.435.443.483;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Engrave;true;1
+1.5.173.177.432.435.443.484;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Kerning;true;1
+1.5.173.177.432.435.443.485;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Name;true;1
+1.5.173.177.432.435.443.486;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Outline;true;1
+1.5.173.177.432.435.443.487;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Position;true;1
+1.5.173.177.432.435.443.488;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Scaling;true;1
+1.5.173.177.432.435.443.489;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shadow;true;1
+1.5.173.177.432.435.443.490;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Size;true;1
+1.5.173.177.432.435.443.491;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Spacing;true;1
+1.5.173.177.432.435.443.492;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > StrikeThrough;true;1
+1.5.173.177.432.435.443.493;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Subscript;true;1
+1.5.173.177.432.435.443.494;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Superscript;true;1
+1.5.173.177.432.435.443.495;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > UnderlineColor;true;1
+1.5.173.177.432.435.443.476.496;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > BackgroundPatternColor;true;1
+1.5.173.177.432.435.443.476.497;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > ForegroundPatternColor;true;1
+1.5.173.177.432.435.443.476.498;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > Texture;true;1
+1.5.173.177.432.439.499;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Separados;true;1
+1.5.173.177.432.439.500;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Estilo núm. capítulo;true;1
+1.5.173.177.432.439.501;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Incluir núm. capítulo;true;1
+1.5.173.177.432.439.502;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Estilo núm.;true;1
+1.5.173.177.432.439.503;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Reiniciar núm. en sección;true;1
+1.5.173.177.432.439.504;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Mostrar primer núm. página;true;0
+1.5.173.177.432.439.505;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Núm. pág. inicial;true;1
+1.5.173.177.433.506;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range;false;0
+1.5.173.177.433.507;Documento > Sections > Sección > Encabezados > Encabezado o pie > Existe;true;0
+1.5.173.177.433.508;Documento > Sections > Sección > Encabezados > Encabezado o pie > Es Encabezado;true;1
+1.5.173.177.433.509;Documento > Sections > Sección > Encabezados > Encabezado o pie > Como sección anterior;true;1
+1.5.173.177.433.510;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página;false;0
+1.5.173.177.433.506.511;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes;false;0
+1.5.173.177.433.506.512;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading;false;0
+1.5.173.177.433.506.513;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bold;true;1
+1.5.173.177.433.506.514;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font;false;0
+1.5.173.177.433.506.515;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > HighlightColorIndex;true;1
+1.5.173.177.433.506.516;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > InlineShapes;true;0
+1.5.173.177.433.506.517;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Italic;true;1
+1.5.173.177.433.506.518;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Text;true;1
+1.5.173.177.433.506.519;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Underline;true;1
+1.5.173.177.433.506.511.520;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.433.506.511.521;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.433.506.511.522;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.433.506.511.523;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.433.506.511.524;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.433.506.511.525;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Inferior;true;0
+1.5.173.177.433.506.511.526;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Izquierda;true;0
+1.5.173.177.433.506.511.527;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Derecha;true;0
+1.5.173.177.433.506.511.528;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Superior;true;0
+1.5.173.177.433.506.511.520.529;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.433.506.511.520.531;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.433.506.511.521.532;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.433.506.511.521.534;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.433.506.511.522.535;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.433.506.511.522.537;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.433.506.511.523.538;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.433.506.511.523.540;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.433.506.511.524.541;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.433.506.511.524.543;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.433.506.512.544;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > BackgroundPatternColor;true;1
+1.5.173.177.433.506.512.545;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > ForegroundPatternColor;true;1
+1.5.173.177.433.506.512.546;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > Texture;true;1
+1.5.173.177.433.506.514.547;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading;false;0
+1.5.173.177.433.506.514.548;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Color;true;1
+1.5.173.177.433.506.514.549;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Bold;true;1
+1.5.173.177.433.506.514.550;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Italic;true;1
+1.5.173.177.433.506.514.551;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Underline;true;1
+1.5.173.177.433.506.514.552;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > DoubleStrikeThrough;true;1
+1.5.173.177.433.506.514.553;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Emboss;true;1
+1.5.173.177.433.506.514.554;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Engrave;true;1
+1.5.173.177.433.506.514.555;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Kerning;true;1
+1.5.173.177.433.506.514.556;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Name;true;1
+1.5.173.177.433.506.514.557;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Outline;true;1
+1.5.173.177.433.506.514.558;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Position;true;1
+1.5.173.177.433.506.514.559;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Scaling;true;1
+1.5.173.177.433.506.514.560;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shadow;true;1
+1.5.173.177.433.506.514.561;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Size;true;1
+1.5.173.177.433.506.514.562;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Spacing;true;1
+1.5.173.177.433.506.514.563;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > StrikeThrough;true;1
+1.5.173.177.433.506.514.564;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Subscript;true;1
+1.5.173.177.433.506.514.565;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Superscript;true;1
+1.5.173.177.433.506.514.566;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > UnderlineColor;true;1
+1.5.173.177.433.506.514.547.567;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > BackgroundPatternColor;true;1
+1.5.173.177.433.506.514.547.568;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > ForegroundPatternColor;true;1
+1.5.173.177.433.506.514.547.569;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > Texture;true;1
+1.5.173.177.433.510.570;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Separados;true;1
+1.5.173.177.433.510.571;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Estilo núm. capítulo;true;1
+1.5.173.177.433.510.572;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Incluir núm. capítulo;true;1
+1.5.173.177.433.510.573;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Estilo núm.;true;1
+1.5.173.177.433.510.574;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Reiniciar núm. en sección;true;1
+1.5.173.177.433.510.575;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Mostrar primer núm. página;true;0
+1.5.173.177.433.510.576;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Núm. pág. inicial;true;1
+1.5.173.177.434.577;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range;false;0
+1.5.173.177.434.578;Documento > Sections > Sección > Encabezados > Encabezado o pie > Existe;true;0
+1.5.173.177.434.579;Documento > Sections > Sección > Encabezados > Encabezado o pie > Es Encabezado;true;1
+1.5.173.177.434.580;Documento > Sections > Sección > Encabezados > Encabezado o pie > Como sección anterior;true;1
+1.5.173.177.434.581;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página;false;0
+1.5.173.177.434.577.582;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes;false;0
+1.5.173.177.434.577.583;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading;false;0
+1.5.173.177.434.577.584;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bold;true;1
+1.5.173.177.434.577.585;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font;false;0
+1.5.173.177.434.577.586;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > HighlightColorIndex;true;1
+1.5.173.177.434.577.587;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > InlineShapes;true;0
+1.5.173.177.434.577.588;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Italic;true;1
+1.5.173.177.434.577.589;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Text;true;1
+1.5.173.177.434.577.590;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Underline;true;1
+1.5.173.177.434.577.582.591;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.434.577.582.592;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.434.577.582.593;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.434.577.582.594;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.434.577.582.595;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde;false;0
+1.5.173.177.434.577.582.596;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Inferior;true;0
+1.5.173.177.434.577.582.597;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Izquierda;true;0
+1.5.173.177.434.577.582.598;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Derecha;true;0
+1.5.173.177.434.577.582.599;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Dist. Superior;true;0
+1.5.173.177.434.577.582.591.600;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.434.577.582.591.602;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.434.577.582.592.603;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.434.577.582.592.605;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.434.577.582.593.606;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.434.577.582.593.608;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.434.577.582.594.609;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.434.577.582.594.611;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.434.577.582.595.612;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Estilo de línea;true;1
+1.5.173.177.434.577.582.595.614;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Bordes > Borde > Color;true;1
+1.5.173.177.434.577.583.615;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > BackgroundPatternColor;true;1
+1.5.173.177.434.577.583.616;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > ForegroundPatternColor;true;1
+1.5.173.177.434.577.583.617;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Shading > Texture;true;1
+1.5.173.177.434.577.585.618;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading;false;0
+1.5.173.177.434.577.585.619;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Color;true;1
+1.5.173.177.434.577.585.620;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Bold;true;1
+1.5.173.177.434.577.585.621;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Italic;true;1
+1.5.173.177.434.577.585.622;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Underline;true;1
+1.5.173.177.434.577.585.623;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > DoubleStrikeThrough;true;1
+1.5.173.177.434.577.585.624;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Emboss;true;1
+1.5.173.177.434.577.585.625;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Engrave;true;1
+1.5.173.177.434.577.585.626;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Kerning;true;1
+1.5.173.177.434.577.585.627;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Name;true;1
+1.5.173.177.434.577.585.628;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Outline;true;1
+1.5.173.177.434.577.585.629;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Position;true;1
+1.5.173.177.434.577.585.630;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Scaling;true;1
+1.5.173.177.434.577.585.631;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shadow;true;1
+1.5.173.177.434.577.585.632;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Size;true;1
+1.5.173.177.434.577.585.633;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Spacing;true;1
+1.5.173.177.434.577.585.634;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > StrikeThrough;true;1
+1.5.173.177.434.577.585.635;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Subscript;true;1
+1.5.173.177.434.577.585.636;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Superscript;true;1
+1.5.173.177.434.577.585.637;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > UnderlineColor;true;1
+1.5.173.177.434.577.585.618.638;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > BackgroundPatternColor;true;1
+1.5.173.177.434.577.585.618.639;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > ForegroundPatternColor;true;1
+1.5.173.177.434.577.585.618.640;Documento > Sections > Sección > Encabezados > Encabezado o pie > Range > Font > Shading > Texture;true;1
+1.5.173.177.434.581.641;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Separados;true;1
+1.5.173.177.434.581.642;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Estilo núm. capítulo;true;1
+1.5.173.177.434.581.643;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Incluir núm. capítulo;true;1
+1.5.173.177.434.581.644;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Estilo núm.;true;1
+1.5.173.177.434.581.645;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Reiniciar núm. en sección;true;1
+1.5.173.177.434.581.646;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Mostrar primer núm. página;true;0
+1.5.173.177.434.581.647;Documento > Sections > Sección > Encabezados > Encabezado o pie > Números de página > Núm. pág. inicial;true;1
+

@@ -1,0 +1,171 @@
+0;Documento
+1;Párrafos
+2;Párrafo
+3;Alineación
+4;Bordes
+5;Borde
+6;Estilo de línea
+7;Ancho de línea
+8;Letra capital
+9;Dist. desde  texto
+10;Fuente
+11;Lín. Ocupadas
+12;Posición
+13;Sang. 1ª línea
+15;KeepTogether
+16;KeepWithNext
+17;Sang. izq.
+18;Interlineado
+19;Interlineado
+20;SpaceAfter
+21;SpaceBefore
+22;OutlineLevel
+23;PageBreakBefore
+24;Sang. dcha.
+25;Shading
+27;TabStops
+28;WidowControl
+29;BackgroundPatternColor
+31;ForegroundPatternColor
+33;Texture
+34;Dist. Inferior
+35;Dist. Izquierda
+36;Dist. Derecha
+37;Dist. Superior
+38;Sólo primera página
+39;Todas menos primera pág.
+46;Color
+47;Tabulación
+48;Alineación
+49;Relleno
+50;Posición
+51;FootNotes
+52;ContinuationNotice
+53;ContinuationSeparator
+54;Location
+55;NumberingRule
+56;NumberStyle
+57;StartingNumber
+58;FootNote
+59;Range
+60;Bold
+61;Font
+62;HighlightColorIndex
+63;InlineShapes
+64;Italic
+65;Text
+66;Underline
+67;DoubleStrikeThrough
+68;Emboss
+69;Engrave
+70;Kerning
+71;Name
+72;Outline
+73;Position
+74;Scaling
+75;Shadow
+76;Size
+77;Spacing
+78;StrikeThrough
+79;Subscript
+80;Superscript
+81;UnderlineColor
+82;InlineShape
+83;Separator
+84;Height
+85;Line
+88;ScaleHeight
+89;ScaleWidth
+91;Width
+92;PageSetup
+93;Sections
+95;Tables
+100;Sección
+102;Table
+103;AllowAutoFit
+104;AllowPageBreaks
+105;AutoFormatType
+106;BottomPadding
+107;LeftPadding
+108;RightPadding
+109;TopPadding
+110;PreferredWidth
+111;PreferredWidthType
+112;Spacing
+113;Columns
+114;Rows
+115;Alignment
+116;AllowBreakAcrossPages
+117;DistanceBottom
+118;DistanceLeft
+119;DistanceRight
+120;DistanceTop
+121;HeightRule
+122;SpaceBetweenColumns
+123;Row
+124;Cells
+125;VerticalAlignment
+126;Column
+127;Cell
+128;FitText
+129;WordWrap
+130;Margen superior
+131;Margen izquierdo
+132;Margen derecho
+133;Margen inferior
+135;Encabezados y pies. Primera página diferente.
+136;Pie, desde el borde
+137;Encabezado, desde el borde
+140;Márgenes simétricos
+141;Encabezados y pies pares e impares diferentes
+142;Orientación
+143;Ancho
+144;Alto
+148;Alineación vertical
+149;Encuadernación
+150;Posición del margen interno
+151;Bordes (de página)
+152;Núm fila
+153;Núm columna
+154;BaseLineAlignment
+155;División automática de palabras
+156;Rango-Prop. espec. párrafo
+157;Formato de lista
+158;Nivel de lista
+159;Expr. Lista
+160;Plantilla de lista
+161;Tipo de lista
+162;Núm. Lista
+163;Niveles de lista
+164;Nivel de lista
+165;Alin. número
+166;Estilo enlazado
+167;Formato núm.
+168;Pos. número
+169;Estilo núm.
+170;Nivel de reinicio de lista
+171;Núm. inicio lista
+172;Tabulación
+173;Sangría
+174;Núm. seguido de
+175;Nivel del estilo (verificar)
+176;Pies
+177;Encabezados
+178;Encabezado o pie
+179;Existe
+180;Es Encabezado
+181;Como sección anterior
+182;Números de página
+183;Número de página
+184;Separados
+185;Estilo núm. capítulo
+186;Incluir núm. capítulo
+187;Estilo núm.
+188;Reiniciar núm. en sección
+189;Mostrar primer núm. página
+190;Núm. pág. inicial
+192;Protegido para form.
+193;Alineación
+194;Dirección texto
+195;Rango-Tabla/Cuadro
+196;Rango (con párrafos)

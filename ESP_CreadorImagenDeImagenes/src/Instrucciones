@@ -1,0 +1,22 @@
+Instrucciones para añadir nuevas Tiles a los ya existentes:	
+	
+	1) Modificar la constante Tile.NUM_TIPOS_TILES sumándole 1
+	
+	2) Añadir una nueva constante a la lista de Tipos de Tiles
+	
+			public static final int TILE_nxm =	0b0..01..0000; // Nombre
+			
+	   donde n el número de filas que ocupa el Tile
+	   donde m el número de columnas que ocupa el Tile
+	   y teniendo en cuenta que la posición del 1 no debe coincidir con la de otro Tile
+	   
+	3) Crear una nueva clase llamada Tilenxm que herede de la clase Tile
+	   donde n el número de filas que ocupa el Tile
+	   donde m el número de columnas que ocupa el Tile
+	   Implementar en la clase los métodos que falten y usar el nuevo tipo Tile.TILE_nxm creado 
+	   
+	4) Modificar la función Tile.getListadoTiposTile() para que añada el nuevo tipo de
+	   Tile creado a la lista de Tiles posibles. Añadir una línea del estilo:
+	   
+	   		lista.add(new Tilenxm());
+	   

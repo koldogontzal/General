@@ -1,0 +1,13 @@
+Librerias externas de tratamiento de imagen.
+
+Desarrolladas por Morten Nobel-Joergensen (http://code.google.com/p/java-image-scaling/wiki/Getting_started) y por Jerry Huxtable (http://www.jhlabs.com/).
+
+La librería de Nobel-Joergensen utiliza los filtros de la librería de Huxtable. Más información, aquí: http://www.jhlabs.com/ip/filters/index.html
+
+El directorio /jars contiene los .JAR originales de la librería de Nobel-Joergensen. Están ya extraidos como código en el paquete mortennobel.imagescaling y en el paquete mortennobel.imagescaling.experimental.
+
+
+Por otro lado, "Thumbnailator" es un programa independiente para crear thumbnails de imágenes. Está en el paquete net.coobird.thumbnailator. Página web: http://code.google.com/p/thumbnailator/
+
+
+

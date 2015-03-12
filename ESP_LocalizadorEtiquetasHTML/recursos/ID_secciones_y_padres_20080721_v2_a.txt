@@ -1,0 +1,2275 @@
+48945	%	Incapacidad temporal	%	48581
+39567	%	Real Decreto 469/2003, de 25 de abril, de modificación parcial de la estructura orgánica y funciones del Instituto Nacional de la Seguridad Social y de la Tesorería General de la Seguridad Social. (BOE 13/5)	%	3061
+44987	%	Real Decreto-Ley 3/2004, de 25 de junio, para la racionalización de la regulación del salario mínimo interprofesional y para el incremento de su cuantía 	%	38772
+3318	%	Reglamento General sobre Inscripción de Empresas y Afiliación, Altas, Bajas y Variaciones de Datos de Trabajadores en la Seguridad Social, aprobado por Real Decreto 84/1996, de 26 de enero(Preceptos relativos al Sistema RED)	%	3298
+42934	%	Normativa de pensiones extraordinarias por actos de terrorismo	%	11298
+2432	%	Real Decreto 1391/1995, de 4 de agosto, por el que se aprueba el Reglamento General de la Gestión Financiera de la Seguridad Social	%	2247
+28511	%	Hecho causante / Efectos económicos / Abono	%	28397
+46922	%	Plantillas	%	38673
+49628	%	Compra de inmueble en Madrid	%	46922
+44090	%	Adjudicado	%	46922
+46372	%	Desierto	%	46922
+39735	%	Venta de inmuebles	%	12032
+10990	%	Contratación / venta de bienes	%	Internet
+34956	%	Convocatoria de Licitaciones 	%	10990
+39715	%	Más información	%	Internet
+50297	%	Calendario Laboral 2008	%	39715
+20	%	Fiestas	%	50297
+10485	%	Glosario de términos	%	39715
+32855	%	Quejas y sugerencias	%	39715
+26850	%	Enlaces de interés	%	39715
+33982	%	Europeos	%	26850
+33985	%	Iberoamericanos	%	26850
+33988	%	Otros países	%	26850
+315	%	Organismos dependientes del Ministerio de Trabajo e Inmigración	%	26850
+316	%	Administración General del Estado	%	26850
+317	%	Organizaciones Internacionales	%	26850
+318	%	Organismos Extranjeros	%	26850
+329	%	Otros enlaces de utilidad	%	26850
+321	%	Certificados Digitales. Autoridades Certificadoras	%	329
+322	%	Consejerías de las Comunidades Autónomas	%	329
+319	%	Incidencia nº 731-Otros enlaces de utilidad	%	26850
+330	%	Seccion ejemplo	%	319
+48414	%	Afiliación e Inscripción	%	37888
+48416	%	Afiliación de trabajadores	%	48414
+48429	%	Inscripción de empresas y empresarios	%	48414
+48432	%	Cotización y recaudación	%	37888
+48433	%	Cotización y recaudación	%	48432
+48438	%	Aplazamientos de pago	%	48432
+48440	%	Recaudación por vía ejecutiva	%	48432
+48446	%	Recargos de mora	%	48432
+10964	%	Muerte y supervivencia	%	10935
+48456	%	Pensionistas y Pensiones Nacionales	%	37888
+49300	%	Pensionistas	%	48456
+48491	%	Solicitudes y comunicación de datos	%	49300
+49091	%	Prescripción - Caducidad	%	49300
+49083	%	Devengo y pago de la pensión	%	49300
+48492	%	Retenciones por IRPF - Embargos de la pensión	%	49300
+48493	%	Reintegro de prestaciones indebidamente percibidas	%	49300
+48489	%	Revalorización de las pensiones - Complementos por mínimos.	%	49300
+48907	%	Jubilación	%	48456
+48518	%	Beneficiarios / Requisitos	%	48907
+48519	%	Incompatibilidades - Compatibilidades	%	48907
+48549	%	Cuantías y Pagos	%	48907
+52278	%	Cuantías y Pagos (copia migracion)	%	48907
+48908	%	Incapacidad permanente	%	48456
+48916	%	Beneficiarios/ Requisitos	%	48908
+49109	%	Cuantía	%	48908
+48929	%	Compatibilidades / Incompatibilidades	%	48908
+48936	%	Evaluación / Calificación / Revisión	%	48908
+48593	%	Viudedad, orfandad y favor familiar	%	48456
+48646	%	Causantes y Beneficiarios / Requisitos	%	48593
+48634	%	Cuantía	%	48593
+48635	%	Compatibilidades/ Incompatibilidades	%	48593
+48663	%	Extinción	%	48593
+48581	%	Subsidios y otras Prestaciones	%	37888
+48946	%	Beneficiarios / Requisitos	%	48945
+49172	%	Duración /  Prórroga /  Recaídas	%	48945
+49177	%	Extinción	%	48945
+48956	%	Cuantía	%	48945
+48961	%	Gestión /  Pago	%	48945
+51561	%	Paternidad	%	48581
+48909	%	Maternidad	%	48581
+48808	%	Beneficiarios/ Requisitos	%	48909
+28561	%	Beneficiarios	%	28558
+48910	%	Nacimiento del derecho / Duración del Período de Descanso	%	48909
+48911	%	Suspensión y Extinción	%	48909
+48912	%	Prestación económica / Cuantía	%	48909
+49191	%	Gestión	%	48909
+52284	%	Beneficiarios/ Requisitos (copia migracion)	%	48909
+52305	%	Nacimiento del derecho / Duración del Período de Descanso (copia migracion)	%	48909
+52313	%	Suspensión y Extinción (copia migracion)	%	48909
+52317	%	Prestación económica / Cuantía (copia migracion)	%	48909
+48583	%	Riesgo durante el embarazo	%	48581
+51913	%	Riesgo durante la lactancia natural	%	48581
+48766	%	Seguro escolar	%	48581
+49230	%	Prestaciones familiares	%	48581
+49207	%	Asistencia sanitaria	%	48581
+52295	%	Maternidad (copia migracion)	%	48581
+48594	%	Convenios Internacionales	%	37888
+49305	%	Pensionistas residentes en el extranjero	%	48594
+48711	%	Varios	%	37888
+48712	%	Proveedores y entidades colaboradoras	%	48711
+48715	%	Otros	%	48711
+39641	%	Mutuas A.T. y E.P.	%	39715
+9950	%	Oferta pública de empleo 	%	39715
+309	%	2009	%	9950
+310	%	Grupo A. Licenciatura, Ingeniería, Arquitectura o Grado	%	309
+311	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social (acceso libre)	%	310
+210	%	2008	%	9950
+213	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y promoción interna)	%	211
+248	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social (Acceso libre y promoción interna)	%	211
+251	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social (Acceso libre)	%	211
+258	%	Cuerpo Superior de Sistemas y Tecnologías de la Administración de la Seguridad Social (promoción interna)	%	211
+212	%	Grupo B. Diplomatura, Ingeniería Técnica, Arquitectura Técnica o Grado	%	210
+91	%	Prestación económica por nacimiento o adopción de hijo 	%	10967
+214	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad (acceso libre y promoción interna)	%	212
+249	%	Cuerpo de Gestión de la Administración de la Seguridad Social (promoción interna)	%	212
+250	%	Escala de Programadores de Informática de la Administración de la Seguridad Social (promoción interna)	%	212
+245	%	Grupo C. Bachiller-LOE, Bachiller LOGSE, Bachillerato Unificado Polivalente, Bachiller Superior, Técnico o pruebas de acceso a la Universidad para mayores de 25 años.	%	210
+247	%	Cuerpo Administrativo de la Administración de la Seguridad Social (promoción interna)	%	245
+246	%	Escala de Operadores de Ordenador de Informática de la Administración de la Seguridad Social (promoción interna)	%	245
+51273	%	2007	%	9950
+51332	%	Grupo A. Licenciatura, Ingeniería, Arquitectura o equivalentes	%	51273
+51391	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y promoción interna)	%	51332
+51390	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social ( Acceso libre y promoción interna)	%	51332
+51361	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social ( Acceso libre)	%	51332
+51333	%	Escala de Titulados Superiores del Instituto Nacional de Seguridad e Higiene en el Trabajo	%	51332
+51274	%	Grupo B. Diplomatura, Ingeniería Técnica, FP Tercer Grado o equivalente	%	51273
+51353	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad (acceso libre y promoción interna)	%	51274
+51275	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna)	%	51274
+57	%	Escala de Programadores de Informática de la Administración de la Seguridad Social (acceso libre)	%	51274
+51284	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna)	%	51283
+51443	%	Grupo D. Graduado Escolar, F.P. Primer Grado o equivalentes	%	51273
+51444	%	Cuerpo Auxiliar de la Administración de la Seguridad Social (Acceso libre)	%	51443
+47896	%	2006	%	9950
+47901	%	Grupo A. Licenciatura, Ingeniería, Arquitectura o equivalentes.	%	47896
+48831	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y promoción interna)	%	47901
+48841	%	Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	47901
+46036	%	2005/7 de 19 de julio de 2005	%	47187
+43794	%	Boletines de noticias 2002/4 de 11 de junio de 2002 (Fichero FRI versión 2.0)	%	47884
+43795	%	Boletines de noticias 2002/4 de 11 de junio de 2002 (Autómata del fichero FRI versión 2.0) 	%	47884
+38079	%	Boletines de noticias 2002/2 de 19 de Abril de 2002 (Mensaje de afiliación. Trabajador por cuenta ajena. Régimen general. Versión 3.4.0).	%	47884
+47885	%	Año 2001	%	47878
+38083	%	Anexo II al boletín de noticias 2001/5 de 24 de julio de 2001 (Nuevo fichero de afiliación)	%	47885
+38087	%	Anexo II al boletín de noticias 2001/3 de 4 de Abril de 2001 (Tabla de contratos fomento empleo 2001).	%	47885
+38090	%	Anexo I al boletín de noticias 2001/2 de 22 de Marzo de 2001 (Nuevo mensaje de afiliación)	%	47885
+38093	%	Boletines de noticias 2001/1de 19 de febrero de 2001 (Autómata FDI / FRI / Fichero Plano)	%	47885
+47886	%	Año 2000	%	47878
+38098	%	Boletines de noticias 2000/10 de 19 de Octubre de 2000 (Tabla de contratos)	%	47886
+38096	%	Anexo I al boletín de noticias 2000/10 de 19 de Octubre de 2000 (Mensaje de afiliación).	%	47886
+45698	%	Manuales de usuario	%	38043
+38102	%	Modelos de solicitud del Sistema Red	%	38043
+44739	%	Instrucciones técnicas	%	38043
+49428	%	Servicios de Cesión de Datos para Administraciones Públicas	%	10475
+49605	%	Formularios de solicitud	%	49428
+49947	%	Documento de Seguridad	%	49428
+49694	%	Java Runtime Environment (JRE)	%	49428
+49604	%	Manuales Cliente IFI	%	49428
+49720	%	Software	%	10475
+49721	%	Internet Explorer 5.0 o Superior	%	49720
+49722	%	Adobe Acrobat Reader 4.0 o Superior	%	49720
+49723	%	Java Runtime Environment (JRE)	%	49720
+49724	%	WinSuite 32	%	49720
+49725	%	JREDCom	%	49720
+49726	%	Cliente IFI (Intercambio de Ficheros Institucionales)	%	49720
+49727	%	Programa de Autocálculo de la Pensión de Jubilación	%	49720
+49728	%	Programa de Autocálculo de Convenios Especiales	%	49720
+70	%	2007/09 de 18 de diciembre de 2007 	%	146
+43252	%	Boletines de noticias 2004/5 de 7 de mayo de 2004 (Fichero plano Mensaje de afiliación AFI version 4.0)	%	47881
+43250	%	Boletines de noticias 2004/3 de 17 de Febrero de 2004 (Modelo Acuse Técnico de Cambio coefic. reductor edad jubilación)	%	47881
+43769	%	Boletines de noticias 2004/3 de 17 de Febrero de 2004 ( Ejemplo fichero fan bonificación continua)	%	47881
+43251	%	Boletines de noticias 2004/2 de 28 de enero de 2004-(Formato mensaje de Afiliación. (Versión 4.5))	%	47881
+47883	%	Año 2003	%	47878
+43770	%	Boletines de noticias 2003/11 de 5 de noviembre de 2003 (Formato Mensaje de Afiliación (versión 4.0))	%	47883
+43771	%	Boletines de noticias 2003/11 de 5 de noviembre de 2003 (Automata del fichero plano AFI (versión 4.0))	%	47883
+43772	%	Boletines de noticias 2003/11 de 5 de noviembre de 2003 (Formato Acuse Técnico de Afiliación)	%	47883
+43773	%	Boletines de noticias 2003/10 de 1 de septiembre de 2003 (Manual usuario IT On line)	%	47883
+43774	%	Boletines de noticias 2003/9 de 18 de julio de 2003 (Ejemplo Recibo de Liquidación de Cotizaciones de Cargo en cuenta) 	%	47883
+43775	%	Boletines de noticias 2003/9 de 18 de julio de 2003 (Ejemplo Recibo de Liquidación de Cotizaciones Saldo Acreedor)	%	47883
+43776	%	Boletines de noticias 2003/9 de 18 de julio de 2003 (Mensaje de afiliación - Trabajador por cuenta ajena - Regimen General - Versión 3.6.0)	%	47883
+43777	%	Boletines de noticias 2003/9 de 18 de julio de 2003 (Tabla de valores admisibles en el campo Autorización para trabajar (T42)) 	%	47883
+43778	%	Boletines de noticias 2003/9 de 18 de julio de 2003 (Formato acuses técnicos de afiliación remesas)	%	47883
+43779	%	Boletines de noticias 2003/7 de 30 de mayo de 2003 (Afi35)	%	47883
+38480	%	Boletines de noticias 2003/4 de 10 de marzo de 2003 (Anexo - Nuevo aspecto de las pantallas de afiliación on line en internet)	%	47883
+43788	%	Boletines de noticias 2003/2 de 3 de febrero de 2003 (Mensaje de afiliación - Versión 3.4.0)	%	47883
+43789	%	Boletines de noticias 2003/2 de 3 de febrero de 2003 (Formato de acuses técnicos)	%	47883
+47884	%	Año 2002	%	47878
+38069	%	Anexo Boletín de noticias 2002/10 de 19 de noviembre de 2002	%	47884
+38076	%	Boletines de noticias 2002/9 de 28 de Octubre de 2002	%	47884
+43791	%	Boletines de noticias 2002/8 de 25 de septiembre de 2002	%	47884
+43792	%	Boletines de noticias 2002/4 de 11 de junio de 2002 (Fichero FDI versión 2.0)	%	47884
+43793	%	Boletines de noticias 2002/4 de 11 de junio de 2002 (Autómata del fichero FDI versión 2.0)	%	47884
+45153	%	L 13	%	45111
+42774	%	Solicitud de alta de un acreedor	%	42772
+42775	%	Solicitud de baja o modificación de un acreedor	%	42772
+42776	%	Solicitud de acceso a información de acreedores	%	42772
+42777	%	Solicitud de acceso de empresa endosataria a información de acreedores	%	42772
+49601	%	Servicios de Cesión de Datos para Administraciones Públicas	%	12723
+49786	%	Subvenciones dirigidas al estudio e investigación en el ámbito de la Protección Social	%	12723
+50258	%	Formulario de Quejas y Sugerencias	%	12723
+47888	%	Sistema RED	%	12723
+273	%	Cotización	%	12723
+38043	%	Sistema RED	%	10475
+47877	%	Software	%	38043
+38047	%	WinSuite32 versión completa	%	47877
+43781	%	WinSuite32 Actualización	%	47877
+49431	%	JRedCom. versión completa	%	47877
+38065	%	Adobe Acrobat Reader 4.0 o superior	%	47877
+38066	%	Internet Explorer 5.0 o superior	%	47877
+49851	%	Firefox 1.5 o superior 	%	47877
+47878	%	Boletines de Noticias	%	38043
+47882	%	Año 2006	%	47878
+49857	%	Boletín de Noticias RED 2006/6 de 17 de julio de 2006	%	47882
+49856	%	Boletín de Noticias RED 2006/5 de 28 de junio de 2006	%	47882
+49855	%	Boletin de Noticias RED 2006/4 de 18 de mayo de 2006	%	47882
+49853	%	Boletín de Noticias RED 2006/2 de 3 de febrero de 2006	%	47882
+49852	%	Boletin de Noticias RED 2006/1 de 9 de enero de 2006 	%	47882
+47880	%	Año 2005	%	47878
+45042	%	Boletines de noticias 2005/3 de 24 de febrero de 2005 ( Alta en Empresa Extranjero Contingente Empresa No obligada y Obligada)	%	47880
+47881	%	Año 2004	%	47878
+43768	%	Boletines de noticias 2004/6 de 7 de julio de 2004 (Recibo de Liquidación de Cotizaciones con código de barras)	%	47881
+43245	%	Boletines de noticias  2004/5 de 7 de mayo de 2004 (Cambio de formato de los Acuses Técnicos de Afiliación )	%	47881
+45137	%	Contratos de Formación	%	45106
+47909	%	Maternidad	%	37947
+51331	%	Paternidad	%	37947
+47910	%	Prestaciones familiares	%	37947
+37961	%	Prestaciones del seguro escolar	%	37947
+46494	%	Asistencia sanitaria	%	37947
+47918	%	Pensiones de reglamentos comunitarios	%	12723
+47919	%	Pensiones de convenios bilaterales	%	12723
+47920	%	Información / comunicaciones del pensionista	%	12723
+35146	%	Certificaciones / declaraciones de   empresa para prestaciones	%	12723
+48670	%	Trabajadores del Mar	%	12723
+50145	%	Pensiones y otras prestaciones nacionales	%	48670
+50146	%	Jubilación	%	50145
+50147	%	Incapacidad permanente y Lesiones permanentes no invalidantes	%	50145
+50148	%	Viudedad, Orfandad, Favor de familiares y Auxilio por defunción	%	50145
+48671	%	Prestaciones por desempleo del ISM	%	48670
+49787	%	Prestaciones económicas de carácter social	%	48670
+39393	%	Admisión a cursos del ISM	%	48670
+50251	%	Ayudas al Estudio	%	48670
+38009	%	Trabajadores desplazados	%	12723
+38011	%	A países de la Unión Europea, del Espacio Económico Europeo o Suiza	%	38009
+38013	%	A países con convenio bilateral  	%	38009
+38016	%	Convenio sobre relaciones diplomáticas	%	38015
+38017	%	Convenio sobre relaciones consulares	%	38015
+38018	%	A Turquía	%	38009
+38014	%	A las islas de Man o de Jersey (Reino Unido)	%	38009
+39921	%	A Suiza (para nacionales de terceros paises -no de la Unión Europea-)	%	38009
+51667	%	Modelos de solicitud TA.200, TA.201 o TA.202 	%	38009
+51668	%	Cuestionario desplazados Francia 	%	38009
+42772	%	Acreedores y Entidades Colaboradoras	%	12723
+188	%	¿Qué es RED Directo?	%	187
+50959	%	TC.13-1- Devolucion de Ingresos Indebidos	%	38020
+38038	%	TC - 1-16 Boletín de cotización al régimen especial de los trabajadores del mar, con inclusión de modelo TC2-5 abreviado. Trabajadores por cuenta ajena	%	38020
+38039	%	TC - 1-19 Boletín de cotización al régimen general. Colectivo de artistas y profesionales taurinos. Empresas	%	38020
+38042	%	TC - 1-25 Boletín de cotización al régimen general. Sistema especial para las tareas de manipulado y empaquetado de tomate fresco realizadas por cosecheros exportadores, con inclusión de modelo TC2 abreviado	%	38020
+38044	%	TC - 1-26 Boletín de cotización empresarial complementaria para la industria textil. Régimen general.	%	38020
+38045	%	TC - 1-30 Boletín de ingreso	%	38020
+38046	%	TC - 2 Boletín de cotización a la Seguridad Social. Relación nominal de trabajadores. Régimen general 	%	38020
+38048	%	 TC - 2-4 Boletín de cotización a la Seguridad Social. Relación nominal de trabajadores. Régimen especial de la mineria del carbón  	%	38020
+38049	%	TC - 2-5 Boletín de cotización a la Seguridad Social. Relación nominal de trabajadores. Régimen especial de los trabajadores del mar. 	%	38020
+38051	%	TC - 2-8 Boletín de cotización a la Seguridad Social. Relación nominal de trabajadores. Régimen especial agrario. Jornadas reales	%	38020
+38052	%	TC - 2-10 Boletín de cotización a la Seguridad Social. Régimen general. Colectivo de representantes de comercio. Relación de empresas	%	38020
+38053	%	TC - 2-19 Boletín de cotización a la Seguridad Social. Relación nominal de Trabajadores. Régimen general. Colectivo de artistas y profesionales taurinos	%	38020
+38054	%	 TC - 3-2 Boletín de cotización al seguro escolar  	%	38020
+38055	%	TC - 3-4 Boletín de liquidación de la asistencia sanitaria concertada con la Seguridad Social 	%	38020
+38057	%	TC - 3-20 Recibo de ingresos diversos	%	38020
+38059	%	TC - 4-5 Justificante de actuaciones. Régimen general. Colectivo de artistas y profesionales taurinos.	%	38020
+46950	%	TC 1-50 Boletín único de Regímenes Especiales	%	38020
+51959	%	TC 13 - 1 Solicitud de devolución de ingresos indebidos	%	38020
+37947	%	Pensiones y otras prestaciones nacionales	%	12723
+47904	%	Jubilación	%	37947
+47905	%	Incapacidad permanente - Lesiones permanentes no invalidantes	%	37947
+47906	%	Viudedad, Orfandad, Favor de familiares y Auxilio por defunción	%	37947
+47907	%	Pago directo  de incapacidad temporal	%	37947
+47908	%	Riesgo durante el embarazo o la lactancia natural	%	37947
+10929	%	Servicios	%	10928
+44244	%	Convenio especial para los incluidos en el campo de aplicación del sistema de Seguridad Social Español que pasen a prestar servicios en la Administración de la Unión Europea	%	44101
+44102	%	Otros Convenios Especiales	%	44100
+44254	%	Convenio especial de los trabajadores de temporada en periodos de inactividad y para los comprendidos en los sistemas especiales de frutas y hortalizas y conservas vegetales del Régimen General de la Seguridad Social.	%	44102
+44258	%	Convenio especial de empresarios y trabajadores sujetos a expedientes de regulación de empleo que incluyan trabajadores con 55 o más años.	%	44102
+44262	%	Convenio especial durante las situaciones de permanencia en alta sin retribución, cumplimiento de deberes públicos, permisos y licencias.	%	44102
+44266	%	Convenio especial para deportistas de alto nivel	%	44102
+44270	%	Convenio especial para los trabajadores que ostenten la condición de funcionarios o empleados de organizaciones internacionales intergubernamentales	%	44102
+45753	%	Aplazamientos de deudas	%	44539
+46564	%	Recaudación por vía ejecutiva	%	44539
+44200	%	Inscripción del empresario	%	44539
+44667	%	Prestación de Incapacidad Temporal	%	44539
+44765	%	Prestación de Riesgo durante el embarazo	%	44539
+43344	%	Prestación de Maternidad	%	44539
+51457	%	Prestación de Paternidad	%	44539
+51461	%	Prestación de Riesgo durante la lactancia natural	%	44539
+45982	%	Pensión de Incapacidad Permanente	%	44539
+45997	%	Prestación por lesiones permanentes no invalidantes	%	44539
+45659	%	Prestaciones de muerte y supervivencia	%	44539
+45660	%	Pensión de viudedad	%	45659
+45664	%	Pensión de orfandad	%	45659
+45668	%	Pensión en favor de familiares	%	45659
+45672	%	Subsidio en favor de familiares	%	45659
+45676	%	Auxilio por defunción	%	45659
+44999	%	Prestaciones familiares	%	44539
+44850	%	Asignación económica por hijo o menor acogido a cargo	%	44999
+44876	%	Prestación económica por nacimiento o adopción de un tercer o sucesivos hijos	%	44999
+48382	%	Gestión	%	48074
+39728	%	Informes	%	48074
+48498	%	Criterios de Inversión	%	39728
+48499	%	Informes anuales	%	39728
+48502	%	Situación mensual del Fondo de Reserva	%	39728
+48409	%	Noticias y Novedades	%	48074
+48294	%	Publicaciones	%	47975
+47978	%	Documentación	%	47975
+47984	%	Normativa	%	47978
+47999	%	Memorias	%	47978
+52323	%	Memorias 2006	%	47999
+50016	%	Memorias 2005	%	47999
+46477	%	Memorias 2004	%	47999
+44329	%	Memorias 2003	%	47999
+40891	%	Memorias 2002	%	47999
+35471	%	Memorias 2001	%	47999
+30049	%	Memorias 2000	%	47999
+48073	%	Fondo de Investigación de la Protección Social	%	47978
+48374	%	Normativa	%	48073
+48377	%	Subvenciones	%	48073
+48378	%	Convocatorias	%	48377
+48379	%	Formularios	%	48377
+48376	%	Estudios	%	48073
+243	%	2006	%	242
+244	%	2005	%	242
+49499	%	Documentación General	%	47978
+49493	%	Acuerdo Sobre Medidas en Materia de Seguridad Social	%	49499
+48075	%	Otros documentos	%	47978
+47979	%	Enlaces	%	47978
+35554	%	LO MÁS VISITADO	%	Internet
+35577	%	Vida Laboral	%	35554
+43642	%	Tarjeta sanitaria europea	%	35554
+35579	%	Autónomos	%	35554
+32825	%	Régimen Especial de Trabajadores  Autónomos	%	10548
+29427	%	Ministerio de Trabajo e Inmigración	%	48225
+29429	%	Dirección General de Ordenación de la Seguridad Social	%	48225
+29432	%	Secretaria de Estado de la Seguridad Social	%	48225
+44327	%	Gerencia de Informática de la Seguridad Social	%	48225
+40287	%	Cartas de Servicios	%	10463
+40384	%	Cartas de Servicios de la Tesorería General de la Seguridad Social (TGSS)	%	40287
+40334	%	Cartas de Servicios de la Tesorería General de la Seguridad Social (TGSS)	%	40384
+40385	%	Carta de Servicios - Servicio de Gestión y Atención Teléfonica al Ciudadano (TGSS)	%	40384
+40422	%	Carta de Servicios del Sistema RED (TGSS)	%	40384
+40450	%	Carta de servicios-Inscripción y Afiliación (TGSS)	%	40384
+40452	%	Carta de servicios-Recaudación en período voluntario (TGSS)	%	40384
+40454	%	Carta de servicios-Pagos y operaciones financieras (TGSS)	%	40384
+40380	%	Carta de Servicios del Instituto Nacional de la Seguridad Social (INSS)	%	40287
+51551	%	Carta de Servicios del Instituto Social de la Marina (ISM)	%	40287
+51552	%	Carta de Servicios del Instituto Social de la Marina	%	51551
+40381	%	Tripticos de Sanidad Marítima	%	51551
+51554	%	Tripticos de Buques Asistenciales	%	51551
+51555	%	Trípticos de Formación Marítima	%	51551
+51556	%	Trípticos de Inscripción y Afiliación	%	51551
+10489	%	Publicaciones	%	10463
+27974	%	Publicaciones por orden alfabético	%	10489
+28156	%	Publicaciones por contenidos	%	10489
+41414	%	Información para el Trabajador	%	28156
+28158	%	Trabajadores del Régimen General	%	41414
+41457	%	Trabajadores del Régimen Especial de Empleados del Hogar	%	41414
+297	%	AMF-TEST-AVISO	%	21
+41500	%	Devolución de Cuotas	%	41414
+41499	%	Inscripción y Afiliación (Carta de servicios y tríptico)	%	41414
+28248	%	Información para Empresarios y Profesionales	%	28156
+10823	%	Servicios	%	10777
+3329	%	Resolución de 26-9-01,de la DG de la Tesorería Gral. de la SS,sobre incorporación obligatoria al Sistema de Remisión Electrónica de Datos (Sistema RED) por parte de determinados solicitantes o titulares de beneficios en la cotización a la Seguridad Social	%	3298
+32180	%	Resolución de 10-04-2002, de la Dir. Gral. de la T.G.S.S., sobre incorporación obligatoria al sistema de remisión electrónica de datos (Sistema RED) por parte de determinados solicitantes o titulares de beneficios en la cotización a la Seguridad Social.	%	3298
+39272	%	Resolución de 8-4-03, de la Dirección Gral. de la TGSS, sobre la implantación del estándar de comunicaciones basado en el protocolo IP, conocido como Internet, como única plataforma de comunicación  entre la TGSS y los autorizados al Sistema RED	%	3298
+40491	%	Resolución de 1 de agosto de 2003, de la Secretaría de Estado de la Seguridad Social, sobre ampliación de la emisión de documentos de cotización a los regímenes y colectivos adheridos al Sistema de Remisión Electrónica de Datos (Sistema RED).	%	3298
+29636	%	Normas Internacionales	%	1139
+34228	%	Reglamentos comunitarios	%	29636
+29637	%	Convenios bilaterales	%	29636
+38290	%	Decisiones Comunitarias	%	29636
+38472	%	Otras normas	%	29636
+1326	%	Normas de Quejas y Sugerencias	%	1139
+38772	%	Otras normas de interés	%	1139
+50081	%	Real Decreto 951/2005, de 29 de julio, por el que se establece el marco general para la mejora de la calidad en la Administración General del Estado.(BOE 3/9 - Corr. Err. 22/9 )	%	38772
+37013	%	Ley del Estatuto de los Trabajadores	%	38772
+37547	%	Ley de Procedimiento Laboral	%	38772
+37548	%	Ley de Régimen jurídico de las Administraciones Públicas y del procedimiento administrativo común	%	38772
+37598	%	Ley sobre Infracciones y sanciones en el orden social	%	38772
+37606	%	Ley 45/2002, de 12 de diciembre, de medidas urgentes para la reforma del sistema de protección por desempleo y mejora de la ocupabilidad	%	38772
+43107	%	Ley 56/2003, de 16 de diciembre, de empleo	%	38772
+14	%	Pruebas CCI	%	1139
+3061	%	Normas de Organización (Despublicar)	%	1139
+29083	%	Ley General de la Seguridad Social(Preceptos sobre Organización)	%	3061
+3066	%	Real Decreto 2318/1978, de 15 de septiembre, por el que se establece la Tesorería General de la Seguridad Social	%	3061
+3081	%	Real Decreto 1314/1984, de 20 de junio, por el que se regula la estructura y competencias de la Tesorería General de la Seguridad Social	%	3061
+3150	%	Orden de 11 de marzo de 1987 sobre implantación de las Unidades de Recaudación Ejecutiva de la Tesorería General de la Seguridad Social	%	3061
+71	%	Daños causados por las intensas  tormentas de lluvia y viento e inundaciones que han afectado a la Comunitat Valenciana durante los días 11 a 19 del mes de octubre de 2007	%	52203
+3286	%	Real Decreto 1221/1992, de 9 de octubre, sobre el patrimonio de la Seguridad Social	%	3285
+31763	%	Orden de 10 de septiembre de 2001 sobre actualización de los inventarios de bienes y derechos de la Seguridad Social	%	3285
+1217	%	Normas sobre Convenios Especiales	%	1139
+32719	%	Normas generales	%	1217
+12221	%	Artículo 125 de la Ley General de la Seguridad Social	%	32719
+12011	%	Personal de Organizaciones Internacionales y de la Unión Europea	%	1217
+12012	%	Parlamentarios y miembros de Gobiernos de Comunidades Autónomas	%	1217
+12014	%	Emigrantes e hijos de emigrantes	%	1217
+12015	%	Asistencia Sanitaria	%	1217
+7722	%	Normas de pensiones y otras prestaciones	%	1139
+11298	%	Régimen General. Prestaciones	%	7722
+6709	%	Normativa de asistencia sanitaria	%	11298
+6670	%	Normativa de incapacidad temporal	%	11298
+6653	%	Normativa de riesgo durante el embarazo y durante la lactancia natural	%	11298
+6683	%	Normativa de maternidad y paternidad	%	11298
+6675	%	Normativa de incapacidad permanente	%	11298
+6679	%	Normativa de jubilación	%	11298
+6731	%	Normativa de muerte y supervivencia	%	11298
+6694	%	Normativa de prestaciones familiares	%	11298
+32869	%	Normativa de lesiones permanentes no invalidantes	%	11298
+33444	%	Normas sobre prestaciones indebidamente percibidas	%	11298
+33456	%	Normas sobre pagas extraordinarias	%	11298
+33458	%	Registro de prestaciones sociales públicas	%	11298
+7726	%	Regímenes Especiales de la Seguridad Social	%	7722
+6698	%	Régimen Especial Agrario	%	7726
+6657	%	Régimen Especial de Autónomos	%	7726
+6664	%	Régimen Especial de Empleados de Hogar	%	7726
+37205	%	Modelo TA.1211 - Solicitud de alta, baja o variación de datos en el régimen especial de la Seguridad Social de empleados de hogar - trabajadores fijos -	%	31190
+32174	%	Suiza	%	51491
+51482	%	Textos normativos	%	32078
+32175	%	Oficinas de enlace de trabajadores desplazados	%	32078
+38626	%	Formularios de trabajadores desplazados	%	32078
+39549	%	A países de la Unión Europea, del Espacio Económico Europeo o Suiza	%	38626
+38627	%	A países con convenio bilateral	%	38626
+39537	%	A embajadas y consulados de países sin convenio bilateral	%	38626
+39540	%	A Turquía	%	38626
+39523	%	A las islas de Man o de Jersey (Reino Unido)	%	38626
+39917	%	A Suiza (para nacionales de terceros paises -no de la Unión Europea-)	%	38626
+39544	%	Modelos de solicitud TA.200, TA.201 o TA.202	%	38626
+1139	%	Normativa	%	Internet
+2100	%	Normas Generales	%	1139
+272	%	Prueba SGOI	%	2100
+274	%	Normas de  Organización	%	1139
+275	%	Instituto Nacional de la Seguridad Social	%	274
+276	%	Instituto Social de la Marina	%	274
+277	%	Tesorería General de la Seguridad Social	%	274
+278	%	Organos colegiados para el fomento de la investigación de la protección social	%	274
+279	%	Normas de Estructura y Campo de Aplicación	%	1139
+282	%	Régimen Especial Agrario 	%	279
+285	%	Régimen Especial de Trabajadores por Cuenta Propia o Autónomos	%	279
+286	%	Régimen Especial de Empleados de Hogar	%	279
+287	%	Régimen Especial para la Minería del Carbón	%	279
+288	%	Seguro Escolar	%	279
+280	%	Normas de Inscripción y Afiliación	%	1139
+289	%	Normas Generales	%	280
+290	%	Régimen Especial Agrario	%	280
+291	%	Régimen Especial de los Trabajadores del Mar	%	280
+123	%	Tomo síntesis de cifras y datos	%	49911
+124	%	prueba	%	49911
+130	%	Secccion7	%	49911
+131	%	aaa	%	49911
+137	%	gg	%	49911
+109	%	Normas de elaboración	%	49889
+110	%	Normas de elaboración	%	49889
+111	%	Normas de elaboración	%	49889
+112	%	Libro de Normas 2008	%	111
+48547	%	Cuadros Resumen de Presupuestos 2008	%	48546
+47394	%	Presupuestos de la Seguridad Social 2007	%	48546
+49686	%	Normas de elaboración	%	47394
+49687	%	Libro de Normas 2007	%	49686
+47416	%	Serie verde: Desarrollo de ingresos y gastos	%	47394
+47395	%	Tomo 1: Agregado del Sistema	%	47416
+47396	%	Tomo 2: Agregado de Entidades Gestoras y Tesorería General	%	47416
+47397	%	Tomo 3: Agregado de Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social	%	47416
+47398	%	Tomo 4: Entidades Gestoras y Tesorería General	%	47416
+47417	%	Serie roja: Especificación de créditos a nivel de vinculación	%	47394
+47399	%	Tomo 1: Entidades Gestoras y Tesorería General	%	47417
+47400	%	Tomo 2: Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social. (De la Mutua 1 a la Mutua 39)	%	47417
+47401	%	Tomo 3: Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social. (De la Mutua 61 a la Mutua 292)	%	47417
+47418	%	Información complementaria	%	47394
+47507	%	Informe económico-financiero	%	47418
+47508	%	Introducción	%	47507
+47511	%	I El presupuesto de la Seguridad Social y la economía española en el 2006	%	47507
+47513	%	II Gastos y dotaciones del sistema de la Seguridad Social	%	47507
+47515	%	III Recursos y aplicaciones del sistema de la Seguridad Social	%	47507
+47517	%	IV Gastos y dotaciones. Prestaciones económicas del sistema de la Seguridad Social	%	47507
+47519	%	IV Gastos y dotaciones. Prestaciones económicas del sistema de la Seguridad Social. (Continuación)	%	47507
+47524	%	V Gastos y dotaciones. Asistencia sanitaria del sistema de la Seguridad Social	%	47507
+47527	%	VI Gastos y dotaciones. Servicios sociales del sistema de la Seguridad Social	%	47507
+223	%	Ejercicio 2008	%	46123
+46124	%	Información de situación de las Entidades gestoras y Servicios comunes	%	46120
+46155	%	Ejercicio 2005	%	46124
+47972	%	Ejercicio 2006	%	46124
+51516	%	Ejercicio 2007	%	46124
+224	%	Ejercicio 2008	%	46124
+46126	%	Resumen de la Cuenta del Sistema de la Seguridad Social	%	46120
+46156	%	Ejercicio 1999	%	46126
+46157	%	Ejercicio 2000	%	46126
+46158	%	Ejercicio 2001	%	46126
+46161	%	Ejercicio 2002	%	46126
+46159	%	Ejercicio 2003	%	46126
+46160	%	Ejercicio 2004	%	46126
+51372	%	Ejercicio 2005	%	46126
+47605	%	Cuentas de Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social	%	46120
+47606	%	Ejercicio 2004	%	47605
+24658	%	Informes Económicos	%	47977
+47652	%	Seguimiento presupuestario de la Seguridad Social	%	24658
+43278	%	Boletín Informativo de la Seguridad Social: Gestión económica	%	47652
+45741	%	Distribución territorial de ingresos y gastos. Ejercicios 2001 - 2007	%	47652
+47667	%	Distribución territorial de la ejecución de inversiones.	%	47652
+47625	%	Ratios financieros	%	47653
+47654	%	Dotación reservas	%	47653
+50377	%	Imputación territorial de gastos e ingresos del Sistema de la Seguridad Social. Ejercicios 2004 - 2005	%	47652
+50900	%	Seguimiento de la incapacidad temporal	%	47652
+43212	%	Memorias Economico Financieras y de Gestión de las Mutuas de AT y EP	%	24658
+41	%	Memoria Económico Financiera y de Gestión - 2005	%	43212
+50836	%	Memoria Económico Financiera y de Gestión - 2004	%	43212
+49467	%	Memoria Económico Financiera y de Gestión - 2003	%	43212
+47560	%	Instituto Social de la Marina	%	47557
+47561	%	Instituto de Mayores y Servicio Sociales	%	47557
+47562	%	Tesorería General de la Seguridad Social	%	47557
+50609	%	Ejercicio 2007	%	46134
+50610	%	Instituto Nacional de la Seguridad Social	%	50609
+50630	%	Instituto Nacional de Gestión Sanitaria	%	50609
+50643	%	Instituto Social de la Marina	%	50609
+50656	%	Instituto de Mayores y Servicio Sociales	%	50609
+50669	%	Tesorería General de la Seguridad Social	%	50609
+148	%	Ejercicio 2008	%	46134
+150	%	Ejercicio 2008	%	46134
+152	%	Instituto Nacional de la Seguridad Social	%	150
+153	%	Instituto Nacional de Gestión Sanitaria	%	150
+154	%	Instituto Social de la Marina  	%	150
+155	%	Instituto de Mayores y Servicio Sociales	%	150
+156	%	Tesorería General de la Seguridad Social	%	150
+46135	%	Liquidación del Presupuesto	%	46122
+46143	%	Ejercicio 2003	%	46135
+46718	%	Ejercicio 2004	%	46135
+51420	%	Ejercicio 2005	%	46135
+197	%	Ejercicio 2006	%	46135
+46127	%	Mutuas de accidentes de trabajo y enfermedades profesionales	%	46119
+46128	%	Resumen de ejecución del presupuesto	%	46127
+46300	%	Ingresos	%	46299
+46301	%	Gastos	%	46299
+47563	%	Ejercicio 2006	%	46128
+47564	%	Ingresos	%	47563
+47565	%	Gastos	%	47563
+51102	%	Ejercicio 2007	%	46128
+51103	%	Ingresos	%	51102
+51104	%	Gastos	%	51102
+233	%	Ejercicio 2008	%	46128
+235	%	Ingresos	%	233
+43766	%	WinSuite32 Actualización	%	32575
+43020	%	WinSuite32 Versión Completa	%	32575
+43021	%	Notas acerca de la versión	%	32575
+49008	%	JRedCom	%	7841
+11542	%	Adobe Acrobat Reader 4.0 o superior	%	7841
+11543	%	Internet Explorer 5.0 o superior	%	7841
+49823	%	Firefox 1.5 o superior	%	7841
+39740	%	Documentación	%	5300
+39741	%	Manuales de usuario	%	39740
+39764	%	Formularios	%	39740
+50030	%	Instrucciones Técnicas	%	39740
+171	%	Documentación RED Directo	%	39740
+172	%	Manuales de Usuario	%	171
+180	%	Formularios	%	171
+47975	%	Estadísticas e Informes	%	Internet
+48224	%	Estadísticas	%	47975
+47977	%	Presupuestos y Estudios	%	47975
+46068	%	Información Contable y Financiera	%	47977
+46119	%	Ejecución Presupuestaria del Sistema de la Seguridad Social	%	46068
+46121	%	Sistema de la Seguridad Social	%	46119
+46130	%	Resumen de ejecución del presupuesto	%	46121
+46292	%	Ejercicio 2005	%	46130
+46137	%	Ingresos	%	46292
+46138	%	Gastos	%	46292
+47550	%	Ingresos	%	47549
+47551	%	Gastos	%	47549
+51092	%	Ejercicio 2007	%	46130
+51093	%	Ingresos	%	51092
+51094	%	Gastos	%	51092
+227	%	Ejercicio 2008	%	46130
+228	%	Ingresos	%	227
+229	%	Gastos	%	227
+46131	%	Ejecución del presupuesto	%	46121
+46139	%	Ejercicio 2005	%	46131
+12726	%	Modelo TA.4005	%	12724
+47531	%	VII Gastos y dotaciones. Tesorería, informática y otros servicios funcionales comunes	%	47507
+47533	%	VIII Recursos y aplicaciones. Cotización a la Seguridad Social	%	47507
+47536	%	IX Análisis comparativo de ingresos y gastos del sistema de la Seguridad Social	%	47507
+47538	%	X Comparaciones internacionales de los sistemas de protección social	%	47507
+47540	%	XI El apoyo de la Seguridad Social a la política social y económica	%	47507
+47542	%	XII Mutuas de accidentes de trabajo y enfermedades profesionales de la Seguridad Social	%	47507
+47544	%	XIII Presupuesto de la seguridad social en términos de contabilidad nacional	%	47507
+47491	%	Anexo al informe económico-financiero	%	47418
+50848	%	Anexo al informe económico-financiero	%	47491
+47492	%	Introducción	%	47491
+47494	%	I Cotización a la Seguridad Social	%	47491
+47496	%	II Pensiones del sistema de la Seguridad Social	%	47491
+47498	%	III Otras prestaciones económicas del sistema de la Seguridad Social	%	47491
+47500	%	IV Asistencia sanitaria de la Seguridad Social	%	47491
+47502	%	V Cifras de protección social en los países de la Unión Europea	%	47491
+47504	%	VI Mutuas de accidentes de trabajo y enfermedades profesionales de la Seguridad Social	%	47491
+47436	%	Anexo de inversiones reales	%	47418
+47589	%	Tomo síntesis de cifras y datos	%	47418
+47590	%	I Consideraciones generales sobre los aspectos más relevantes del presupuesto de la Seguridad Social 2006	%	47589
+47592	%	II Marco institucional y estructura presupuestaria	%	47589
+47597	%	IV Presupuesto del Agregado de Entidades Gestoras y Tesorería General	%	47589
+47599	%	V Presupuesto del Agregado de Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social	%	47589
+47601	%	VI Presupuesto de gastos de cada una de las Entidades Gestoras y de la Tesorería General	%	47589
+47603	%	VII Anexo: Disposiciones más importantes que se refieren a la Seguridad Social en la Ley 30/2005, de 29 de diciembre, de Presupuestos Generales del Estado para el año 2006	%	47589
+50842	%	Tomo Síntesis de Cifras y Datos	%	47589
+107	%	Presupuestos de la Seguridad Social 2008	%	48546
+48074	%	Fondo de Reserva	%	47975
+48380	%	Normativa	%	48074
+32771	%	Presentación a través de medios informáticos, electrónicos y telemáticos (Sistema RED)	%	32765
+35581	%	Maternidad	%	35554
+39394	%	Subastas	%	35554
+39996	%	Paternidad	%	35554
+38236	%	Bonificaciones	%	35554
+42742	%	Incapacidad Temporal	%	35554
+41320	%	Calendario laboral	%	35554
+42703	%	Jubilación	%	35554
+38235	%	Contratos	%	35554
+39915	%	Epígrafes	%	35554
+47253	%	Bases de cotización	%	35554
+35580	%	Cotizaciones	%	35554
+42213	%	Convenios especiales	%	35554
+40151	%	Oposiciones	%	35554
+46028	%	Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	35554
+42531	%	Salario Mínimo Interprofesional	%	35554
+40469	%	Accesos de interés	%	Internet
+10463	%	La Seguridad Social	%	Internet
+47711	%	Historia de la Seguridad Social	%	10463
+48260	%	Premios a los Organismos que componen la Seguridad Social	%	47711
+47749	%	Historia de la Web de la Seguridad Social	%	47711
+47950	%	Descripción de imagen Historia de la  Web	%	47749
+48225	%	¿Quiénes somos?	%	10463
+29408	%	Tesorería General de la Seguridad Social	%	48225
+29410	%	Gabinete de Secretario de Estado de la Seguridad Social	%	48225
+29413	%	Instituto Nacional de la Seguridad Social	%	48225
+29417	%	Servicio Jurídico de la Administración de la Seguridad Social	%	48225
+29419	%	Subdirección General de Régimen Jurídico de la Seguridad Social	%	48225
+29421	%	Instituto Social de la Marina (ISM)	%	48225
+29424	%	Intervención General de la Seguridad Social	%	48225
+4251	%	Convenio especial de los trabajadores de temporada en periodos de inactividad y para los comprendidos en los sistemas especiales de frutas y hortalizas y conservas vegetales del Régimen General de la Seguridad Social	%	10553
+47075	%	Información sobre pensiones y otras prestaciones	%	28156
+50909	%	Asistencia sanitaria en sus viajes por Europa	%	47075
+47076	%	Incapacidad permanente	%	47075
+47077	%	Incapacidad temporal	%	47075
+308	%	Guía de Accidentes de Trabajo y Enfermedades Profesionales	%	47075
+47078	%	Jubilación	%	47075
+47079	%	Maternidad, Paternidad, Riesgo durante el embarazo y Riesgo durante la lactancia natural	%	47075
+47080	%	Muerte y supervivencia	%	47075
+47081	%	Prestaciones familiares	%	47075
+47082	%	Seguro escolar	%	47075
+98	%	Ley de Igualdad	%	47075
+28261	%	Información para el pensionista	%	28156
+44070	%	Información sobre Certificados Digitales	%	28156
+28263	%	Servicio de Atención Telefónica	%	28156
+28282	%	Convenios Internacionales (Folletos)	%	28156
+28286	%	Calidad de los Servicios	%	28156
+29480	%	Normativa	%	28156
+29496	%	Boletín Informativo de la Seguridad Social (BISS)	%	29480
+29497	%	Sumarios del año 2000	%	29496
+28265	%	Sumarios del año 2001	%	29496
+29507	%	Sumarios del año 2002	%	29496
+42567	%	Sumarios del año 2004	%	29496
+44980	%	Sumarios del año 2005	%	29496
+47567	%	Sumarios del año 2006	%	29496
+50914	%	Sumarios del año 2007	%	29496
+218	%	Sumarios del año 2008	%	29496
+29481	%	Índice de disposiciones de la Seguridad Social	%	29480
+106	%	Convenios Bilaterales	%	28156
+10488	%	Acreedores y Entidades Colaboradoras del Sistema de Seguridad Social	%	10463
+18083	%	Requisitos para ser proveedor de la Seguridad Social	%	10488
+4308	%	Bases de Cotización Jugadores Profesionales de Fútbol	%	9932
+6688	%	Régimen Especial de la Minería del Carbón	%	7726
+28501	%	Régimen Especial de Trabajadores del Mar	%	7726
+6703	%	Revalorización de pensiones	%	7722
+7727	%	Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	7722
+6717	%	Vejez	%	7727
+6722	%	Invalidez	%	7727
+6726	%	Viudedad	%	7727
+28857	%	Seguro Escolar	%	7722
+28438	%	Normas de Sanidad Marítima y Empleo	%	1139
+15	%	Formación	%	28438
+43859	%	Empleo y Desempleo	%	28438
+16	%	Sanidad Marítima	%	28438
+17	%	Acción Social	%	28438
+3298	%	Normas del Sistema Red	%	1139
+3301	%	Orden de 3 de abril de 1995 sobre uso de medios electrónicos, informáticos y telemáticos en relación con la inscripción de empresas, afiliación, altas y bajas de trabajadores, cotización y recaudación en el ámbito de la Seguridad Social	%	3298
+3307	%	Resolución de 23-5-95, de desarrollo de la Orden de 3-4-95, sobre uso de medios electrónicos, informáticos y telemáticos en relación con la inscripción de empresas,afiliación,altas y bajas de trabajadores,cotización y recaudación en el ámbito de la SS.	%	3298
+3299	%	Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común	%	3298
+3310	%	Ley 50/1998, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social	%	3298
+3312	%	Ley sobre Infracciones y Sanciones en el Orden Social	%	3298
+3314	%	Reglamento General de Recaudación de los Recursos del Sistema de la Seguridad Social, aprobado por Real Decreto 1637/1995, de 6 de octubre(Preceptos relativos al Sistema RED)	%	3298
+3316	%	Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, aprobado por Real Decreto 2064/1995, de 22 de diciembre(Preceptos relativos al Sistema RED)	%	3298
+3320	%	Extracto de Orden de 26-1-1998 por la que se desarrollan las normas de cotización a la S. Social, Desempleo, Fondo de Gtía. Salarial y Form. Profesional, contenidas en Ley 65/1997, de 30 del 12 , de Presupuestos Grles. del Estado para 1998 (BOE 28-1-98)	%	3298
+3322	%	Orden de 26 de mayo de 1999 por la que se desarrolla el Reglamento General de Recaudación de los Recursos del Sistema de la Seguridad Social, aprobado por el Real Decreto 1637/1995, de 6 de octubre(Preceptos relativos al Sistema RED)	%	3298
+3326	%	Resolución de 30-3-99,por la que se establecen los plazos y demás condiciones de incorporación al Sist. RED de  profesionales colegiados y demás personas que actúen en representación de los sujetos responsables del cumplimiento de la obligación de cotizar	%	3298
+44614	%	Modelo TA.0040-ERE_C.A. Solicitud de Suscripción de Cláusula Adicional al Contenio Especial al amparo del artículo 20 de la Orden TAS/2865/2003 en nueva redacción dada por Orden TAS/3862/2004 de 22 de noviembre	%	31190
+18086	%	Requisitos para ser entidad colaboradora de la Seguridad Social	%	10488
+17785	%	Servicio de información sobre pagos a proveedores (con certificado digital)	%	10488
+33739	%	Direcciones y teléfonos	%	Internet
+18	%	Listado	%	33739
+19	%	Buscador	%	33739
+32078	%	Internacional	%	Internet
+32120	%	Reglamentos comunitarios	%	32078
+32253	%	Convenios bilaterales	%	32078
+32252	%	Andorra	%	32253
+32266	%	Argentina	%	32253
+32272	%	Australia	%	32253
+32281	%	Brasil	%	32253
+32291	%	Canadá	%	32253
+32294	%	Chile	%	32253
+219	%	Colombia	%	32253
+32320	%	Ecuador	%	32253
+32341	%	Estados Unidos	%	32253
+32346	%	Filipinas	%	32253
+32358	%	Marruecos	%	32253
+32366	%	México	%	32253
+47812	%	Paraguay	%	32253
+32385	%	Perú	%	32253
+49336	%	República Dominicana	%	32253
+32391	%	Rusia	%	32253
+32414	%	Ucrania	%	32253
+32479	%	Uruguay	%	32253
+32482	%	Venezuela	%	32253
+32162	%	Otras normas internacionales	%	32078
+32163	%	Relaciones diplomáticas	%	32162
+32164	%	Relaciones consulares	%	32162
+32165	%	Convenio europeo de Seguridad Social	%	32162
+51491	%	Otros convenios bilaterales	%	32162
+32172	%	Reino Unido	%	51491
+47553	%	Ejercicio 2006	%	46131
+51090	%	Ejercicio 2007	%	46131
+226	%	Ejercicio 2008	%	46131
+46132	%	Liquidación del presupuesto	%	46121
+46140	%	Ejercicio 2003	%	46132
+46715	%	Ejercicio 2004	%	46132
+51414	%	Ejercicio 2005	%	46132
+166	%	Ejercicio 2006	%	46132
+167	%	Ejercicio 2006	%	46132
+178	%	Ejercicio 2006	%	46132
+181	%	Ejercicio 2006	%	46132
+182	%	Ejercicio 2006	%	46132
+183	%	Ejercicio 2006	%	46132
+196	%	Ejercicio 2006	%	46132
+46122	%	Entidades gestoras y servicios comunes	%	46119
+46133	%	Resumen de ejecución del presupuesto	%	46122
+46287	%	Ejercicio 2005	%	46133
+46297	%	Ingresos	%	46287
+46298	%	Gastos	%	46287
+47554	%	Ejercicio 2006	%	46133
+47555	%	Ingresos	%	47554
+47556	%	Gastos	%	47554
+51097	%	Ejercicio 2007	%	46133
+51098	%	Ingresos	%	51097
+51099	%	Gastos	%	51097
+230	%	Ejercicio 2008	%	46133
+231	%	Ingresos	%	230
+232	%	Gastos	%	230
+46136	%	Ejercicio 2005	%	46134
+46144	%	Instituto Nacional de la Seguridad Social	%	46136
+46148	%	Instituto Nacional de Gestión Sanitaria	%	46136
+46146	%	Instituto Social de la Marina	%	46136
+46145	%	Instituto de Mayores y Servicios Sociales	%	46136
+46147	%	Tesorería General de la Seguridad Social	%	46136
+47557	%	Ejercicio 2006	%	46134
+47558	%	Instituto Nacional de la Seguridad Social	%	47557
+47559	%	Instituto Nacional de Gestión Sanitaria	%	47557
+45363	%	Memoria Económico Financiera y de Gestión - 2002	%	43212
+43201	%	Memoria Económico Financiera y de Gestión - 2001	%	43212
+46069	%	Información complementaria del Presupuesto	%	24658
+48546	%	Presupuestos	%	47977
+49889	%	Presupuestos de la Seguridad Social 2008	%	48546
+49898	%	Serie Roja: Especificación de créditos a nivel de vinculación	%	49889
+49899	%	Tomo 1: Entidades Gestoras y Tesorería General	%	49898
+49901	%	Tomo 2: Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social. (De la Mutua 1 a la Mutua 61)	%	49898
+49903	%	Tomo 3: Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social. (De la Mutua 72 a la Mutua 292)	%	49898
+49905	%	Tomo IV: Instituto Social de la Marina	%	49898
+49907	%	Tomo V: Tesorería General de la Seguridad Social	%	49898
+49909	%	Tomo VI: Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social	%	49898
+49890	%	Serie Verde: Desarrollo de ingresos y gastos	%	49889
+49891	%	Tomo 1: Agregado del Sistema	%	49890
+49893	%	Tomo 2: Agregado de Entidades Gestoras y Tesorería General	%	49890
+49894	%	Tomo 3: Agregado de Mutuas de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social	%	49890
+52201	%	Volumen V .- Informe económico-financiero y anexo (NIPO:201-07-308-08)	%	49890
+52202	%	Volumen VI (Tomo único)  .- Normas sobre estructura y elaboración	%	49890
+49911	%	Información complementaria	%	49889
+114	%	Informe económico-financiero	%	49911
+115	%	Informe económico-financiero	%	49911
+116	%	Informe económico-financiero	%	49911
+117	%	Informe económico-financiero	%	49911
+118	%	Anexo al informe económico-financiero	%	49911
+119	%	Anexo de inversiones reales	%	49911
+121	%	prueba de creación	%	49911
+122	%	prueba	%	49911
+236	%	Gastos	%	233
+46149	%	Liquidación del Presupuesto	%	46127
+46151	%	Ejercicio 2003	%	46149
+46721	%	Ejercicio 2004	%	46149
+51424	%	Ejercicio 2005	%	46149
+198	%	Ejercicio 2006	%	46149
+49817	%	Seguimiento de indicadores y objetivos	%	46119
+49818	%	Entidades gestoras y servicios comunes	%	49817
+49821	%	Ejercicio 2005	%	49818
+49832	%	Ejercicio 2006	%	49818
+51879	%	Ejercicio 2007	%	49818
+94	%	INGESA	%	51879
+95	%	TGSS	%	51879
+93	%	INSS	%	51879
+92	%	ISM	%	51879
+96	%	IMSERSO	%	51879
+302	%	Ejercicio 2008	%	49818
+303	%	ISM	%	302
+304	%	INGESA	%	302
+305	%	TGSS	%	302
+306	%	INSS	%	302
+307	%	IMSERSO	%	302
+49820	%	Mutuas de accidentes de trabajo y enfermedades profesionales	%	49817
+49822	%	Ejercicio 2005	%	49820
+49833	%	Ejercicio 2006	%	49820
+312	%	Ejercicio 2008	%	49820
+164	%	Calendario publicaciones 2008	%	46119
+46120	%	Informes y Cuentas del Sistema de la Seguridad Social	%	46068
+47757	%	Calendario publicaciones 2008	%	46120
+46123	%	Situación de Tesorería de las Entidades gestoras y Servicios Comunes	%	46120
+46152	%	Ejercicio 2004	%	46123
+46153	%	Ejercicio 2005	%	46123
+47971	%	Ejercicio 2006	%	46123
+51502	%	Ejercicio 2007	%	46123
+7873	%	2001/9 de 14 de diciembre de 2001	%	29092
+29093	%	Anexo I: Ejemplo de fichero FAN	%	29092
+7891	%	2001/8 de 25 de octubre de 2001	%	32570
+7893	%	2001/7 de 19 de octubre de 2001	%	32570
+7894	%	2001/6 de 25 de septiembre de 2001	%	32570
+27762	%	2001/5 de 24 de julio de 2001	%	32570
+27763	%	2001/5 de 24 de julio de 2001	%	27762
+27771	%	Anexo 1: Modificaciones en el fichero FAN.	%	27762
+27773	%	Anexo 2: Nuevo fichero de afiliación.	%	27762
+27753	%	2001/4 de 6 de junio de 2001	%	32570
+27736	%	2001/04 de 6 de junio de 2001	%	27753
+27757	%	Anexo 1	%	27753
+27785	%	2001/3 de 4 de Abril de 2001	%	32570
+27787	%	2001/3 de 4 de Abril de 2001	%	27785
+27790	%	Anexo I: Tablas de contratos.	%	27785
+27789	%	Anexo II: Tabla de contratos Fomento Empleo 2001	%	27785
+27770	%	2001/2 de 22 de Marzo de 2001	%	32570
+27772	%	2001/2 de 22 de Marzo de 2001	%	27770
+27783	%	Anexo I	%	27770
+27741	%	2001/1de 19 de febrero de 2001	%	32570
+27734	%	2001/1 de 19 de Febrero de 2001	%	27741
+27750	%	Anexo I	%	27741
+27754	%	Anexo II	%	27741
+27764	%	Anexo III	%	27741
+27828	%	Boletines de noticias del año 2000	%	7855
+27829	%	2000/11 de 22 de Noviembre de 2000	%	27828
+27830	%	2000/10 de 19 de Octubre de 2000	%	27828
+27831	%	2000/10 de 19 de Octubre de 2000	%	27830
+27832	%	Anexo I	%	27830
+27834	%	Anexo II	%	27830
+27884	%	2000/9 de 14 de Julio de 2000	%	27828
+27890	%	2000/8 de 17 de Julio de 2000	%	27828
+27894	%	2000/7 de 25 de Abril de 2000	%	27828
+7841	%	Software	%	5300
+32575	%	WinSuite32	%	7841
+47832	%	Historia de la Web	%	47749
+211	%	Grupo A. Licenciatura, Ingeniería, Arquitectura o Grado	%	210
+298	%	prueba	%	28396
+11302	%	Primas de Accidentes de Trabajo y Enfermedades Profesionales	%	11301
+281	%	Normas de Cotización y Liquidación	%	1139
+292	%	Normas Generales	%	281
+293	%	Régimen Especial Agrario	%	281
+294	%	Régimen Especial de los Trabajadores del Mar 	%	281
+295	%	Régimen Especial de los Trabajadores por Cuenta Propia o Autónomos	%	281
+296	%	Seguro escolar	%	281
+2560	%	Normas de Gestión Recaudatoria	%	1139
+29150	%	Ley General de la Seguridad Social(Preceptos sobre Gestión Recaudatoria)	%	2560
+41799	%	Real Decreto 1415/2004, de 11 de junio, por el que se aprueba el Reglamento General de Recaudación de la Seguridad Social.	%	2560
+45806	%	Orden TAS/1562/2005, de 25 de mayo, por la que se establecen normas para la aplicación y desarrollo del Reglamento General de Recaudación de la Seguridad Social, aprobado por el Real Decreto 1415/2004, de 11 de junio.	%	2560
+3046	%	Resolución de 28 de septiembre de 2001, de la Dirección General de la Tesorería General de la Seguridad Social, por la que se aprueban las nuevas claves según modalidades de los contratos de trabajo a efectos de la gestión de la Seguridad Social	%	2560
+39924	%	Resolución de 20-5-2003, de la Secretaría de Estado de la Seguridad Social, por la que se regula el procedimiento para la declaración de la extinción de créditos y derechos de la Seguridad Social incobrables o no exigibles en vía de apremio.	%	2560
+43987	%	Resolución de 16-7-04, de la TGSS, sobre determinación de funciones en materia de aplazamientos de pago de deudas, reintegros de prestaciones indebidamente percibidas, compensación, desistimiento, convenios o acuerdos en procedimientos concursales......	%	2560
+46711	%	Resolución de 8-11-2005, de la TGSS, sobre autorización para la ampliación del plazo reglamentario de pago de las cuotas de la Seguridad Social de los sujetos obligados que ejercen su actividad en el sector del transporte por carretera.	%	2560
+2247	%	Normas de Gestión Financiera	%	1139
+37782	%	Ley 28/2003, 29 de septiembre, reguladora del Fondo de Reserva de la Seguridad Social.	%	2247
+49433	%	Real Decreto 337/2004, de 27 de febrero, por el que se desarrolla la Ley 28/2003, de 29 de septiembre, reguladora del Fondo de Reserva de la Seguridad Social.	%	2247
+2481	%	Orden de 22 de febrero de 1996 para la aplicación y desarrollo del Reglamento General de la Gestión Financiera de la Seguridad Social, aprobado por el Real Decreto 1391/1995, de 4 de agosto	%	2247
+2529	%	Real Decreto 1299/95,de 21-07,de desarrollo de la Disposición Adicional 32ª de la Ley 42/94,de 30-12,de Medidas Fiscales,Administrativas y de Orden Social,sobre impagados,retrocesiones y reintegros de pagos indebidos de prestaciones del Sistema de la S.S.	%	2247
+2545	%	Orden de 14-11-95 por la que se establecen los límites máximos de los gastos administrativos de la gestión correspondientes a las Entidades Gestoras y Servicios Comunes de la Seguridad Social sometidos a la tutela del Mº de Trabajo y Seguridad Social.	%	2247
+3285	%	Normas de Patrimonio	%	1139
+29219	%	Ley General de la Seguridad Social(Preceptos sobre Patrimonio)	%	3285
+38060	%	TC - 4-6 Declaración anual de actividades. Régimen general. Colectivo de artistas y profesionales taurinos. Trabajadores	%	38020
+38015	%	A embajadas y consulados de países sin convenio bilateral	%	38009
+49854	%	Boletín de Noticias RED 2006/3 de 26 de abril de 2006	%	47882
+38280	%	Boletines de noticias 2003/3 de 21 de febrero de 2003 (Anexo - Recibo de Liquidación de Cotizaciones)	%	47883
+50317	%	Software IFI ( Intercambio de Ficheros Institucionales )	%	49428
+12585	%	Guías	%	12412
+50262	%	2006/8 de 31 de octubre de 2006	%	50824
+49691	%	2006/7 de 1 agosto de 2006	%	50824
+49540	%	2006/6 de 17 de julio de 2006	%	50824
+49440	%	Fe de erratas del Noticias RED 2006/5	%	50824
+49410	%	2006/5 de 28 de junio de 2006	%	50824
+49411	%	REAL DECRETO-LEY 5/2006, de 9 de Junio, para la mejora del crecimiento y del empleo.	%	49410
+49413	%	Modificaciones en el ámbito del Sistema RED - Cotización	%	49410
+49414	%	Modificaciones en el ámbito del Sistema RED - Afiliación	%	49410
+49415	%	Nuevos documentos de resoluciones de afiliación	%	49410
+49416	%	Nueva versión de WinSuite32	%	49410
+49417	%	Modificación del Texto Refundido de la Ley General de la Seguridad Social, aprobado por Real Decreto Legislativo 1/1994, de 20 de junio	%	49410
+49461	%	Descarga del Boletín de Noticias RED	%	49410
+48993	%	2006/4 de 18 de mayo de 2006	%	50824
+48868	%	2006/3 de 26 de abril de 2006	%	50824
+47470	%	2006/2 de 3 de febrero de 2006	%	50824
+47188	%	2006/1 de 9 de enero de 2006	%	50824
+47187	%	Boletines de noticias del año 2005	%	7855
+46937	%	2005/10 de 13 de diciembre de 2005	%	47187
+46461	%	2005/9 de 6 de octubre de 2005	%	47187
+46115	%	2005/8 de 24 de agosto de 2005	%	47187
+45898	%	2005/6 de 1 de junio de 2005	%	47187
+45735	%	2005/5 de 9 de mayo de 2005	%	47187
+45191	%	2005/4 de 17 de marzo de 2005	%	47187
+45071	%	Fe de erratas	%	47187
+45032	%	2005/3 de 23 de febrero de 2005	%	47187
+44970	%	2005/2 de 9 de febrero de 2005	%	47187
+44834	%	2005/1 de 24 de enero de 2005	%	47187
+44833	%	Boletines de noticias del año 2004	%	7855
+44615	%	2004/8 de 10 de diciembre de 2004	%	44833
+44110	%	2004/7 de 30 de septiembre de 2004	%	44833
+45114	%	Sistema Red	%	45101
+45115	%	Situaciones Especiales	%	45101
+45162	%	Exclusión Social / Violencia Doméstica	%	45115
+45163	%	Huelga	%	45115
+45164	%	Maternidad Adopción, Acogimiento, Riesgo Embarazo y Excedencia Hijos	%	45115
+45165	%	Relación Laboral de Carácter Especial	%	45115
+45166	%	Víctimas de la Violencia Doméstica	%	45115
+51527	%	Paternidad	%	45115
+45116	%	Trabajadores Autónomos	%	45101
+45117	%	Varios	%	45101
+45118	%	Winsuite	%	45101
+45167	%	Winsuite - General	%	45118
+45168	%	Corrección de Errores	%	45118
+49062	%	Sistema Operativo Linux	%	45101
+283	%	2008/4 de 23 de mayo de 2008	%	7855
+240	%	2008/3 de 6 de marzo de 2008	%	7855
+169	%	2008/2 de 6 de febrero de 2008	%	7855
+313	%	Fe de erratas del Boletín de Noticias RED 2008/1 de 4 de febrero	%	7855
+149	%	2008/1 de 4 de febrero de 2008	%	7855
+151	%	Principales aspectos derivados de la publicación de la Orden TAS/76/2008, por la que se desarrollan las normas de cotización a la Seguridad Social, desempleo, Fondo de Garantía Salarial y Formación Profesional para el año 2008	%	149
+146	%	Boletines de noticias del año 2007	%	7855
+51581	%	2007/07  de 31 de mayo de 2007	%	146
+51483	%	2007/06 de 16 de mayo de 2007	%	146
+51432	%	2007/05 de 26 de abril de 2007	%	146
+50994	%	2007/04 de 1 de marzo de 2007	%	146
+50947	%	2007/03 de 14 de febrero de 2007	%	146
+50912	%	2007/02 de 6 de febrero de 2007	%	146
+50825	%	2007/01 de 23 de enero de 2007	%	146
+50824	%	Boletines de noticias del año 2006	%	7855
+50528	%	2006/10 de 22 de diciembre de 2006	%	50824
+50473	%	2006/9 de 14 de diciembre de 2006	%	50824
+45148	%	Bases de Cotización	%	45107
+49573	%	Mensaje de Cotización	%	45107
+49576	%	Tipos de Cotización	%	45107
+50685	%	Cotización por AT y EP (CNAES)	%	45107
+45108	%	Desempleo y Expedientes Regulación Empleo	%	45101
+48892	%	Expediente de regulación de empleo con prestación de pago delegado por desempleo parcial. 2006/3 	%	45108
+47218	%	Modificación en la presentación del fichero FAN de trabajadores en situación de Expediente de Regulación de Empleo con prestación de pago delegado por desempleo parcial.2006/01	%	45108
+47045	%	Modificación en el fichero FAN de trabajadores en situación de expediente de regulación de empleo con prestación de pago delegado por desempleo parcial. 2005/10	%	45108
+47046	%	Orden 1562/2005, de 25 de mayo, por la que se establecen las normas para la aplicación y desarrollo del Reglamento General de Recaudación de la Seguridad Social. 2005/10	%	45108
+45149	%	Compatibilización Desempleo y Trabajo Cta. Ajena	%	45108
+45150	%	Condición de Desempleado	%	45108
+45151	%	Expediente de Regulación de Empleo	%	45108
+51197	%	Desaparición de la Prestación por Desempleo Parcial. 2007/04	%	45108
+51478	%	DNI eléctrónico	%	45101
+45109	%	INSS	%	45101
+45110	%	Internet	%	45101
+45111	%	Liquidaciones	%	45101
+45152	%	Liquidaciones Complementarias	%	45111
+45112	%	Modalidades de Pago	%	45101
+45520	%	Domiciliación en Cuenta	%	45112
+45154	%	Pago Electrónico	%	45112
+51699	%	Relación Contable	%	45112
+45113	%	Regímenes	%	45101
+45155	%	Régimen 0111 - General	%	45113
+45156	%	Régimen 0112 - Artistas	%	45113
+45157	%	Régimen 0132 - Frutas y Hortalizas	%	45113
+45158	%	Régimen 0134 - Tomate Fresco	%	45113
+45159	%	Régimen 0613 - Régimen Agrario	%	45113
+45160	%	Régimen 08xx - Mar	%	45113
+45161	%	Régimen 0911 - Carbón	%	45113
+28244	%	Avisos	%	5300
+7855	%	Noticias RED	%	5300
+45739	%	Buscador	%	7855
+45101	%	Buscador Noticias	%	45739
+45102	%	Acuses Técnicos	%	45101
+45103	%	Administración Pública	%	45101
+45104	%	Altas y Afiliación	%	45101
+45121	%	Altas - Varios	%	45104
+45122	%	Alta de Extranjeros	%	45104
+45904	%	Bajas	%	45104
+45125	%	Situaciones Adicionales de Afiliación	%	45104
+45126	%	Mensaje de Afiliación	%	45104
+45105	%	Bonificaciones y Deducciones	%	45101
+45127	%	Bonificaciones	%	45105
+45128	%	Bonificaciones de Trabajadores de más de 60 años	%	45105
+45129	%	Deducción por Contingencias Excluidas	%	45105
+45131	%	Exoneración Trabajadores 65 o más años	%	45105
+45130	%	Minusválidos	%	45105
+50971	%	Reducciones de mayores de 59 años	%	45105
+45106	%	Contratos	%	45101
+45134	%	Contratos - Generalidades	%	45106
+45135	%	Contratos a Tiempo Parcial	%	45106
+45136	%	Contratos Duración inferior a 7 días	%	45106
+45138	%	Contratos de Jubilación Parcial	%	45106
+45139	%	Contratos de Relevo	%	45106
+45107	%	Cotización	%	45101
+45140	%	Cálculo Cuotas Epígrafe 114	%	45107
+45141	%	Coeficiente reductor de la edad de Jubilación	%	45107
+45142	%	Cotización - Varios	%	45107
+45143	%	Empresas Colaboradoras	%	45107
+45144	%	Euro	%	45107
+45145	%	Saldo Acreedor	%	45107
+45146	%	Periodos de Inactividad	%	45107
+45147	%	Recargos	%	45107
+7845	%	¿Cómo funciona el Sistema?	%	39263
+7846	%	Pasos para la incorporación	%	39263
+7847	%	Fuentes de información	%	39263
+7872	%	Preguntas más frecuentes	%	7019
+8056	%	Autorización y procedimientos administrativos	%	7872
+8058	%	Comunicación en el Sistema RED	%	7872
+8060	%	Conceptos de cotización	%	7872
+8059	%	Prácticas	%	7872
+8061	%	Conceptos de afiliación	%	7872
+40058	%	Cursos e información a disposición del usuario	%	7872
+40051	%	Infraestructura	%	7872
+8057	%	Programa de nóminas	%	40051
+8062	%	Certificado SILCON	%	40051
+8063	%	INTERNET	%	40051
+8064	%	Correo electrónico	%	40051
+8065	%	Comunicaciones	%	40051
+38950	%	Modalidades de pago	%	7019
+38951	%	Domiciliación en cuenta	%	38950
+39935	%	Pago electrónico	%	38950
+32606	%	Normativa del RED	%	7019
+186	%	Información RED Directo	%	7019
+187	%	Información General	%	186
+194	%	¿A quién va dirigido?	%	187
+195	%	Ventajas de RED Directo	%	187
+199	%	¿Qué infraestructura necesita?	%	187
+205	%	¿Cómo funciona el Sistema?	%	187
+201	%	Pasos para la incorporación 	%	187
+202	%	Fuentes de información	%	187
+189	%	Preguntas más frecuentes	%	186
+190	%	Modalidades de pago	%	186
+192	%	Cargo en cuenta	%	190
+193	%	Pago electrónico	%	190
+191	%	Normativa RED	%	186
+185	%	Información RED Directo	%	7019
+35385	%	Régimen Especial Agrario	%	35384
+35386	%	Nueva versión de Winsuite	%	35384
+35388	%	Funcionalidades de la nueva versión	%	35384
+35389	%	Anexos	%	35384
+35514	%	Fe de erratas	%	35384
+35068	%	2002/9 de 28 de octubre de 2002	%	37408
+35058	%	Régimen Especial Agrario	%	35068
+35069	%	Nueva versión de Winsuite	%	35068
+35070	%	Funcionalidades de la nueva versión	%	35068
+35071	%	Ley 35/2002, de 12 de Julio, de medidas para el establecimiento de un Sistema de Jubilación gradual y flexible	%	35068
+35072	%	Cálculo de cuotas de AT y EP correspondientes al epígrafe 114	%	35068
+35074	%	Otras novedades de afiliación	%	35068
+35075	%	Informe de Vida Laboral y Base de Cotización por internet sin certificado digital	%	35068
+35076	%	Anexos	%	35068
+34881	%	Modificación del Boletín de Noticias RED 2002/8	%	37408
+34116	%	2002/8 de 25 de septiembre de 2002	%	37408
+34117	%	Régimen Especial Agrario	%	34116
+34130	%	Periodos de inactividad	%	34116
+34133	%	Ley 35/2002, de 12 de julio, de medidas para el establecimiento de un sistema de jubilación gradual y flexible.	%	34116
+34134	%	Cálculo de cuotas de AT y EP correspondientes al epígrafe 114.	%	34116
+34135	%	Anexos	%	34116
+33429	%	2002/7 de 10 de julio de 2002	%	37408
+32921	%	2002/5 de 18 de junio de 2002	%	37408
+32708	%	2002/4 de 11 de junio de 2002	%	37408
+31398	%	2002/3  de 9 de mayo de 2002	%	37408
+30438	%	2002/2 de 19 de abril de 2002	%	37408
+27682	%	2002/1  de 5 de febrero de 2002	%	37408
+27683	%	2002/1 de 5 de febrero de 2002	%	27682
+27690	%	Anexo I: Ejemplo de fichero FAN	%	27682
+27694	%	Anexo II: Validaciones	%	27682
+32570	%	Boletines de noticias del año 2001	%	7855
+29092	%	2001/9 de 14 de diciembre de 2001	%	32570
+43749	%	2004/6 de 7 de julio de 2004	%	44833
+43221	%	2004/5 de 7 de mayo de 2004	%	44833
+42996	%	2004/4 de 29 de marzo de 2004	%	44833
+42630	%	2004/3 de 17 de febrero de 2004	%	44833
+42424	%	2004/2 de 28 de enero de 2004	%	44833
+41900	%	2004/1 de 13 de enero de 2004	%	44833
+222	%	Fe de erratas del Boletín de Noticias RED 2008/1 de 4 de febrero	%	7855
+41899	%	Boletines de noticias del año 2003	%	7855
+41347	%	2003/12 de 21 de noviembre de 2003	%	41899
+41303	%	Aclaración al Boletín de Noticias RED 2003/11	%	41899
+41237	%	2003/11 de 5 de noviembre de 2003	%	41899
+40561	%	2003/10 de 1 de septiembre de 2003	%	41899
+40221	%	2003/9 de 18 de julio de 2003	%	41899
+40007	%	2003/8 de 23 de junio de 2003	%	41899
+39893	%	2003/7 de 30 de mayo de 2003	%	41899
+39447	%	2003/6 de 9 de mayo de 2003	%	41899
+38994	%	2003/5 de 4 de abril de 2003	%	41899
+38468	%	2003/4 de 10 de marzo de 2003	%	41899
+38254	%	2003/3 de 21 de febrero de 2003	%	41899
+37675	%	2003/2 de 3 de febrero de 2003	%	41899
+37680	%	Cotización correspondiente a vacaciones no disfrutadas y abonadas a la extinción del contrato de trabajo.	%	37675
+37684	%	Novedades de Afiliación	%	37675
+37685	%	Anexo I - Ejemplo práctico fichero FAN (Sólo relevante para desarrolladores de software de nómina)	%	37675
+37688	%	Anexo II - Mensaje afiliación versión 3.4.0. (Sólo relevante para desarrolladores de software de nómina).	%	37675
+37691	%	Anexo III - Formato de acuses técnicos (Sólo relevante para desarrolladores de software de nómina).	%	37675
+37334	%	Modificación del Boletín de Noticias RED 2003/1	%	41899
+37008	%	2003/1 de 16 de enero de 2003	%	41899
+37408	%	Boletines de noticias del año 2002	%	7855
+36119	%	2002/11 de 27 de diciembre de 2002	%	37408
+35384	%	2002/10 de 19 de noviembre de 2002	%	37408
+51832	%	Instrucciones de envío y descarga de ficheros. Seguimiento de la solicitud.	%	51797
+49458	%	Requisitos de acceso al Servicio Informe de Situación Actual	%	51796
+62	%	Servicio A006 - Informe de vida laboral últimos 6 meses	%	51814
+72	%	Instrucciones para la utilización del Servicio de Vida laboral últimos 6 meses	%	62
+76	%	Documento de Seguridad	%	72
+74	%	Formato de los Ficheros	%	72
+77	%	Instrucciones de envío y descarga de ficheros. Seguimiento de la solicitud.	%	72
+73	%	Requisitos de acceso al Servicio de Vida laboral últimos 6 meses	%	62
+323	%	Servicio A007 - Informe Alta laboral a fecha concreta	%	51814
+324	%	Instrucciones para la utilización del Servicio de Informe Alta laboral a fecha concreta 	%	323
+326	%	Documento de Seguridad	%	324
+327	%	Formato de los Ficheros	%	324
+328	%	Instrucciones de envío y descarga de ficheros. Seguimiento de la solicitud.	%	324
+325	%	Requisitos de acceso al Servicio de Informe Alta laboral a fecha concreta 	%	323
+60	%	Seguimiento de impugnaciones ante la TGSS	%	37807
+268	%	Acreditación actividad agraria cuenta propia 	%	37807
+47735	%	Certificados digitales	%	10432
+51671	%	Certificados para los que la Seguridad Social actúa como Autoridad de Registro	%	47735
+51678	%	DNI eléctrónico	%	47735
+45014	%	Oficinas de certificados digitales	%	10432
+11355	%	Requisitos técnicos	%	10432
+5300	%	Sistema Red	%	Internet
+7019	%	Información	%	5300
+39263	%	Información General	%	7019
+7020	%	¿Qué es el Sistema RED?	%	39263
+7838	%	¿A quién va dirigido?	%	39263
+7843	%	Ventajas del Sistema RED	%	39263
+7844	%	¿Qué infraestructura necesita? - Usuarios Windows	%	39263
+48977	%	¿Qué infraestructura necesita? - Usuarios Linux	%	39263
+45651	%	Formulario de Solicitud de Alta/Baja de Usuarios. Instrucciones para su cumplimentación.	%	45711
+48618	%	Variaciones de Datos del Organismo. Instrucciones para su cumplimentación.	%	45711
+45710	%	Instrucciones para la utilización de los servicios	%	49730
+48579	%	Documento de Seguridad	%	45710
+45653	%	Formato de los Ficheros de los Servicios	%	45710
+45707	%	Instrucciones de envío de ficheros de solicitud	%	45710
+45708	%	Instrucciones de descarga de ficheros de respuesta	%	45710
+45709	%	Instrucciones para el seguimiento de la solicitud	%	45710
+45715	%	Instrucciones para la instalación  del Java JRE	%	49730
+49447	%	Requisitos de acceso al Servicio Informe de Situación de Deuda	%	49730
+49593	%	Servicio A002 - Vida laboral de empresas	%	51814
+49696	%	A002- Informe de Vida Laboral de Empresas	%	49593
+49615	%	Instrucciones para la utilización del Servicio Vida Laboral de Empresas	%	49593
+49619	%	Nomenclatura de los ficheros	%	49615
+49616	%	Formato de los Ficheros	%	49615
+49620	%	Instrucciones Instalación Cliente IFI	%	49615
+49621	%	Instrucciones de uso	%	49615
+49594	%	Requisitos de acceso al Servicio Vida Laboral de Empresas	%	49593
+51759	%	Servicio A003 - Acreditación Actividad Agraria Cuenta Propia	%	51814
+52157	%	Requisitos de acceso al  Servicio de Acreditación de Actividad Agraria por Cuenta Propia	%	51759
+51760	%	Instrucciones para la utilización del Servicio de Acreditación de Actividad Agraria por Cuenta Propia	%	51759
+52159	%	Documento de Seguridad	%	51760
+51761	%	Formato de los Ficheros	%	51760
+52160	%	Instrucciones de envío y descarga de ficheros. Seguimiento de la solicitud.	%	51760
+51796	%	Servicio A004 - Informe de Situación Actual	%	51814
+51797	%	Instrucciones para la utilización del Servicio de Situación Actual	%	51796
+51801	%	Documento de Seguridad	%	51797
+51798	%	Formato de los Ficheros	%	51797
+37817	%	Situación de cotización/deuda trabajadores	%	37807
+37818	%	Información a acreedores del Sistema de Seguridad Social	%	37807
+37819	%	Percepción de pensiones públicas	%	37807
+37820	%	Revalorización de pensiones - Enero 2008	%	37807
+37821	%	Información de retenciones e ingresos a cuenta del IRPF - ejercicio 2007	%	37807
+37822	%	Asistencia sanitaria en desplazamientos temporales por Europa	%	37807
+38748	%	Consulta de estado de solicitud de informes	%	37807
+40889	%	¿Cómo va mi prestación?	%	37807
+42469	%	Solicitud de domiciliación en cuenta	%	37807
+48369	%	Servicios Profesionales del Sistema RED	%	37807
+43090	%	Usted mismo: programa de autocálculo de pensión de jubilación	%	37807
+45323	%	Autocálculo de convenios especiales	%	37807
+48313	%	Servicios de las Mutuas de Accidentes de Trabajo y Enfermedad Profesional	%	37807
+48319	%	Servicios de Centros Públicos de Salud	%	37807
+48321	%	Servicios del Instituto Cervantes	%	37807
+48323	%	Aplicación E-MOPRES. Modificaciones Presupuestarias de la Seguridad Social	%	37807
+50542	%	Comunicación de Enfermedades Profesionales. Aplicación CEPROSS	%	37807
+51734	%	Informe de datos identificativos y de domicilio	%	37807
+49730	%	Servicio R001- Situación de Deuda	%	51814
+45635	%	Instrucciones para la solicitud de acceso a los servicios	%	49730
+45636	%	Solicitud de acceso al Servicio de Cesión de Datos por un Organismo y sus Usuarios	%	45635
+45638	%	Variación de datos del Organismo	%	45635
+45642	%	Solicitud Alta / Baja de Usuarios de Servicios de Cesión de Datos	%	45635
+45650	%	Formularios de Solicitud	%	45635
+45711	%	Instrucciones cumplimentación	%	45635
+45645	%	Formulario de Solicitud de autorización de Organismo. Instrucciones para su cumplimentación.	%	45711
+49587	%	Formularios de Solicitud de Acceso para Usuarios. Instrucciones para su cumplimentación.	%	45711
+28641	%	Incompatibilidades	%	28622
+28851	%	Gestión / Solicitudes	%	28622
+28875	%	Normativa básica	%	28622
+39254	%	Folleto	%	28622
+10937	%	Normativa	%	10935
+28879	%	Servicios	%	10935
+28880	%	Solicitudes de prestaciones	%	28879
+30426	%	Solicitud de certificados	%	28879
+39203	%	Tarjeta sanitaria en desplazamientos por Europa	%	28879
+43076	%	Autocálculo de la pensión de jubilación	%	28879
+10538	%	Trabajadores del mar	%	4983
+29482	%	Formación	%	10538
+50361	%	Plan de Formación 2008	%	29482
+50362	%	Información general	%	50361
+50363	%	Cursos Programados	%	50361
+50368	%	Seguridad Marítima y Medioambiente	%	50363
+50370	%	Salud Laboral en el Trabajo Marítimo	%	50363
+50423	%	Prevención y Lucha Contra la Contaminación del Medioambiente Marino	%	50363
+50427	%	Tecnologías del Buque	%	50363
+50438	%	Frío y Climatización	%	50363
+50445	%	Electricidad y Electrónica	%	50363
+50453	%	Mantenimiento y Máquina - Herramienta naval	%	50363
+50463	%	Tecnologías de la Información	%	50363
+50466	%	Titulaciones Profesionales	%	50363
+50470	%	Técnicas de Pesca	%	50363
+50385	%	Lugares de impartición de los cursos	%	50361
+50491	%	Direcciones Provinciales y Escuelas Nautico Pesqueras	%	50385
+50386	%	Centros Nacionales de Formación Marítima	%	50385
+32577	%	Actividades formativas	%	29482
+32578	%	Instalaciones y tipos de centro	%	29482
+42939	%	Asistencia sanitaria	%	42924
+42940	%	Servicios sociales	%	42924
+42942	%	Otras ayudas, ... 	%	42924
+10967	%	Prestaciones familiares	%	10935
+27924	%	Prestación económica por hijo o menor acogido a cargo	%	10967
+27930	%	Causantes / Beneficiarios	%	27924
+27936	%	Cuantías	%	27924
+27938	%	Declaración y efectos de variaciones familiares	%	27924
+27939	%	Extinción / Incompatibilidades	%	27924
+27942	%	Gestión / Solicitudes	%	27924
+27947	%	Normativa	%	27924
+28334	%	Prestación económica por nacimiento o adopción de tercer o sucesivos hijos	%	10967
+85	%	Prestación económica por nacimiento o adopción de hijo, en supuestos de familias numerosas, monoparentales y en los casos de madres discapacitadas	%	10967
+33761	%	Prestación económica por parto o adopción múltiples	%	10967
+5079	%	Prestación no económica por cuidado de hijo, de menor acogido o de otros familiares	%	10967
+10970	%	Pensiones del Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	10935
+5135	%	Vejez	%	10970
+5128	%	Invalidez	%	10970
+5142	%	Viudedad	%	10970
+46039	%	(N.V.)Texto explicativo de la Reforma	%	10970
+46040	%	Texto explicativo de la Reforma	%	46039
+28622	%	Prestaciones del Seguro escolar	%	10935
+28623	%	Beneficiarios / requisitos	%	28622
+28871	%	Riesgos cubiertos	%	28622
+28635	%	Prestaciones	%	28622
+28650	%	Prestaciones por accidente escolar	%	28635
+28653	%	Prestaciones por enfermedad	%	28635
+28656	%	Prestaciones por infortunio familiar	%	28635
+28530	%	Extinción	%	28520
+29613	%	Gestión / Pago	%	28520
+28574	%	Solicitudes	%	28520
+5059	%	Normativa  básica	%	28520
+28536	%	Pensión en favor de familiares	%	10966
+28538	%	Beneficiarios	%	28536
+28539	%	Cuantía / Abono	%	28536
+5023	%	Hecho  causante / Efectos económicos	%	28536
+28542	%	Compatibilidades	%	28536
+28543	%	Extinción	%	28536
+29614	%	Gestión / Pago	%	28536
+5027	%	Solicitudes	%	28536
+5029	%	Normativa  básica	%	28536
+33970	%	Subsidio en favor de familiares	%	10966
+28558	%	Auxilio por defunción	%	10966
+28562	%	Cuantía	%	28558
+28563	%	Solicitudes	%	28558
+5014	%	Normativa  básica	%	28558
+28568	%	Indemnizaciones por AT o EP	%	10966
+252	%	Prestación temporal viudedad	%	10966
+254	%	Supuestos especiales de viudedad	%	10966
+255	%	Secc Prueba	%	10966
+6227	%	Regímenes Especiales	%	10964
+32509	%	Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	10964
+32607	%	Reglamentos Comunitarios de Seguridad Social	%	10964
+32609	%	Convenios Bilaterales de Seguridad Social	%	10964
+42924	%	Prestaciones por actos terroristas	%	10935
+42913	%	Pensiones por incapacidad permanente	%	42924
+42925	%	Pensiones de viudedad, orfandad y en favor de familiares	%	42924
+10938	%	Asistencia sanitaria	%	10935
+30475	%	Régimen General	%	10938
+30476	%	Beneficiarios / Situaciones protegidas	%	30475
+30480	%	Nacimiento del derecho / Duración / Extinción	%	30475
+30483	%	Contenido	%	30475
+30497	%	Gestión y solicitudes	%	30475
+30500	%	Normativa básica	%	30475
+6333	%	Regímenes Especiales	%	10938
+11566	%	Desplazamientos por Europa	%	10938
+10007	%	Países	%	11566
+43735	%	Alemania	%	10007
+5543	%	Austria	%	10007
+5550	%	Bélgica	%	10007
+5557	%	Dinamarca	%	10007
+5564	%	Finlandia	%	10007
+5578	%	Grecia	%	10007
+5585	%	Irlanda	%	10007
+5591	%	Islandia	%	10007
+5598	%	Italia	%	10007
+6054	%	Liechtenstein	%	10007
+5610	%	Luxemburgo	%	10007
+5617	%	Noruega	%	10007
+5623	%	Países Bajos	%	10007
+5630	%	Portugal	%	10007
+5637	%	Reino Unido	%	10007
+5537	%	Suecia	%	10007
+37484	%	Suiza	%	10007
+10952	%	Incapacidad temporal	%	10935
+28362	%	Régimen General	%	10952
+28363	%	Situaciones protegidas / Beneficiarios / Requisitos	%	28362
+28365	%	Cuantía	%	28362
+28368	%	Nacimiento del derecho / Duración / Pérdida o suspensión / Extinción	%	28362
+28370	%	Reconocimiento del derecho y pago	%	28362
+28375	%	Gestión y control	%	28362
+4347	%	Régimen Especial Seguro Escolar	%	10721
+39073	%	Normativa	%	10777
+11286	%	Normativa de Cotización	%	39073
+31407	%	Normas de gestión recaudatoria	%	39073
+34762	%	Convenios especiales	%	10777
+10778	%	Recaudación por vía Ejecutiva	%	10777
+7812	%	Información General	%	10778
+7808	%	Consideraciones sobre Pago de Cuotas	%	10778
+44687	%	Aplazamientos de  deudas	%	10777
+61	%	Impugnaciones Administrativas	%	10777
+78	%	Recurso de Alzada	%	61
+79	%	Recurso Extraordinario de Revisión	%	61
+80	%	Recurso Potestativo de Reposición	%	61
+40286	%	Documentos de cotización	%	10823
+51075	%	Modelos de Solicitud	%	40286
+34791	%	Servicios con certificado digital	%	10823
+34795	%	Situación de cotización trabajadores cuenta propia	%	34791
+34796	%	Informe de bases y cuotas ingresadas en el ejercicio seleccionado	%	34791
+34797	%	Solicitud cambio de base de cotización (autónomos)	%	34791
+39095	%	Solicitud de cambio de base de cotización (Convenios especiales)	%	34791
+39093	%	Informe de bases de cotización Régimen General y Mar	%	34791
+39094	%	Solicitud de rectificación de informe de bases de cotización	%	34791
+42471	%	Solicitud de domiciliación en cuenta	%	34791
+34793	%	Servicios sin certificado digital	%	10823
+34794	%	Informe de Bases de Cotización	%	34793
+38917	%	 Consulta de estado de solicitud de informes 	%	34793
+10935	%	Prestaciones / Pensiones	%	4983
+12778	%	Acción protectora - prestaciones	%	10935
+100	%	TA.0521 - Hoja Adicional. Declaración de inicio o cese de actividades del Régimen Especial de la Seguridad Social de los Trabajadores por cuenta propia o autónomos	%	48739
+41286	%	Modelo TA.0521/AT - Solicitud extraordinaria de cobertura de las contingencias profesionales en el Régimen Especial de Trabajadores por cuenta propia o autónomos. R.D. 753/2005	%	31190
+51792	%	Modelo TA.0531 - Solicitud de alta en el REA como trabajador por cuenta propia y baja RETA por cambio temporal de encuadramiento - Ley 18/2007	%	31190
+35507	%	Modelo TA.0611 - Baja en el censo agrario-Trabajadores por cuenta ajena	%	31190
+33873	%	Modelo TA.0613 - Solicitud de alta, baja, variación de datos en el Regimen Especial Agrario - Trab. por cuenta ajena	%	31190
+40697	%	Modelo TA.0721 - Solicitud de alta / baja / variación de datos en el Régimen Especial Agrario - Trabajadores por cuenta propia	%	31190
+51794	%	Modelo TA.0721 - Ley 18/2007 - Solicitud de alta / baja / variación de datos en el régimen especial agrario - trabajadores por cuenta propia -	%	31190
+42410	%	Modelo TA.0825- Solicitud de Alta, Baja, Variación de Datos en el Régimen especial de la Seguridad Social de los Trabajadores del Mar- Trabajadores por Cuenta Propia. Grupo III	%	31190
+37241	%	Modelo TA.1221 - Solicitud de alta, baja o variación de datos en el régimen especial de la Seguridad Social de empleados de hogar - trabajadores discontinuos -	%	31190
+3640	%	Modelo TA.4005 - Solicitud: Cambio de Base de Cotización	%	31190
+46272	%	Otros modelos	%	10817
+46248	%	T.RDL/102005 - Solicitud de  Reducción en el pago de cuotas de la Seguridad Social como consecuencia de daños producidos en el sector agrario por la sequía y otras adversidades climáticas- Real Decreto Ley 10/2005 y Orden TAS/2741/2005-	%	46272
+10838	%	Formularios de trabajadores desplazados	%	10817
+48672	%	Modelos de Solicitud (Desempleo) Trabajadores del Mar	%	10817
+34784	%	Servicios con certificado digital	%	10817
+34786	%	Informe de vida laboral	%	34784
+34787	%	Situación laboral actual	%	34784
+34788	%	Duplicado de documento de afiliación	%	34784
+34789	%	Solicitud de rectificación de informe de vida laboral	%	34784
+51758	%	Informe de datos identificativos y de domicilio	%	34784
+34785	%	Servicios sin certificado digital	%	10817
+34790	%	Informe de vida laboral	%	34785
+38916	%	 Consulta de estado de solicitud de informes 	%	34785
+32579	%	Becas y ayuda al estudio	%	29482
+34092	%	Solicitud de Admisión a cursos del ISM	%	29482
+35300	%	Sanidad Marítima	%	10538
+35301	%	Medicina Preventiva	%	35300
+35310	%	Medicina Asistencial	%	35300
+35390	%	Asistencia Sanitaria	%	35300
+35391	%	Normativa	%	35300
+35399	%	Guía Sanitaria a Bordo	%	35300
+38602	%	Programas Sociales	%	10538
+38603	%	Plan de Bienestar y Servicios Sociales del Instituto Social de la Marina	%	38602
+39605	%	Hospederías	%	38602
+39607	%	Prestaciones Asistenciales y Ayudas Económicas de Carácter Social	%	38602
+39632	%	Subvenciones a instituciones sin fin de  lucro	%	38602
+50978	%	Servicios a los trabajadores del mar	%	38602
+39634	%	Normativa	%	38602
+39710	%	Empleo y Desempleo	%	10538
+39711	%	Empleo	%	39710
+39816	%	Desempleo	%	39710
+39854	%	Prestación por desempleo de nivel contributivo	%	39816
+39878	%	Prestación por desempleo de nivel asistencial (subsidio)	%	39816
+49698	%	Renta Activa de Inserción	%	39816
+49442	%	Modelos de solicitud de prestaciones por desempleo del ISM	%	39816
+4986	%	Pensionistas	%	Internet
+33466	%	Pensiones	%	4986
+33467	%	Modalidades / Clases	%	33466
+35102	%	Características	%	33466
+38798	%	Gestión / Pago	%	4986
+38855	%	Gestión / Control	%	38798
+33468	%	Devengo / Responsabilidad	%	38798
+33673	%	Modalidades pago	%	38798
+39169	%	Retenciones IRPF	%	38798
+37399	%	Modelo T.3 - Solicitud de documento o información existentes en las bases de datos de la Tesorería General de la Seguridad Social sobre personas físicas	%	31190
+37213	%	Modelo TA.4 - Solicitud de rectificación de datos de vida laboral	%	31190
+37403	%	Modelo T.5 - Autorización de entrega de información a persona distinta a su titular	%	31190
+48541	%	Modelo TA.6 - Solicitud de inscripción en el sistema de la Seguridad Social 	%	31190
+48806	%	Modelo TA.7 - Solicitud de alta, baja y variación de datos de cuenta de cotización	%	31190
+48863	%	Modelo TA.8 - Solicitud de cambio de cuenta de cotización para trabajadores	%	31190
+49127	%	Modelo TA.16 - Formalización de la cobertura de riesgos profesionales con la entidad gestora de la Seguridad Social	%	31190
+37191	%	Modelo TA.0021 - Propuesta de adhesión para cobertura de la prestación económica de incapacidad temporal	%	31190
+40622	%	Modelo TA.0040-ERE - Solicitud de: alta / baja / suspensión / reanudación / variación de datos de convenio especial de empresarios y trabajadores sujetos a expedientes de regulación de empleo que incluyan trabajadores con 55 o más años 	%	31190
+41204	%	Modelo TA.0040 - Solicitud de Alta, Baja y Variación de datos/ Suspensión / Reanudación /  Extensión del convenio especial	%	31190
+43115	%	Modelo TA.0040/CS - Solicitud de sustitución de Convenio Especial al amparo de la Orden TAS/2865/2003	%	31190
+51701	%	Modelo TA.0040 SJ -  Solicitud de designación de sujeto responsable del ingreso de cuotas de Convenio Especial distinto al suscriptor del convenio.	%	31190
+48739	%	Modelo TA.0521 - Solicitud de alta / baja / variación de datos en el Régimen Especial de Autónomos	%	31190
+48746	%	Instrucciones	%	48739
+48740	%	TA.0521-2-Familiar colaborador del titular de la explotación	%	48739
+48741	%	TA.0521-3 - Religioso de la Iglesia Católica	%	48739
+48742	%	TA.0521-4 - Socios de cooperativas de trabajo asociado	%	48739
+48743	%	TA.0521-5 - Socios, familiares de socios o miembros de órganos de administración de sociedades mercantiles capitalistas	%	48739
+48744	%	TA.0521-6 - Socios de comunidades de bienes, sociedades civiles, colectivas o comandatarias	%	48739
+99	%	TA.0521-7 - Solicitud Trabajadores por cuenta propia Agrarios	%	48739
+207	%	TA.521-8 - Solicitud Trabajadores autónomos económicamente dependientes	%	48739
+48745	%	TA.0521-1 - Solicitud simplificada	%	48739
+51635	%	Convenio especial de cuidadores no profesionales de personas en situación de dependencia R.D. 615/2007	%	10555
+43031	%	Convenios para trabajadores en el extranjero y de asistencia sanitaria	%	10547
+4244	%	Convenio especial de asistencia sanitaria para perceptores de pensiones suizas residentes en España	%	43031
+4237	%	Convenio especial para la cobertura de la asistencia sanitaria a emigrantes trabajadores y pensionistas de un sistema de previsión social extranjero que retornen a territorio nacional y a los familiares de los mismos	%	43031
+4266	%	Convenio especial de asistencia sanitaria respecto de trabajadores españoles que realicen una actividad por cuenta propia en el extranjero	%	43031
+4231	%	Convenio especial de los emigrantes españoles e hijos de estos retornados	%	43031
+4224	%	Convenio especial para los emigrantes españoles e hijos de estos que trabajen en el extranjero y seglares, misioneros y cooperantes	%	43031
+4259	%	Convenio especial para los incluidos en el campo de aplicación del sistema de Seguridad Social español que pasen a prestar servicios en la administración de la Unión Europea	%	43031
+10553	%	Otros convenios especiales	%	10547
+40925	%	Convenio especial de empresarios y trabajadores sujetos a expedientes de regulación de empleo que incluyan trabajadores con 55 o más años	%	10553
+42656	%	Convenio especial durante las situaciones de permanencia en alta sin retribución, cumplimiento de deberes públicos, permisos y licencias	%	10553
+42674	%	Convenio especial para deportistas de alto nivel	%	10553
+42690	%	Convenio especial para los trabajadores que ostenten la condición de funcionarios o empleados de Organizaciones Internacionales intergubernamentales	%	10553
+30354	%	Normativa	%	10539
+30355	%	Trabajadores desplazados	%	10539
+209	%	Impugnaciones Administrativas	%	10539
+10817	%	Servicios	%	10539
+31190	%	Modelos de solicitudes de afiliación	%	10817
+38173	%	 Modelo TA.1 - Solicitud de afiliación a la seguridad social, asignación de número de seguridad social y variación de datos en castellano  	%	31190
+11528	%	ModeloTA.2/S - Solicitud de alta, baja y variación de datos del trabajador por cuenta ajena o asimilada (castellano, catalán, euskera, gallego y valenciano)	%	31190
+37407	%	Modelo TA.2/S - Simplificado - Solicitud de baja del trabajador/a por cuenta ajena o asimilado	%	31190
+37217	%	Modelo TA.2/T - Solicitud de alta, baja o variación de datos del trabajador por cuenta ajena - a instancia del trabajador/a -	%	31190
+30061	%	Contratación Temporal o de Duración Determinada	%	30035
+30088	%	Aspectos comunes a la identificación ante la Tesorería General de la Seguridad Social de las contrataciones incentivadas	%	30035
+30118	%	Supuestos Especiales de identificación de Modalidades de Contratos de Trabajo	%	30035
+45338	%	Incentivos a la actividad autónoma	%	30035
+30124	%	Incentivos a la Contratación Respecto de la Cotización a la Seguridad Social	%	30035
+10548	%	Regímenes: ¿Quiénes los integran?	%	10539
+10562	%	Régimen General de la Seguridad Social	%	10548
+4072	%	¿Quiénes están incluidos en el Régimen General?	%	10562
+32737	%	Regímenes Especiales Integrados	%	10562
+32868	%	Sistemas  Especiales	%	10562
+32764	%	Régimen Especial  Agrario	%	10548
+32820	%	Régimen  Especial de Empleados del Hogar	%	10548
+32836	%	Régimen Especial de la Minería  del Carbón	%	10548
+32840	%	Régimen Especial de Trabajadores del Mar	%	10548
+10547	%	Convenios especiales	%	10539
+4184	%	Conceptos generales	%	10547
+10554	%	Regulación general	%	10547
+4211	%	Regulación general	%	10554
+4192	%	Cotización	%	10554
+10555	%	Supuestos especiales	%	10547
+4217	%	Convenio especial de trabajadores que reduzcan la jornada por cuidado de un menor, minusvalido o familiar	%	10555
+4204	%	Convenio especial de trabajadores contratados a tiempo parcial	%	10555
+18077	%	Convenio especial de trabajadores perceptores del subsido de desempleo para mayores de 52 años	%	10555
+4198	%	Convenio especial de trabajadores preceptores del subsidio de desempleo con derecho a cotización por la contingencia de jubilación	%	18077
+10620	%	Cotización	%	18077
+4187	%	Convenio especial durante la situacion de alta especial como consecuencia de huelga legal o cierre patronal	%	10555
+42665	%	Convenio especial para trabajadores que cesen en las prestaciones de servicios o actividades	%	10555
+SeleccionEstilos	%	Selección de estilos visuales	%	40247
+34975	%	Novedades	%	Internet
+4983	%	Trabajadores	%	Internet
+10539	%	Afiliación	%	4983
+30348	%	Información general	%	10539
+7332	%	Afiliación de trabajadores	%	10539
+32765	%	Altas, bajas y variaciones de datos de  trabajadores	%	10539
+32766	%	Concepto de alta, baja y variación de datos	%	32765
+32767	%	Sujetos obligados a su comunicación	%	32765
+32768	%	Datos que deben contener las solicitudes	%	32765
+32770	%	Modelos de solicitud	%	32765
+32772	%	Plazos de presentación	%	32765
+32769	%	Forma de practicarse	%	32765
+32773	%	Efectos	%	32765
+32774	%	Particularidades de cada Régimen	%	32765
+32895	%	Régimen General de la Seguridad Social	%	32774
+32903	%	Régimen Especial Agrario	%	32774
+32613	%	Régimen Especial de Empleados de Hogar	%	32774
+32817	%	Régimen Especial de Trabajadores Autónomos	%	32774
+32658	%	Régimen Especial de la Minería del Carbón	%	32774
+32661	%	Régimen Especial de Trabajadores del Mar	%	32774
+32775	%	Situación asimilada a la de alta	%	32765
+32776	%	Tipos de contratos	%	32765
+30035	%	Incentivos a la contratación, a la actividad autónoma y otras peculiaridades de cotización	%	10539
+30036	%	Identificación de los incentivos a la contratación, o a la actividad autónoma, y otras peculiaridades de la cotización de la Seguridad social en las actuaciones ante la Tesorería General de la Seguridad Social	%	30035
+30038	%	Trabajadores por cuenta ajena o asimilados a cuenta ajena y otras personas que no precisan tener clave de modalidad de contrato de trabajo a efecto de la Seguridad Social	%	30035
+30039	%	Relación de Claves de Modalidad de Contrato de Trabajo	%	30035
+30040	%	Contratos Indefinidos	%	30035
+33005	%	2002/6 de 21 de junio de 2002	%	37408
+38325	%	Sumarios 2000	%	47895
+46460	%	Índice de disposiciones de la Seguridad Social	%	12607
+28669	%	Real decreto de revalorización de pensiones	%	12607
+33879	%	Claves según modalidades de contratos de trabajo a efectos de la Gestión de la Seguridad Social	%	12607
+12643	%	Manuales	%	12412
+17787	%	Manual práctico de cotización	%	12643
+43008	%	Manuales del Sistema Red	%	12643
+49803	%	Manuales de Cliente IFI	%	12643
+12683	%	Oferta de Empleo Público	%	12412
+51335	%	2007	%	12683
+51336	%	Grupo A. Convocatorias y listados	%	51335
+51394	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y promoción interna)	%	51336
+51395	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social ( Acceso libre y promoción interna)	%	51336
+51364	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social ( Acceso libre)	%	51336
+51339	%	Escala de Titulados Superiores del Instituto Nacional de Seguridad e Higiene en el Trabajo	%	51336
+51337	%	Grupo B. Convocatorias y listados	%	51335
+51340	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna)	%	51337
+51607	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad (acceso libre y promoción interna)	%	51337
+51338	%	Grupo C. Convocatorias y listados	%	51335
+51341	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna)	%	51338
+51446	%	Grupo D. Convocatorias y listados	%	51335
+51447	%	Cuerpo Auxiliar de la Administración de la Seguridad Social (Acceso libre)	%	51446
+47944	%	2006	%	12683
+47945	%	Grupo A. Convocatorias  y listados	%	47944
+48837	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y promoción interna)	%	47945
+49066	%	Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	47945
+49067	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social ( Acceso libre y promoción interna) 	%	47945
+27767	%	Anexo IV	%	27741
+49432	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social ( Acceso libre )	%	47945
+47946	%	Grupo B. Convocatorias  y listados	%	47944
+47948	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad (acceso libre y promoción interna)	%	47946
+48613	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna)	%	47946
+47947	%	Grupo C. Convocatorias  y listados	%	47944
+48631	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna)	%	47947
+47010	%	2005	%	12683
+46955	%	Grupo A. Convocatorias  y listados	%	47010
+46977	%	Médicos Inspectores (46 plazas)	%	46955
+46978	%	Titulado Sanitario y Asistencial (1 plaza) 	%	46955
+46979	%	Cuerpo Superior de Sistemas y Tecnologías de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46955
+46980	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social (Acceso Libre) 	%	46955
+46981	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46955
+46982	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46955
+46983	%	Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46955
+46956	%	Grupo B. Convocatorias  y listados	%	47010
+46984	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna) 	%	46956
+46985	%	Escala de Programadores de Informática de la Seguridad Social (Promoción interna) 	%	46956
+46957	%	Grupo C. Convocatorias  y listados	%	47010
+46987	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna) 	%	46957
+46988	%	Escala de Operadores de Ordenador de Informática de la Administración de la Seguridad Social (Promoción interna) 	%	46957
+46989	%	Cuerpo General Administrativo de la Administración del Estado (Consolidación) 	%	46957
+47011	%	2004	%	12683
+46951	%	Grupo A. Convocatorias  y listados	%	47011
+46963	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46951
+46964	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46951
+47549	%	Ejercicio 2006	%	46130
+46965	%	Cuerpo Superior de Sistemas y Tecnologías de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46951
+46966	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social (Acceso Libre) 	%	46951
+46967	%	Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social (Acceso libre y Promoción interna) 	%	46951
+46952	%	Grupo B. Convocatorias  y listados	%	47011
+46968	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna) ORDEN TAS/983/2004 	%	46952
+46969	%	Escala de Programadores de Informática de la Seguridad Social (Acceso libre y promoción interna) 	%	46952
+46970	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de auditoría y contabilidad (Acceso Libre y de Promoción interna)	%	46952
+46971	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Acceso libre)	%	46952
+46953	%	Grupo C. Convocatorias  y listados	%	47011
+46972	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna) ORDEN TAS/984/2004 	%	46953
+46973	%	Otros Procesos Publicados en 2004 	%	46953
+46954	%	Grupo D. Convocatorias  y listados	%	47011
+46974	%	Otros Procesos Publicados en 2004 	%	46954
+46975	%	Personal laboral. Convocatorias y listados	%	47011
+46976	%	Personal laboral del Buque Esperanza del Mar	%	46975
+46959	%	Modelo 790-Solicitud de admisión a pruebas selectivas en la Administración Pública y liquidación de tasas de derechos de examen	%	12683
+49430	%	Concurso Macro 2006	%	12683
+216	%	2008	%	12683
+38508	%	Compra de inmuebles	%	12412
+37940	%	¿Quién está obligado a cotizar?	%	37939
+37941	%	Normas de cotización - recaudación 2007	%	37939
+37942	%	Bases de cotización régimen especial de trabajadores del mar 	%	37939
+37943	%	Bases diarias normalizadas de cotización, por contingencias comunes	%	37939
+49804	%	Manual Práctico de Cotización 2007	%	37939
+49805	%	Documentos de Cotización	%	37939
+43106	%	Programa de autocálculo de la pensión de jubilación	%	12412
+38084	%	Estadísticas e Informes	%	10475
+38085	%	Presupuestos de la Seguridad Social	%	38084
+47653	%	Mutuas de accidentes de trabajo y enfermedades profesionales de la Seguridad Social	%	47652
+49895	%	Tomo 4: Entidades Gestoras y Tesorería General	%	49890
+50822	%	Informe Económico-Financiero	%	47507
+47594	%	III Presupuesto del Sistema de la Seguridad Social	%	47589
+242	%	Estudios ( Propuesta 2008)	%	48073
+51557	%	Trípticos de Prestaciones Económicas	%	51551
+38309	%	Sumarios del año 2003	%	29496
+50284	%	ERROR	%	40638
+44671	%	Plantilla	%	43384
+45723	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna)	%	45722
+51283	%	Grupo C. Bachiller Superior, Bachillerato Unificado, Bachiller-LOGSE, F.P. Segundo Grado o pruebas de acceso a la Universidad para mayores de 25 años	%	51273
+10910	%	Régimen Especial de Empleados de Hogar	%	10444
+265	%	Prestación económica por nacimiento o adopción de hijo, en supuestos de familias numerosas, monoparentales y en los casos de madres discapacitadas	%	44999
+44880	%	Prestación económica por parto o adopción múltiples	%	44999
+266	%	Prestación económica por nacimiento o adopción de hijo	%	44999
+44874	%	Prestación no económica por cuidado de hijo, de menor acogido o de otros familiares	%	44999
+45073	%	Seguro escolar	%	44539
+45964	%	Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	44539
+45195	%	Asistencia Sanitaria	%	44539
+46998	%	Demanda de Empleo	%	44539
+47002	%	Prestación por Desempleo de Nivel Contributivo	%	44539
+47006	%	Prestación por Desempleo de Nivel Asistencial (Subsidio)	%	44539
+49706	%	Renta Activa de Inserción	%	44539
+43384	%	Descripciones de Procedimientos	%	44539
+44147	%	Procedimiento de Obtención del Número de Seguridad Social	%	43384
+44149	%	Procedimiento de Inscripción del Empresario	%	43384
+44153	%	Procedimiento de alta, baja y variación de datos en el Régimen Especial de Trabajadores Autónomos	%	43384
+44155	%	Procedimiento de alta, baja y variación de datos en el Régimen Especial del Mar	%	43384
+44157	%	Procedimiento de alta, baja y variación de datos en el Régimen Especial de la Minería del Carbón	%	43384
+44159	%	Procedimiento de alta, baja y variación de datos en el Régimen General de la Seguridad Social	%	43384
+44163	%	Procedimiento de alta, baja y variación de datos en el Régimen Empleados del Hogar	%	43384
+44165	%	Procedimiento  de solicitud del Convenio especial para la cobertura de la asistencia sanitaria a emigrantes trabajadores y pensionistas de un sistema de previsión social extranjero que retornen a territorio nacional y a los familiares de los mismos.	%	43384
+44167	%	Procedimiento de solicitud del Convenio especial de Asistencia Sanitaria para pensionistas de nacionalidad Suiza residentes en España.	%	43384
+44169	%	Procedimiento de solicitud del  Convenio especial para los incluidos en el campo de aplicación del sistema de Seguridad Social Español que pasen a prestar servicios en la Administración de la Unión Europea	%	43384
+44171	%	Procedimiento de solicitud del Convenio especial de asistencia sanitaria respecto de trabajadores españoles que realicen una actividad por cuenta propia en el extranjero	%	43384
+44173	%	Procedimiento de solicitud del Convenio especial de trabajadores que cesen en las prestaciones de servicios o actividades.	%	43384
+34758	%	Informe sobre las bases de cotización	%	37807
+44175	%	Procedimiento de solicitud del Convenio especial ordinario	%	43384
+44177	%	Procedimiento de solicitud del Convenio especial de trabajadores perceptores del subsidio de desempleo para mayores de 52 años	%	43384
+44181	%	Procedimiento de solicitud del Convenio especial durante la situación de alta especial como consecuencia de huelga legal o cierre patronal	%	43384
+44183	%	Procedimiento de solicitud del Convenio especial de trabajadores contratados a tiempo parcial	%	43384
+44185	%	Procedimiento de solicitud del Convenio especial de trabajadores que reduzcan la jornada por cuidado de un menor, minusválido o familiar	%	43384
+44187	%	Procedimiento  de solicitud del Convenio especial para los emigrantes españoles e hijos de estos y Seglares, Misioneros y Cooperantes que trabajen en el extranjero	%	43384
+44189	%	Procedimiento de solicitud del Convenio especial de los emigrantes españoles e hijos de estos retornados	%	43384
+44274	%	Procedimiento de solicitud del Convenio especial de los trabajadores de temporada en periodos de inactividad y para los comprendidos en los sistemas especiales de frutas y hortalizas y conservas vegetales del Régimen General de la Seguridad Social	%	43384
+44276	%	Procedimiento de solicitud del Convenio especial de empresarios y trabajadores sujetos a expedientes de regulación de empleo que incluyan trabajadores con 55 o más años.	%	43384
+44278	%	Procedimiento de solicitud del Convenio especial durante las situaciones de permanencia en alta sin retribución, cumplimiento de deberes públicos, permisos y licencias.	%	43384
+44280	%	Procedimiento de solicitud del Convenio especial para deportistas de alto nivel.	%	43384
+44282	%	Procedimiento de solicitud del Convenio especial para los trabajadores que ostenten la condición de funcionarios o empleados de organizaciones internacionales intergubernamentales.	%	43384
+44042	%	Procedimiento de Maternidad	%	43384
+51464	%	Procedimiento de Paternidad	%	43384
+44673	%	Procedimiento de Incapacidad Temporal	%	43384
+51466	%	Procedimiento de Riesgo durante la lactancia natural	%	43384
+44854	%	Procedimiento de asignación económica por hijo o menor acogido a cargo	%	43384
+269	%	Procedimiento de prestación económica por nacimiento o adopción de hijo, en supuestos de familias numerosas, monoparentales y en los casos de madres discapacitadas	%	43384
+270	%	Procedimiento de Prestación económica por nacimiento o adopción de hijo	%	43384
+44988	%	Procedimiento de prestación económica por nacimiento o adopción de un tercer o sucesivos hijos	%	43384
+44990	%	Procedimiento de prestación económica por parto o adopción múltiples	%	43384
+44992	%	Procedimiento de prestación no económica por cuidado de hijo, de menor acogido o de otros familiares	%	43384
+51814	%	Servicios de cesión de datos para las Administraciones Públicas ( R.D . 209/2003 )	%	37807
+45077	%	Seguro escolar	%	43384
+45200	%	Asistencia Sanitaria	%	43384
+45374	%	Procedimiento de Pensión deJubilación	%	43384
+45968	%	Procedimiento de Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	43384
+45680	%	Procedimiento de Pensión de viudedad	%	43384
+45682	%	Procedimiento de Pensión de orfandad	%	43384
+45684	%	Procedimiento de Pensión en favor de familiares	%	43384
+45686	%	Procedimiento de Subsidio en favor de familiares	%	43384
+45688	%	Auxilio por defunción	%	43384
+45757	%	Procedimiento de Aplazamientos de deudas	%	43384
+45987	%	Procedimiento de Incapacidad Permanente	%	43384
+46001	%	Procedimiento de Prestación por lesiones permanentes no invalidantes	%	43384
+46568	%	Procedimiento de Recaudación por vía ejecutiva	%	43384
+47017	%	Procedimiento de Demanda de Empleo	%	43384
+47019	%	Procedimiento de Prestación por Desempleo de Nivel Contributivo	%	43384
+47021	%	Procedimiento de Prestación por Desempleo de Nivel Asistencial (Subsidio)	%	43384
+49710	%	Procedimiento de Renta Activa de Inserción	%	43384
+125	%	Procedimiento de Recurso de Alzada	%	43384
+126	%	Procedimiento de Recurso Potestativo de Reposición	%	43384
+127	%	Procedimiento de Recurso Extraordinario de Revisión	%	43384
+52297	%	Seguro Obligatorio de Vejez e Invalidez (SOVI) (copia migracion)	%	44539
+104	%	Recurso de Alzada	%	44539
+128	%	Recurso Potestativo de Reposición	%	44539
+129	%	Recurso Extraordinario de Revisión	%	44539
+44663	%	Plantilla	%	44539
+10462	%	HW	%	Internet
+10473	%	Direcciones	%	10462
+33524	%	Gestión Telefónica	%	10473
+28298	%	Direcciones y teléfonos	%	10473
+49613	%	Software IFI	%	49593
+46277	%	Ayuda del Buscador Avanzado	%	10462
+51148	%	Guía de Navegación	%	10462
+51775	%	Ayuda por nuevo hijo	%	10462
+51780	%	Incorporación agrarios cuenta propia en Régimen de autónomos	%	10462
+51511	%	Convenio especial para cuidadores no profesionales de personas dependientes	%	10462
+45	%	Nuevas Prestaciones Familiares	%	10462
+101	%	Ley de Medidas específicas en materia de Seguridad Social	%	10462
+206	%	Deducción IRPF sobre pensiones y prestaciones de la Seguridad Social	%	10462
+257	%	Buzón de Consultas	%	10462
+35821	%	ENLACES RECOMENDADOS	%	Internet
+40637	%	Búsquedas no disponibles	%	35821
+40649	%	TC 13/1	%	40637
+46351	%	TA.1211/E	%	40637
+40638	%	Búsquedas erróneas	%	35821
+40643	%	Sistema Delta	%	40638
+40645	%	I.A.E	%	40638
+40647	%	E-301	%	40638
+40705	%	Guía laboral	%	40638
+41345	%	Fundación Laboral de la Construcción	%	40638
+43108	%	cnae93	%	40638
+43582	%	Fábrica Nacional de Moneda y Timbre	%	40638
+48678	%	Agencia Tributaria	%	40638
+48697	%	Ministerio de Trabajo y Asuntos Sociales	%	40638
+51088	%	Índice de Precios al Consumo (IPC)	%	40638
+10475	%	Área de descargas	%	Internet
+12723	%	Modelos de solicitud	%	10475
+12724	%	Afiliación / Inscripción	%	12723
+38174	%	 Modelo TA.1	%	12724
+40533	%	Modelo TA.2/S simplificado	%	12724
+40657	%	Modelo TA.2/T	%	12724
+40545	%	Modelo T.3	%	12724
+40550	%	Modelo TA.4	%	12724
+51674	%	Otras Autoridades de Certificación	%	47735
+40551	%	Modelo T.5	%	12724
+48542	%	Modelo TA.6 - Solicitud de inscripción en el sistema de la Seguridad Social 	%	12724
+48807	%	Modelo TA.7 - Solicitud de alta, baja y variación de datos de cuenta de cotización	%	12724
+48862	%	Modelo TA.8 - Solicitud de cambio de cuenta de cotización para trabajadores	%	12724
+37944	%	 Modelo TA.0021	%	12724
+40623	%	Modelo TA.0040-ERE	%	12724
+44573	%	Modelo TA.0040-ERE C.A.	%	12724
+48997	%	Modelo TA.0040	%	12724
+48998	%	Modelo TA.0040/ CS	%	12724
+51704	%	Modelo TA.0040 SJ	%	12724
+40576	%	Modelo TA.48	%	12724
+39374	%	 Modelo TA.0521	%	12724
+41290	%	Modelo TA.0521/AT (castellano)	%	12724
+38234	%	Modelo TA.0611	%	12724
+34775	%	Modelo TA.0611/JR 	%	12724
+35414	%	Modelo TA.0613	%	12724
+35415	%	Modelo TA.0613 múltiple	%	12724
+35416	%	Modelo TA.0613 simplificado	%	12724
+40702	%	Modelo TA.0721	%	12724
+42420	%	Modelo TA.0825	%	12724
+37945	%	 Modelo TA.1211	%	12724
+37946	%	 Modelo TA.1221	%	12724
+38020	%	Cotización	%	12723
+38021	%	TC - 1 Boletín de cotización al régimen general de la Seguridad Social, con inclusión de modelo TC2 abreviado 	%	38020
+38026	%	TC - 1-3 Boletín de cotización al régimen general de la Seguridad Social. Colectivo de representantes de comercio	%	38020
+38027	%	TC - 1-4 Boletín de cotización al régimen especial de la minería del carbon	%	38020
+38029	%	TC - 1-8 Boletín de Cotización al Régimen Especial Agrario de la Seguridad Social. Liquidación de cuotas por Jornadas Reales 	%	38020
+38033	%	TC - 1-11 Boletín de cotización al régimen general de la Seguridad Social. Colectivo de artistas y profesionanes taurinos. Trabajadores	%	38020
+10973	%	Servicios	%	4986
+28401	%	Régimen financiero y Capitales Coste	%	28354
+28450	%	Normas y textos de los Convenios de Reaseguro	%	28354
+28451	%	Noticias y Consultas Especiales	%	28354
+28484	%	Prestaciones de Pago Único e Invalidez Provisional	%	28354
+44539	%	Trámites y Gestiones	%	Internet
+44084	%	Obtención del Número de la Seguridad Social / Afiliación	%	44539
+44113	%	Alta, baja y variación de datos de los trabajadores	%	44539
+44136	%	Alta, baja y variación de datos en el  Régimen General de la Seguridad Social	%	44113
+44114	%	Alta, baja y variación de datos en el Régimen Especial Agrario	%	44113
+44118	%	Alta, baja y variación de datos en el Régimen Especial de Empleados de Hogar	%	44113
+44128	%	Alta, baja y variación de datos en el Régimen Especial de Trabajadores Autónomos	%	44113
+44132	%	Alta, baja y variación de datos en el  Régimen Especial de la Minería del Carbón	%	44113
+44122	%	Alta, baja y variación de datos en el Régimen Especial de Trabajadores del Mar	%	44113
+44100	%	Convenios Especiales	%	44539
+44103	%	Supuestos especiales	%	44100
+44204	%	Convenio especial ordinario	%	44103
+44208	%	Convenio especial de trabajadores que reduzcan la jornada por cuidado de un menor, minusválido o familiar	%	44103
+44212	%	Convenio especial de trabajadores contratados a tiempo parcial	%	44103
+44216	%	Convenio especial de trabajadores perceptores del subsidio de desempleo para mayores de 52 años	%	44103
+44224	%	Convenio especial de trabajadores que cesen en las prestaciones de servicios o actividades.	%	44103
+44101	%	Convenios para trabajadores en el extranjero y de asistencia sanitaria	%	44100
+44191	%	Convenio especial de asistencia sanitaria para pensionistas de nacionalidad suiza residentes en España.	%	44101
+44228	%	Convenio especial para la cobertura de la asistencia sanitaria a emigrantes trabajadores y pensionistas de un sistema de previsión social extranjero que retornen a territorio nacional y a los familiares de los mismos.	%	44101
+44232	%	Convenio especial de asistencia sanitaria respecto de trabajadores españoles que realicen una actividad por cuenta propia en el extranjero.	%	44101
+44236	%	Convenio especial de los emigrantes españoles e hijos de estos retornados.	%	44101
+44240	%	Convenio especial para los emigrantes españoles e hijos de estos que trabajen en el extranjero, y seglares, misioneros y cooperantes	%	44101
+39636	%	Comunidades Autónomas con servicios sociales transferidos.	%	38602
+47662	%	2004	%	9950
+43175	%	Grupo A. Licenciatura, Ingeniería, Arquitectura o equivalentes.	%	47662
+43176	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	43175
+43188	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	43175
+43223	%	Cuerpo Superior de Sistemas y Tecnologías de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	43175
+43347	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social (Acceso Libre)	%	43175
+43874	%	Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	43175
+43148	%	Grupo B. Diplomatura, Ingeniería Técnica, F.P tercer grado o equivalente.	%	47662
+43149	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna) ORDEN TAS/983/2004	%	43148
+43180	%	Escala de Programadores de Informática de la Seguridad Social (Acceso libre y promoción interna)	%	43148
+43217	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de auditoría y contabilidad (Acceso Libre y de Promoción interna)	%	43148
+43612	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Acceso libre)	%	43148
+43040	%	Grupo C. Bachiller Superior, Bachillerato Unificado, Bachiller-LOGSE, F.P. Segundo Grado o pruebas de acceso a la Universidad para mayores de 25 años.	%	47662
+43141	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna) ORDEN TAS/984/2004	%	43040
+43041	%	Otros Procesos Publicados en 2004	%	43040
+44417	%	Grupo D. Graduado Escolar, F.P. Primer Grado o equivalentes.	%	47662
+43622	%	Personal Laboral	%	47662
+43625	%	PERSONAL LABORAL DEL BUQUE ESPERANZA DEL MAR	%	43622
+45182	%	DESCARGA DEL MODELO 790	%	9950
+49368	%	Concurso Macro 2006	%	9950
+49369	%	Bases BOE y correcciones de erratas	%	49368
+49370	%	Anexos (vacantes, resultas, modelos de solicitud, etc...)	%	49368
+49371	%	Notas informativas	%	49368
+50504	%	Listados Provisionales	%	49368
+50938	%	Listados definitivos	%	49368
+28354	%	Gestión de capitales coste y reaseguro de accidentes de trabajo	%	39715
+50371	%	Seguridad Operacional del Buque	%	50363
+49013	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social ( Acceso libre y promoción interna)	%	47901
+49346	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social ( Acceso libre )	%	47901
+47897	%	Grupo B. Diplomatura, Ingeniería Técnica, FP Tercer Grado o equivalente	%	47896
+47899	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad ( acceso libre y promoción interna)	%	47897
+48611	%	Cuerpo de Gestión de la Administración de la Seguridad Social (Promoción interna)	%	47897
+47902	%	Grupo C. Bachiller Superior, Bachillerato Unificado, Bachiller-LOGSE, F.P. Segundo Grado o pruebas de acceso a la Universidad para mayores de 25 años.	%	47896
+48625	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna)	%	47902
+47661	%	2005	%	9950
+45171	%	Grupo A. Licenciatura, Ingeniería, Arquitectura o equivalentes.	%	47661
+45172	%	Médicos Inspectores (46 plazas)	%	45171
+45324	%	Titulado Sanitario y Asistencial (1 plaza)	%	45171
+45799	%	Cuerpo Superior de Sistemas y Tecnologías de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	45171
+45971	%	Cuerpo Superior de Letrados de la Administración de la Seguridad Social (Acceso Libre)	%	45171
+45976	%	Cuerpo Superior de Técnicos de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	45171
+45980	%	Cuerpo Superior de Intervención y Contabilidad de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	45171
+45989	%	Cuerpo Superior de Actuarios, Estadísticos y Economistas de la Administración de la Seguridad Social (Acceso libre y Promoción interna)	%	45171
+45722	%	Grupo B. Diplomatura, Ingeniería Técnica, F.P tercer grado o equivalente.	%	47661
+45797	%	Escala de Programadores de Informática de la Seguridad Social (Promoción interna)	%	45722
+45978	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad (Acceso Libre y de Promoción interna)	%	45722
+45718	%	Grupo C. Bachiller Superior, Bachillerato Unificado, Bachiller-LOGSE, F.P. Segundo Grado o pruebas de acceso a la Universidad para mayores de 25 años.	%	47661
+45719	%	Cuerpo Administrativo de la Administración de la Seguridad Social (Promoción interna)	%	45718
+45794	%	Escala de Operadores de Ordenador de Informática de la Administración de la Seguridad Social (Promoción interna)	%	45718
+46939	%	Cuerpo General Administrativo de la Administración del Estado (Consolidación)	%	45718
+32098	%	Compatibilidades	%	31908
+47220	%	Orden TAS/4054/2005, de 27 de diciembre, por la que se desarrollan los criterios técnicos para la liquidación de capitales coste de pensiones y otras prestaciones periódicas de la Seguridad Social.	%	1567
+28373	%	DECRETO  2864/1974, de 30 de agosto, por el que se aprueba el Texto Refundido de las Leyes 116/1969, de 30 de diciembre y 24/1972, de 21 de junio, que regulan el Régimen Especial de la Seguridad Social de los Trabajadores del Mar.	%	1567
+28374	%	DECRETO 1867/1970, de 9 de julio, por el que se aprueba el Reglamento General de la Ley 116/1969, de 30 de diciembre,	%	1567
+28385	%	Orden de 22 de noviembre de 1974 por la que se determinan los coeficientes correctores de la base de cotización y la base reguladora para las prestaciones económicas en los Grupos II y III del Régimen Especial del Mar	%	1567
+28461	%	Ley 19/1994, de modificación del Régimen Económico y Fiscal de Canarias, por la que se crea el Registro Especial de Buques y Empresas Navieras	%	1567
+10531	%	Formularios / Modelos	%	Internet
+38231	%	Solicitudes de afiliación	%	10531
+42798	%	Documentos de cotización	%	10531
+31425	%	Trabajadores desplazados	%	10531
+50980	%	Solicitudes de prestaciones por desempleo ISM	%	10531
+38233	%	Solicitudes de prestaciones	%	10531
+28586	%	Solicitudes / comunicaciones del pensionista	%	10531
+34954	%	Certificaciones / declaraciones de  empresa	%	10531
+39739	%	Del Sistema RED	%	10531
+42779	%	Solicitudes de acreedores	%	10531
+261	%	Contratación	%	Internet
+264	%	Perfil de contratante	%	261
+262	%	Operaciones con bienes	%	Internet
+12056	%	Subasta de bienes embargados	%	262
+38673	%	Compra de Inmuebles	%	12032
+51747	%	Las Palmas	%	38673
+51748	%	Compra de inmueble enccc XXXXX	%	51747
+51736	%	Talavera de la Reina	%	38673
+51737	%	Compra de inmueble en Talavera de la Reina	%	51736
+51047	%	Teruel	%	38673
+51048	%	Compra de inmueble en Teruel	%	51047
+51024	%	Guadalajara	%	38673
+51037	%	Compra de inmueble en Guadalajara	%	51024
+28306	%	Denegación, anulación y suspensión / Extinción	%	28299
+29096	%	Ley General de la Seguridad Social(Preceptos sobre Estructura y Campo de Aplicación)	%	2043
+2098	%	Ley de 17 de Julio de 1953 sobre establecimiento del seguro escolar en España	%	2043
+2047	%	Decreto 2123/1971, de 23 de julio, por el que se aprueba el Texto Refundido de las Leyes 38/1966, de 31 de mayo, y 41/1970, de 22 de diciembre, por las que se establece y regula el Régimen Especial Agrario de la Seguridad Social	%	2043
+2058	%	Decreto 3772/1972, de 23 de diciembre, por el que se aprueba el Reglamento General del Régimen Especial Agrario de la Seguridad Social	%	2043
+2067	%	Decreto 2530/1970, de 20 de agosto, por el que se regula el Régimen Especial de la Seguridad Social de los Trabajadores por Cuenta Propia o Autónomos	%	2043
+51843	%	Ley 18/2007, de 4 de julio, por la que se procede a la integración de los trabajadores por cuenta propia del Régimen Especial Agrario de la Seguridad Social en el Régimen Especial de la Seguridad Social de los Trabajadores por Cuenta Propia o Autónomos.	%	2043
+2079	%	Orden de 24 de septiembre de 1970 por la que se dictan normas para aplicación y desarrollo del Régimen Especial de la Seguridad Social de los Trabajadores por Cuenta Propia o Autónomos	%	2043
+2088	%	Decreto 2346/1969, de 25 de septiembre, por el que se regula el Régimen Especial de la Seguridad Social del Servicio Doméstico	%	2043
+2096	%	Decreto 298/1973, de 8 de febrero, sobre actualización del Régimen Especial de la Seguridad Social para la Minería del Carbón, de acuerdo con la Ley 24/1972, de 21 de junio, de financiación y perfeccionamiento del Régimen General de la Seguridad Social	%	2043
+28118	%	Decreto  2864/1974, de 30 de agosto, por el que se aprueba el Texto Refundido de las Leyes 116/1969, de 30 de diciembre y 24/1972, de 21 de junio, que regulan el Régimen Especial de la Seguridad Social de los Trabajadores del Mar.	%	2043
+28124	%	Decreto 1867/1970, de 9 de julio, por el que se aprueba el Reglamento General de la Ley 116/1969, de 30 de diciembre,	%	2043
+1146	%	Normas de Inscripción y Afiliación (Despublicar)	%	1139
+29117	%	Ley General de la Seguridad Social(Preceptos sobre Inscripción y Afiliación)	%	1146
+1205	%	Ley 66/1997, de 30 de diciembre, de medidas fiscales, administrativas y del orden social	%	1146
+1154	%	Real Decreto 84/1996, de 26 de enero, por el que se aprueba el Reglamento General sobre Inscripción de Empresas y Afiliación, Altas, Bajas y Variaciones de Datos de Trabajadores en la Seguridad Social	%	1146
+1567	%	Normas de Cotización y Liquidación (Despublicar)	%	1139
+29128	%	Ley General de la Seguridad Social (Preceptos sobre Cotización y Liquidación)	%	1567
+1618	%	Real Decreto 2064/1995, de 22 de diciembre, por el que se aprueba el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social	%	1567
+50597	%	Ley 42/2006, de 28 de diciembre, de Presupuestos Generales del Estado para el año 2007.	%	1567
+47296	%	Orden TAS/31/2007, de 16 de enero, por la que se desarrollan las normas de cotización a la S.S., Desempleo, FOGASA y Formación Profesional, contenidas en la Ley 42/2006, de 28 de diciembre, de Presupuestos Generales del Estado para el año 2007.	%	1567
+5571	%	Francia	%	10007
+3182	%	Orden de 7 de marzo de 1990 sobre implantación de nuevas Unidades de Recaudación Ejecutiva de la Tesorería General de la Seguridad Social y reordenación de las existentes	%	3061
+3202	%	Orden de 22 de marzo de 1993 sobre implantación de nuevas Unidades de Recaudación Ejecutiva de la Tesorería General de la Seguridad Social	%	3061
+3231	%	Orden de 29 de marzo de 2000 sobre establecimiento, reorganización y funciones de las Unidades de Recaudación Ejecutiva de la Seguridad Social	%	3061
+51080	%	Orden PRE/360/2007, de 20 de febrero, por la que se crea una unidad de recaudación ejecutiva de la Seguridad Social en Estepona (Málaga).	%	3061
+3261	%	Disposición adicional séptima de la Orden de 22 de febrero de 1996 por la que se desarrolla el Reglamento General de Recaudación de los Recursos del Sistema de la Seguridad Social, aprobado por el Real Decreto 1637/1995, de 6 de octubre	%	3061
+3268	%	Resolución de 1 de diciembre de 1995, de la Secretaría General para la Seguridad Social, por la que se determina el ámbito territorial de las Unidades de Recaudación Ejecutiva en las Direcciones Provinciales de la Tesorería General de la Seguridad Social	%	3061
+3276	%	Resolución de 7 de mayo de 1996, de la Dirección General de la Tesorería General de la Seguridad Social, sobre nombramiento y funciones de los Ordenadores Secundarios de Pagos	%	3061
+28390	%	Real Decreto 2358/1982, de 27 de agosto, por el que se determina la estructura orgánica del Instituto Social de la Marina	%	3061
+28392	%	Orden de 11 de mayo de 1983, por la que se regula el régimen de funcionamiento de los Órganos de Participación Colegiados del Instituto Social de la Marina	%	3061
+28672	%	Real Decreto 1414/81, de 3 de julio, que establece la naturaleza, competencias y funciones del Instituto Social de la Marina	%	3061
+37663	%	Real Decreto 2583/1996, de 13 de diciembre, de estructura orgánica y funciones del Instituto Nacional de la Seguridad Social y de modificación parcial de la Tesorería General de la Seguridad Social. (BOE 03-01-97)	%	3061
+37720	%	Resolución de 17 de marzo de 2000, de la Dirección General del Instituto Nacional de la Seguridad Social, sobre delegación de competencias en el ámbito del Instituto. (BOE 01/04)	%	3061
+37728	%	Resolución de 22 de marzo de 2002, de la Dirección General del Instituto Nacional de la Seguridad Social, por la que se establece la composición de la Mesa de contratación en el ámbito de actuación de dicha entidad. (BOE 19-4)	%	3061
+37765	%	Resolución de 1 de abril de 2002, del Instituto Nacional de la seguridad Social, sobre delegación de competencias en materia presupuestaria y de contratación administrativa en el ámbito del Instituto. (BOE 22-04)	%	3061
+47194	%	Resolución de 12 de diciembre de 2005, de la Secretaria General Tecnica, se dispone la publicación del Acuerdo de encomienda de gestión entre la TGSS y INSS para asignación del número de Seguridad Social a efectos de reconocimiento derecho a prestaciones	%	3061
+49986	%	Orden TAS/3988/2004, de 25 de noviembre, por la que se crean los órganos administrativos para el fomento de la investigación de la protección social y se determina su composición y funcionamiento.	%	3061
+28394	%	Borrar_Orden de 10 de julio de 1984, por la que se desarrolla la estructura orgánica de los Servicios Centrales del Instituto Social de la Marina	%	3061
+28386	%	Borrar_Ley de 18 de octubre de 1941, sobre reorganización del Instituto Social de la Marina	%	3061
+2043	%	Normas de Estructura y Campo de Aplicación(Despublicar)	%	1139
+32399	%	Túnez	%	32253
+284	%	Régimen Especial de los Trabajadores del Mar	%	279
+28429	%	Decreto 2864/1974, de 30 de agosto por el que se aprueba el Texto Refundido de las Leyes 116/1969, de 30 de diciembre  y 24/1972, de 21 de Junio, por el que se regula el Régimen Especial de la Seguridad Social de los Trabajadores del Mar	%	1146
+12032	%	Compra - venta de inmuebles	%	262
+37888	%	Preguntas más frecuentes	%	39715
+44418	%	Otros Procesos Publicados en 2004	%	44417
+44220	%	Convenio especial durante la situación de alta especial como consecuencia de huelga legal o cierre patronal.	%	44103
+45370	%	Pensión de Jubilación	%	44539
+44161	%	Procedimiento de alta, baja y variación de datos en el Régimen Especial Agrario	%	43384
+44774	%	Procedimiento de Riesgo durante el embarazo	%	43384
+51696	%	Ejercicio 2007	%	49820
+46299	%	Ejercicio 2005	%	46128
+314	%	AMFFiltro	%	21
+46134	%	Ejecución presupuesto de gastos	%	46122
+49690	%	Libro de Normas 2007	%	38085
+47847	%	Serie verde: Desarrollo de ingresos y gastos 	%	38085
+47848	%	Serie roja: Especificación de créditos a nivel de vinculación 	%	38085
+47849	%	Información complementaria	%	38085
+47850	%	Informe económico-financiero 	%	47849
+47851	%	Anexo al informe económico-financiero 	%	47849
+47852	%	Anexo de inversiones reales 	%	47849
+47853	%	Tomo síntesis de cifras y datos 	%	47849
+38097	%	Seguimiento presupuestario de la Seguridad Social	%	38084
+47854	%	Boletín Informativo de la Seguridad Social: Gestión económica 	%	38097
+47855	%	 Distribución territorial de ingresos y gastos de las Entidades Gestoras, excepto INGESA, y la TGSS	%	38097
+47856	%	Distribución territorial de la ejecución de inversiones. Ejercicios 2001 - 2005 	%	38097
+47857	%	Mutuas de accidentes de trabajo y enfermedades profesionales de la Seguridad Social 	%	38097
+51609	%	Fondo de Investigación de la Protección Social (FIPROSS)	%	38084
+51649	%	Memorias	%	38084
+busqueda	%	Búsquedas	%	Internet
+lanzadera	%	Lanzadera	%	Internet
+21	%	PruebasValidacion12	%	Internet
+44	%	Pruebas CCI Mod	%	21
+47	%	Pruebas CCI	%	44
+105	%	Sección 14 01	%	44
+81	%	Normativa	%	21
+50	%	GISS AJC 9-1	%	21
+53	%	AG	%	50
+102	%	TESTOCULTA	%	21
+215	%	IDG 1	%	21
+241	%	prueba_duplicardo XX	%	21
+259	%	AMF_Pruebas	%	21
+260	%	AMF_TEST2222	%	21
+271	%	Fipros	%	21
+299	%	AMFAVISO	%	21
+300	%	amf_sec_aviso	%	21
+301	%	AMF_SEC_AVISO_CONT	%	21
+37682	%	Real Decreto-Ley 1131/2002, de 31 de octubre, (B.O.E. de 27 de noviembre) por el que se regula la Seguridad Social de los trabajadores contratados a tiempo parcial, así como la jubilacion parcial.	%	37675
+12412	%	Información	%	10475
+37880	%	Cartas de Servicios	%	12412
+37877	%	Contratos	%	12412
+47894	%	Incentivos a la contratación, a la actividad autónoma y otras peculiaridades de cotización	%	37877
+47949	%	Incentivos a la contratación	%	37877
+12448	%	Folletos informativos	%	12412
+43666	%	Incapacidad permanente	%	12448
+37881	%	Información para el trabajador	%	12448
+37882	%	del régimen general	%	37881
+37885	%	del régimen especial de empleados del hogar	%	37881
+37887	%	devolución de cuotas	%	37881
+44075	%	Información sobre Certificados Digitales	%	12448
+28331	%	Convenios internacionales	%	12448
+12509	%	Información para Empresarios y Profesionales	%	12448
+29627	%	Incapacidad temporal	%	12448
+29629	%	Jubilación	%	12448
+29630	%	Maternidad y Riesgo durante el embarazo	%	12448
+29633	%	Muerte y supervivencia	%	12448
+28508	%	Oficinas del INSS 	%	12448
+35419	%	Prestaciones familiares	%	12448
+35928	%	Seguro escolar	%	12448
+12588	%	Guía Metodológica de Benchmarking	%	12585
+12590	%	Guía del pensionista	%	12585
+12607	%	Normativa	%	12412
+47895	%	Boletínes Informativos de la Seguridad Social	%	12607
+47887	%	Sumarios 2006	%	47895
+46459	%	Sumarios 2005	%	47895
+42575	%	Sumarios 2004	%	47895
+38321	%	Sumarios 2003	%	47895
+38322	%	Sumarios 2002	%	47895
+38323	%	Sumarios 2001	%	47895
+58	%	Escala de Programadores de Informática de la Administración de la Seguridad Social (acceso libre)	%	51337
+46986	%	Cuerpo de Gestión de la Administración de la Seguridad Social, especialidad de Auditoría y Contabilidad (Acceso Libre y de Promoción interna) 	%	46956
+37939	%	Cotización	%	12412
+46	%	Acceso servicios RED	%	44
+38168	%	Mapa Web	%	Internet
+507	%	Recomendaciones de Navegación	%	Internet
+40247	%	Accesibilidad en la Web de la Seguridad Social	%	Internet
+45332	%	Autocálculo de convenios especiales	%	34785
+10777	%	Cotización / Recaudación	%	4983
+9896	%	Área informativa	%	10777
+30995	%	Información general sobre la Seguridad Social	%	9896
+4903	%	La obligación de cotizar	%	9896
+11301	%	Elementos de cotización	%	9896
+11322	%	¿Qué es la Base de Cotización?	%	11301
+11324	%	¿Cuáles son los conceptos cotizables?	%	11301
+11327	%	Topes Máximos y Mínimos	%	11301
+11329	%	Bases Máximas y Mínimas	%	11301
+11331	%	Supuestos Especiales: Pluriempleo y Pluriactividad	%	11301
+11333	%	¿Qué es el Tipo de cotización?	%	11301
+11335	%	Tipos  para contingencias comunes y conceptos de recaudación conjunta	%	11301
+12703	%	Información General	%	11302
+50564	%	Primas de A.T. y E. P. (Vigente hasta 31 de diciembre de 2006)	%	11302
+31975	%	Tarifa de primas de A.T. y  E.P. (R.D. 2930/1979 ) vigente hasta diciembre/2006	%	50564
+11303	%	Tarifa de Primas de Accidentes de Trabajo y Enfermedades Profesionales	%	50564
+4917	%	División 0 .- Agricultura, Ganadería y Pesca	%	11303
+4915	%	División I.- Energía y Agua	%	11303
+4919	%	División II. Minerales No Energéticos	%	11303
+4921	%	División III.- Industrias transformadoras de los metales, mecánica de precisión,	%	11303
+4923	%	División IV.-Otras Industrias Manufactureras	%	11303
+4925	%	División V.- Construcción	%	11303
+4927	%	División VI.- Comercio y Hostelería, Reparaciones	%	11303
+4929	%	División VII.- Transportes y Comunicaciones	%	11303
+4931	%	División VIII.- Instituciones Financieras, Seguros y Servicios	%	11303
+4933	%	División IX.- Otros Servicios	%	11303
+4913	%	División X.- Otras Actividades	%	11303
+41731	%	Anexo 2.- R.E.T. Autónomos	%	11303
+50565	%	Primas de A.T. y E. P. (Vigente a partir de 1º de enero de 2007)	%	11302
+11337	%	¿Qué es el Periodo de Liquidación?	%	11301
+11340	%	¿Qué es la Cuota?	%	11301
+11341	%	Bonificaciones y Reducciones	%	11301
+38386	%	Recaudación de cuotas	%	9896
+38387	%	¿Quién realiza la Recaudación?	%	38386
+38388	%	¿Cómo se realiza el ingreso de cuotas? Forma y plazo de liquidación de cuotas.	%	38386
+38389	%	Plazo de Presentación	%	38386
+38390	%	Recargos  e Intereses de Demora  Aplicables a las Cuotas.	%	38386
+38393	%	Excepciones- Régimen General	%	38386
+38394	%	Modelos de Documentos de Cotización	%	38386
+52203	%	Medidas por Acontecimientos Catastróficos. Relación Disposiciones	%	38386
+52204	%	Inundaciones producidas por desbordamientos en la cuenca del río Ebro durante la última semana del mes de marzo y la primera del mes de abril de 2007	%	52203
+52208	%	Inundaciones producidas por las tormentas de lluvia, granizo y viento que han afectado en la segunda quincena del mes mayo de 2007 a diversas comunidades autónomas	%	52203
+52212	%	Incendios forestales en la Comunidad Autónoma de Canarias	%	52203
+63	%	Nueva sección	%	52203
+64	%	Nueva sección	%	52203
+65	%	Nueva sección	%	52203
+66	%	Nueva sección	%	52203
+67	%	Nueva sección	%	52203
+68	%	Nueva sección	%	52203
+69	%	Nueva sección	%	52203
+42764	%	Moratorias acontecimientos catastróficos	%	38386
+42765	%	¿Qué es una Moratoria?	%	42764
+50953	%	Devolucion de Ingresos Indebidos	%	38386
+52156	%	Aplazamiento y Fraccionamiento del Pago 	%	38386
+29589	%	Normas de Cotización-Recaudación 2008	%	9896
+30787	%	Manual práctico de cotización Régimen General 2008	%	9896
+36537	%	Bases y tipos de cotización 2008	%	10777
+48410	%	Tarifa de Primas de A.T. y E.P.	%	10777
+10721	%	Regímenes	%	10777
+10957	%	Régimen General de la Seguridad Social	%	10721
+583	%	Información General	%	10957
+52183	%	Sectores integrados en el Régimen General con peculiaridades en la cotización y/o recaudación	%	10957
+9932	%	Tablas. Resumen de bases y tipos de cotización durante los últimos 5 años	%	10957
+4327	%	Bases de Cotización	%	9932
+4315	%	Tipos de Cotización	%	9932
+4277	%	Contratos a tiempo parcial	%	9932
+4324	%	Coeficientes Multiplicadores para Convenios Especiales	%	9932
+4321	%	Coeficientes Reductores para Empresas Colaboradoras	%	9932
+4318	%	Coeficientes Reductores por Exclusión de Contingencias	%	9932
+4306	%	Bases de Cotización Representantes del Comercio	%	9932
+28036	%	Bases de Cotización Artistas	%	9932
+4298	%	Bases de Cotización Profesionales Taurinos	%	9932
+730	%	Parámetros relacionados con la Cotización/Recaudación	%	9932
+10726	%	Régimen Especial Agrario	%	10721
+4356	%	Información General	%	10726
+32942	%	Tabla Resumen de bases y tipos durante los últimos 5 años	%	10726
+10729	%	Régimen Especial Empleados del Hogar	%	10721
+7550	%	Información General	%	10729
+10645	%	Tabla Resumen de bases y tipos de cotización durante los últimos 5 años	%	10729
+10724	%	Régimen Especial Trabajadores Autónomos	%	10721
+753	%	Información General	%	10724
+747	%	Tabla Resumen de bases y tipos durante los últimos 5 años	%	10724
+267	%	Sistema Especial para Trabajadores por Cuenta Propia Agrarios	%	10724
+10728	%	Régimen Especial Minería del Carbón	%	10721
+4364	%	Información General	%	10728
+4345	%	Tabla Resumen de bases por categorías profesionales	%	10728
+33361	%	Régimen Especial de los Trabajadores del Mar	%	10721
+33362	%	Información General	%	33361
+33367	%	Bases de Cotización	%	33361
+28382	%	Solicitudes	%	28362
+6399	%	Normativa  básica	%	28362
+6109	%	Regímenes Especiales	%	10952
+10956	%	Riesgo durante el embarazo	%	10935
+28347	%	Régimen General	%	10956
+6205	%	Regímenes Especiales	%	10956
+51288	%	Riesgo durante la lactancia natural	%	10935
+51289	%	Régimen General	%	51288
+51311	%	Regímenes Especiales	%	51288
+10959	%	Maternidad	%	10935
+28299	%	Régimen General	%	10959
+28301	%	Situaciones protegidas / Beneficiarios / Requisitos	%	28299
+28304	%	Nacimiento del derecho / Duración	%	28299
+28302	%	Prestación económica / Cuantía	%	28299
+28307	%	Gestión / Solicitudes	%	28299
+11596	%	Normativa básica	%	28299
+6181	%	Regímenes Especiales	%	10959
+51113	%	Paternidad	%	10935
+51120	%	Régimen General	%	51113
+51217	%	Regímenes Especiales	%	51113
+10960	%	Incapacidad permanente	%	10935
+28750	%	Régimen General	%	10960
+32128	%	Concepto	%	28750
+28751	%	Grados	%	28750
+28680	%	Prestaciones	%	28750
+35615	%	Incapacidad permanente parcial	%	28680
+28700	%	Incapacidad permanente total	%	28680
+28703	%	Beneficiarios /  Hecho causante / Efectos económicos	%	28700
+28709	%	Cuantía / Abono	%	28700
+28717	%	Compatibilidades / Incompatibilidades	%	28700
+28720	%	Suspensión / Extinción	%	28700
+32454	%	Gestión / Pago	%	28700
+28754	%	Solicitudes	%	28700
+35626	%	Normativa básica	%	28700
+28729	%	Incapacidad permanente absoluta	%	28680
+28732	%	Beneficiarios / Hecho causante	%	28729
+28738	%	Cuantía / Abono	%	28729
+28743	%	Compatibilidades	%	28729
+28746	%	Suspensión / Extinción	%	28729
+32467	%	Gestión / Pago	%	28729
+28759	%	Solicitudes	%	28729
+35629	%	Normativa básica	%	28729
+31908	%	Gran invalidez	%	28680
+33875	%	Beneficiarios / Hecho causante / Efectos económicos	%	31908
+32066	%	Cuantía / Abono	%	31908
+32086	%	Suspensión / Extinción	%	31908
+32468	%	Gestión / Pago	%	31908
+32124	%	Solicitudes	%	31908
+35628	%	Normativa básica	%	31908
+28752	%	Calificación y revisión	%	28750
+28753	%	Nueva denominación	%	28750
+6286	%	Normativa  básica	%	28750
+6091	%	Regímenes Especiales	%	10960
+32506	%	Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	10960
+32644	%	Reglamentos Comunitarios de Seguridad Social	%	10960
+32645	%	Convenios Bilaterales de Seguridad Social	%	10960
+32857	%	Lesiones permanentes no invalidantes	%	10935
+32860	%	Régimen General	%	32857
+32881	%	Regímenes Especiales	%	32857
+10963	%	Jubilación	%	10935
+28393	%	Régimen General	%	10963
+28396	%	Jubilación ordinaria	%	28393
+28471	%	Beneficiarios	%	28396
+28472	%	Requisitos	%	28396
+28475	%	Cuantía	%	28396
+28477	%	Efectos económicos	%	28396
+28478	%	Incompatibilidades / Extinción	%	28396
+28480	%	Derecho de opción / Abono	%	28396
+28482	%	Gestión / Solicitudes	%	28396
+6167	%	Normativa  básica	%	28396
+28464	%	Jubilación anticipada por razón del grupo o actividad profesional	%	28393
+41704	%	Jubilación anticipada de trabajadores discapacitados	%	28393
+28397	%	Jubilación anticipada por tener la condición de mutualista	%	28393
+28453	%	Beneficiarios / requisitos	%	28397
+28456	%	Cuantía	%	28397
+36974	%	Incompatibilidades / Extinción	%	28397
+28510	%	Gestión / Solicitudes	%	28397
+33987	%	Normativa básica	%	28397
+28398	%	Jubilación anticipada sin tener la condición de mutualista	%	28393
+28404	%	Beneficiarios / requisitos	%	28398
+28560	%	Cuantía	%	28398
+33798	%	Hecho  causante / Efectos económicos	%	28398
+28594	%	Abono	%	28398
+28580	%	Incompatibilidades / Compatibilidades / Extinción	%	28398
+33845	%	Obligación de suscribir convenio especial	%	28398
+28579	%	Gestión / Solicitudes	%	28398
+35896	%	Normativa básica	%	28398
+35806	%	Jubilación flexible	%	28393
+28399	%	Jubilación parcial	%	28393
+28426	%	Beneficiarios / Contratos	%	28399
+39698	%	Información de prestaciones 	%	32907
+32908	%	Servicios 	%	32907
+39949	%	Información a acreedores	%	5011
+39950	%	Información básica	%	39949
+39954	%	Servicios	%	39949
+39994	%	Formularios / modelos	%	39954
+39964	%	Solicitud de alta de un acreedor	%	39994
+40045	%	Solicitud de baja o modificación de un acreedor	%	39994
+39965	%	Solicitud de acceso a información de acreedores	%	39994
+40046	%	Solicitud de acceso de empresa endosataria a información de acreedores	%	39994
+39956	%	Servicios con certificado digital	%	39954
+10432	%	Oficina Virtual	%	Internet
+37807	%	Catálogo de Servicios	%	10432
+42220	%	Vida Laboral	%	37807
+33967	%	Informe de vida laboral	%	37807
+37808	%	Informe de Vida Laboral	%	37807
+37809	%	Solicitud de rectificación del Informe de Vida Laboral	%	37807
+37810	%	Informe de Bases de Cotización Régimen General y Mar	%	37807
+38915	%	 Consulta de estado de solicitud de informes 	%	37807
+37811	%	Solicitud de Rectificación Informe de Bases de Cotización	%	37807
+43029	%	Informe de bases y cuotas ingresadas en el ejercicio seleccionado 2	%	37807
+37812	%	Informe de situación actual	%	37807
+37813	%	Duplicado de Documento de Afiliación	%	37807
+43081	%	Usted mismo: programa de autocálculo de pensión de jubilación	%	37807
+37814	%	Solicitud cambio de base de cotización (Autónomos)	%	37807
+37815	%	Solicitud de cambio de base de cotización (Convenios especiales)	%	37807
+45330	%	Autocálculo de convenios especiales	%	37807
+37816	%	Informe de bases y cuotas ingresadas en el ejercicio seleccionado	%	37807
+28432	%	Cuantía	%	28399
+28430	%	Hecho causante / Efectos económicos / Otros efectos	%	28399
+28434	%	Compatibilidades / Incompatibilidades  / Extinción	%	28399
+35702	%	Obligaciones de la empresa	%	28399
+28443	%	Gestión y solicitudes	%	28399
+28400	%	Jubilación especial a los 64 años	%	28393
+28411	%	Beneficiarios	%	28400
+28413	%	Cuantía	%	28400
+28415	%	Hecho causante / efectos económicos	%	28400
+28420	%	Gestión y solicitudes	%	28400
+256	%	Jubilaciones anticipadas desde el 1-1-2004, por expediente de regulación de empleo	%	28393
+6137	%	Regímenes Especiales	%	10963
+32507	%	Seguro Obligatorio de Vejez e Invalidez (SOVI)	%	10963
+32808	%	Reglamentos Comunitarios de Seguridad Social	%	10963
+32809	%	Convenios Bilaterales de Seguridad Social	%	10963
+10966	%	Régimen General	%	10964
+28489	%	Viudedad	%	10966
+28490	%	Causantes / Beneficiarios	%	28489
+28492	%	Cuantía / Abono	%	28489
+28493	%	Hecho causante  / Efectos económicos	%	28489
+28496	%	Compatibilidades / Incompatibilidades	%	28489
+28497	%	Extinción	%	28489
+29611	%	Gestión / Pago	%	28489
+28498	%	Solicitudes	%	28489
+11713	%	Normativa básica	%	28489
+28520	%	Orfandad	%	10966
+28522	%	Beneficiarios	%	28520
+28523	%	Cuantía / Abono	%	28520
+28572	%	Hecho causante / Efectos económicos	%	28520
+28528	%	Compatibilidades / Incompatibilidades	%	28520
+30430	%	Revalorización	%	4986
+30431	%	Revalorización 	%	30430
+30434	%	Cuantías mínimas 	%	30430
+30458	%	Complementos a mínimos	%	30430
+30459	%	Importes máximos 	%	30430
+30460	%	Pensiones por terrorismo	%	30430
+36869	%	Resumen cuantías 	%	30430
+30464	%	Normativa 	%	30430
+50546	%	Carta a los pensionistas	%	30430
+33488	%	Derechos	%	4986
+35118	%	Asistencia sanitaria	%	33488
+35117	%	Prestaciones familiares	%	33488
+33500	%	Servicios sociales	%	33488
+34218	%	Obligaciones	%	4986
+33489	%	Comunicación de datos	%	34218
+34219	%	Reintegro prestaciones	%	34218
+34887	%	Solicitudes de prestaciones	%	10973
+40968	%	Pensiones / otras prestaciones nacionales	%	34887
+34888	%	Jubilación	%	40968
+41025	%	Incapacidad permanente - Lesiones permanentes no invalidantes	%	40968
+41026	%	Viudedad, Orfandad, Favor de familiares y Auxilio por defunción	%	40968
+41028	%	Pago directo de incapacidad temporal	%	40968
+41054	%	Riesgo durante el embarazo o la lactancia natural	%	40968
+41074	%	Maternidad	%	40968
+51117	%	Paternidad	%	40968
+41091	%	Prestaciones familiares	%	40968
+41107	%	Prestaciones del Seguro Escolar	%	40968
+46492	%	Asistencia sanitaria	%	40968
+34912	%	Pensiones de Reglamentos Comunitarios	%	34887
+34918	%	Pensiones de Convenios Bilaterales	%	34887
+34924	%	Presentación de solicitudes	%	34887
+34928	%	Solicitudes / Comunicaciones	%	10973
+43077	%	Autocálculo de la pensión de jubilación	%	10973
+39193	%	Guía del pensionista	%	10973
+39198	%	Retenciones/ingresos IRPF 	%	10973
+39196	%	Percepción de pensiones públicas	%	10973
+39197	%	Revalorización de pensiones 	%	10973
+39195	%	Tarjeta sanitaria para desplazamientos por Europa	%	10973
+40967	%	¿Cómo va mi prestación?	%	10973
+5011	%	Empresarios	%	Internet
+10928	%	Inscripción	%	5011
+4177	%	Inscripción del Empresario	%	10928
+30608	%	Obligaciones del Empresario	%	10928
+10854	%	Normativa	%	10928
+217	%	Impugnaciones Administrativas	%	10928
+31193	%	Modelos de solicitud de afiliación	%	10929
+572	%	Modelo TA.1 - Solicitud de afiliación a la seguridad social, asignación de número de seguridad social y variación de datos	%	31193
+39378	%	Modelo TA.2/S - Solicitud de alta, baja y variación de datos del trabajador por cuenta ajena o asimilada (castellano, catalán, euskera, gallego y valenciano)	%	31193
+37248	%	Modelo TA.2/S - Simplificado - Solicitud de baja del trabajador/a por cuenta ajena o asimilado	%	31193
+48532	%	Modelo TA.6 - Solicitud de inscripción en el sistema de la Seguridad Social	%	31193
+48799	%	Modelo TA.7 - Solicitud de alta, baja y variación de datos de cuenta de cotización	%	31193
+48855	%	Modelo TA.8 - Solicitud de cambio de cuenta de cotización para trabajadores	%	31193
+49080	%	Modelo TA.16 - Formalización de la cobertura de riesgos profesionales con la entidad gestora de la Seguridad Social	%	31193
+40616	%	Modelo TA.0040-ERE - Solicitud de: alta / baja / suspensión / reanudación / variación de datos de convenio especial de empresarios y trabajadores sujetos a expedientes de regulación de empleo que incluyan trabajadores con 55 o más años	%	31193
+44568	%	Modelo TA.0040-ERE C.A. - Solicitud de Suscripción de Cláusula Adicional al Convenio Especial al amparo del artículo 20 de la Orden TAS/2865/2003 en nueva redacción dada por Orden TAS/3862/2004, de 22 de noviembre	%	31193
+37229	%	Modelo TA.48 - Solicitud de opción para la colaboración voluntaria en el pago de prestaciones económicas por incapacidad temporal derivada de contingencias comunes	%	31193
+34072	%	Modelo TA.0611/JR- Comunicaciones de jornadas reales realizadas por trabajadores agrarios	%	31193
+35402	%	Modelo TA.0613 - Solicitud de alta, baja, variación de datos en el Regimen Especial Agrario - Trab. por cuenta ajena	%	31193
+35406	%	Modelo TA.0613 Múltiple - Solicitud de alta, baja, variación de datos en el Regimen Especial Agrario - Trab. por cuenta ajena	%	31193
+35410	%	Modelo TA.0613 Simplificado - Solicitud de alta, baja, variación de datos en el Regimen Especial Agrario - Trab. por cuenta ajena	%	31193
+12184	%	Servicios con certificado digital	%	10929
+10441	%	Cotización / Recaudación	%	5011
+10853	%	Área informativa	%	10441
+39096	%	Bases y Tipos de cotización 2008	%	10441
+50563	%	Tarifa de Primas de A.T. y E.P.	%	10441
+37557	%	Incentivos a la contratación y otras peculiaridades de cotización	%	10441
+10444	%	Regímenes	%	10441
+39738	%	Régimen General	%	10444
+10907	%	Régimen Especial de la Minería del Carbón	%	10444
+10881	%	Régimen Especial Agrario	%	10444
+27870	%	Régimen Especial de los Trabajadores del Mar	%	10444
+39081	%	Normativa	%	10441
+34764	%	Normativa de Cotización	%	39081
+10954	%	Normas de gestión recaudatoria	%	39081
+12754	%	Cotización / Recaudación vía ejecutiva	%	10441
+12763	%	Aplazamientos de deudas	%	10441
+208	%	Impugnaciones Administrativas	%	10441
+34763	%	Servicios	%	10441
+32907	%	Prestaciones / Pensiones 	%	5011
