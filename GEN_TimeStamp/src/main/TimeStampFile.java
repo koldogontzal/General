@@ -85,19 +85,50 @@ public class TimeStampFile extends File {
 	}
 
 	public boolean setTimeStamp(long variacionTiempoMilisegundos,
-			int formatoMarcaDeTiempo) {
+			int formatoMarcaDeTiempo) throws IllegalTimeStampException {
 		// Adelanta la MarcaDeTiempo una cantidad de milisegundos dada con un
 		// formato dado y renombra el fichero File
-		this.marca.addTime(variacionTiempoMilisegundos);
-		return this.setTimeStamp(this.marca, formatoMarcaDeTiempo);
+		if (this.marca != null) {
+			this.marca.addTime(variacionTiempoMilisegundos);
+			return this.setTimeStamp(this.marca, formatoMarcaDeTiempo);
+		} else {
+			throw new IllegalTimeStampException("El archivo " + this.toString() + " no " +
+					"contiene un TimeStamp reconocible.");
+		}
 	}
 
-	public boolean setTimeStamp(long variacionTiempoMilisegundos) {
+	public boolean setTimeStamp(long variacionTiempoMilisegundos) throws IllegalTimeStampException {
 		// Adelanta la MarcaDeTiempo una cantidad de milisegundos dada y
 		// renombra el fichero File
 		return this.setTimeStamp(variacionTiempoMilisegundos, FormatoDefault);
 	}
 
+	public boolean deleteTimeStamp() {
+		// Elimina el TimeStamp del nombre del archivo
+		this.marca = null;
+		this.StringPosMarca = this.StringPreMarca + this.StringPosMarca;
+		this.StringPreMarca = "";
+		this.StringMarca = "";
+		
+		if (this.StringPosMarca.length() == 0) {
+			// El archivo se queda sin nombre, se inventa uno aleatorio de 6 caracteres
+			char[] src = new char[6];
+			for (int i = 0; i < src.length; i++) {
+				int valor = (int)(Math.random() * 36);
+				if (valor < 10) {
+					// Número 0-9
+					src[i] = (char)(valor + 48);
+				} else {
+					// letra a-z
+					src[i] = (char)(valor + 87);
+				}
+			}
+			this.StringPosMarca = String.valueOf(src);
+		}
+		
+		return this.actualizarFile();
+	}
+	
 	public boolean setStringPosTimeStamp(String s) {
 		// Modifica la parte del nombre después de la MarcaDeTiempo y antes de
 		// la Extension y renombra el fichero File
@@ -162,4 +193,9 @@ public class TimeStampFile extends File {
 		return super.renameTo(new File(nuevoPath));
 	}
 
+	
+	public static void main(String[] args) {
+		TimeStampFile f = new TimeStampFile("C:\\hora\\2014_10_04.doc");
+		f.deleteTimeStamp();
+	}
 }

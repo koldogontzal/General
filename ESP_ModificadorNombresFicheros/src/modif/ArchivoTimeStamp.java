@@ -5,9 +5,7 @@ import main.TimeStamp;
 import main.TimeStampFile;
 
 public class ArchivoTimeStamp extends Archivo {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = -5223325149130960917L;
 	
 	private TimeStampFile tsf;
@@ -24,6 +22,18 @@ public class ArchivoTimeStamp extends Archivo {
 	public TimeStamp getTimeStamp() throws IllegalTimeStampException {
 		return this.tsf.getTimeStamp();
 	}
+	
+	public boolean añadirTimeStampAlNombre(TimeStamp t) {
+		return this.tsf.setTimeStamp(t);
+	}
+	
+	public boolean quitarTimeStampAlNombre() {
+		return this.tsf.deleteTimeStamp();		
+	}
 
+	public boolean modificarTimeStampDelNombre(long dif) throws IllegalTimeStampException {
+		// Se añade dif en milisegundos
+		return this.tsf.setTimeStamp(dif);
+	}
 	
 }

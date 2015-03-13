@@ -158,7 +158,7 @@ public class ArchivoFoto extends Archivo {
 	}
 	
 	public boolean modificarMarcaDeTiempoDelNombre(long dif) {
-		// se a�ade "dif" en milisegundos
+		// se añade "dif" en milisegundos
 		int tamagnoMarcaTiempo = this.tieneMarcaDeTiempoElNombre();
 //System.out.println(tamagnoMarcaTiempo);		
 		if (tamagnoMarcaTiempo != 0) {
