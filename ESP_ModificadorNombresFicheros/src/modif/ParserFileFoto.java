@@ -86,7 +86,7 @@ public class ParserFileFoto {
 		}
 	}
 	
-	public boolean esNombreFileCorrecto () {
+	public boolean esNombreFileCorrecto () { 
 		return (!this.tipo.equals("") && !this.numero.equals(""));
 	}
 	

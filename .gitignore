@@ -4,7 +4,7 @@
 ## no .a files
 #*.a
 
-## no .a or .o files
+## neither .a nor .o files
 #*.[ao]
 
 ## but do track lib.a, even though you're ignoring .a files above

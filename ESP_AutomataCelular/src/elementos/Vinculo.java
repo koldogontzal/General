@@ -44,7 +44,7 @@ public class Vinculo extends Celda {
 			}
 		}
 	}
-
+	
 	private void ligarseConOtroVinculo() {
 		// Busca otro vinculo pero sólo entre sus 4 vecinos (no valen diagonales)
 		ArrayList<Celda> vecinos = this.getEscenario().get4Vecinos(this.getPos());		
