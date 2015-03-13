@@ -37,42 +37,28 @@ public class ModificadorNombreArchivosFotos {
 		for (ArchivoFoto archivo : listado) {
 			if (this.accion == AGNADIR) {
 				if (archivo.agnadirMarcaDeTiempoAlNombre()) {
-					this.app.escribirLinea("OK:\tA\u00F1adiendo MarcaDeTiempo a "
-							+ archivo);
+					this.app.escribirLinea("OK:\tA\u00F1adiendo MarcaDeTiempo a " + archivo);
 				} else {
-					this.app
-							.escribirLinea("ERROR:\tNo se pudo a\u00F1adir MarcaDeTiempo a "
-									+ archivo);
-					System.out
-							.println("ERROR:\tNo se pudo a\u00F1adir MarcaDeTiempo a "
-									+ archivo);
+					this.app.escribirLinea("ERROR:\tNo se pudo a\u00F1adir MarcaDeTiempo a " + archivo);
+					System.out.println("ERROR:\tNo se pudo a\u00F1adir MarcaDeTiempo a " 	+ archivo);
 				}
 			}
+			
 			if (this.accion == BORRAR) {
 				if (archivo.quitarMarcaDeTiempoAlNombre()) {
-					this.app.escribirLinea("OK:\tQuitando MarcaDeTiempo a "
-							+ archivo);
+					this.app.escribirLinea("OK:\tQuitando MarcaDeTiempo a " + archivo);
 				} else {
-					this.app
-							.escribirLinea("ERROR:\tNo se pudo quitar MarcaDeTiempo a "
-									+ archivo);
-					System.out
-							.println("ERROR:\tNo se pudo quitar MarcaDeTiempo a "
-									+ archivo);
+					this.app.escribirLinea("ERROR:\tNo se pudo quitar MarcaDeTiempo a " + archivo);
+					System.out.println("ERROR:\tNo se pudo quitar MarcaDeTiempo a " + archivo);
 				}
 			}
+			
 			if (this.accion == MODIFICAR) {
 				if (archivo.modificarMarcaDeTiempoDelNombre(seg)) {
-					this.app
-							.escribirLinea("OK:\tModificando MarcaDeTiempo a "
-									+ archivo);
+					this.app.escribirLinea("OK:\tModificando MarcaDeTiempo a " + archivo);
 				} else {
-					this.app
-							.escribirLinea("ERROR:\tNo se pudo modificar MarcaDeTiempo a "
-									+ archivo);
-					System.out
-							.println("ERROR:\tNo se pudo modificar MarcaDeTiempo a "
-									+ archivo);
+					this.app.escribirLinea("ERROR:\tNo se pudo modificar MarcaDeTiempo a " + archivo);
+					System.out.println("ERROR:\tNo se pudo modificar MarcaDeTiempo a " + archivo);
 				}
 			}
 		}
