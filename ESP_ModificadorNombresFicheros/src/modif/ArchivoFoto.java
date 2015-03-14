@@ -148,13 +148,13 @@ public class ArchivoFoto extends Archivo {
 		}
 	}
 	
-	public boolean modificarTimeStampDelNombre(long dif, TimeStampFormat formatoTimeStamp) {
+	public boolean modificarTimeStampDelNombre(long dif) {
 		// Se añade "dif" en milisegundos al TimeStamp
 
 		if (this.tieneTimeStampElNombre()) {
 			// Tiene un TimeStamp, con lo que lo modifica
 			try {
-				return this.tsf.setTimeStamp(dif, formatoTimeStamp);
+				return this.tsf.setTimeStampAddTime(dif);
 			} catch (IllegalTimeStampException e) {
 				// Nunca debería darse este caso
 				e.printStackTrace();

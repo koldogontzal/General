@@ -13,17 +13,18 @@ import java.io.File;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import com.koldogontzal.timestamp.TimeStampFormat;
+
 import modif.ExtraerFicherosSubdirectoriosBackground;
 import modif.ModificadorAgnadiendoDirectorioBackground;
 import modif.ModificadorNombreArchivosAudioBackground;
-import modif.ModificadorNombreArchivosFotos;
-import modif.ModificadorNombreArchivosFotosBackground;
 import modif.ModificadorNombreArchivosTimeStamp;
 import modif.ModificadorNombreArchivosTimeStampBackground;
 import modif.PasoGlobalNombresModernosBackground;
@@ -47,14 +48,14 @@ public class Aplicacion extends JFrame {
 	private JButton botonExtraerArchivosSubdirectorios;
 	private JButton botonReorganizarArchivosMP3;
 	private JButton botonModificarNombreFicherosMP3;
-	private JButton botonAgnadirTimeStampFotos;
-	private JButton botonQuitarTimeStampFotos;
-	private JButton botonModificarTimeStampFotos;
 	private JButton botonAgnadirTimeStampArchivos;
 	private JButton botonQuitarTimeStampArchivos;
 	private JButton botonModificarTimeStampArchivos;
+	private JButton botonModificarFormatoTimeStamp;
 	
 	private JTextField textoSegundosModificarMarcaDeTiempo;
+	
+	private JComboBox<TimeStampFormat> comboElegirFormatoTimeStamp;
 	
 	private VisorTextoConDesplazamiento areaTexto;	
 	
@@ -68,7 +69,7 @@ public class Aplicacion extends JFrame {
 		this.inciarGUI();
 		
 		this.setTitle("Modificador de nombres de fotos");
-		this.setSize(680, 500);
+		this.setSize(680, 600);
 		this.setVisible(true);
 		
 		this.addWindowListener(new WindowAdapter() {
@@ -142,50 +143,9 @@ public class Aplicacion extends JFrame {
 				r.execute();
 			}
 		});
-		
-		this.botonAgnadirTimeStampFotos = new JButton("A\u00F1adirMarcaDeTiempoAFoto");
-		this.botonAgnadirTimeStampFotos.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				deshabilitarBotones();
-				ModificadorNombreArchivosFotosBackground r = new ModificadorNombreArchivosFotosBackground(
-						textoDirectorio.getText(),
-						ModificadorNombreArchivosFotos.AGNADIR, app);
-				r.execute();
-			}
-		});
-
-		this.botonQuitarTimeStampFotos = new JButton("QuitarMarcaDeTiempoAFoto");
-		this.botonQuitarTimeStampFotos.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				deshabilitarBotones();
-				ModificadorNombreArchivosFotosBackground r = new ModificadorNombreArchivosFotosBackground(
-						textoDirectorio.getText(),
-						ModificadorNombreArchivosFotos.BORRAR, app);
-				r.execute();
-			}
-		});
-
-		this.botonModificarTimeStampFotos = new JButton(
-				"ModificarMarcaDeTiempoAFoto");
-		this.botonModificarTimeStampFotos
-				.addActionListener(new ActionListener() {
-					public void actionPerformed(ActionEvent e) {
-						deshabilitarBotones();
-						ModificadorNombreArchivosFotosBackground r = new ModificadorNombreArchivosFotosBackground(
-								textoDirectorio.getText(),
-								ModificadorNombreArchivosFotos.MODIFICAR, app);
-						r.execute();
-					}
-				});
-		
-		
-		
-		
-		
-		
-		
-		
-		this.botonAgnadirTimeStampArchivos = new JButton("A\u00F1adirTimeStampAArchivo");
+	
+			
+		this.botonAgnadirTimeStampArchivos = new JButton("A\u00F1adir un TimeStamp al nombre");
 		this.botonAgnadirTimeStampArchivos.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -196,7 +156,7 @@ public class Aplicacion extends JFrame {
 			}
 		});
 
-		this.botonQuitarTimeStampArchivos = new JButton("QuitarTimeStampAArchivo");
+		this.botonQuitarTimeStampArchivos = new JButton("Quitar el TimeStamp");
 		this.botonQuitarTimeStampArchivos.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -207,13 +167,13 @@ public class Aplicacion extends JFrame {
 			}
 		});
 
-		this.botonModificarTimeStampArchivos = new JButton("ModificarTimeStampAArchivo");
+		this.botonModificarTimeStampArchivos = new JButton("Modificar valor del TimeStamp");
 		this.botonModificarTimeStampArchivos.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					deshabilitarBotones();
 					ModificadorNombreArchivosTimeStampBackground r = new ModificadorNombreArchivosTimeStampBackground(
 								textoDirectorio.getText(),
-								ModificadorNombreArchivosTimeStamp.MODIFICAR, app);
+								ModificadorNombreArchivosTimeStamp.MODIFICAR_VALOR, app);
 						r.execute();
 					}
 				});
@@ -224,6 +184,25 @@ public class Aplicacion extends JFrame {
 		
 		this.textoSegundosModificarMarcaDeTiempo = new JTextField("0");
 		this.textoSegundosModificarMarcaDeTiempo.setMaximumSize(new Dimension(80,40));
+		
+		this.comboElegirFormatoTimeStamp = new JComboBox<TimeStampFormat>();
+		for (TimeStampFormat formato : TimeStampFormat.values()) {
+			this.comboElegirFormatoTimeStamp.addItem(formato);
+		}
+		this.comboElegirFormatoTimeStamp.setMaximumSize(new Dimension(175,30));
+		
+		
+		this.botonModificarFormatoTimeStamp = new JButton("Cambiar el formato de TimeStamp");
+		this.botonModificarFormatoTimeStamp.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					deshabilitarBotones();
+					ModificadorNombreArchivosTimeStampBackground r = new ModificadorNombreArchivosTimeStampBackground(
+								textoDirectorio.getText(),
+								ModificadorNombreArchivosTimeStamp.MODIFICAR_FORMATO, app);
+						r.execute();
+					}
+				});
+		
 		
 		this.areaTexto = new VisorTextoConDesplazamiento(500);
 		
@@ -265,28 +244,28 @@ public class Aplicacion extends JFrame {
 		JPanel panelBotones3 = new JPanel();
 		BoxLayout pbpbl3 = new BoxLayout(panelBotones3, BoxLayout.X_AXIS);
 		panelBotones3.setLayout(pbpbl3);
-		panelBotones3.add(this.botonAgnadirTimeStampFotos);
-		panelBotones3.add(this.botonQuitarTimeStampFotos);
-		panelBotones3.add(this.botonModificarTimeStampFotos);
+		panelBotones3.add(this.botonAgnadirTimeStampArchivos);
+		panelBotones3.add(this.botonQuitarTimeStampArchivos);
 		panelBotones3.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 5));
 		panel.add(panelBotones3);
-		
-		JPanel panelBotones35 = new JPanel();
-		BoxLayout pbpbl35 = new BoxLayout(panelBotones35, BoxLayout.X_AXIS);
-		panelBotones35.setLayout(pbpbl35);
-		panelBotones35.add(this.botonAgnadirTimeStampArchivos);
-		panelBotones35.add(this.botonQuitarTimeStampArchivos);
-		panelBotones35.add(this.botonModificarTimeStampArchivos);
-		panelBotones35.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 5));
-		panel.add(panelBotones35);
 		
 		JPanel panelBotones4 = new JPanel();
 		BoxLayout pbpbl4 = new BoxLayout(panelBotones4, BoxLayout.X_AXIS);
 		panelBotones4.setLayout(pbpbl4);
-		panelBotones4.add(new JLabel("N\u00FAmero de segundos a a\u00F1adir a los TimeStamps (negativo para quitar): "));
+		panelBotones4.add(new JLabel("Segundos a avanzar (negativo para retroceder): "));
 		panelBotones4.add(this.textoSegundosModificarMarcaDeTiempo);
-		panelBotones4.setBorder(BorderFactory.createEmptyBorder(10, 5, 25, 5));
+		panelBotones4.add(this.botonModificarTimeStampArchivos);
+		panelBotones4.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 5));
 		panel.add(panelBotones4);
+		
+		JPanel panelBotones5 = new JPanel();
+		BoxLayout pbpbl5 = new BoxLayout(panelBotones5, BoxLayout.X_AXIS);
+		panelBotones5.setLayout(pbpbl5);
+		panelBotones5.add(new JLabel("Elije el Formato preferido de TimeStamp: "));
+		panelBotones5.add(this.comboElegirFormatoTimeStamp);
+		panelBotones5.add(this.botonModificarFormatoTimeStamp);
+		panelBotones5.setBorder(BorderFactory.createEmptyBorder(5, 5, 25, 5));
+		panel.add(panelBotones5);
 		
 		panel.add(this.areaTexto);
 		
@@ -300,12 +279,12 @@ public class Aplicacion extends JFrame {
 		this.botonExtraerArchivosSubdirectorios.setEnabled(false);
 		this.botonReorganizarArchivosMP3.setEnabled(false);
 		this.botonModificarNombreFicherosMP3.setEnabled(false);
-		this.botonAgnadirTimeStampFotos.setEnabled(false);
-		this.botonQuitarTimeStampFotos.setEnabled(false);
-		this.botonModificarTimeStampFotos.setEnabled(false);
 		this.botonAgnadirTimeStampArchivos.setEnabled(false);
 		this.botonQuitarTimeStampArchivos.setEnabled(false);
 		this.botonModificarTimeStampArchivos.setEnabled(false);
+		this.botonModificarFormatoTimeStamp.setEnabled(false);
+		
+		this.comboElegirFormatoTimeStamp.setEnabled(false);
 		
 		this.botonLlamarFileChooserDirectorio.setEnabled(false);
 	}
@@ -316,12 +295,12 @@ public class Aplicacion extends JFrame {
 		this.botonExtraerArchivosSubdirectorios.setEnabled(true);
 		this.botonReorganizarArchivosMP3.setEnabled(true);
 		this.botonModificarNombreFicherosMP3.setEnabled(true);
-		this.botonAgnadirTimeStampFotos.setEnabled(true);
-		this.botonQuitarTimeStampFotos.setEnabled(true);
-		this.botonModificarTimeStampFotos.setEnabled(true);
 		this.botonAgnadirTimeStampArchivos.setEnabled(true);
 		this.botonQuitarTimeStampArchivos.setEnabled(true);
 		this.botonModificarTimeStampArchivos.setEnabled(true);
+		this.botonModificarFormatoTimeStamp.setEnabled(true);
+		
+		this.comboElegirFormatoTimeStamp.setEnabled(true);
 		
 		this.botonLlamarFileChooserDirectorio.setEnabled(true);
 	}
@@ -348,5 +327,9 @@ public class Aplicacion extends JFrame {
 			ret = 0;
 		}
 		return ret;
+	}
+	
+	public TimeStampFormat getTimeStampFormatPreferred() {
+		return (TimeStampFormat)this.comboElegirFormatoTimeStamp.getSelectedItem();
 	}
 }

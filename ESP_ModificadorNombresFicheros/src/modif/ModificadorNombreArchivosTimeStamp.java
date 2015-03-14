@@ -2,14 +2,14 @@ package modif;
 
 import com.koldogontzal.timestamp.IllegalTimeStampException;
 import com.koldogontzal.timestamp.TimeStamp;
-import com.koldogontzal.timestamp.TimeStampFormat;
 
 import apliGraf.Aplicacion;
 
 public class ModificadorNombreArchivosTimeStamp {
-	public static int AGNADIR = 1;
-	public static int BORRAR = 2;
-	public static int MODIFICAR = 3;
+	public static final int AGNADIR 			= 1;
+	public static final int BORRAR 				= 2;
+	public static final int MODIFICAR_VALOR 	= 3;
+	public static final int MODIFICAR_FORMATO 	= 4;
 
 	private Directorio directorio;
 	private int accion;
@@ -29,7 +29,7 @@ public class ModificadorNombreArchivosTimeStamp {
 	}
 
 	private void analizar() {
-		long seg = 1000L * this.app.getSegundosAdelanto();		
+		long seg = 1000L * this.app.getSegundosAdelanto();	
 
 		// Llamadas recursivas a los subdirectorios
 		Directorio[] listadoDir = this.directorio.listDirectorios();
@@ -40,8 +40,8 @@ public class ModificadorNombreArchivosTimeStamp {
 		ArchivoTimeStamp[] listado = this.directorio.listArchivosTimeStamp();
 		for (ArchivoTimeStamp archivo : listado) {
 			if (this.accion == AGNADIR) {
-				TimeStamp ts = archivo.getTimeStamp();
-				if (archivo.añadirTimeStampAlNombre(ts, TimeStampFormat.yyyyMMdd_HHmmss)) {
+				TimeStamp ts = archivo.obtainTimeStamp();
+				if (archivo.añadirTimeStampAlNombre(ts)) {
 					this.app.escribirLinea("OK:\tA\u00F1adiendo TimeStamp a " + archivo);
 				} else {
 					this.app.escribirLinea("ERROR:\tNo se pudo a\u00F1adir TimeStamp a " + archivo);
@@ -58,9 +58,9 @@ public class ModificadorNombreArchivosTimeStamp {
 				}
 			}
 			
-			if (this.accion == MODIFICAR) {
+			if (this.accion == MODIFICAR_VALOR) {
 				try {
-					if (archivo.modificarTimeStampDelNombre(seg, TimeStampFormat.yyyyMMdd_HHmmss)) {
+					if (archivo.modificarTimeStampDelNombre(seg)) {
 						this.app.escribirLinea("OK:\tModificando TimeStamp a " + archivo);
 					} else {
 						this.app.escribirLinea("ERROR:\tNo se pudo modificar TimeStamp a " + archivo);
@@ -69,6 +69,20 @@ public class ModificadorNombreArchivosTimeStamp {
 				} catch (IllegalTimeStampException e) {
 					this.app.escribirLinea("ERROR:\tNo se pudo modificar TimeStamp a " + archivo);
 					System.out.println("ERROR:\tNo se pudo modificar TimeStamp a " + archivo);
+				}
+			}
+			
+			if (this.accion == MODIFICAR_FORMATO) {
+				try {
+					if (archivo.modificarTimeStampFormatDelNombre(this.app.getTimeStampFormatPreferred())) {
+						this.app.escribirLinea("OK:\tModificando el formato del TimeStamp a " + archivo);
+					} else {
+						this.app.escribirLinea("ERROR:\tNo se pudo modificar el formato de TimeStamp a " + archivo);
+						System.out.println("ERROR:\tNo se pudo modificar el formato de TimeStamp a " + archivo);
+					}
+				} catch (IllegalTimeStampException e) {
+					this.app.escribirLinea("ERROR:\tNo se pudo modificar el formato de TimeStamp a " + archivo);
+					System.out.println("ERROR:\tNo se pudo modificar el formato de TimeStamp a " + archivo);
 				}
 			}
 		}

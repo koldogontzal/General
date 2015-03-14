@@ -5,7 +5,6 @@ import java.io.File;
 public class TimeStampFile extends File {
 
 	private static final long serialVersionUID = -4736566271369957954L;
-	private static final TimeStampFormat FormatoDefault = TimeStampFormat.yyyyMMdd_HHmm;
 
 	private String StringPreMarca;
 	private String StringMarca;
@@ -63,10 +62,9 @@ public class TimeStampFile extends File {
 		return this.actualizarFile();
 	}
 
-	public boolean setTimeStamp(TimeStamp nuevaMarca, TimeStampFormat formatoMarcaDeTiempo) {
-		// Sustituye la MarcaDeTiempo por una nueva con un formato dado y
-		// renombra el fichero File
-		this.StringMarca = nuevaMarca.toString(formatoMarcaDeTiempo);
+	public boolean setTimeStamp(TimeStamp nuevaMarca) {
+		// Sustituye la MarcaDeTiempo por una nueva y renombra el fichero File
+		this.StringMarca = nuevaMarca.toString();
 		this.marca = nuevaMarca;
 		// Añade un '_' al principio de StringPosMarca y al final de StringPreMarca si no existen
 		if (!this.StringPosMarca.startsWith("_") && (this.StringPosMarca.length() != 0)) {
@@ -79,35 +77,38 @@ public class TimeStampFile extends File {
 		return this.actualizarFile();
 	}
 
-	public boolean setTimeStamp(TimeStamp nuevaMarca) {
-		// Sustituye la MarcaDeTiempo por una nueva y renombra el fichero File
-		return this.setTimeStamp(nuevaMarca, FormatoDefault);
-	}
 
-	public boolean setTimeStamp(TimeStampFormat formatoMarcaDeTiempo) {
+	public boolean setTimeStampFormat(TimeStampFormat formatoMarcaDeTiempo) throws IllegalTimeStampException {
 		// Cambia el formato de la MarcaDeTiempo y renombra el fichero File
-		return this.setTimeStamp(this.marca, formatoMarcaDeTiempo);
+		if (this.marca != null) {
+			this.marca.setPreferredFormat(formatoMarcaDeTiempo);
+			this.StringMarca = this.marca.toString();
+			return this.actualizarFile();
+		} else {
+			// No existe TimeStamp para cambiarle el formato
+			throw new IllegalTimeStampException("El archivo " + this.toString() + " no " +
+					"contiene un TimeStamp reconocible.");
+		}
+		
 	}
 
-	public boolean setTimeStamp(long variacionTiempoMilisegundos,
-			TimeStampFormat formatoMarcaDeTiempo) throws IllegalTimeStampException {
-		// Adelanta la MarcaDeTiempo una cantidad de milisegundos dada con un
-		// formato dado y renombra el fichero File
+	public boolean setTimeStampAddTime(long variacionTiempoMilisegundos) throws IllegalTimeStampException {
+		// Adelanta la MarcaDeTiempo una cantidad de milisegundos dada y renombra el fichero File
 		if (this.marca != null) {
 			this.marca.addTime(variacionTiempoMilisegundos);
-			return this.setTimeStamp(this.marca, formatoMarcaDeTiempo);
+			this.StringMarca = this.marca.toString();
+			return this.actualizarFile();
 		} else {
+			// No existe un TimeStamp válido para variar la 
 			throw new IllegalTimeStampException("El archivo " + this.toString() + " no " +
 					"contiene un TimeStamp reconocible.");
 		}
 	}
 
-	public boolean setTimeStamp(long variacionTiempoMilisegundos) throws IllegalTimeStampException {
-		// Adelanta la MarcaDeTiempo una cantidad de milisegundos dada y
-		// renombra el fichero File
-		return this.setTimeStamp(variacionTiempoMilisegundos, FormatoDefault);
+	public boolean hasTimeStamp() {
+		return (this.marca != null);
 	}
-
+	
 	public boolean deleteTimeStamp() {
 		// Elimina el TimeStamp del nombre del archivo
 		this.marca = null;

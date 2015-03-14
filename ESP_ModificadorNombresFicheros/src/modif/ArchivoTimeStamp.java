@@ -20,7 +20,7 @@ public class ArchivoTimeStamp extends Archivo {
 		this(arch.getPath());
 	}
 	
-	public TimeStamp getTimeStamp() {		
+	public TimeStamp obtainTimeStamp() {		
 		try {
 			return this.tsf.getTimeStamp();
 		} catch (IllegalTimeStampException e) {
@@ -29,7 +29,7 @@ public class ArchivoTimeStamp extends Archivo {
 			if (super.esArchivoFoto()) {
 				// Intenta leer los metadatos de la imagen y crear un TimeStamp
 				ArchivoFoto af = new ArchivoFoto(this.tsf.getPath());
-				ts = af.getTimeStampDeMetadatos();
+				ts = af.getTimeStampDeMetadatos();			
 			} 
 			
 			if (ts == null) {
@@ -37,21 +37,31 @@ public class ArchivoTimeStamp extends Archivo {
 				ts = new TimeStamp(super.lastModified());			
 			}
 			
+			ts.setPreferredFormat((new TimeStamp(0)).getPreferredFormat());
 			return ts;
 		}
 	}
 	
-	public boolean añadirTimeStampAlNombre(TimeStamp t, TimeStampFormat formatoTimeStamp) {
-		return this.tsf.setTimeStamp(t, formatoTimeStamp);
+	public boolean añadirTimeStampAlNombre(TimeStamp t) {
+		if (!this.tsf.hasTimeStamp()) {
+			return this.tsf.setTimeStamp(t);
+		} else {
+			return false;
+		}
 	}
 	
 	public boolean quitarTimeStampAlNombre() {
 		return this.tsf.deleteTimeStamp();		
 	}
 
-	public boolean modificarTimeStampDelNombre(long dif, TimeStampFormat formatoTimeStamp) throws IllegalTimeStampException {
+	public boolean modificarTimeStampDelNombre(long dif) throws IllegalTimeStampException {
 		// Se añade dif en milisegundos
-		return this.tsf.setTimeStamp(dif, formatoTimeStamp);
+		return this.tsf.setTimeStampAddTime(dif);
+	}
+	
+	public boolean modificarTimeStampFormatDelNombre(TimeStampFormat formato) throws IllegalTimeStampException {
+		// Modifica el formato del TimeStamp
+		return this.tsf.setTimeStampFormat(formato);
 	}
 	
 }

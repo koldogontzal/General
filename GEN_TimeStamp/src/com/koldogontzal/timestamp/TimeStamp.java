@@ -19,7 +19,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 
 	public static final char CHAR_UNKNOWN_FIGURE = 'x';
 
-	private static final TimeStampFormat FormatDefault = TimeStampFormat.yyyyMMdd_HHmmss;
+	private TimeStampFormat preferredFormat = TimeStampFormat.yyyyMMdd_HHmmss; // Preferred format (String representation) of the TimeStamp
 
 	public TimeStamp(int agno, int mes, int dia, int hora, int minuto, int segundo) {
 		// el mes empieza a contar en 1==Enero, pero para GregorianCalendar, 0==Enero
@@ -32,6 +32,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 			TimeStamp m = TimeStamp.fromString(s);
 			this.fechaYHora = m.fechaYHora;
 			this.precision = m.precision;
+			this.preferredFormat = m.preferredFormat;
 		} catch (IllegalTimeStampException e) {
 			throw e;
 		}
@@ -73,9 +74,17 @@ public class TimeStamp implements Comparable<TimeStamp> {
 		this.fechaYHora.setTimeInMillis(nuevo);
 	}
 
+	public TimeStampFormat getPreferredFormat() {
+		return this.preferredFormat;
+	}
+	
+	public void setPreferredFormat(TimeStampFormat format) {
+		this.preferredFormat = format;
+	}
+	
 	@Override
 	public String toString() {
-		return toString(FormatDefault);
+		return toString(this.preferredFormat);
 	}
 
 	public String toString(TimeStampFormat formato) {
@@ -135,6 +144,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 	}
 	
 	public String getFigureString(byte identificadorCifra) {
+		// Si uso, sólo lo he mantenido para futuros usos.
 		String ret;
 		if ((identificadorCifra & this.precision) != 0) {
 			switch (identificadorCifra) {
@@ -290,7 +300,9 @@ public class TimeStamp implements Comparable<TimeStamp> {
 		// el mes empieza a contar en 1==Enero, pero para GregorianCalendar,
 		// 0==Enero
 		GregorianCalendar c = new GregorianCalendar(agno, mes - 1, dia, hora, minuto, segundo);
-		return new TimeStamp(c, precision);	
+		TimeStamp ret = new TimeStamp(c, precision);
+		ret.setPreferredFormat(formato);
+		return ret;
 	}
 	
 	public static TimeStamp fromString(String s) throws IllegalTimeStampException {

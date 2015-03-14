@@ -91,17 +91,10 @@ public enum TimeStampFormat {
 		SimpleDateFormat sdf = new SimpleDateFormat(this.getPattern());
 		return sdf.format(ts.getDate());
 	}
-
 	
-	public static void main(String[] args) {
-		try {
-			TimeStamp ts = new TimeStamp("2015-03-14 10:55:34");
-			System.out.println(ts);
-			System.out.println(TimeStampFormat.dd_MM_yyyy_HH_mm.FormattedTimeStampString(ts));
-		} catch (IllegalTimeStampException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+	@Override
+	public String toString() {
+		return this.pattern;
 	}
+
 }

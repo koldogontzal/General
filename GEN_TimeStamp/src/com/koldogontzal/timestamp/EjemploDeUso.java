@@ -38,7 +38,12 @@ public class EjemploDeUso {
 		TimeStampFile f = new TimeStampFile(path);
 		System.out.println(f);
 
-		f.setTimeStamp(TimeStampFormat.yyyy_MM_dd_HH_mm_ss);
+		try {
+			f.setTimeStampFormat(TimeStampFormat.yyyy_MM_dd_HH_mm_ss);
+		} catch (IllegalTimeStampException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println("\n\n" + f);
 
 	}
