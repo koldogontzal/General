@@ -2,16 +2,16 @@ package modif;
 
 import java.util.Iterator;
 
-import main.IllegalTimeStampException;
-import main.TimeStamp;
-import main.TimeStampFile;
-
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.imaging.ImageProcessingException;
 import com.drew.metadata.Directory;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.MetadataException;
 import com.drew.metadata.Tag;
+import com.koldogontzal.timestamp.IllegalTimeStampException;
+import com.koldogontzal.timestamp.TimeStamp;
+import com.koldogontzal.timestamp.TimeStampFile;
+import com.koldogontzal.timestamp.TimeStampFormat;
 
 public class ArchivoFoto extends Archivo {
 
@@ -105,7 +105,7 @@ public class ArchivoFoto extends Archivo {
 		
 	}
 	
-	public boolean agnadirTimeStampAlNombre(int formatoTimeStamp) {
+	public boolean agnadirTimeStampAlNombre(TimeStampFormat formatoTimeStamp) {
 		// Sólo añade un TimeStamp en el caso en el que no exista ya uno
 		String nombre = super.getNombre();
 		
@@ -148,7 +148,7 @@ public class ArchivoFoto extends Archivo {
 		}
 	}
 	
-	public boolean modificarTimeStampDelNombre(long dif, int formatoTimeStamp) {
+	public boolean modificarTimeStampDelNombre(long dif, TimeStampFormat formatoTimeStamp) {
 		// Se añade "dif" en milisegundos al TimeStamp
 
 		if (this.tieneTimeStampElNombre()) {

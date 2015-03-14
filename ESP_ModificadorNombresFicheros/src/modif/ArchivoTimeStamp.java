@@ -1,8 +1,9 @@
 package modif;
 
-import main.IllegalTimeStampException;
-import main.TimeStamp;
-import main.TimeStampFile;
+import com.koldogontzal.timestamp.IllegalTimeStampException;
+import com.koldogontzal.timestamp.TimeStamp;
+import com.koldogontzal.timestamp.TimeStampFile;
+import com.koldogontzal.timestamp.TimeStampFormat;
 
 public class ArchivoTimeStamp extends Archivo {
 
@@ -40,7 +41,7 @@ public class ArchivoTimeStamp extends Archivo {
 		}
 	}
 	
-	public boolean añadirTimeStampAlNombre(TimeStamp t, int formatoTimeStamp) {
+	public boolean añadirTimeStampAlNombre(TimeStamp t, TimeStampFormat formatoTimeStamp) {
 		return this.tsf.setTimeStamp(t, formatoTimeStamp);
 	}
 	
@@ -48,7 +49,7 @@ public class ArchivoTimeStamp extends Archivo {
 		return this.tsf.deleteTimeStamp();		
 	}
 
-	public boolean modificarTimeStampDelNombre(long dif, int formatoTimeStamp) throws IllegalTimeStampException {
+	public boolean modificarTimeStampDelNombre(long dif, TimeStampFormat formatoTimeStamp) throws IllegalTimeStampException {
 		// Se añade dif en milisegundos
 		return this.tsf.setTimeStamp(dif, formatoTimeStamp);
 	}

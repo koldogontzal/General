@@ -1,7 +1,9 @@
 package modif;
 
-import main.IllegalTimeStampException;
-import main.TimeStamp;
+import com.koldogontzal.timestamp.IllegalTimeStampException;
+import com.koldogontzal.timestamp.TimeStamp;
+import com.koldogontzal.timestamp.TimeStampFormat;
+
 import apliGraf.Aplicacion;
 
 public class ModificadorNombreArchivosTimeStamp {
@@ -39,7 +41,7 @@ public class ModificadorNombreArchivosTimeStamp {
 		for (ArchivoTimeStamp archivo : listado) {
 			if (this.accion == AGNADIR) {
 				TimeStamp ts = archivo.getTimeStamp();
-				if (archivo.añadirTimeStampAlNombre(ts, TimeStamp.FormatYYYYMMDD_hhmmss)) {
+				if (archivo.añadirTimeStampAlNombre(ts, TimeStampFormat.yyyyMMdd_HHmmss)) {
 					this.app.escribirLinea("OK:\tA\u00F1adiendo TimeStamp a " + archivo);
 				} else {
 					this.app.escribirLinea("ERROR:\tNo se pudo a\u00F1adir TimeStamp a " + archivo);
@@ -58,7 +60,7 @@ public class ModificadorNombreArchivosTimeStamp {
 			
 			if (this.accion == MODIFICAR) {
 				try {
-					if (archivo.modificarTimeStampDelNombre(seg, TimeStamp.FormatYYYYMMDD_hhmmss)) {
+					if (archivo.modificarTimeStampDelNombre(seg, TimeStampFormat.yyyyMMdd_HHmmss)) {
 						this.app.escribirLinea("OK:\tModificando TimeStamp a " + archivo);
 					} else {
 						this.app.escribirLinea("ERROR:\tNo se pudo modificar TimeStamp a " + archivo);

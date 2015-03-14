@@ -1,13 +1,11 @@
-package main;
+package com.koldogontzal.timestamp;
 
 import java.io.File;
-
-import utils.TimeStampParser;
 
 public class TimeStampFile extends File {
 
 	private static final long serialVersionUID = -4736566271369957954L;
-	private static final int FormatoDefault = TimeStamp.FormatYYYYMMDD_hhmmss;
+	private static final TimeStampFormat FormatoDefault = TimeStampFormat.yyyyMMdd_HHmm;
 
 	private String StringPreMarca;
 	private String StringMarca;
@@ -24,8 +22,7 @@ public class TimeStampFile extends File {
 		String[] nombreDescompuesto = new String[3];
 		try {
 			// El File tiene una TimeStamp valido
-			this.marca = TimeStampParser.lookForTimeStamp(nombre,
-					nombreDescompuesto);
+			this.marca = TimeStamp.lookForTimeStamp(nombre, nombreDescompuesto);
 			this.StringPreMarca = nombreDescompuesto[0];
 			this.StringMarca = nombreDescompuesto[1];
 			this.StringPosMarca = nombreDescompuesto[2];
@@ -66,7 +63,7 @@ public class TimeStampFile extends File {
 		return this.actualizarFile();
 	}
 
-	public boolean setTimeStamp(TimeStamp nuevaMarca, int formatoMarcaDeTiempo) {
+	public boolean setTimeStamp(TimeStamp nuevaMarca, TimeStampFormat formatoMarcaDeTiempo) {
 		// Sustituye la MarcaDeTiempo por una nueva con un formato dado y
 		// renombra el fichero File
 		this.StringMarca = nuevaMarca.toString(formatoMarcaDeTiempo);
@@ -87,13 +84,13 @@ public class TimeStampFile extends File {
 		return this.setTimeStamp(nuevaMarca, FormatoDefault);
 	}
 
-	public boolean setTimeStamp(int formatoMarcaDeTiempo) {
+	public boolean setTimeStamp(TimeStampFormat formatoMarcaDeTiempo) {
 		// Cambia el formato de la MarcaDeTiempo y renombra el fichero File
 		return this.setTimeStamp(this.marca, formatoMarcaDeTiempo);
 	}
 
 	public boolean setTimeStamp(long variacionTiempoMilisegundos,
-			int formatoMarcaDeTiempo) throws IllegalTimeStampException {
+			TimeStampFormat formatoMarcaDeTiempo) throws IllegalTimeStampException {
 		// Adelanta la MarcaDeTiempo una cantidad de milisegundos dada con un
 		// formato dado y renombra el fichero File
 		if (this.marca != null) {
@@ -160,6 +157,7 @@ public class TimeStampFile extends File {
 
 	@Override
 	public String toString() {
+		// TODO Pensar en una forma mejor de presentar el Objeto en una String
 		return super.toString() + "\nMarcaDeTiempo: " + this.marca
 				+ "\nStringPre: " + this.StringPreMarca + "\nStringMarca: "
 				+ this.StringMarca + "\nStringPosMarca: " + this.StringPosMarca

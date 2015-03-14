@@ -1,10 +1,29 @@
-package main;
+package com.koldogontzal.timestamp;
 
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 
 public enum TimeStampFormat {
+	/*
+	 * Sigue la codificación usada por la clase SimpleDateFormat.
+	 * 
+	 * Hay otros caracteres, pero los usados en TimeStampFormat para definir los formatos serán:
+	 * 		yyyy	Año 			Siempre 4 cifras. Valores positivos
+	 * 		MM		Mes 			Siempre 2 cifras. Valores: [1-12]
+	 * 		dd		Día del mes 	Siempre 2 cifras. Valores: [1-31]
+	 * 		HH		Hora del día	Siempre 2 cifras. Valores: [0-23]
+	 * 		mm		Minutos			Siempre 2 cifras. Valores: [0-59]
+	 * 		ss		Segundos  		Siempre 2 cifras. Valores: [0-59]
+	 *
+	 *
+	 * Para añadir un formato nuevo, se añade a la lista de debajo una nueva línea con el nombre
+	 * de la enumeración (p. ej. yyyy_MM_dd_HH_mm_ss) seguida de una cadena entre paréntesis que
+	 * define cómo se van a formatear los TimeStamp al pasarlos a String (p. ej. "yyyy-MM-dd HH.mm.ss").
+	 * Conviene que la lista esté ordenada de más largos a menos largos para la que la búsqueda automática
+	 * de coincidencias funcione correctamente.
+	 * 
+	 */
 	yyyy_MM_dd_HH_mm_ss("yyyy-MM-dd HH.mm.ss"),
 	dd_MM_yyyy_HH_mm_ss("dd-MM-yyyy HH.mm.ss"),
 	yyyy_MM_dd_HH_mm("yyyy-MM-dd HH.mm"),

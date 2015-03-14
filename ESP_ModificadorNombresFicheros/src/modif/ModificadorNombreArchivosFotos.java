@@ -1,6 +1,7 @@
 package modif;
 
-import main.TimeStamp;
+import com.koldogontzal.timestamp.TimeStampFormat;
+
 import apliGraf.Aplicacion;
 
 public class ModificadorNombreArchivosFotos {
@@ -37,7 +38,7 @@ public class ModificadorNombreArchivosFotos {
 		ArchivoFoto[] listado = this.directorio.listArchivosFoto();
 		for (ArchivoFoto archivo : listado) {
 			if (this.accion == AGNADIR) {
-				if (archivo.agnadirTimeStampAlNombre(TimeStamp.FormatYYYYMMDD_hhmmss)) {
+				if (archivo.agnadirTimeStampAlNombre(TimeStampFormat.yyyyMMdd_HHmmss)) {
 					this.app.escribirLinea("OK:\tA\u00F1adiendo TimeStamp a " + archivo);
 				} else {
 					this.app.escribirLinea("ERROR:\tNo se pudo a\u00F1adir TimeStamp a " + archivo);
@@ -55,7 +56,7 @@ public class ModificadorNombreArchivosFotos {
 			}
 			
 			if (this.accion == MODIFICAR) {
-				if (archivo.modificarTimeStampDelNombre(seg, TimeStamp.FormatYYYYMMDD_hhmmss)) {
+				if (archivo.modificarTimeStampDelNombre(seg, TimeStampFormat.yyyyMMdd_HHmmss)) {
 					this.app.escribirLinea("OK:\tModificando TimeStamp a " + archivo);
 				} else {
 					this.app.escribirLinea("ERROR:\tNo se pudo modificar TimeStamp a " + archivo);

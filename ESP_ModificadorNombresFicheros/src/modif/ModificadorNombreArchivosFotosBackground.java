@@ -4,7 +4,7 @@ import apliGraf.Aplicacion;
 
 import javax.swing.SwingWorker;
 
-public class ModificadorNombreArchivosFotosBackground extends SwingWorker {
+public class ModificadorNombreArchivosFotosBackground extends SwingWorker<Object, Object> {
 	
 	private String directorio;
 	private int accion;
