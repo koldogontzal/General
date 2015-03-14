@@ -4,6 +4,7 @@ import apliGraf.VisorTextoConDesplazamiento;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -83,7 +84,7 @@ public class Aplicacion extends JFrame {
 		// Crear componentes
 		this.etiqDirectorio = new JLabel("Directorio de trabajo:");
 		
-		this.textoDirectorio = new JTextField("J:\\Documents and Settings\\Luis\\Escritorio");
+		this.textoDirectorio = new JTextField("C:\\Users\\Koldo\\Desktop");
 		
 		this.botonLlamarFileChooserDirectorio = new JButton("Buscar...");
 		this.botonLlamarFileChooserDirectorio.addActionListener(new ActionListener() {
@@ -107,6 +108,7 @@ public class Aplicacion extends JFrame {
 				r.execute();
 			}
 		});
+
 		
 		this.botonAgnadirNombreDirectorio = new JButton("A\u00F1adirNombreDeDirectorio");
 		this.botonAgnadirNombreDirectorio.addActionListener(new ActionListener() {
@@ -177,12 +179,10 @@ public class Aplicacion extends JFrame {
 						r.execute();
 					}
 				});
-		
-		
-		
-		
+				
 		
 		this.textoSegundosModificarMarcaDeTiempo = new JTextField("0");
+		this.textoSegundosModificarMarcaDeTiempo.setHorizontalAlignment(JTextField.RIGHT);
 		this.textoSegundosModificarMarcaDeTiempo.setMaximumSize(new Dimension(80,40));
 		
 		this.comboElegirFormatoTimeStamp = new JComboBox<TimeStampFormat>();
