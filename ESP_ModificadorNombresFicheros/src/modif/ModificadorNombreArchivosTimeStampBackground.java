@@ -4,13 +4,13 @@ import apliGraf.Aplicacion;
 
 import javax.swing.SwingWorker;
 
-public class ModificadorNombreArchivosFotosBackground extends SwingWorker {
+public class ModificadorNombreArchivosTimeStampBackground extends SwingWorker {
 	
 	private String directorio;
 	private int accion;
 	private Aplicacion app; 
 	
-	public ModificadorNombreArchivosFotosBackground(String directorio, int accion, Aplicacion app) {
+	public ModificadorNombreArchivosTimeStampBackground(String directorio, int accion, Aplicacion app) {
 		this.directorio = directorio;
 		this.accion = accion;
 		this.app = app;
@@ -18,7 +18,7 @@ public class ModificadorNombreArchivosFotosBackground extends SwingWorker {
 
 	@Override
 	protected Object doInBackground() throws Exception {		
-		new ModificadorNombreArchivosFotos(this.directorio, this.accion, this.app);
+		new ModificadorNombreArchivosTimeStamp(this.directorio, this.accion, this.app);
 		
 		return null;
 	}

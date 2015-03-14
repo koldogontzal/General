@@ -1,4 +1,4 @@
-package main;
+package com.koldogontzal.timestamp;
 
 public class IllegalTimeStampException extends Exception {
 

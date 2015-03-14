@@ -8,6 +8,10 @@ import com.drew.metadata.Directory;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.MetadataException;
 import com.drew.metadata.Tag;
+import com.koldogontzal.timestamp.IllegalTimeStampException;
+import com.koldogontzal.timestamp.TimeStamp;
+import com.koldogontzal.timestamp.TimeStampFile;
+import com.koldogontzal.timestamp.TimeStampFormat;
 
 public class ArchivoFoto extends Archivo {
 
@@ -16,7 +20,8 @@ public class ArchivoFoto extends Archivo {
 	 */
 	private static final long serialVersionUID = -2737770353528530260L;
 	
-	private Metadata metadata = null;;
+	private Metadata metadata = null;
+	private TimeStampFile tsf = null;
 	
 	public ArchivoFoto(String archivo) {
 		super(archivo);
@@ -28,8 +33,8 @@ public class ArchivoFoto extends Archivo {
 	}
 	
 	
-	public MarcaDeTiempo getMarcaDeTiempo() {
-		// Devuelve la fecha con formato MarcaDeTiempo
+	public TimeStamp getTimeStampDeMetadatos() {
+		// Devuelve la fecha con formato TimeStamp
 		if (this.metadata != null) {
 			// Existen metadatos
 			try {
@@ -59,14 +64,19 @@ public class ArchivoFoto extends Archivo {
 						}
 					}
 					if (temp2.equals("")) {
-						// En realidad no ha encontrado una marca de tiempo
+						// En realidad no ha encontrado datos de fecha
 						return null;
 					} else {
-						// Si la ha encontrado
-						return new MarcaDeTiempo(temp2);
+						// Si los ha encontrado, devuelve un TimeStamp
+						try {
+							return new TimeStamp(temp2);
+						} catch (IllegalTimeStampException e) {
+							// No ha reconocido el TimeStamp
+							return null;
+						}
 					}
 				} else {
-					// no ha encotrado los datos referentes a la fecha
+					// no ha encontrado los datos referentes a la fecha
 					return null;
 				}
 			} catch (MetadataException e) {
@@ -74,50 +84,39 @@ public class ArchivoFoto extends Archivo {
 				return null;
 			}
 		} else {
-			// No existen Metadatos
+			// No existen metadatos
 			return null;
 		}
 	}
 
-	private int tieneMarcaDeTiempoElNombre() {
-		// Función que devuelve el número de caracteres que ocupa la marca de tiempo al inicio del nombre del archivo (14, 15 ó 19)
-		// Devuelve 0 si el nombre no empieza por una marca de tiempo reconocida
-		String nombre = super.getNombre();
+	private boolean tieneTimeStampElNombre() {
+		// Función que devuelve true si el nombre del fichero contiene un TimeStamp reconocido
+		if (this.tsf == null) 
+			this.tsf = new TimeStampFile(super.getPath());
 		
-		if (nombre.length() >= 14) {
-			// Prueba con el formato aaaammddhhmmss
-			if (MarcaDeTiempo.StringConforme(nombre.substring(0, 14))) {
-				return 14;
-			} else if (nombre.length() >= 15) {
-				// Prueba con el formato aaaammdd_hhmmss
-				if (MarcaDeTiempo.StringConforme(nombre.substring(0, 15))) {
-					return 15;
-				} else if (nombre.length() >=19) {
-					// Prueba con el formato aaaa-mm-dd hh.mm.ss
-					if (MarcaDeTiempo.StringConforme(nombre.substring(0, 19))) {
-						return 19;
-					} else {
-						// El nombre del archivo no empieza por un formato de marca de tiempo reconocida
-						return 0;
-					}
-				}
-			} 
-		}
-		//return !((nombre.length() <= 14) || (!MarcaDeTiempo.StringConforme(nombre.substring(0, 14))));
-		return 0;
+		try {
+			this.tsf.getTimeStamp();
+			// Sí tiene TimeStamp reconocido, porque si no, se generaría una Exception
+			return true;
+		} catch (IllegalTimeStampException e) {
+			// No tiene TimeStamp, porque se ha generado una Exception
+			return false;
+		}	
+		
 	}
 	
-	public boolean agnadirMarcaDeTiempoAlNombre() {
+	public boolean agnadirTimeStampAlNombre(TimeStampFormat formatoTimeStamp) {
+		// Sólo añade un TimeStamp en el caso en el que no exista ya uno
 		String nombre = super.getNombre();
 		
-		if (this.tieneMarcaDeTiempoElNombre() == 0) {
+		if (!this.tieneTimeStampElNombre()) {
 			// Seguro que el nombre no tiene MarcaDeTiempo
-			MarcaDeTiempo marca = this.getMarcaDeTiempo();
+			TimeStamp marca = this.getTimeStampDeMetadatos();
 			if (marca != null) {
-				// Ha leido con exito los metadata
-				String nombreFinal = marca.toString() + "_" + nombre;
+				// Ha leído con éxito los metadata
+				String nombreFinal = marca.toString(formatoTimeStamp) + "_" + nombre;
 				
-				// Agnadido para manejar los ficheros de video con su archivo THM
+				// Añadido para manejar los ficheros de video con su archivo THM
 				if (this.getExtension().toUpperCase().equals("THM")) {
 					Archivo archVideo = super.CrearArchivoConExtensionNombreValido(new Directorio(this.getParent()), nombre, "AVI");
 					if (!archVideo.exists()) {
@@ -131,7 +130,7 @@ public class ArchivoFoto extends Archivo {
 				// Modifica el nombre del archivo
 				return super.renombrar(nombreFinal);
 			} else {
-				// NO ha leido los metadata
+				// No ha leído los metadata
 				return false;
 			}
 		} else {
@@ -140,40 +139,28 @@ public class ArchivoFoto extends Archivo {
 		}
 	}
 	
-	public boolean quitarMarcaDeTiempoAlNombre() {
-		int tamagnoMarcaTiempo = this.tieneMarcaDeTiempoElNombre();
-		if (tamagnoMarcaTiempo == 0) {
-			// Seguro que el nombre no tiene MarcaDeTiempo
+	public boolean quitarTimeStampAlNombre() {
+		if (!this.tieneTimeStampElNombre()) {
+			// Seguro que el nombre no tiene TimeStamp
 			return false;
 		} else {
-			// El nombre ya tiene Marca de tiempo
-			String nombre = super.getNombre();
-			int longitudNombre = nombre.length();
-			if (longitudNombre > tamagnoMarcaTiempo) {
-				return super.renombrar(nombre.substring(tamagnoMarcaTiempo + 1, longitudNombre));
-			} else {
-				return false;
-			}
+			return this.tsf.deleteTimeStamp();
 		}
 	}
 	
-	public boolean modificarMarcaDeTiempoDelNombre(long dif) {
-		// se a�ade "dif" en milisegundos
-		int tamagnoMarcaTiempo = this.tieneMarcaDeTiempoElNombre();
-//System.out.println(tamagnoMarcaTiempo);		
-		if (tamagnoMarcaTiempo != 0) {
-			// Tiene marca de tiempo
-			String nombre = super.getNombre();
-			int longitudNombre = nombre.length();
-			MarcaDeTiempo marca = new MarcaDeTiempo(nombre.substring(0, tamagnoMarcaTiempo));
-			marca.agnadirLapso(dif);
-			String nombreFinal;
-			if (longitudNombre > tamagnoMarcaTiempo) {
-				nombreFinal = marca.toString() + "_" + nombre.substring(tamagnoMarcaTiempo + 1, longitudNombre);
-			} else {
-				nombreFinal = marca.toString();
+	public boolean modificarTimeStampDelNombre(long dif) {
+		// Se añade "dif" en milisegundos al TimeStamp
+
+		if (this.tieneTimeStampElNombre()) {
+			// Tiene un TimeStamp, con lo que lo modifica
+			try {
+				return this.tsf.setTimeStampAddTime(dif);
+			} catch (IllegalTimeStampException e) {
+				// Nunca debería darse este caso
+				e.printStackTrace();
+				return false;
 			}
-			return super.renombrar(nombreFinal);			
+		
 		} else {
 			// No tiene marca
 			return false;

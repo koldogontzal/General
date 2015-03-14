@@ -173,7 +173,7 @@ public class ArchivoAudio extends Archivo {
 			// La cadena no es null
 			int posFinal = s.length();
 			if (posFinal < 1) {
-				// La cadena está vacía
+				// La cadena estï¿½ vacï¿½a
 				return s;
 			} else {
 				// La cadena tiene caracteres
