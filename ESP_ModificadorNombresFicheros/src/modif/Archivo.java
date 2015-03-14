@@ -202,7 +202,7 @@ public class Archivo extends File {
 	
 	private static String formatearNombre(String nombre) {
 		
-		// El nombre no puede tener m�s de 167 caracteres de largo, con extension.
+		// El nombre no puede tener más de 167 caracteres de largo, con extension.
 		// Serian 163 sin extension. 
 		// Por seguridad, ponemos 162, para extensiones de 4 caracteres
 		int longitud = nombre.length();

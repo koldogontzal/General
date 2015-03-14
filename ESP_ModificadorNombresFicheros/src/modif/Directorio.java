@@ -137,4 +137,28 @@ public class Directorio extends Archivo {
 		}
 		return listadoFinal;
 	}
+	
+	public ArchivoTimeStamp [] listArchivosTimeStamp() {
+		ArchivoTimeStamp [] listadoArchivos;
+		File [] listadoFiles = super.listFiles();
+		
+		listadoArchivos = new ArchivoTimeStamp[listadoFiles.length];
+		int posicion = 0;
+		for (File file : listadoFiles) {
+			Archivo temp = new Archivo(file.getPath());
+			if (!temp.esDirectorio()) {
+				listadoArchivos[posicion] = new ArchivoTimeStamp(file.getPath());
+				posicion++;
+			}
+		}
+		
+		// Hay que devolver una estructura que no tenga nulls, si no peta.
+		ArchivoTimeStamp [] listadoFinal = new ArchivoTimeStamp[posicion];
+		if (posicion > 0) {
+			for (int i = 0; i < posicion; i ++) {
+				listadoFinal[i] = listadoArchivos[i];
+			}
+		}
+		return listadoFinal;
+	}
 }

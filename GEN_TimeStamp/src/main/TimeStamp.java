@@ -31,14 +31,11 @@ public class TimeStamp implements Comparable<TimeStamp> {
 
 	private static final int FormatDefault = FormatYYYYMMDD_hhmmss;
 
-	public TimeStamp(int agno, int mes, int dia, int hora, int minuto,
-			int segundo) {
+	public TimeStamp(int agno, int mes, int dia, int hora, int minuto, int segundo) {
 		// el mes empieza a contar en 1==Enero, pero para GregorianCalendar,
 		// 0==Enero
-		this.fechaYHora = new GregorianCalendar(agno, mes - 1, dia, hora,
-				minuto, segundo);
-		this.precision = YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE
-				| SECOND;
+		this.fechaYHora = new GregorianCalendar(agno, mes - 1, dia, hora, minuto, segundo);
+		this.precision = YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND;
 	}
 
 	public TimeStamp(String s) throws IllegalTimeStampException {
@@ -52,9 +49,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 	}
 
 	public TimeStamp(GregorianCalendar c) {
-		this(
-				c,
-				(byte) (YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND));
+		this(c, (byte) (YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND));
 	}
 
 	public TimeStamp(GregorianCalendar c, byte precision) {
@@ -63,23 +58,21 @@ public class TimeStamp implements Comparable<TimeStamp> {
 	}
 
 	public TimeStamp(Date d) {
-		this(
-				d,
-				(byte) (YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND));
+		this(d, (byte) (YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND));
 	}
 
 	public TimeStamp(Date d, byte precision) {
+		this.fechaYHora = new GregorianCalendar();
 		this.fechaYHora.setTime(d);
 		this.precision = precision;
 	}
 
 	public TimeStamp(long d) {
-		this(
-				d,
-				(byte) (YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND));
+		this(d, (byte) (YEAR | MONTH | DAY_OF_MONTH | HOUR_OF_DAY | MINUTE | SECOND));
 	}
 
 	public TimeStamp(long d, byte precision) {
+		this.fechaYHora = new GregorianCalendar();
 		this.fechaYHora.setTimeInMillis(d);
 		this.precision = precision;
 	}
@@ -95,22 +88,38 @@ public class TimeStamp implements Comparable<TimeStamp> {
 	public String toString() {
 		return toString(FormatDefault);
 	}
+/*
+	public String toString(TimeStampFormat formato) {
+		String ret = formato.FormattedTimeStampString(this);
+		if ((this.precision & YEAR) != 0) {
+			int pos = formato.getFigurePosition(YEAR);
+			if (pos >= 0) {
+				if (pos == 0) {
+					ret = ""
+				} else {
+					
+				}
+			}
+
+		}
+		return ret;
+	}
+*/
 
 	public String toString(int formato) {
+		TimeStampFormat a;
 		String ret = null;
 
 		if (this.fechaYHora != null) {
 			ret = getFigure(YEAR);
 
-			if ((formato == FormatYYYY_MM_DD_hh_mm_ss)
-					|| (formato == FormatYYYY_MM_DD)) {
+			if ((formato == FormatYYYY_MM_DD_hh_mm_ss) || (formato == FormatYYYY_MM_DD)) {
 				ret = ret + "-";
 			}
 
 			ret = ret + getFigure(MONTH);
 
-			if ((formato == FormatYYYY_MM_DD_hh_mm_ss)
-					|| (formato == FormatYYYY_MM_DD)) {
+			if ((formato == FormatYYYY_MM_DD_hh_mm_ss) || (formato == FormatYYYY_MM_DD)) {
 				ret = ret + "-";
 			}
 
@@ -137,8 +146,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 					ret = ret + ".";
 				}
 
-				if ((formato != FormatYYYYMMDD_hhmm)
-						&& (formato != FormatYYYYMMDDhhmm)) {
+				if ((formato != FormatYYYYMMDD_hhmm) && (formato != FormatYYYYMMDDhhmm)) {
 					ret = ret + getFigure(SECOND);
 				}
 
@@ -151,6 +159,12 @@ public class TimeStamp implements Comparable<TimeStamp> {
 		}
 	}
 
+	
+
+	public Date getDate() {
+		return this.fechaYHora.getTime();
+	}
+	
 	public String getFigure(byte identificadorCifra) {
 		String ret;
 		if ((identificadorCifra & this.precision) != 0) {

@@ -19,21 +19,38 @@ public class ArchivoTimeStamp extends Archivo {
 		this(arch.getPath());
 	}
 	
-	public TimeStamp getTimeStamp() throws IllegalTimeStampException {
-		return this.tsf.getTimeStamp();
+	public TimeStamp getTimeStamp() {		
+		try {
+			return this.tsf.getTimeStamp();
+		} catch (IllegalTimeStampException e) {
+			// El archivo no tiene un TimeStamp en el nombre. Devuelve uno creado o de los metadatos o de la fecha de creación.
+			TimeStamp ts = null;
+			if (super.esArchivoFoto()) {
+				// Intenta leer los metadatos de la imagen y crear un TimeStamp
+				ArchivoFoto af = new ArchivoFoto(this.tsf.getPath());
+				ts = af.getTimeStampDeMetadatos();
+			} 
+			
+			if (ts == null) {
+				// Lee la fecha de la fecha de creación del archivo y crea un TimeStamp				
+				ts = new TimeStamp(super.lastModified());			
+			}
+			
+			return ts;
+		}
 	}
 	
-	public boolean añadirTimeStampAlNombre(TimeStamp t) {
-		return this.tsf.setTimeStamp(t);
+	public boolean añadirTimeStampAlNombre(TimeStamp t, int formatoTimeStamp) {
+		return this.tsf.setTimeStamp(t, formatoTimeStamp);
 	}
 	
 	public boolean quitarTimeStampAlNombre() {
 		return this.tsf.deleteTimeStamp();		
 	}
 
-	public boolean modificarTimeStampDelNombre(long dif) throws IllegalTimeStampException {
+	public boolean modificarTimeStampDelNombre(long dif, int formatoTimeStamp) throws IllegalTimeStampException {
 		// Se añade dif en milisegundos
-		return this.tsf.setTimeStamp(dif);
+		return this.tsf.setTimeStamp(dif, formatoTimeStamp);
 	}
 	
 }

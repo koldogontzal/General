@@ -71,6 +71,14 @@ public class TimeStampFile extends File {
 		// renombra el fichero File
 		this.StringMarca = nuevaMarca.toString(formatoMarcaDeTiempo);
 		this.marca = nuevaMarca;
+		// Añade un '_' al principio de StringPosMarca y al final de StringPreMarca si no existen
+		if (!this.StringPosMarca.startsWith("_") && (this.StringPosMarca.length() != 0)) {
+			this.StringPosMarca = "_" + this.StringPosMarca;
+		}
+		if (this.StringPreMarca.endsWith("_") && (this.StringPreMarca.length() != 0)) {
+			this.StringPreMarca = this.StringPreMarca + "_";
+		}
+		
 		return this.actualizarFile();
 	}
 
@@ -106,7 +114,21 @@ public class TimeStampFile extends File {
 	public boolean deleteTimeStamp() {
 		// Elimina el TimeStamp del nombre del archivo
 		this.marca = null;
-		this.StringPosMarca = this.StringPreMarca + this.StringPosMarca;
+		// Elimina el '_' de StringPosMarca si lo hubiera
+		if (this.StringPosMarca.startsWith("_")) {
+			this.StringPosMarca = this.StringPosMarca.substring(1);
+		}
+		// Elimina el '_' de StringPreMarca si lo hubiera
+		if (this.StringPreMarca.endsWith("_")) {
+			int len = this.StringPreMarca.length();
+			this.StringPreMarca = this.StringPreMarca.substring(0, len - 1);
+		}
+		
+		if ((this.StringPreMarca.length() != 0) && (this.StringPosMarca.length() == 0)) {
+			this.StringPosMarca = this.StringPreMarca + "_" + this.StringPosMarca;
+		} else {
+			this.StringPosMarca = this.StringPreMarca + this.StringPosMarca;
+		}
 		this.StringPreMarca = "";
 		this.StringMarca = "";
 		
@@ -116,10 +138,10 @@ public class TimeStampFile extends File {
 			for (int i = 0; i < src.length; i++) {
 				int valor = (int)(Math.random() * 36);
 				if (valor < 10) {
-					// Número 0-9
+					// Número 0-9. El carácter '0' tiene el código ASCII 48.
 					src[i] = (char)(valor + 48);
 				} else {
-					// letra a-z
+					// Letra a-z. El carácter 'a' tiene el código ASCII 97. Por eso suma 97 - 10 = 87
 					src[i] = (char)(valor + 87);
 				}
 			}
@@ -157,7 +179,7 @@ public class TimeStampFile extends File {
 				return nombreCompleto.substring(0, posicionPunto);
 			} else {
 				// Acaba en p. ej. .34 y eso no es una extensión valida, sino
-				// quizás el final de un TimeStamp. No seprar en nombre y
+				// quizás el final de un TimeStamp. No separar en nombre y
 				// extensión.
 				return nombreCompleto;
 			}
@@ -193,9 +215,4 @@ public class TimeStampFile extends File {
 		return super.renameTo(new File(nuevoPath));
 	}
 
-	
-	public static void main(String[] args) {
-		TimeStampFile f = new TimeStampFile("C:\\hora\\2014_10_04.doc");
-		f.deleteTimeStamp();
-	}
 }

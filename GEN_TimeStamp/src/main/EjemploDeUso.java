@@ -1,5 +1,7 @@
 package main;
 
+import java.io.File;
+
 public class EjemploDeUso {
 
 	public static void main(String[] args) {
@@ -11,6 +13,9 @@ public class EjemploDeUso {
 		try {
 			// Crear una a partir de un String
 			m = new TimeStamp(s);
+			long l = new File("").lastModified();
+			System.out.println(l);
+			m = new TimeStamp(l);
 
 			// Aplicar distintos formatos
 			System.out.println(m);
