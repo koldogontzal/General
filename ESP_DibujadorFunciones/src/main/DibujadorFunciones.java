@@ -14,7 +14,6 @@ import java.util.Iterator;
 import com.koldogontzal.geometria2d.Punto;
 
 import lienzo.LienzoEnPlanoReal;
-
 import util.Constante;
 import util.DeltaDirac;
 import util.Escalon;
@@ -23,6 +22,7 @@ import util.Funcion;
 import util.LogaritmoNeperiano;
 import util.Sumatorio;
 
+@SuppressWarnings("unused")
 public class DibujadorFunciones extends Frame implements PlanoRealDibujable {
 	
 	/**
@@ -72,6 +72,7 @@ public class DibujadorFunciones extends Frame implements PlanoRealDibujable {
 		return retorno;
 	}
 		
+	@SuppressWarnings("deprecation")
 	public void mostrarFunciones() {		
 		this.add(this.lienzo, BorderLayout.CENTER);
 		this.pack();
