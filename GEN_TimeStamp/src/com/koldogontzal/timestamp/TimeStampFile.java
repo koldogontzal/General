@@ -131,9 +131,13 @@ public class TimeStampFile extends File {
 		this.StringMarca = "";
 		
 		if (this.StringPosMarca.length() == 0) {
-			// El archivo se queda sin nombre, se inventa uno aleatorio de 6 caracteres
+			// El archivo se queda sin nombre, se inventa uno aleatorio de 6 caracteres,
+			// empezando por el carácter 'r' para evitar que si se añade a un TimeStamp
+			// de formato yyyyMMdd un nombre aleatorio que empiece por 4 dígitos (números)
+			// sea confundido con un formato yyyyMMdd_HHmm.
 			char[] src = new char[6];
-			for (int i = 0; i < src.length; i++) {
+			src[0] = 'r';
+			for (int i = 1; i < src.length; i++) {
 				int valor = (int)(Math.random() * 36);
 				if (valor < 10) {
 					// Número 0-9. El carácter '0' tiene el código ASCII 48.
