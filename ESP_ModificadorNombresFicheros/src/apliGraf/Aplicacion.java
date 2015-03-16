@@ -4,7 +4,6 @@ import apliGraf.VisorTextoConDesplazamiento;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -100,7 +99,7 @@ public class Aplicacion extends JFrame {
 			}			
 		});
 		
-		this.botonPasoGlobalNombresModernos = new JButton("PasoNombresModernos");
+		this.botonPasoGlobalNombresModernos = new JButton("Paso a NombresModernos");
 		this.botonPasoGlobalNombresModernos.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -110,7 +109,7 @@ public class Aplicacion extends JFrame {
 		});
 
 		
-		this.botonAgnadirNombreDirectorio = new JButton("A\u00F1adirNombreDeDirectorio");
+		this.botonAgnadirNombreDirectorio = new JButton("A\u00F1adir Nombre de Directorio");
 		this.botonAgnadirNombreDirectorio.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -119,7 +118,7 @@ public class Aplicacion extends JFrame {
 			}
 		});
 		
-		this.botonExtraerArchivosSubdirectorios = new JButton("ExtraerArchivosDeSubdirectorios");
+		this.botonExtraerArchivosSubdirectorios = new JButton("Extraer Archivos de Subdirectorios");
 		this.botonExtraerArchivosSubdirectorios.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -128,7 +127,7 @@ public class Aplicacion extends JFrame {
 			}
 		});
 		
-		this.botonReorganizarArchivosMP3 = new JButton("ReorganizarArchivosMP3");
+		this.botonReorganizarArchivosMP3 = new JButton("Reorganizar ArchivosMP3");
 		this.botonReorganizarArchivosMP3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -137,7 +136,7 @@ public class Aplicacion extends JFrame {
 			}
 		});
 		
-		this.botonModificarNombreFicherosMP3 = new JButton("ModificarNombreArchivosMP3");
+		this.botonModificarNombreFicherosMP3 = new JButton("Modificar Nombre ArchivosMP3");
 		this.botonModificarNombreFicherosMP3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				deshabilitarBotones();
@@ -192,7 +191,7 @@ public class Aplicacion extends JFrame {
 		this.comboElegirFormatoTimeStamp.setMaximumSize(new Dimension(175,30));
 		
 		
-		this.botonModificarFormatoTimeStamp = new JButton("Cambiar el formato de TimeStamp");
+		this.botonModificarFormatoTimeStamp = new JButton("Cambiar formato de TimeStamp");
 		this.botonModificarFormatoTimeStamp.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					deshabilitarBotones();

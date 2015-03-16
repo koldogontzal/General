@@ -41,6 +41,7 @@ public class ModificadorNombreArchivosTimeStamp {
 		for (ArchivoTimeStamp archivo : listado) {
 			if (this.accion == AGNADIR) {
 				TimeStamp ts = archivo.obtainTimeStamp();
+				ts.setPreferredFormat(this.app.getTimeStampFormatPreferred());
 				if (archivo.añadirTimeStampAlNombre(ts)) {
 					this.app.escribirLinea("OK:\tA\u00F1adiendo TimeStamp a " + archivo);
 				} else {
