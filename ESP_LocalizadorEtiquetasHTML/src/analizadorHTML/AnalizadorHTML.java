@@ -37,6 +37,9 @@ public class AnalizadorHTML {
 			this.textoHTML = texto.toString();
 			this.calcularListaEtiquetas();
 			
+			// Cieroo el Reader
+			br.close();
+			
 		} catch (FileNotFoundException e) {
 			System.out.println(archivo.getPath() + ": Archivo no encontrado");
 			e.printStackTrace();

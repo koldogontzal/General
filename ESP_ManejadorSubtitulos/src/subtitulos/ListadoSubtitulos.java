@@ -43,25 +43,25 @@ public class ListadoSubtitulos extends ArrayList<Subtitulo> {
 	}
 	
 	public void adelantarTiempos(long cantidad, int unidadTiempo) {
-		Iterator i = super.iterator();
+		Iterator<Subtitulo> i = super.iterator();
 		while (i.hasNext()) {
-			Subtitulo sub = (Subtitulo)i.next();
+			Subtitulo sub = i.next();
 			sub.adelantarTiempos(cantidad, unidadTiempo);
 		}
 	}
 	
 	public void multiplicarFactorTiempos(double factor) {
-		Iterator i = super.iterator();
+		Iterator<Subtitulo> i = super.iterator();
 		while (i.hasNext()) {
-			Subtitulo sub = (Subtitulo)i.next();
+			Subtitulo sub = i.next();
 			sub.multiplicarFactorTiempos(factor);
 		}
 	}
 	
 	public void convertirASCII7bits() {
-		Iterator i = super.iterator();
+		Iterator<Subtitulo> i = super.iterator();
 		while (i.hasNext()) {
-			Subtitulo sub = (Subtitulo)i.next();
+			Subtitulo sub = i.next();
 			sub.convertirTextoFormato7bits();
 		}
 	}
@@ -91,9 +91,9 @@ public class ListadoSubtitulos extends ArrayList<Subtitulo> {
 		try {
 			pw = new PrintWriter(this.archivo);
 			int contador = 1;
-			Iterator i = super.iterator();
+			Iterator<Subtitulo> i = super.iterator();
 			while (i.hasNext()) {
-				Subtitulo sub = (Subtitulo)i.next();
+				Subtitulo sub = i.next();
 				pw.write(sub.toStringSRT(contador) + "\n\n");
 				contador++;
 			}
@@ -113,13 +113,13 @@ public class ListadoSubtitulos extends ArrayList<Subtitulo> {
 
 	private void leeArchivoSUB() {
 		if (this.lectorDeArchivos != null) {
-			Iterator i = this.lectorDeArchivos.iterator();
+			Iterator<String> i = this.lectorDeArchivos.iterator();
 			
 			// La primera linea tiene la cadena "{1}{1}" y despues el numero de fps
 			String linea;
 			double fps = 0.0;
 			if (i.hasNext()) {
-				linea = (String)i.next();
+				linea = i.next();
 				if ((linea.length() > 6) && linea.substring(0, 6).equals("{1}{1}")) {
 					fps = Double.parseDouble(linea.substring(6, linea.length()));
 				}
@@ -128,7 +128,7 @@ public class ListadoSubtitulos extends ArrayList<Subtitulo> {
 			// Sigue leyendo el resto de lineas que son los subtitulos
 			if (fps != 0.0) {
 				while (i.hasNext()) {
-					linea = (String)i.next();
+					linea = i.next();
 					
 					int posAbrir = linea.indexOf("{");
 					int posCerrar = linea.indexOf("}");
@@ -165,10 +165,10 @@ public class ListadoSubtitulos extends ArrayList<Subtitulo> {
 			// Busca las lineas vacias para identificar bloques (== lineas entre 2 lineas vacias)
 			int [] posicionesLineasVacias = new int[this.lectorDeArchivos.size()];
 			int altura = 0;
-			Iterator i = this.lectorDeArchivos.iterator();
+			Iterator<String> i = this.lectorDeArchivos.iterator();
 			int posIterator = -1;
 			while (i.hasNext()) {				
-				String linea = (String)i.next();
+				String linea = i.next();
 				posIterator++;
 				if (this.esLineaVacia(linea)) {
 					posicionesLineasVacias[altura] = posIterator;
@@ -263,9 +263,9 @@ public class ListadoSubtitulos extends ArrayList<Subtitulo> {
 	@Override
 	public String toString() {
 		String ret = "";
-		Iterator i = super.iterator();
+		Iterator<Subtitulo> i = super.iterator();
 		while (i.hasNext()) {
-			Subtitulo sub = (Subtitulo)i.next();
+			Subtitulo sub = i.next();
 			ret = ret + sub + "\n\n";
 		}
 		return ret;

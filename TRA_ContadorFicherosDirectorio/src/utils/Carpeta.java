@@ -206,7 +206,7 @@ public class Carpeta {
 		return ret.substring(0, t);
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "rawtypes" })
 	private int[] getArrayAcumuladoMeses(ArrayList lista) {
 		int[] ret = new int[12];
 		

@@ -1,6 +1,6 @@
 package tiempo;
 
-public class Instante implements Comparable {
+public class Instante implements Comparable<Instante> {
 	// tiempo transcurrido en milisegundos desde el instante 0
 	private long tiempo;
 	
@@ -167,9 +167,9 @@ public class Instante implements Comparable {
 		return (this.tiempo == i.tiempo);
 	}
 	
-	public int compareTo(Object arg0) {
+	public int compareTo(Instante arg0) {
 		Long l = new Long(this.tiempo);
-		Long l0 = new Long(((Instante) arg0).tiempo);
+		Long l0 = new Long(arg0.tiempo);
 		return l.compareTo(l0);
 	}
 

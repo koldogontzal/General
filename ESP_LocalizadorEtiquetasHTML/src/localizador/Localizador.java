@@ -241,17 +241,17 @@ public class Localizador {
 	private void analizarTodoElSiteSS() throws Exception {
 		// Carga el fichero con los ID.
 		ManejadorID manejadorID = new ManejadorID(PATH_FICHERO_IDs);
-		ArrayList listadoID = manejadorID.getArrayId();
+		ArrayList<String> listadoID = manejadorID.getArrayId();
 		
 		// recorre toda la lista de ID
-		Iterator iterator = listadoID.iterator();
+		Iterator<String> iterator = listadoID.iterator();
 		int contador = 0;
 		int numSecciones = listadoID.size();
 		
 		// Este bloque es para empezar el análisis a partir de un ID determinado
 		// definido en la constante PAGINA_INICIO_ANALISIS_TODO_EL_SITE
 		if (!PAGINA_INICIO_ANALISIS_TODO_EL_SITE_SS.equals("")) {
-			while (iterator.hasNext() && !((String)iterator.next()).equals(PAGINA_INICIO_ANALISIS_TODO_EL_SITE_SS)) {
+			while (iterator.hasNext() && !(iterator.next()).equals(PAGINA_INICIO_ANALISIS_TODO_EL_SITE_SS)) {
 				// avanza la lista hasta la posicion deseada
 				contador++;
 			}

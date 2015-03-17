@@ -3,6 +3,7 @@ package main;
 import subtitulos.ListadoSubtitulos;
 import tiempo.Instante;
 
+@SuppressWarnings("unused")
 public class Aplicacion {
 	
 	public static void main(String[] args) {

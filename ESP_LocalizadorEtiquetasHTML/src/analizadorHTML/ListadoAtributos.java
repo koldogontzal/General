@@ -136,19 +136,19 @@ private String conversion(boolean [] array) {
 	@Override
 	public String toString() {
 		String ret = "";		
-		Iterator i = this.listado.iterator();
+		Iterator<Atributo> i = this.listado.iterator();
 		while (i.hasNext()) {
-			Atributo att = (Atributo)i.next();
+			Atributo att = i.next();
 			ret = ret + att.toString() + " ";
 		}		
 		return ret;
 	}
 
 	public boolean hayAtributo(String nombreAtributo) {
-		Iterator i = this.listado.iterator();
+		Iterator<Atributo> i = this.listado.iterator();
 		boolean encontrado = false;
 		while (!encontrado && i.hasNext()) {
-			Atributo att = (Atributo)i.next();
+			Atributo att = i.next();
 			encontrado = att.esAtributo(nombreAtributo);
 		}
 		return encontrado;

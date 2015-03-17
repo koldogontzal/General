@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public abstract class LectorDeArchivos extends ArrayList<String> {
+
+	private static final long serialVersionUID = 2476790338463233831L;
 	
 	public static final int OK = 0;
 	public static final int FICHERO_NO_ENCONTRADO = -1;
@@ -41,7 +43,7 @@ public abstract class LectorDeArchivos extends ArrayList<String> {
 	public String toString() {
 		String ret = "";
 		int numLinea = 1;
-		Iterator i = super.iterator();
+		Iterator<String> i = super.iterator();
 		while (i.hasNext()) {
 			ret = ret + "Linea " + numLinea + ": " + i.next() + "\n";
 			numLinea++;
