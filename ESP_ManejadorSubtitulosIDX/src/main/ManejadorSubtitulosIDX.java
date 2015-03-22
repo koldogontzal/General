@@ -3,7 +3,6 @@ package main;
 import java.io.EOFException;
 
 import tiempo.Instante;
-
 import escritor.EscritorArchivosTexto;
 import lector.LectorArchivosTexto;
 
@@ -57,6 +56,7 @@ public class ManejadorSubtitulosIDX {
 	}
 	
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		ManejadorSubtitulosIDX s = new ManejadorSubtitulosIDX("Were The World Mine (2008).idx", "Were The World Mine_2 (2008).idx");
 	}

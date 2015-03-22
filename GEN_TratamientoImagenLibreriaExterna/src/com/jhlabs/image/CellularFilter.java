@@ -47,7 +47,9 @@ public class CellularFilter extends WholeImageFilter implements Function2D, Clon
 	protected Point[] results = null;
 	protected float randomness = 0;
 	protected int gridType = HEXAGONAL;
+	@SuppressWarnings("unused")
 	private float min;
+	@SuppressWarnings("unused")
 	private float max;
 	private static byte[] probabilities;
 	private float gradientCoefficient;

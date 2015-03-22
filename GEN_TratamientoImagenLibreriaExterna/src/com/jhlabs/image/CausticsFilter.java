@@ -27,6 +27,7 @@ import com.jhlabs.math.Noise;
 public class CausticsFilter extends WholeImageFilter {
 
 	private float scale = 32;
+	@SuppressWarnings("unused")
 	private float angle = 0.0f;
 	private int brightness = 10;
 	private float amount = 1.0f;
@@ -195,6 +196,7 @@ public class CausticsFilter extends WholeImageFilter {
 		return bgColor;
 	}
 
+	@SuppressWarnings("unused")
 	protected int[] filterPixels( int width, int height, int[] inPixels, Rectangle transformedSpace ) {
 		Random random = new Random(0);
 
@@ -290,6 +292,7 @@ public class CausticsFilter extends WholeImageFilter {
 		return pixels;
 	}
 
+	@SuppressWarnings("unused")
 	private static int add(int rgb, float brightness) {
 		int r = (rgb >> 16) & 0xff;
 		int g = (rgb >> 8) & 0xff;
@@ -306,6 +309,7 @@ public class CausticsFilter extends WholeImageFilter {
 		return 0xff000000 | (r << 16) | (g << 8) | b;
 	}
 	
+	@SuppressWarnings("unused")
 	private static int add(int rgb, float brightness, int c) {
 		int r = (rgb >> 16) & 0xff;
 		int g = (rgb >> 8) & 0xff;

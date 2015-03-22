@@ -76,6 +76,7 @@ public class Curve {
 		y = ny;
 	}
 
+	@SuppressWarnings("unused")
 	private void sortKnots() {
 		int numKnots = x.length;
 		for (int i = 1; i < numKnots-1; i++) {

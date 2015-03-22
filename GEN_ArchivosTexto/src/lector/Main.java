@@ -6,6 +6,7 @@ import javax.imageio.ImageIO;
 
 import escritor.EscritorArchivosTexto;
 
+@SuppressWarnings("unused")
 public class Main {
 	public static void main(String[] args) {
 		

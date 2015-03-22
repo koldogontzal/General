@@ -241,10 +241,12 @@ public class Replicador {
 		
 
 		// Crea el canal channel sobre el original
-		FileChannel srcChannel = new FileInputStream(src).getChannel();
+		FileInputStream fileInputStream = new FileInputStream(src);
+		FileChannel srcChannel = fileInputStream.getChannel();
 
 		// Crea el cana channel sobre el destino
-		FileChannel dstChannel = new FileOutputStream(dst).getChannel();
+		FileOutputStream fileOutputStream = new FileOutputStream(dst);
+		FileChannel dstChannel = fileOutputStream.getChannel();
 
 		// Coopia el contenido del archivo del original al destino
 		dstChannel.transferFrom(srcChannel, 0, srcChannel.size());
@@ -252,6 +254,9 @@ public class Replicador {
 		// Cierra los canales channels
 		srcChannel.close();
 		dstChannel.close();
+		
+		fileInputStream.close();
+		fileOutputStream.close();
 		
 		// Copia los atributos (en la versión 7 de Java será posible usar nuevas
 		// clases -DosFileAttributeView- que permitirán una manejo mejor de los

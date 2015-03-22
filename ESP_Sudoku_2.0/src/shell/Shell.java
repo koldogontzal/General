@@ -50,6 +50,7 @@ public class Shell {
 * @return int[] Array de enteros, cuya primera posición es el comando escrito por el judaor y si tiene parametros,  estos van en las siguientes posiciones del array
 */
 	public int [] leeComando () {
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in).useDelimiter("\r\n");
 		int [] devolver = null;
 		

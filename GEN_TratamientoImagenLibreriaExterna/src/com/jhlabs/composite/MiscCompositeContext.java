@@ -27,11 +27,17 @@ public class MiscCompositeContext implements CompositeContext {
 
 	private int rule;
 	private float alpha;
+	@SuppressWarnings("unused")
 	private ColorModel srcColorModel;
+	@SuppressWarnings("unused")
 	private ColorModel dstColorModel;
+	@SuppressWarnings("unused")
 	private ColorSpace srcColorSpace;
+	@SuppressWarnings("unused")
 	private ColorSpace dstColorSpace;
+	@SuppressWarnings("unused")
 	private boolean srcNeedsConverting;
+	@SuppressWarnings("unused")
 	private boolean dstNeedsConverting;
 
 	public MiscCompositeContext(int rule,
@@ -44,6 +50,7 @@ public class MiscCompositeContext implements CompositeContext {
 		this.dstColorModel = dstColorModel;
 		this.srcColorSpace = srcColorModel.getColorSpace();
 		this.dstColorSpace = dstColorModel.getColorSpace();
+		@SuppressWarnings("unused")
 		ColorModel srgbCM = ColorModel.getRGBdefault();
 //		srcNeedsConverting = !srcColorModel.equals(srgbCM);
 //		dstNeedsConverting = !dstColorModel.equals(srgbCM);
@@ -103,6 +110,7 @@ public class MiscCompositeContext implements CompositeContext {
 				int dib = dstPix[i+2];
 				int sa = srcPix[i+3];
 				int dia = dstPix[i+3];
+				@SuppressWarnings("unused")
 				int dor, dog, dob, doa;
 
 				switch ( rule ) {

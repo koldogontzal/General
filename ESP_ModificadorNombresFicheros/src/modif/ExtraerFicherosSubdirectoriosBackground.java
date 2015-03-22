@@ -4,6 +4,7 @@ import apliGraf.Aplicacion;
 
 import javax.swing.SwingWorker;
 
+@SuppressWarnings("rawtypes")
 public class ExtraerFicherosSubdirectoriosBackground extends SwingWorker {
 	
 	private String directorio;

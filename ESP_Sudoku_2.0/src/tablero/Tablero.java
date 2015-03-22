@@ -399,19 +399,19 @@ public class Tablero implements Serializable{
 	
 			
 	public void mostrarListaResueltas(boolean todas) {
-		Iterator it = this.listaResueltas.iterator();
+		Iterator<Celda> it = this.listaResueltas.iterator();
 		if (it.hasNext()) {
 			if (todas) {
 				// Escribe la lista ordenada de todas las celdas y su valor
 				while (it.hasNext()) {
-					Celda celda = (Celda) it.next();
+					Celda celda = it.next();
 					System.out.print(celda.getPosicion() + "-"
 							+ celda.unicoValorPosible() + " ");
 				}
 				System.out.println();
 			} else {
 				// Escribe sólo una celda cuya solución es posible
-				Celda celda = (Celda) it.next();
+				Celda celda = it.next();
 				System.out.print("Pista: la Celda " + celda.getPosicion() + " sólo tiene un valor posible.");
 			}
 		} else {
@@ -431,9 +431,9 @@ public class Tablero implements Serializable{
 			}
 		}
 		// Clona la lista de celdas resueltas, listaResueltas
-		Iterator it=this.listaResueltas.iterator();
+		Iterator<Celda> it=this.listaResueltas.iterator();
 		while (it.hasNext()) {
-			Celda celdaOriginal = (Celda)it.next();
+			Celda celdaOriginal = it.next();
 			Posicion pos = celdaOriginal.getPosicion();
 			Celda celdaClonada = retorno.getCelda(pos);
 			retorno.listaResueltas.add(celdaClonada);

@@ -65,6 +65,7 @@ public class ArchivoAudio extends Archivo {
 		try {
 			baseFileFormat = AudioSystem.getAudioFileFormat(super.getAbsoluteFile());
 			if (baseFileFormat instanceof TAudioFileFormat) {
+				@SuppressWarnings("rawtypes")
 				Map tags = ((TAudioFileFormat) baseFileFormat).properties();
 				// Album
 				album = (String) tags.get("album");
@@ -89,6 +90,7 @@ public class ArchivoAudio extends Archivo {
 		try {
 			baseFileFormat = AudioSystem.getAudioFileFormat(super.getAbsoluteFile());
 			if (baseFileFormat instanceof TAudioFileFormat) {
+				@SuppressWarnings("rawtypes")
 				Map tags = ((TAudioFileFormat) baseFileFormat).properties();
 				// Disco
 				String numeroDisco = (String) tags.get("mp3.id3tag.disc");
@@ -118,6 +120,7 @@ public class ArchivoAudio extends Archivo {
 		try {
 			baseFileFormat = AudioSystem.getAudioFileFormat(super.getAbsoluteFile());
 			if (baseFileFormat instanceof TAudioFileFormat) {
+				@SuppressWarnings("rawtypes")
 				Map tags = ((TAudioFileFormat) baseFileFormat).properties();
 				// Pista
 				String numeroPista = (String) tags.get("mp3.id3tag.track");
@@ -150,6 +153,7 @@ public class ArchivoAudio extends Archivo {
 		try {
 			baseFileFormat = AudioSystem.getAudioFileFormat(super.getAbsoluteFile());
 			if (baseFileFormat instanceof TAudioFileFormat) {
+				@SuppressWarnings("rawtypes")
 				Map tags = ((TAudioFileFormat) baseFileFormat).properties();
 				// Titulo
 				titulo = (String) tags.get("title");

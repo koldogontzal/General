@@ -80,7 +80,8 @@ public class CurlFilter extends TransformFilter {
 		public Sampler( BufferedImage image ) {
 			int width = image.getWidth();
 			int height = image.getHeight();
-			int type = image.getType();
+			@SuppressWarnings("unused")
+			int S = image.getType();
 			inPixels = ImageUtils.getRGB( image, 0, 0, width, height, null );
 		}
 		
@@ -124,7 +125,8 @@ public class CurlFilter extends TransformFilter {
 		}
 	}
 	
-    public BufferedImage filter( BufferedImage src, BufferedImage dst ) {
+    @SuppressWarnings("unused")
+	public BufferedImage filter( BufferedImage src, BufferedImage dst ) {
         int width = src.getWidth();
         int height = src.getHeight();
 		this.width = src.getWidth();

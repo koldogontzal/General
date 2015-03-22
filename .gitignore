@@ -1,4 +1,7 @@
 *.class
+/**/.gitignore
+/**/bin/.gitignore
+
 
 ## Ejemplos comentados:
 ## no .a files

@@ -101,6 +101,7 @@ public class ContourFilter extends WholeImageFilter {
 			for (int x = 0; x < width; x++) {
 				boolean xIn = x > 0 && x < width-1;
 				int w = x-1;
+				@SuppressWarnings("unused")
 				int e = x+1;
 				int v = 0;
 				

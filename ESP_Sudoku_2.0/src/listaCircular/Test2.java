@@ -32,7 +32,7 @@ public class Test2 {
 	}
 
 	private static void mostrarLista(List<String> lista) {
-		Iterator it = lista.iterator();
+		Iterator<String> it = lista.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}

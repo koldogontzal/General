@@ -127,7 +127,8 @@ public class ApplyMaskFilter extends AbstractBufferedImageOp {
 		}
 	}
 
-    public BufferedImage filter( BufferedImage src, BufferedImage dst ) {
+    @SuppressWarnings("unused")
+	public BufferedImage filter( BufferedImage src, BufferedImage dst ) {
         int width = src.getWidth();
         int height = src.getHeight();
 		int type = src.getType();

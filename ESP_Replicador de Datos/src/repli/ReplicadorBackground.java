@@ -4,7 +4,7 @@ import gui.Aplicacion;
 
 import javax.swing.SwingWorker;
 
-@SuppressWarnings("unchecked")
+@SuppressWarnings("rawtypes")
 public class ReplicadorBackground extends SwingWorker {
 	
 	private String fileOrigen;
