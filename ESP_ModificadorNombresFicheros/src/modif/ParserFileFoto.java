@@ -15,7 +15,7 @@ public class ParserFileFoto {
 	private final String vueltaActual = "2";
 	
 	public ParserFileFoto(String nombre) {
-		if (nombre.matches("[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]_[A-Z][A-Z][A-Z]*.*")) {
+		if (nombre.matches("[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]_[A-Z][A-Z][A-Z]*.*"))  {
 			// Es un nombre de archivo original de la c�mara, con formato antiguo
 			this.tipo = nombre.substring(9, 12).toUpperCase();
 			// Los archivos con estos numeros, iban desde el '0'0001 hasta el '1'6295

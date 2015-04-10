@@ -6,7 +6,7 @@ public class Archivo extends File {
 
 	private static final long serialVersionUID = 9125965147957807122L;
 	private static final String stringAperturaOrden = "_("; // El orden se representa como "_(n)" donde n es un entero
-	private static final String stringClausuraOrden = ")";
+	private static final String stringClausuraOrden = ")";  // al final del nombre del archivo
 	
 	private String nombre;
 	private int orden; // Cuando un nombre se repite en archivos distintos, entonces se añade un orden al final 
@@ -14,9 +14,11 @@ public class Archivo extends File {
 		// Las constantes stringAperturaOrden y stringClausuraOrden definen qué caracteres encierran al orden
 		// Si el nombre del archivo es único, n = 1 y no se añade _(1) al nombre
 	private String extension;
+	private Archivo archivoModificable;
 
 	public Archivo(String pathname) {
 		super(pathname);
+		this.archivoModificable = this;
 		
 		// Busca el nombre, el orden y la extension
 		String nombreCompleto = super.getName();
@@ -89,14 +91,18 @@ public class Archivo extends File {
 		return super.compareTo(pathname);
 	}
 
-	public String getNombre() {
+	public String getNombreSimple() {
 		return nombre;
 	}
-
+	
 	public int getOrden() {
 		return orden;
 	}
 
+	public Archivo adelantarOrden() {
+		super.
+	}
+	
 	public String getExtension() {
 		return extension;
 	}
