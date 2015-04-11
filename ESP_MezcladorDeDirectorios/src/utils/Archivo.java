@@ -14,11 +14,11 @@ public class Archivo extends File {
 		// Las constantes stringAperturaOrden y stringClausuraOrden definen qué caracteres encierran al orden
 		// Si el nombre del archivo es único, n = 1 y no se añade _(1) al nombre
 	private String extension;
-	private Archivo archivoModificable;
+	private File fileModificable;
 
 	public Archivo(String pathname) {
 		super(pathname);
-		this.archivoModificable = this;
+		this.fileModificable = this;
 		
 		// Busca el nombre, el orden y la extension
 		String nombreCompleto = super.getName();
@@ -71,6 +71,13 @@ public class Archivo extends File {
 		} 
 	}
 	
+	private Archivo(String parent, String nombre, int orden, String estension) {
+		super(parent);
+		this.nombre = nombre;
+		this.orden = orden;
+		this.extension = estension;
+	}
+	
 	@Override
 	public String toString() {
 		if (this.orden == 1) {
@@ -99,8 +106,9 @@ public class Archivo extends File {
 		return orden;
 	}
 
-	public Archivo adelantarOrden() {
-		super.
+	public void adelantarOrden() {
+		this.orden++;
+		this.fileModificable = new File(this.toString());
 	}
 	
 	public String getExtension() {
