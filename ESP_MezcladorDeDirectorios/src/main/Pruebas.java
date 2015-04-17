@@ -1,17 +1,16 @@
 package main;
 
-import utils.Archivo;
+import java.io.File;
+
+import mezclador.MezcladorDeDirectorios;
 
 public class Pruebas {
 	
 	public static void main(String[] args) {
-		Archivo a = new Archivo("C:\\prueba\\.fichero_(2).ext");
-		System.out.println(a);
-		System.out.println("Padre: " + a.getParent());
-		System.out.println("Nombre: " + a.getNombreSimple());
-		System.out.println("Orden: " + a.getOrden());
-		System.out.println("Extension: " + a.getExtension());
-		
+
+		new MezcladorDeDirectorios(
+				new File("C:\\Users\\lcastellano\\Desktop\\Pruebas\\Origen"),
+				new File("C:\\Users\\lcastellano\\Desktop\\Pruebas\\Destino"));
 	}
 
 }
