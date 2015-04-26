@@ -1,8 +1,11 @@
 package utils;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
-public class Archivo implements Comparable<Archivo> {
+public class Archivo {
 
 	private static final String stringAperturaOrden = "_("; // El orden se representa como "_(n)" donde n es un entero
 	private static final String stringClausuraOrden = ")";  // al final del nombre del archivo
@@ -77,7 +80,7 @@ public class Archivo implements Comparable<Archivo> {
 	}
 	
 
-	
+
 	@Override
 	public String toString() {
 		if (this.orden == 1) {
@@ -91,7 +94,7 @@ public class Archivo implements Comparable<Archivo> {
 					+ (this.extension != null ? this.extension : "");
 		}
 	}
-	
+
 	public File getFile() {
 		return this.file;
 	}
@@ -113,6 +116,60 @@ public class Archivo implements Comparable<Archivo> {
 		return extension;
 	}
 
+	public boolean equalsNombre(Archivo a) {
+		if (this.nombreSimple.equals(a.getNombreSimple()) &&
+			this.extension.equals(a.getExtension())) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public boolean equalsContenido(Archivo a) throws IOException {
+		if (this.file.length() != a.getFile().length()) {
+			return false;
+		} else {
+			// Compara byte a byte dos ficheros. Devuelve true si son iguales
+			boolean ret = true;
+			
+			InputStream in1 = new FileInputStream(this.getFile());
+			InputStream in2 = new FileInputStream(a.getFile());
+			
+			byte[] buf1 = new byte[1048576]; // Lee 1 MB en cada tacada
+			byte[] buf2 = new byte[1048576];
+	        int len1;
+	        int len2;
+	        while (((len1 = in1.read(buf1)) > 0) && ret) {
+	        	// Lee un bloque de 1 MB en cada uno de los ficheros. 
+	        	// Repite el bucle de leer bloques de 1 MB mientras sigan siendo iguales
+	            len2 = in2.read(buf2);
+	            if (len1 == len2) {
+	            	// Si ambos bloques leídos tienen el mismo tamaño, entonces los recorre byte a byte
+	            	int pos = 0;
+	            	while (ret && (pos < len1)) {
+	            		if (buf1[pos] == buf2[pos]) {
+	            			pos++;
+	            		} else {
+	            			// Ha encontrado un byte diferente, con lo que los archivos no son iguales
+	            			ret = false;
+	            		}
+	            	}
+	            	
+	            } else {
+	            	// Los bloques leídos tienen distinto tamaño, con lo que los archivos no son iguales
+	            	ret = false;
+	            }
+	        }	
+			
+	        // Cierra los flujos de entrada de los dos archivos
+	        in1.close();
+	        in2.close();
+	        
+	        // Devuelve ret que contiene true sólo si ambos archivos son iguales
+			return ret;
+		}
+	}
+/*
 	@Override
 	public int compareTo(Archivo arg0) {
 		if ((this.nombreSimple.equals(arg0.nombreSimple)) &&
@@ -120,7 +177,7 @@ public class Archivo implements Comparable<Archivo> {
 			// Tienen el mismo nombre, entonces se buscan otras características
 			// revisa que el tamaño sea distinto
 			if (this.file.length() == arg0.getFile().length()) {
-				// El tamaño coincide, con lo que hay que buscar diferencias en alguna otra cracterística
+				// El tamaño coincide, con lo que hay que buscar diferencias en alguna otra característica
 				// TODO: Comparar los archivos byte a byte
 				return 0;
 			} else {
@@ -132,29 +189,34 @@ public class Archivo implements Comparable<Archivo> {
 			return (this.nombreSimple + this.extension).compareTo(arg0.nombreSimple + arg0.extension);
 		}
 	}
+*/	
+	private boolean cambiarDeDirectorioRecursivo(File fileDestino) throws FileAlreadyExistsException, IOException {
+		if (fileDestino.exists()) {
+			// Ya existe un archivo con ese nombre
+			Archivo archivoDestino = new Archivo(fileDestino);
+			if (this.equalsContenido(archivoDestino)) {
+				// No hay que copiar nada porque es el mismo Archivo
+				throw new FileAlreadyExistsException(this.file.getName(), new File(fileDestino.getParent()));
+			} else {
+				// Aumenta el orden para repetir el proceso recursivamente y ver si no existe en el directorio de destino
+				archivoDestino.adelantarOrden();
+				return cambiarDeDirectorioRecursivo(archivoDestino.getFile());
+			}
+		} else {
+			// No existe un archivo con ese nombre, se copia
+			boolean ret = false;
+			ret = this.file.renameTo(fileDestino); // Usa el file original, porque si se ha adelantado el orden, el 
+			if (ret) {
+				this.file = fileDestino;
+			}
+			return ret;
+		}
+	}
 	
-	public boolean cambiarDeDirectorio(File nuevoDirectorio) throws FileAlreadyExistsException {
+	public boolean cambiarDeDirectorio(File nuevoDirectorio) throws FileAlreadyExistsException, IOException {
 		if (nuevoDirectorio.isDirectory()) {
 			File nuevoPath = new File (nuevoDirectorio.getPath() + File.separator + this.file.getName());
-			if (nuevoPath.exists()) {
-				// Ya existe un archivo con ese nombre
-				Archivo nuevo = new Archivo(nuevoPath);
-				if (this.equals(nuevo)) {
-					// No hay que copiar nada porque es el mismo Archivo
-					throw new FileAlreadyExistsException(this.file.getName(), nuevoDirectorio);
-				} else {
-					// Aumenta el orden para repetir el proceso recursivamente
-					this.adelantarOrden();
-					return cambiarDeDirectorio(nuevoDirectorio);
-				}
-			} else {
-				boolean ret = false;
-				ret = this.file.renameTo(nuevoPath);
-				if (ret) {
-					this.file = nuevoPath;
-				}
-				return ret;
-			}
+			return this.cambiarDeDirectorioRecursivo(nuevoPath);
 		} else {
 			return false;
 		}
