@@ -50,6 +50,7 @@ public class Aplicacion extends JFrame {
 	private JButton botonModificarNombreFicherosMP3;
 	private JButton botonAgnadirTimeStampArchivos;
 	private JButton botonQuitarTimeStampArchivos;
+	private JButton botonDesplazarTimeStampAlInicio;
 	private JButton botonModificarTimeStampArchivos;
 	private JButton botonModificarFormatoTimeStamp;
 	
@@ -168,6 +169,19 @@ public class Aplicacion extends JFrame {
 			}
 		});
 
+		
+		this.botonDesplazarTimeStampAlInicio = new JButton("Desplazar TimeStamp al inicio");
+		this.botonDesplazarTimeStampAlInicio.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				deshabilitarBotones();
+				ModificadorNombreArchivosTimeStampBackground r = new ModificadorNombreArchivosTimeStampBackground(
+						textoDirectorio.getText(),
+						ModificadorNombreArchivosTimeStamp.DESPLAZAR_INICIO, app);
+				r.execute();
+			}
+		});
+		
+		
 		this.botonModificarTimeStampArchivos = new JButton("Modificar valor del TimeStamp");
 		this.botonModificarTimeStampArchivos.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
@@ -245,6 +259,7 @@ public class Aplicacion extends JFrame {
 		panelBotones3.setLayout(pbpbl3);
 		panelBotones3.add(this.botonAgnadirTimeStampArchivos);
 		panelBotones3.add(this.botonQuitarTimeStampArchivos);
+		panelBotones3.add(this.botonDesplazarTimeStampAlInicio);
 		panelBotones3.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 5));
 		panel.add(panelBotones3);
 		
@@ -280,6 +295,7 @@ public class Aplicacion extends JFrame {
 		this.botonModificarNombreFicherosMP3.setEnabled(false);
 		this.botonAgnadirTimeStampArchivos.setEnabled(false);
 		this.botonQuitarTimeStampArchivos.setEnabled(false);
+		this.botonDesplazarTimeStampAlInicio.setEnabled(false);
 		this.botonModificarTimeStampArchivos.setEnabled(false);
 		this.botonModificarFormatoTimeStamp.setEnabled(false);
 		
@@ -296,6 +312,7 @@ public class Aplicacion extends JFrame {
 		this.botonModificarNombreFicherosMP3.setEnabled(true);
 		this.botonAgnadirTimeStampArchivos.setEnabled(true);
 		this.botonQuitarTimeStampArchivos.setEnabled(true);
+		this.botonDesplazarTimeStampAlInicio.setEnabled(true);
 		this.botonModificarTimeStampArchivos.setEnabled(true);
 		this.botonModificarFormatoTimeStamp.setEnabled(true);
 		

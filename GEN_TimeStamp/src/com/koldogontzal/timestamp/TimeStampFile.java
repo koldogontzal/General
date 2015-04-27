@@ -109,6 +109,42 @@ public class TimeStampFile extends File {
 		return (this.marca != null);
 	}
 	
+	public boolean moveTimeStampPositionForward() {
+		// Define si se añadirá al final un '_' al inicio de StringPosMarca
+		boolean addUnderscore = false;
+		if (this.StringPreMarca.length() != 0) {
+			addUnderscore = true;
+		}
+		
+		// Elimina el '_' de StringPosMarca si lo hubiera
+		if (this.StringPosMarca.startsWith("_")) {
+			this.StringPosMarca = this.StringPosMarca.substring(1);
+			addUnderscore = true;
+		}
+		// Elimina el '_' de StringPreMarca si lo hubiera
+		if (this.StringPreMarca.endsWith("_")) {
+			int len = this.StringPreMarca.length();
+			this.StringPreMarca = this.StringPreMarca.substring(0, len - 1);
+		}
+
+		if ((this.StringPreMarca.length() != 0) && (this.StringPosMarca.length() != 0)) {
+			this.StringPosMarca = this.StringPreMarca + "_" + this.StringPosMarca;
+			addUnderscore = true;
+		} else {
+			this.StringPosMarca = this.StringPreMarca + this.StringPosMarca;
+		}
+		
+		// Borra la parte primera del nombre, la StringPreMarca
+		this.StringPreMarca = "";
+		
+		// Añade, si viene al caso, un '_' al incicio de la nueva StringPosMarca
+		if ((addUnderscore) && (!this.StringPosMarca.startsWith("_"))) {
+			this.StringPosMarca = "_" + this.StringPosMarca;
+		}
+
+		return this.actualizarFile();
+	}
+
 	public boolean deleteTimeStamp() {
 		// Elimina el TimeStamp del nombre del archivo
 		this.marca = null;
@@ -122,7 +158,7 @@ public class TimeStampFile extends File {
 			this.StringPreMarca = this.StringPreMarca.substring(0, len - 1);
 		}
 		
-		if ((this.StringPreMarca.length() != 0) && (this.StringPosMarca.length() == 0)) {
+		if ((this.StringPreMarca.length() != 0) && (this.StringPosMarca.length() != 0)) {
 			this.StringPosMarca = this.StringPreMarca + "_" + this.StringPosMarca;
 		} else {
 			this.StringPosMarca = this.StringPreMarca + this.StringPosMarca;

@@ -8,8 +8,9 @@ import apliGraf.Aplicacion;
 public class ModificadorNombreArchivosTimeStamp {
 	public static final int AGNADIR 			= 1;
 	public static final int BORRAR 				= 2;
-	public static final int MODIFICAR_VALOR 	= 3;
-	public static final int MODIFICAR_FORMATO 	= 4;
+	public static final int DESPLAZAR_INICIO	= 3;
+	public static final int MODIFICAR_VALOR 	= 4;
+	public static final int MODIFICAR_FORMATO 	= 5;
 
 	private Directorio directorio;
 	private int accion;
@@ -58,6 +59,13 @@ public class ModificadorNombreArchivosTimeStamp {
 					System.out.println("ERROR:\tNo se pudo quitar TimeStamp a " + archivo);
 				}
 			}
+			
+			// TODO: Añadir la acción DESPLAZAR_INICIO
+			
+			
+			
+			
+			
 			
 			if (this.accion == MODIFICAR_VALOR) {
 				try {
