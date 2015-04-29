@@ -60,12 +60,15 @@ public class ModificadorNombreArchivosTimeStamp {
 				}
 			}
 			
-			// TODO: Añadir la acción DESPLAZAR_INICIO
-			
-			
-			
-			
-			
+			// Añadir la acción DESPLAZAR_INICIO
+			if (this.accion == DESPLAZAR_INICIO) {
+				if (archivo.desplazarPosicionTimeStamdDelante()) {
+					this.app.escribirLinea("OK:\tPosicionando el TimeStamp al incio del nombre a " + archivo);
+				} else {
+					this.app.escribirLinea("ERROR:\tNo se pudo desplazar el TimeStamp al incio de " + archivo);
+					System.out.println("ERROR:\tNo se pudo desplazar el TimeStamp al incio de " + archivo);
+				}
+			}
 			
 			if (this.accion == MODIFICAR_VALOR) {
 				try {

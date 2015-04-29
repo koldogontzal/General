@@ -50,6 +50,11 @@ public class ArchivoTimeStamp extends Archivo {
 		}
 	}
 	
+	public boolean desplazarPosicionTimeStamdDelante() {
+		// Si existe en el nombre una parte de texto antes del TimeStamp, la mueve detrás
+		return this.tsf.moveTimeStampPositionForward();
+	}
+	
 	public boolean quitarTimeStampAlNombre() {
 		return this.tsf.deleteTimeStamp();		
 	}
