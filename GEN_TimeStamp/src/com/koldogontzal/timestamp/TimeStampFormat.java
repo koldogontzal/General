@@ -9,7 +9,7 @@ public enum TimeStampFormat {
 	 * Sigue la codificación usada por la clase SimpleDateFormat.
 	 * 
 	 * Hay otros caracteres, pero los usados en TimeStampFormat para definir los formatos serán:
-	 * 		yyyy	Año 			Siempre 4 cifras. Valores positivos
+	 * 		yyyy	Año 			Siempre 4 cifras. Valores: [1-9999]
 	 * 		MM		Mes 			Siempre 2 cifras. Valores: [1-12]
 	 * 		dd		Día del mes 	Siempre 2 cifras. Valores: [1-31]
 	 * 		HH		Hora del día	Siempre 2 cifras. Valores: [0-23]
@@ -21,20 +21,36 @@ public enum TimeStampFormat {
 	 * de la enumeración (p. ej. yyyy_MM_dd_HH_mm_ss) seguida de una cadena entre paréntesis que
 	 * define cómo se van a formatear los TimeStamp al pasarlos a String (p. ej. "yyyy-MM-dd HH.mm.ss").
 	 * Conviene que la lista esté ordenada de más largos a menos largos para la que la búsqueda automática
-	 * de coincidencias funcione correctamente.
+	 * de coincidencias funcione correctamente. Entre formatos con el mismo tamaño, 
+	 * se preferirá el formato español (año-mes-día) sobre el formato anglosajón (día-mes-año), con lo que
+	 * en aquellas fechas en las que ambas interpretaciones sean posibiles, se elegirá el formato español,
+	 * excepto en el caso en el que el formato español, dé meses > 12, días > 31, horas > 23, minutos, segundo > 60
+	 * 
+	 *  Por ejemplo: 19011201, puede interpretarse como (yyyyMMdd) 1 de diciembre de 1901 y también como
+	 *  (ddMMyyyy) 19 de enero de 1201. En estos casos tendrá preferencia el formato español (yyyyMMdd)
+	 *  
+	 *  Por ejemplo: 01012015, no puede interpretarse como (yyyyMMdd) porque daría un MM = 20, que no existe.
+	 *  Como el siguiente formato de la lista es (ddMMyyyy) y da un fecha coherente, 1 de enero de 2015, se 
+	 *  generaría un TimeStamp suponiendo este formato
 	 * 
 	 */
+	
 	yyyy_MM_dd_HH_mm_ss("yyyy-MM-dd HH.mm.ss"),
 	dd_MM_yyyy_HH_mm_ss("dd-MM-yyyy HH.mm.ss"),
 	yyyy_MM_dd_HH_mm("yyyy-MM-dd HH.mm"),
 	dd_MM_yyyy_HH_mm("dd-MM-yyyy HH.mm"),
 	yyyyMMdd_HHmmss("yyyyMMdd_HHmmss"),
+	ddMMyyyy_HHmmss("ddMMyyyy_HHmmss"),
 	yyyyMMddHHmmss("yyyyMMddHHmmss"),
+	ddMMyyyyHHmmss("ddMMyyyyHHmmss"),
 	yyyyMMdd_HHmm("yyyyMMdd_HHmm"),
+	ddMMyyyy_HHmm("ddMMyyyy_HHmm"),
 	yyyyMMddHHmm("yyyyMMddHHmm"),
+	ddMMyyyyHHmm("ddMMyyyyHHmm"),
 	yyyy_MM_dd("yyyy-MM-dd"),
 	dd_MM_yyyy("dd-MM-yyyy"),
-	yyyyMMdd("yyyyMMdd");
+	yyyyMMdd("yyyyMMdd"),
+	ddMMyyyy("ddMMyyyy");
 	
 	
 	private static final String REGEX_NUMERO_O_CARACTER_DESCONOCIDO = "[0-9" + TimeStamp.CHAR_UNKNOWN_FIGURE + "]";

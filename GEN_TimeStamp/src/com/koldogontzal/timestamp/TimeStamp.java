@@ -296,13 +296,25 @@ public class TimeStamp implements Comparable<TimeStamp> {
 		} catch (NumberFormatException nfe) {
 			segundo = 0;
 		}
-
-		// el mes empieza a contar en 1==Enero, pero para GregorianCalendar,
-		// 0==Enero
-		GregorianCalendar c = new GregorianCalendar(agno, mes - 1, dia, hora, minuto, segundo);
-		TimeStamp ret = new TimeStamp(c, precision);
-		ret.setPreferredFormat(formato);
-		return ret;
+		
+		// Comprueba que las cifras estén entre los valores máximox y mínimos
+		if 		((mes > 0) && (mes <=12) &&
+				(dia > 0) && (dia <= 31) &&
+				(hora >= 0) && (hora < 24) &&
+				(minuto >= 0) && (minuto < 60) &&
+				(segundo >= 0) && (segundo < 60)) {
+			// Cifras de meses, días, horas, minutos y segundos conformes
+			// El mes empieza a contar en 1==Enero, pero para GregorianCalendar,
+			// 0==Enero
+			GregorianCalendar c = new GregorianCalendar(agno, mes - 1, dia, hora, minuto, segundo);
+			TimeStamp ret = new TimeStamp(c, precision);
+			ret.setPreferredFormat(formato);
+			return ret;
+		} else {
+			// Cifras fuera de los rangos normales, con lo que no es un TimeStamp Válido
+			return null;
+		}
+		
 	}
 	
 	public static TimeStamp fromString(String s) throws IllegalTimeStampException {
@@ -348,62 +360,76 @@ public class TimeStamp implements Comparable<TimeStamp> {
 		 */
 		
 		// Busca un formato de TimeStamp compatible con la cadena
-		int encontrado = -1;
+		TimeStamp ret = null;
+		boolean encontrado = false;
+		
 		TimeStampFormat[] listadoFormatos = TimeStampFormat.values();		
-		for (int i = 0; (i < listadoFormatos.length) && (encontrado == -1); i++) {
+		for (int i = 0; (i < listadoFormatos.length) && (!encontrado); i++) {
+			// Recorre ordenadamente la lista de posibles TimeStampFormat
 			String regex = listadoFormatos[i].getRegex();
 			if (cadena.matches("(.*)" + regex + "(.*)")) {
-				encontrado = i;
+				// Hay una posible coincidencia
+				
+				// Ha encontrado un formato compatible, Ahora busca en qué posición empieza la cadena que contiene el TimeStamp
+				int tamagnoMarca = listadoFormatos[i].getPattern().length();
+				int tamagnoCadena = cadena.length();
+				int pos = 0;
+
+				do {
+					String candidataMarca = cadena.substring(pos, pos + tamagnoMarca);
+					if (candidataMarca.matches(regex)) {
+						// Encontrada la posición donde empieza el posible TimeStamp						
+						
+						// Si todo va bien, calcula el TimeStamp, si no, devulve null
+						ret = fromStringConFormatoDefinido(candidataMarca, listadoFormatos[i]);
+						
+						// Comprueba que las cifras sean conformes: mes = [1..12], día = [1..31], hora, minuto, segundo
+						if (ret == null) {
+							// No era un TimeStamp con valores conformes
+							pos++;
+						} else {
+							// Sí es un TimeStamp correcto
+							encontrado = true;
+							
+							// Rellena la variable pasada por referencia con los string por partes
+							if (pos > 0) {
+								// Hay una parte de texto previa a la MarcaDeTiempo
+								partes[0] = cadena.substring(0, pos);
+							} else {
+								partes[0] = "";
+							}
+
+							// La String de la MarcaDeTiempo está aquí
+							partes[1] = cadena.substring(pos, tamagnoMarca + pos);
+
+							if (pos < tamagnoCadena - tamagnoMarca) {
+								// Hay una parte de texto después de la MarcaDeTiempo
+								partes[2] = cadena.substring(tamagnoMarca + pos, tamagnoCadena);
+							} else {
+								partes[2] = "";
+							}
+						}
+						
+					} else {
+						// No la ha encontrado. Pasa a la siguiente posición.
+						pos++;
+					}
+				} while ((ret == null) && (pos < tamagnoCadena - tamagnoMarca));
 			}
 		}
 		
 
-		TimeStamp ret = null;
-
-		if (encontrado >= 0) {
-			// Ha encontrado un formato compatible, Ahora busca en qué posición empieza la cadena que contiene el TimeStamp
-			int tamagnoMarca = listadoFormatos[encontrado].getPattern().length();
-			int tamagnoCadena = cadena.length();
-			String regex = listadoFormatos[encontrado].getRegex();
-			int pos = 0;
-			do {
-				String candidataMarca = cadena.substring(pos, pos + tamagnoMarca);
-				if (candidataMarca.matches(regex)) {
-					// Encontrada la posición donde empieza el TimeStamp
-					ret = fromStringConFormatoDefinido(candidataMarca, listadoFormatos[encontrado]);
-				} else {
-					// No la ha encontrado. Pasa a la siguiente
-					pos++;
-				}
-			} while (ret == null);
-
-			// Rellena la variable pasada por referencia con los string por partes
-			if (pos > 0) {
-				// Hay una parte de texto previa a la MarcaDeTiempo
-				partes[0] = cadena.substring(0, pos);
-			} else {
-				partes[0] = "";
-			}
-
-			// La String de la MarcaDeTiempo está aquí
-			partes[1] = cadena.substring(pos, tamagnoMarca + pos);
-
-			if (pos < tamagnoCadena - tamagnoMarca) {
-				// Hay una parte de texto después de la MarcaDeTiempo
-				partes[2] = cadena.substring(tamagnoMarca + pos, tamagnoCadena);
-			} else {
-				partes[2] = "";
-			}
-
-		} else {
+		if (!encontrado) {
 			// No ha encontrado una MarcaDeTiempo
 			partes[0] = "";
 			partes[1] = "";
 			partes[2] = cadena;
 
 			throw new IllegalTimeStampException('"' + cadena + "\" no contiene una marca de tiempo correcta.");
+		} else {
+			
+			// Devuelve el TimeStamp encontrado
+			return ret;
 		}
-
-		return ret;
 	}
 }
