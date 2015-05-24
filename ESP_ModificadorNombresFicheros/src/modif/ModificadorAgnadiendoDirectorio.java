@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import com.koldogontzal.timestamp.IllegalTimeStampException;
+import com.koldogontzal.timestamp.TimeStamp;
+
 import apliGraf.Aplicacion;
 
 public class ModificadorAgnadiendoDirectorio {
@@ -41,8 +44,18 @@ public class ModificadorAgnadiendoDirectorio {
 			String nombre = original.getName();
 			String padre = (new File(original.getParent())).getName();
 			int posPunto = nombre.lastIndexOf('.');
-			String nombreNuevo = nombre.substring(0, posPunto) + "_" + padre
-					+ "." + nombre.substring(posPunto + 1);
+			String nombreNuevo;
+			try {
+				@SuppressWarnings("unused")
+				TimeStamp ts = TimeStamp.fromString(padre);
+				// Se ejecuta este código si el nombre del directorio padre es un TimeStamp
+				// En este caso, se añade al principio
+				nombreNuevo = padre + "_" + nombre.substring(0, posPunto) + "." + nombre.substring(posPunto + 1);
+			} catch (IllegalTimeStampException e) {
+				// Se ejecuta este código si el nombre del directorio padre NO es un TimeStamp
+				// En este caso, se añade al final
+				nombreNuevo = nombre.substring(0, posPunto) + "_" + padre + "." + nombre.substring(posPunto + 1);
+			}
 			File modificado = new File (this.directorioBase.getPath() + File.separator + nombreNuevo);
 			this.modificados.add(modificado);
 		}
