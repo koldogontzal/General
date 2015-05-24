@@ -414,7 +414,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 						// No la ha encontrado. Pasa a la siguiente posición.
 						pos++;
 					}
-				} while ((ret == null) && (pos < tamagnoCadena - tamagnoMarca));
+				} while ((ret == null) && (pos < tamagnoCadena - tamagnoMarca + 1));
 			}
 		}
 		
