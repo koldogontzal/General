@@ -35,6 +35,7 @@ import modif.ReorganizadorArchivosMusicaPorDirectoriosBackground;
 public class Aplicacion extends JFrame {
 
 	/**
+	 *
 	 * 
 	 */
 	private static final long serialVersionUID = 8872504498857720247L;
