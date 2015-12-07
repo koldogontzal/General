@@ -72,14 +72,18 @@ public class DeshacedorCodigoSecretoExamenes {
 					
 					Long idOpositorLong = this.claves.get(new Long(codigoSecreto));
 					
-					String idOpositor = "0000" + idOpositorLong;
-					idOpositor = idOpositor.substring(idOpositor.length() - 5);
+					if (idOpositorLong != null) {
 					
-					// Mover los nuevos ficheros al directorio de destino con el IdOpositor
-					File nombreDestino = new File(archivo.getParent() + File.separator + this.directorioDestino +
-							File.separator + letra + idOpositor + extension);
-					archivo.renameTo(nombreDestino);
-					
+						String idOpositor = "0000" + idOpositorLong;
+						idOpositor = idOpositor.substring(idOpositor.length() - 5);
+						
+						// Mover los nuevos ficheros al directorio de destino con el IdOpositor
+						File nombreDestino = new File(archivo.getParent() + File.separator + this.directorioDestino +
+								File.separator + letra + idOpositor + extension);
+						archivo.renameTo(nombreDestino);
+					} else {
+						System.out.println("CodigoSecreto " + codigoSecreto + " no encontrado.");
+					}
 				}
 								
 				System.out.println("Pruebas desaleatorizadas en \"" + nuevoDirectorio.getPath() + "\"");
