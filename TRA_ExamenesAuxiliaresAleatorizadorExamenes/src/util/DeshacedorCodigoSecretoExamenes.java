@@ -2,6 +2,7 @@ package util;
 
 import java.io.EOFException;
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,9 +12,9 @@ public class DeshacedorCodigoSecretoExamenes {
 	// Deshace el código secreto de una prueba de examen, siguiendo la asociación entre
 	// IdOpositor y NumeroSecreto definida en un Excel dado
 	
-	private final static String dirPad = "C:\\Users\\koldo\\Desktop\\Nueva carpeta";
-	private static final String dirDes = "Ficheros desaleatorizados";
-	private static final String nomList = "ListadoClaves.csv";
+	private final static String dirPadreDefault = "C:\\Users\\lcastellano\\Desktop\\Pruebas GESOPO totales\\Desaleatorizar";
+	private static final String dirDestinoDefault = "Ficheros desaleatorizados";
+	private static final String nomListadoDefault = "ListadoClaves.csv";
 	
 	private String directorioPadre;
 	private String directorioDestino;	
@@ -24,15 +25,15 @@ public class DeshacedorCodigoSecretoExamenes {
 	private Map<Long, Long> claves = new HashMap<Long, Long>(); // NumeroSecreto e IdOpositor
 	
 	public DeshacedorCodigoSecretoExamenes() {
-		this(dirPad, dirDes, nomList);
+		this(dirPadreDefault, dirDestinoDefault, nomListadoDefault);
 	}
 	
 	public DeshacedorCodigoSecretoExamenes(String dirPadre) {
-		this(dirPadre, dirDes, nomList);
+		this(dirPadre, dirDestinoDefault, nomListadoDefault);
 	}
 	
 	public DeshacedorCodigoSecretoExamenes(String dirPadre, String nomListado) {
-		this(dirPadre, dirDes, nomListado);
+		this(dirPadre, dirDestinoDefault, nomListado);
 	}
 	
 	public DeshacedorCodigoSecretoExamenes(String dirPadre, String dirDestino, String nomListado) {
@@ -45,20 +46,49 @@ public class DeshacedorCodigoSecretoExamenes {
 		boolean resultado = cargarMapaDeClaves();
 		
 		if (resultado) {
-			// TODO seguir el algoritmo tras cargar las claves
 			
 			// Crear el directorio de destino 
-			
-			// Leer listado de archivos en el directorio padre
-			
-			// Buscar los que tienen nombre "RYxxxxx.eee(e)" y cambiarlo por "Yxxxxx.eee(e)"
-			
-			// Mover los nuevos ficheros al directorio de destino 
-			
-			
-
-			
-			
+			File nuevoDirectorio = new File(this.directorioPadre + "\\" + this.directorioDestino);
+			if (!nuevoDirectorio.exists()) {
+				nuevoDirectorio.mkdir();
+				
+				// Leer listado de archivos en el directorio padre, sólo los que tienen formato "RYxxxxx.eee(e)"
+				File[] listadoCompletoArchivos = (new File(this.directorioPadre)).listFiles();
+				ArrayList<File> listadoSeleccionado = new ArrayList<File>(200);
+				for (File archivo:listadoCompletoArchivos) {
+					String nombre = archivo.getName();
+					if (nombre.matches("R[A-C][0-9][0-9][0-9][0-9][0-9].*")) {
+						listadoSeleccionado.add(archivo);
+					}
+				}
+				
+				
+				// Buscar los que tienen nombre "RYxxxxx.eee(e)" y cambiarlo por "Yxxxxx.eee(e)"
+				for (File archivo:listadoSeleccionado) {
+					String nombre = archivo.getName();
+					String letra = nombre.substring(1, 2);
+					String codigoSecreto = nombre.substring(2, 7);
+					String extension = nombre.substring(7, nombre.length());
+					
+					Long idOpositorLong = this.claves.get(new Long(codigoSecreto));
+					
+					String idOpositor = "0000" + idOpositorLong;
+					idOpositor = idOpositor.substring(idOpositor.length() - 5);
+					
+					// Mover los nuevos ficheros al directorio de destino con el IdOpositor
+					File nombreDestino = new File(archivo.getParent() + File.separator + this.directorioDestino +
+							File.separator + letra + idOpositor + extension);
+					archivo.renameTo(nombreDestino);
+					
+				}
+								
+				System.out.println("Pruebas desaleatorizadas en \"" + nuevoDirectorio.getPath() + "\"");
+				
+			} else {
+				System.out.println("Ya existe el directorio \"" + nuevoDirectorio.getPath() + 
+						"\".\nBórrelo y vuelva a ejecutar la aplicación.");
+			} 
+				
 			System.out.println("Fin de la ejecución");
 		}
 		
@@ -95,10 +125,5 @@ public class DeshacedorCodigoSecretoExamenes {
 		}
 		
 	}
-	
-	
-	
-	
-	
 
 }
