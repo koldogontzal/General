@@ -31,7 +31,7 @@ public class ListadoNumeroOcurrenciasDeTiposTile extends HashMap<Integer, Intege
 	public String toString() {
 		String ret = "Listado de preferencias de ocurrencias de tipos de Tile:\n";
 		for (Tile t : Tile.getListadoTiposTiles()) {
-			ret = ret + "\t" + t + ". N�mero ocurrencias: " + this.get(t.getTipoTile()) + "\n";
+			ret = ret + "\t" + t + ". Número ocurrencias: " + this.get(t.getTipoTile()) + "\n";
 		}
 		return ret;
 	}

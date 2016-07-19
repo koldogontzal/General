@@ -16,16 +16,16 @@ public class Aplicacion {
 		
 	public static void main(String[] args) {
 		
-		// Ejemplo usando un listado para indicar el n�mero de veces (ocurrencias) que se
+		// Ejemplo usando un listado para indicar el número de veces (ocurrencias) que se
 		// quiere que aparezca un tipo de Tile dado
 		ListadoNumeroOcurrenciasDeTiposTile listado = new ListadoNumeroOcurrenciasDeTiposTile();		
-		//listado.a�adir(Tile.TILE_3x3, 5);
-		//listado.a�adir(Tile.TILE_3x1, 3);
-		//listado.a�adir(Tile.TILE_3x2, 3);
-		//listado.a�adir(Tile.TILE_4x3, 2);
-		//listado.a�adir(Tile.TILE_2x1, 3);
-		//listado.a�adir(Tile.TILE_1x2, 3);
-		//listado.a�adir(Tile.TILE_2x2, 4);
+		//listado.añadir(Tile.TILE_3x3, 5);
+		//listado.añadir(Tile.TILE_3x1, 3);
+		//listado.añadir(Tile.TILE_3x2, 3);
+		//listado.añadir(Tile.TILE_4x3, 2);
+		//listado.añadir(Tile.TILE_2x1, 3);
+		//listado.añadir(Tile.TILE_1x2, 3);
+		//listado.añadir(Tile.TILE_2x2, 4);
 		
 		// Define la secuencia de Efectos a aplicar a cada Tile 
 		SecuenciaDeEfectos secuencia = new SecuenciaDeEfectos();
@@ -46,10 +46,10 @@ public class Aplicacion {
 		secuencia.insertar(new EfectoBrochazosColor(ModulacionEfecto.suave));
 		
 		/*
-		// Llama a la clase CuadriculaDeEspacios en port�til de casa
+		// Llama a la clase CuadriculaDeEspacios en portátil de casa
 				try {
 					new CuadriculaDeEspacios(2, 2, 
-							"J:\\Luis\\Pictures\\2012_09_08, Boda de Mar�a y Javi",
+							"J:\\Luis\\Pictures\\2012_09_08, Boda de María y Javi",
 							listado, 300, 1.0, 5, Color.white, 
 							"C:\\Users\\Luis\\Desktop\\NuevoCollageImagenCircular.png",
 							CuadriculaDeEspacios.TILES_DESCENTRADOS, secuencia);
@@ -75,7 +75,7 @@ public class Aplicacion {
 		// Llama a la clase CuadriculaDeEspacios en casa Win8
 		try {
 			new CuadriculaDeEspacios(15, 15, 
-					"J:\\Luis\\Im�genes\\Fotos\\Nuevas\\2012_08_18, Extremadura y Huelva",
+					"J:\\Luis\\Imágenes\\Fotos\\Nuevas\\2012_08_18, Extremadura y Huelva",
 					listado, 300, 1.0, 3, Color.white, 
 					"C:\\Users\\Koldo\\Desktop\\NuevoCollageEH.png",
 					CuadriculaDeEspacios.TILES_DESCENTRADOS, secuencia);
@@ -88,7 +88,7 @@ public class Aplicacion {
 		// Llama a la clase CuadriculaDeEspacios en el curro
 		try {
 			new CuadriculaDeEspacios(6, 6, 
-					"D:\\Im�genesPersonales\\2012_11_03, Aniversario en Punta Cana",
+					"D:\\ImágenesPersonales\\2012_11_03, Aniversario en Punta Cana",
 					listado, 400, 1.0, 0, Color.white, 
 					"C:\\Documents and Settings\\lcastellano\\Escritorio\\Citadel\\NuevoCollage.png",
 					CuadriculaDeEspacios.TILES_DESCENTRADOS, secuencia);
