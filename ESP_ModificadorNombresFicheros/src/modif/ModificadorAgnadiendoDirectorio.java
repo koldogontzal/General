@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import javax.swing.JOptionPane;
+
 import com.koldogontzal.timestamp.IllegalTimeStampException;
 import com.koldogontzal.timestamp.TimeStamp;
 
@@ -53,8 +55,24 @@ public class ModificadorAgnadiendoDirectorio {
 				nombreNuevo = padre + "_" + nombre.substring(0, posPunto) + "." + nombre.substring(posPunto + 1);
 			} catch (IllegalTimeStampException e) {
 				// Se ejecuta este código si el nombre del directorio padre NO es un TimeStamp
-				// En este caso, se añade al final
-				nombreNuevo = nombre.substring(0, posPunto) + "_" + padre + "." + nombre.substring(posPunto + 1);
+				// En este caso se pregunta qué hacer, si añadir al principio o al final
+				
+				// Opciones de botones personalizadas
+				Object[] opciones = {"Delante", "Detrás"};
+				int respuesta = JOptionPane.showOptionDialog(this.app, "¿Dónde quieres añadir el nombre del directorio?", "Posición del directorio", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, opciones, opciones[1]);
+				
+				if (respuesta == 0) {
+					// En este caso, se añade al principio
+					nombreNuevo = padre + "_" + nombre.substring(0, posPunto) + "." + nombre.substring(posPunto + 1);
+					
+				} else if (respuesta == 1) {
+					// En este caso, se añade al final
+					nombreNuevo = nombre.substring(0, posPunto) + "_" + padre + "." + nombre.substring(posPunto + 1);
+
+				} else {
+					// Por defecto elegimos que se añada al final
+					nombreNuevo = nombre.substring(0, posPunto) + "_" + padre + "." + nombre.substring(posPunto + 1);
+				}
 			}
 			File modificado = new File (this.directorioBase.getPath() + File.separator + nombreNuevo);
 			this.modificados.add(modificado);
