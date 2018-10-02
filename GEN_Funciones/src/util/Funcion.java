@@ -48,7 +48,7 @@ public abstract class Funcion implements PlanoRealDibujable  {
 	public abstract Funcion clonar();	
 	
 	public void multiplicarFactorialmente(double c) {
-		// c es la constante de multiplicaci�n
+		// c es la constante de multiplicacion
 		this.factor = this.factor * c;
 	}
 	

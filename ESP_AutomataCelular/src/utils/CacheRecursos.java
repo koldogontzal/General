@@ -18,7 +18,8 @@ public abstract class CacheRecursos {
 	protected HashMap<String, Object> recursos;
 
 	public CacheRecursos() {
-		this.recursos = new HashMap<String, Object>();
+		
+		 this.recursos = new HashMap<String, Object>();
 	}
 
 	protected Object cargarRecurso(String nombre) {

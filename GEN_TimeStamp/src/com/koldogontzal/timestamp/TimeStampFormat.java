@@ -35,6 +35,7 @@ public enum TimeStampFormat {
 	 * 
 	 */
 	
+	yyyy_MM_dd_at_HH_mm_ss("yyyy-MM-dd 'at' HH.mm.ss"),
 	yyyy_MM_dd_HH_mm_ss("yyyy-MM-dd HH.mm.ss"),
 	dd_MM_yyyy_HH_mm_ss("dd-MM-yyyy HH.mm.ss"),
 	yyyy_MM_dd_HH_mm("yyyy-MM-dd HH.mm"),
@@ -76,6 +77,8 @@ public enum TimeStampFormat {
 			case 's':
 				this.regex = this.regex + REGEX_NUMERO_O_CARACTER_DESCONOCIDO;
 				break;
+			case '\'':
+				break;
 			default:
 				this.regex = this.regex + REGEX_OTROS_CARACTERES;
 				break;
@@ -83,12 +86,13 @@ public enum TimeStampFormat {
 		}
 		
 		// Rellena el HashMap con las posiciones de cada elemento
-		this.pos.put(TimeStamp.YEAR, pattern.indexOf("yyyy"));
-		this.pos.put(TimeStamp.MONTH, pattern.indexOf("MM"));
-		this.pos.put(TimeStamp.DAY_OF_MONTH, pattern.indexOf("dd"));
-		this.pos.put(TimeStamp.HOUR_OF_DAY, pattern.indexOf("HH"));
-		this.pos.put(TimeStamp.MINUTE, pattern.indexOf("mm"));
-		this.pos.put(TimeStamp.SECOND, pattern.indexOf("ss"));		
+		// TODO: Falta que si existen antes de la posición caracteres /', entonces hay que restar tantos como caracteres haya
+		this.pos.put(TimeStamp.YEAR, pattern.indexOf("yyyy") - countOfComas(pattern, pattern.indexOf("yyyy")));
+		this.pos.put(TimeStamp.MONTH, pattern.indexOf("MM") - countOfComas(pattern, pattern.indexOf("MM")));
+		this.pos.put(TimeStamp.DAY_OF_MONTH, pattern.indexOf("dd") - countOfComas(pattern, pattern.indexOf("dd")));
+		this.pos.put(TimeStamp.HOUR_OF_DAY, pattern.indexOf("HH") - countOfComas(pattern, pattern.indexOf("HH")));
+		this.pos.put(TimeStamp.MINUTE, pattern.indexOf("mm") - countOfComas(pattern, pattern.indexOf("mm")));
+		this.pos.put(TimeStamp.SECOND, pattern.indexOf("ss") - countOfComas(pattern, pattern.indexOf("ss")));		
 	}
 	
 	public String getPattern() {
@@ -111,6 +115,20 @@ public enum TimeStampFormat {
 	@Override
 	public String toString() {
 		return this.pattern;
+	}
+	
+	private int countOfComas(String s, int pos) {
+		// TODO: Devuelve cuantas comas hay en el texto s antes de la posición s
+		int ret = 0;
+		int posIni = 0;
+		
+		while (s.indexOf('\'', posIni) >= 0) 
+		{
+			ret = ret + 1;
+			posIni = s.indexOf('\'', posIni);
+		}
+		
+		return ret;
 	}
 
 }
