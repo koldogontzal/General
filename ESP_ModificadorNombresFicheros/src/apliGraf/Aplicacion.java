@@ -1,5 +1,5 @@
 package apliGraf;
- 
+
 import apliGraf.VisorTextoConDesplazamiento;
 
 import java.awt.BorderLayout;

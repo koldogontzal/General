@@ -371,7 +371,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 				// Hay una posible coincidencia
 				
 				// Ha encontrado un formato compatible, Ahora busca en qué posición empieza la cadena que contiene el TimeStamp
-				int tamagnoMarca = listadoFormatos[i].getPattern().length();
+				int tamagnoMarca = listadoFormatos[i].getRealPatternLength();
 				int tamagnoCadena = cadena.length();
 				int pos = 0;
 

@@ -86,17 +86,20 @@ public enum TimeStampFormat {
 		}
 		
 		// Rellena el HashMap con las posiciones de cada elemento
-		// TODO: Falta que si existen antes de la posición caracteres /', entonces hay que restar tantos como caracteres haya
-		this.pos.put(TimeStamp.YEAR, pattern.indexOf("yyyy") - countOfComas(pattern, pattern.indexOf("yyyy")));
-		this.pos.put(TimeStamp.MONTH, pattern.indexOf("MM") - countOfComas(pattern, pattern.indexOf("MM")));
-		this.pos.put(TimeStamp.DAY_OF_MONTH, pattern.indexOf("dd") - countOfComas(pattern, pattern.indexOf("dd")));
-		this.pos.put(TimeStamp.HOUR_OF_DAY, pattern.indexOf("HH") - countOfComas(pattern, pattern.indexOf("HH")));
-		this.pos.put(TimeStamp.MINUTE, pattern.indexOf("mm") - countOfComas(pattern, pattern.indexOf("mm")));
-		this.pos.put(TimeStamp.SECOND, pattern.indexOf("ss") - countOfComas(pattern, pattern.indexOf("ss")));		
+		this.pos.put(TimeStamp.YEAR, pattern.indexOf("yyyy") - countOfComasBeforePos(pattern, pattern.indexOf("yyyy")));
+		this.pos.put(TimeStamp.MONTH, pattern.indexOf("MM") - countOfComasBeforePos(pattern, pattern.indexOf("MM")));
+		this.pos.put(TimeStamp.DAY_OF_MONTH, pattern.indexOf("dd") - countOfComasBeforePos(pattern, pattern.indexOf("dd")));
+		this.pos.put(TimeStamp.HOUR_OF_DAY, pattern.indexOf("HH") - countOfComasBeforePos(pattern, pattern.indexOf("HH")));
+		this.pos.put(TimeStamp.MINUTE, pattern.indexOf("mm") - countOfComasBeforePos(pattern, pattern.indexOf("mm")));
+		this.pos.put(TimeStamp.SECOND, pattern.indexOf("ss") - countOfComasBeforePos(pattern, pattern.indexOf("ss")));		
 	}
 	
 	public String getPattern() {
 		return this.pattern;
+	}
+	
+	public int getRealPatternLength() {
+		return this.pattern.length() - countOfComasBeforePos(pattern, pattern.length());
 	}
 	
 	public String getRegex() {
@@ -117,17 +120,21 @@ public enum TimeStampFormat {
 		return this.pattern;
 	}
 	
-	private int countOfComas(String s, int pos) {
-		// TODO: Devuelve cuantas comas hay en el texto s antes de la posición s
+	private int countOfComasBeforePos(String s, int pos) {
+		// Devuelve cuantas comas hay en el texto s antes de la posición pos
 		int ret = 0;
-		int posIni = 0;
 		
-		while (s.indexOf('\'', posIni) >= 0) 
-		{
-			ret = ret + 1;
-			posIni = s.indexOf('\'', posIni);
+		try {
+			CharSequence s0 = s.subSequence(0, pos);
+			for (int i = 0; i < s0.length(); i++) {
+				if (s0.charAt(i) == '\'') {
+					ret++;
+				}
+			}
+		} catch (StringIndexOutOfBoundsException e) {
+
 		}
-		
+
 		return ret;
 	}
 
