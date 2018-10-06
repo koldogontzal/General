@@ -36,6 +36,7 @@ public enum TimeStampFormat {
 	 */
 	
 	yyyy_MM_dd_at_HH_mm_ss("yyyy-MM-dd 'at' HH.mm.ss"),
+	dd_MM_yyyy_at_HH_mm_ss("dd-MM-yyyy 'at' HH.mm.ss"),
 	yyyy_MM_dd_HH_mm_ss("yyyy-MM-dd HH.mm.ss"),
 	dd_MM_yyyy_HH_mm_ss("dd-MM-yyyy HH.mm.ss"),
 	yyyy_MM_dd_HH_mm("yyyy-MM-dd HH.mm"),
@@ -54,6 +55,8 @@ public enum TimeStampFormat {
 	ddMMyyyy("ddMMyyyy");
 	
 	
+	public static TimeStampFormat defaultFormat = TimeStampFormat.yyyyMMdd_HHmmss; // Preferred format (String representation) of the TimeStamp
+		
 	private static final String REGEX_NUMERO_O_CARACTER_DESCONOCIDO = "[0-9" + TimeStamp.CHAR_UNKNOWN_FIGURE + "]";
 	private static final String REGEX_OTROS_CARACTERES = "[^0-9]";
 	

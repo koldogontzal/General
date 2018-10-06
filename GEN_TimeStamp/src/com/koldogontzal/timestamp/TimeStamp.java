@@ -19,7 +19,7 @@ public class TimeStamp implements Comparable<TimeStamp> {
 
 	public static final char CHAR_UNKNOWN_FIGURE = 'x';
 
-	private TimeStampFormat preferredFormat = TimeStampFormat.yyyyMMdd_HHmmss; // Preferred format (String representation) of the TimeStamp
+	private TimeStampFormat preferredFormat = TimeStampFormat.defaultFormat; // Preferred format (String representation) of the TimeStamp
 
 	public TimeStamp(int agno, int mes, int dia, int hora, int minuto, int segundo) {
 		// el mes empieza a contar en 1==Enero, pero para GregorianCalendar, 0==Enero

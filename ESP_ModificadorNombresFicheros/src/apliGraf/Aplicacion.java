@@ -204,6 +204,7 @@ public class Aplicacion extends JFrame {
 			this.comboElegirFormatoTimeStamp.addItem(formato);
 		}
 		this.comboElegirFormatoTimeStamp.setMaximumSize(new Dimension(175,30));
+		this.comboElegirFormatoTimeStamp.setSelectedIndex(TimeStampFormat.defaultFormat.ordinal());
 		
 		
 		this.botonModificarFormatoTimeStamp = new JButton("Cambiar formato de TimeStamp");
