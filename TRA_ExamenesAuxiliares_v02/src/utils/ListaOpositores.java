@@ -59,9 +59,17 @@ public class ListaOpositores {
 		
 		while (!encontrado && i.hasNext()) {
 			op = i.next();
-			encontrado = op.getNIF().equals(nif);
+			// A veces GESOPO da el NIF con 9 números en vez de los 8 correctos. Esto lo corrige, cogiendo los 8 + letra de la derecha
+			String NIFtmp = op.getNIF();
+			if (NIFtmp.length() == 10) {
+				NIFtmp = NIFtmp.substring(1, 10);
+			}
+			encontrado = NIFtmp.equals(nif);
 		}		
-		return op;
+		if (encontrado)
+			return op;
+		else
+			return null;
 	}
 	
 	
