@@ -32,6 +32,7 @@ import modif.ReorganizadorArchivosMusicaPorDirectoriosBackground;
 
 
 
+@SuppressWarnings("unused")
 public class Aplicacion extends JFrame {
 
 	/**
