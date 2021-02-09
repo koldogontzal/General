@@ -26,8 +26,8 @@ public class FileExtendido extends File {
 		InputStream in1 = new FileInputStream(this);
 		InputStream in2 = new FileInputStream(f2);
 		
-		byte[] buf1 = new byte[1048576]; // Lee 1 MB
-		byte[] buf2 = new byte[1048576];
+		byte[] buf1 = new byte[10485760]; // Lee 10 MB
+		byte[] buf2 = new byte[10485760];
         int len1;
         int len2;
         while (ret && ((len1 = in1.read(buf1)) > 0)) {
