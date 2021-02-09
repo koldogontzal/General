@@ -21,7 +21,7 @@ public class FileExtendido extends File {
 
 	public boolean compararContenidoFiles(FileExtendido f2) throws IOException {
 		// Compara byte a byte dos ficheros. Devuelve true si son iguales
-		boolean ret = true;
+		boolean ret = (f2.length() == this.length()) ; // si tienen tamaños distintos, son diferentes
 		
 		InputStream in1 = new FileInputStream(this);
 		InputStream in2 = new FileInputStream(f2);
@@ -30,7 +30,7 @@ public class FileExtendido extends File {
 		byte[] buf2 = new byte[1048576];
         int len1;
         int len2;
-        while (((len1 = in1.read(buf1)) > 0) && ret) {
+        while (ret && ((len1 = in1.read(buf1)) > 0)) {
             len2 = in2.read(buf2);
             if (len1 == len2) {
             	int pos = 0;
@@ -58,7 +58,7 @@ public class FileExtendido extends File {
 	        OutputStream 	out = new FileOutputStream(nuevoFile);
 	        
 	        
-	        byte[] buf = new byte[10240];
+	        byte[] buf = new byte[1048576]; // buffer de 1 MB
 	        int len;
 	        while ((len = in.read(buf)) > 0) {
 	            out.write(buf, 0, len);
