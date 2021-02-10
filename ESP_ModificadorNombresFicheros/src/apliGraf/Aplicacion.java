@@ -30,9 +30,6 @@ import modif.ModificadorNombreArchivosTimeStampBackground;
 import modif.PasoGlobalNombresModernosBackground;
 import modif.ReorganizadorArchivosMusicaPorDirectoriosBackground;
 
-
-
-@SuppressWarnings("unused")
 public class Aplicacion extends JFrame {
 
 	/**
