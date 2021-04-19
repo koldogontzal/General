@@ -19,11 +19,13 @@ public class MainPruebas {
 
 	
 	System.out.println("Funciones exponenciales:");
-	z=new NumeroComplejo(2,0);
+	z=new NumeroComplejo(1,10);
 	
 	System.out.println("e elevado a " + z + " da por una lado " + FuncionesComplejas.exponencialCompleja(z) +". Por otro lado da " + FuncionesComplejas.exponenteComplejo(FuncionesComplejas.toNumeroComplejo(Math.exp(1)), z));
 	
-	
+	System.out.println("Cáculo del inverso de un número complejo:");
+	z=new NumeroComplejo(-2,5);
+	System.out.println("El número " + z + " tiene de inverso " + FuncionesComplejas.inversoComplejo(z) + " y por otro lado da " + FuncionesComplejas.exponenteComplejo(z, FuncionesComplejas.const_neg1));
 	}	
 	
 }

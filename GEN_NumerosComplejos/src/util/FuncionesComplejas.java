@@ -20,15 +20,18 @@ public class FuncionesComplejas {
 	}
 
 	public static NumeroComplejo sumaCompleja(NumeroComplejo z1, NumeroComplejo z2) {
+		// Suma z1 + z2
 		return new NumeroComplejo(z1.getParteReal() + z2.getParteReal(),
 				z1.getParteImaginaria() + z2.getParteImaginaria());
 	}
 
 	public static NumeroComplejo multiplicacionCompleja(NumeroComplejo z1, NumeroComplejo z2) {
+		// Multiplica z1 * z2
 		return new NumeroComplejo(false, z1.getRadio() * z2.getRadio(), z1.getAngulo(false) + z2.getAngulo(false));
 	}
 
 	public static NumeroComplejo inversoComplejo(NumeroComplejo z) {
+		// Calcula 1/z
 		return new NumeroComplejo(false, 1 / z.getRadio(), -z.getAngulo(false));
 	}
 
@@ -39,12 +42,14 @@ public class FuncionesComplejas {
 	
 	public static NumeroComplejo exponenteComplejo(NumeroComplejo z1, NumeroComplejo z2) {
 		// z1 elevado a z2
+		double lognepr1 = Math.log(z1.getRadio());
 		return new NumeroComplejo(false, 
-				z1.getRadio() / Math.exp(z1.getAngulo(false) * z2.getParteImaginaria()), 
-				z1.getAngulo(false) * z2.getParteReal());
+				Math.exp(z2.getParteReal() * lognepr1 - z1.getAngulo(false) * z2.getParteImaginaria()),
+				z1.getAngulo(false) * z2.getParteReal() + z2.getParteImaginaria() * lognepr1);
 	}
 
 	public static NumeroComplejo sinComplejo(NumeroComplejo z) {
+		// sin z
 		NumeroComplejo ret;
 		ret = exponencialCompleja(multiplicacionCompleja(const_i, z));
 		ret = sumaCompleja(ret, multiplicacionCompleja(const_neg1,
@@ -54,6 +59,7 @@ public class FuncionesComplejas {
 	}
 
 	public static NumeroComplejo cosComplejo(NumeroComplejo z) {
+		// cos z
 		NumeroComplejo ret;
 		ret = exponencialCompleja(multiplicacionCompleja(const_i, z));
 		ret = sumaCompleja(ret, exponencialCompleja(multiplicacionCompleja(new NumeroComplejo(0.0, -1.0), z)));
@@ -61,6 +67,7 @@ public class FuncionesComplejas {
 	}
 	
 	public static NumeroComplejo tanCompleja(NumeroComplejo z) {
+		// tan z
 		return multiplicacionCompleja(sinComplejo(z), inversoComplejo(cosComplejo(z)));
 	}
 }
