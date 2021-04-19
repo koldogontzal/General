@@ -15,8 +15,15 @@ public class MainPruebas {
 	for (double y=-4.0; y<= 4.0; y=y+0.1) {
 		z=new NumeroComplejo(y, 01);
 		System.out.println("El numero " + z + " tiene de tangente el número " + FuncionesComplejas.tanCompleja(z)); 
-		}		
-		
-	}
+		}				
+
+	
+	System.out.println("Funciones exponenciales:");
+	z=new NumeroComplejo(2,0);
+	
+	System.out.println("e elevado a " + z + " da por una lado " + FuncionesComplejas.exponencialCompleja(z) +". Por otro lado da " + FuncionesComplejas.exponenteComplejo(FuncionesComplejas.toNumeroComplejo(Math.exp(1)), z));
+	
+	
+	}	
 	
 }

@@ -33,7 +33,15 @@ public class FuncionesComplejas {
 	}
 
 	public static NumeroComplejo exponencialCompleja(NumeroComplejo z) {
+		// e (número de Euler) elevado al valor z
 		return new NumeroComplejo(false, Math.exp(z.getParteReal()), z.getParteImaginaria());
+	}
+	
+	public static NumeroComplejo exponenteComplejo(NumeroComplejo z1, NumeroComplejo z2) {
+		// z1 elevado a z2
+		return new NumeroComplejo(false, 
+				z1.getRadio() / Math.exp(z1.getAngulo(false) * z2.getParteImaginaria()), 
+				z1.getAngulo(false) * z2.getParteReal());
 	}
 
 	public static NumeroComplejo sinComplejo(NumeroComplejo z) {
