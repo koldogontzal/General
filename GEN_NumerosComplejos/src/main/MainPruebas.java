@@ -14,7 +14,7 @@ public class MainPruebas {
 	NumeroComplejo z;
 	for (double y=-4.0; y<= 4.0; y=y+0.1) {
 		z=new NumeroComplejo(y, 01);
-		System.out.println("El numero " + z + " tiene de exponencial el número " + FuncionesComplejas.tanCompleja(z)); 
+		System.out.println("El numero " + z + " tiene de tangente el número " + FuncionesComplejas.tanCompleja(z)); 
 		}		
 		
 	}

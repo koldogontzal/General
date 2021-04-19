@@ -49,4 +49,17 @@ public class NumeroComplejo {
 			return Math.atan2(this.parteImaginaria, this.parteReal);
 		}
 	}
+	
+	@Override
+	public String toString() {
+		String ret;
+		ret = "" + this.parteReal;
+		if (this.parteImaginaria > 0.0) {
+			ret = ret + " + " + this.parteImaginaria + " i";
+		} else if (this.parteImaginaria < 0.0) {
+			ret = ret + " " + this.parteImaginaria + " i";
+		}
+			
+		return ret;
+	}
 }
