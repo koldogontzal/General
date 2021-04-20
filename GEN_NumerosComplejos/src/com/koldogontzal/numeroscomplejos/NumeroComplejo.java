@@ -1,5 +1,7 @@
 package com.koldogontzal.numeroscomplejos;
 
+import java.text.DecimalFormat;
+
 
 public class NumeroComplejo {
 	private double parteReal;
@@ -54,21 +56,33 @@ public class NumeroComplejo {
 	
 	@Override
 	public String toString() {
+		DecimalFormat formateador = new DecimalFormat("#############0.#########");
 		String ret = "";
 		if (this.parteReal != 0.0) {
-			ret = "" + this.parteReal;
+			ret = "" + formateador.format(this.parteReal);
 		}
 		if (this.parteImaginaria > 0.0) {
 			if (ret.length() != 0) {
 				ret = ret + " + ";
 			}
-			ret = ret + this.parteImaginaria + "i";
+			if (this.parteImaginaria != 1.0) {
+				ret = ret + formateador.format(this.parteImaginaria);
+			}
+			ret = ret + "i";
 		} else if (this.parteImaginaria < 0.0) {
-			ret = ret + " - " + (-this.parteImaginaria) + "i";
+			if (ret.length() != 0) {
+				ret = ret + " - ";
+			} else {
+				ret = "-";
+			}
+			if (this.parteImaginaria != -1.0) {
+				ret = ret + formateador.format(-this.parteImaginaria);
+			}
+			ret = ret + "i"; 
 		}
 		
 		if (ret.length() == 0) {
-			ret = "0.0";
+			ret = "0";
 		}
 			
 		return ret;
