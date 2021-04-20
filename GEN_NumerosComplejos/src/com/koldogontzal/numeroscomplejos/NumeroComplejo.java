@@ -54,12 +54,21 @@ public class NumeroComplejo {
 	
 	@Override
 	public String toString() {
-		String ret;
-		ret = "" + this.parteReal;
+		String ret = "";
+		if (this.parteReal != 0.0) {
+			ret = "" + this.parteReal;
+		}
 		if (this.parteImaginaria > 0.0) {
-			ret = ret + " + " + this.parteImaginaria + " i";
+			if (ret.length() != 0) {
+				ret = ret + " + ";
+			}
+			ret = ret + this.parteImaginaria + "i";
 		} else if (this.parteImaginaria < 0.0) {
-			ret = ret + " " + this.parteImaginaria + " i";
+			ret = ret + " - " + (-this.parteImaginaria) + "i";
+		}
+		
+		if (ret.length() == 0) {
+			ret = "0.0";
 		}
 			
 		return ret;

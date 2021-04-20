@@ -26,6 +26,13 @@ public class MainPruebas {
 	System.out.println("Cáculo del inverso de un número complejo:");
 	z=new NumeroComplejo(-2,5);
 	System.out.println("El número " + z + " tiene de inverso " + FuncionesComplejas.inversoComplejo(z) + " y por otro lado da " + FuncionesComplejas.exponenteComplejo(z, FuncionesComplejas.const_neg1));
-	}	
+		
 	
+	System.out.println("Ejemplo: " + FuncionesComplejas.const_0);
+	System.out.println("Ejemplo: " + FuncionesComplejas.const_1);
+	System.out.println("Ejemplo: " + FuncionesComplejas.const_neg1);
+	System.out.println("Ejemplo: " + FuncionesComplejas.const_i);
+	System.out.println("Ejemplo: " + new NumeroComplejo(-1, -1));
+	
+	}
 }
