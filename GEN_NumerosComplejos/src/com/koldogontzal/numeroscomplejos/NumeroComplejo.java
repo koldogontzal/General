@@ -1,4 +1,4 @@
-package util;
+package com.koldogontzal.numeroscomplejos;
 
 
 public class NumeroComplejo {
@@ -16,6 +16,7 @@ public class NumeroComplejo {
 	}
 
 	public NumeroComplejo(boolean coordenadasRadialesEnGrados, double radio, double angulo) {
+		// si coordenadasRadialesEnGrados = true, el angulo está en grados, si no, está en radianes
 		if (coordenadasRadialesEnGrados) {
 			// El angulo esta en grados
 			this.parteReal = radio * Math.cos(Math.toRadians(angulo));
@@ -40,6 +41,7 @@ public class NumeroComplejo {
 	}
 
 	public double getAngulo(boolean coordenadasRadialesEnGrados) {
+		// si coordenadasRadialesEnGrados = true, el angulo está en grados, si no, está en radianes
 		if (coordenadasRadialesEnGrados) {
 			// El angulo esta en grados
 			return Math.toDegrees(Math.atan2(this.parteImaginaria, this.parteReal));

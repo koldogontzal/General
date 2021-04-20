@@ -1,7 +1,7 @@
 package main;
 
-import util.FuncionesComplejas;
-import util.NumeroComplejo;
+import com.koldogontzal.numeroscomplejos.FuncionesComplejas;
+import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
 public class MainPruebas {
 	public static void main(String[] args) {
