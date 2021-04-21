@@ -56,12 +56,20 @@ public class NumeroComplejo {
 	
 	@Override
 	public String toString() {
+		// Debido a que double tiene problemas de precisión, uso estos valores auxiliares para que si alguna de
+		// ambas partes es casi casi cero, la redondee a cero y elimine el término a la hora de representar el número
+		// como String. Pongo el límite en que sea menor que 1.0E-16.
+		double parteRealAux = (Math.abs(this.parteReal) < 1.0E-16 ? 0.0 : this.parteReal);
+		double parteImaginariaAux = (Math.abs(this.parteImaginaria) < 1.0E-16 ? 0.0 : this.parteImaginaria);
+		
+		// Representa cada parte del numero con este formato decimal:
 		DecimalFormat formateador = new DecimalFormat("#############0.#########");
 		String ret = "";
-		if (this.parteReal != 0.0) {
+		
+		if (parteRealAux != 0.0) {
 			ret = "" + formateador.format(this.parteReal);
 		}
-		if (this.parteImaginaria > 0.0) {
+		if (parteImaginariaAux > 0.0) {
 			if (ret.length() != 0) {
 				ret = ret + " + ";
 			}
@@ -69,7 +77,7 @@ public class NumeroComplejo {
 				ret = ret + formateador.format(this.parteImaginaria);
 			}
 			ret = ret + "i";
-		} else if (this.parteImaginaria < 0.0) {
+		} else if (parteImaginariaAux < 0.0) {
 			if (ret.length() != 0) {
 				ret = ret + " - ";
 			} else {

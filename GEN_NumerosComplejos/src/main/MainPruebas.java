@@ -12,7 +12,7 @@ public class MainPruebas {
 	System.out.println(FuncionesComplejas.exponencialCompleja(FuncionesComplejas.sumaCompleja(z1, z2)));
 	
 	NumeroComplejo z;
-	for (double y=-4.0; y<= 4.0; y=y+0.01) {
+	for (double y=-1.0; y<= 3.5; y=y+0.01) {
 		z=new NumeroComplejo(y, -1.0);
 		System.out.println("El número " + z + " tiene de seno el número " + FuncionesComplejas.sinComplejo(z)); 
 		System.out.println("El número " + z + " tiene de coseno el número " + FuncionesComplejas.cosComplejo(z)); 
@@ -28,7 +28,8 @@ public class MainPruebas {
 	System.out.println("Cáculo del inverso de un número complejo:");
 	z=new NumeroComplejo(-0,1);
 	System.out.println("El número " + z + " tiene de inverso " + FuncionesComplejas.inversoComplejo(z) + " y por otro lado da " + FuncionesComplejas.exponenteComplejo(z, FuncionesComplejas.const_neg1));
-		
+	System.out.println("El inverso del inverso es: "  + FuncionesComplejas.exponenteComplejo(FuncionesComplejas.inversoComplejo(z), FuncionesComplejas.const_neg1));
+	System.out.println("En esta caso, la parte real es " + FuncionesComplejas.exponenteComplejo(FuncionesComplejas.inversoComplejo(z), FuncionesComplejas.const_neg1).getParteReal());
 	
 	System.out.println("Ejemplo: " + FuncionesComplejas.const_0);
 	System.out.println("Ejemplo: " + FuncionesComplejas.const_1);
