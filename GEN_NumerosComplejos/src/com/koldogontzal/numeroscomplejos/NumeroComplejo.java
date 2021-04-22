@@ -63,7 +63,7 @@ public class NumeroComplejo {
 		double parteImaginariaAux = (Math.abs(this.parteIm) < 1.0E-16 ? 0.0 : this.parteIm);
 		
 		// Representa cada parte del numero con este formato decimal:
-		DecimalFormat formateador = new DecimalFormat("#############0.#########");
+		DecimalFormat formateador = new DecimalFormat("0.#########");
 		String ret = "";
 		
 		if (parteRealAux != 0.0) {

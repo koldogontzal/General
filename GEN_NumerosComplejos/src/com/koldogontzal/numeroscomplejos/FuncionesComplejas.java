@@ -28,6 +28,11 @@ public class FuncionesComplejas {
 		// Resta z1 - z2
 		return new NumeroComplejo(z1.getRe() - z2.getRe(), z1.getIm() - z2.getIm());
 	}
+	
+	public static NumeroComplejo opuesto(NumeroComplejo z) {
+		// Calcula -z
+		return new NumeroComplejo(-z.getRe(), -z.getIm());
+	}
 
 	public static NumeroComplejo multiplicacion(NumeroComplejo z1, NumeroComplejo z2) {
 		// Multiplica z1 * z2
@@ -38,9 +43,9 @@ public class FuncionesComplejas {
 
 	public static NumeroComplejo inverso(NumeroComplejo z) {
 		// Calcula 1/z
-		return new NumeroComplejo(false, 1 / z.getRadio(), -z.getAngulo(false));
+		return new NumeroComplejo(false, 1.0 / z.getRadio(), -z.getAngulo(false));
 	}
-	
+
 	public static NumeroComplejo division(NumeroComplejo z1, NumeroComplejo z2) {
 		// Divide z1 / z2
 	return multiplicacion(z1, inverso(z2));
@@ -53,10 +58,11 @@ public class FuncionesComplejas {
 	
 	public static NumeroComplejo elevadoA(NumeroComplejo z1, NumeroComplejo z2) {
 		// z1 elevado a z2
-		double lognepr1 = Math.log(z1.getRadio());
+		double log_nep_radio_z1 = Math.log(z1.getRadio());
+		double angulo_z1 = z1.getAngulo(false);
 		return new NumeroComplejo(false, 
-				Math.exp(z2.getRe() * lognepr1 - z1.getAngulo(false) * z2.getIm()),
-				z1.getAngulo(false) * z2.getRe() + z2.getIm() * lognepr1);
+				Math.exp(z2.getRe() * log_nep_radio_z1 - angulo_z1 * z2.getIm()),
+				angulo_z1 * z2.getRe() + z2.getIm() * log_nep_radio_z1);
 	}
 
 	public static NumeroComplejo sin(NumeroComplejo z) {
