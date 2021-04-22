@@ -46,8 +46,8 @@ public class MainPruebas {
 		int tamanoArray = 2000;
 		double x0 = -4.0;
 		double x1 = 8.0;
-		double y0 = -1.0;
-		double y1 = 1.0;
+		double y0 = -2.0;
+		double y1 = 2.0;
 
 		double dx = (x1 - x0) / (double) (tamanoArray - 1);
 		double dy = (y1 - y0) / (double) (tamanoArray - 1);
@@ -109,7 +109,7 @@ public class MainPruebas {
 	}
 	
 	private static NumeroComplejo funcionComplejaEjemplo(NumeroComplejo z) {
-		/*
+		
 		NumeroComplejo ret = FuncionesComplejas
 				.exponencial(FuncionesComplejas.sin(z));
 		ret = FuncionesComplejas.suma(ret, FuncionesComplejas
@@ -122,7 +122,7 @@ public class MainPruebas {
 														.sin(z)))));
 		ret = FuncionesComplejas.suma(ret, new NumeroComplejo(-4, 0));
 		return ret;
-		*/
-		return FuncionesComplejas.sin(z);
+		
+		//return FuncionesComplejas.sin(z);
 	}
 }
