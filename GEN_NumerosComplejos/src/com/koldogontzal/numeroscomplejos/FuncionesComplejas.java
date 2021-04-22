@@ -27,7 +27,9 @@ public class FuncionesComplejas {
 
 	public static NumeroComplejo multiplicacionCompleja(NumeroComplejo z1, NumeroComplejo z2) {
 		// Multiplica z1 * z2
-		return new NumeroComplejo(false, z1.getRadio() * z2.getRadio(), z1.getAngulo(false) + z2.getAngulo(false));
+		//return new NumeroComplejo(false, z1.getRadio() * z2.getRadio(), z1.getAngulo(false) + z2.getAngulo(false));  // Matemáticamente esta forma es quicalente, pero es más constosa en tiempo de cálculo
+		return new NumeroComplejo(z1.getParteReal() * z2.getParteReal() - z1.getParteImaginaria() * z2.getParteImaginaria(),
+				z1.getParteReal() * z2.getParteImaginaria() + z1.getParteImaginaria() * z2.getParteReal());
 	}
 
 	public static NumeroComplejo inversoComplejo(NumeroComplejo z) {

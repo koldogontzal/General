@@ -37,5 +37,34 @@ public class MainPruebas {
 	System.out.println("Ejemplo: " + FuncionesComplejas.const_i);
 	System.out.println("Ejemplo: " + new NumeroComplejo(02, -1));
 	
+	NumeroComplejo [][] z3 = new NumeroComplejo[1000][1000];
+		for (int i = 0; i < z3.length; i++) {
+			for (int j = 0; j < z3[0].length; j++) {
+				z=new NumeroComplejo((i / 100.0) - 5.0, (j / 100.0) - 5.0);
+				z3[i][j] = new NumeroComplejo(funcionComplejaEjemplo(z));
+				
+				if (z3[i][j].getRadio() < 1.0E-2) {
+					System.out.println("Posible cero (" + z3[i][j] + ") en z = " + z + ".");
+				}
+			}
+		}
+		
+	System.out.println("Hecho.");
+
+	}
+	
+	private static NumeroComplejo funcionComplejaEjemplo(NumeroComplejo z) {
+		NumeroComplejo ret = FuncionesComplejas
+				.exponencialCompleja(FuncionesComplejas.sinComplejo(z));
+		ret = FuncionesComplejas.sumaCompleja(ret, FuncionesComplejas
+				.multiplicacionCompleja(FuncionesComplejas.const_neg1,
+						FuncionesComplejas
+								.exponencialCompleja(FuncionesComplejas
+										.multiplicacionCompleja(
+												FuncionesComplejas.const_neg1,
+												FuncionesComplejas
+														.sinComplejo(z)))));
+		ret = FuncionesComplejas.sumaCompleja(ret, new NumeroComplejo(-4, 0));
+		return ret;
 	}
 }
