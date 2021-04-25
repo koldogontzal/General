@@ -6,42 +6,87 @@ import java.text.DecimalFormat;
 public class NumeroComplejo {
 	private double parteRe;
 	private double parteIm;
-
+	
+	/**
+	 * Crea un nuevo objeto NumeroComplejo.
+	 * 
+	 * @param parteReal
+	 * Parte real (Re) del número.
+	 * @param parteImaginaria
+	 * Parte imaginaria (Im) del número.
+	 */
 	public NumeroComplejo(double parteReal, double parteImaginaria) {
 		this.parteRe = parteReal;
 		this.parteIm = parteImaginaria;
 	}
 
+	/**
+	 * Crea un nuevo objeto NumeroComplejo que es igual al NumeroComplejo z del parámetro.
+	 * 
+	 * @param z
+	 * NumeroComplejo qu se va a duplicar.
+	 */
 	public NumeroComplejo(NumeroComplejo z) {
 		this.parteRe = z.parteRe;
 		this.parteIm = z.parteIm;
 	}
 
-	public NumeroComplejo(boolean coordenadasRadialesEnGrados, double radio, double angulo) {
+	/**
+	 * Crea un nuevo objeto NumeroComplejo a partir de sus coordenadas radiales.
+	 * @param coordenadasRadialesEnGrados
+	 * Boolean que indica si el ángulo se expresa en grados (true) o en radianes (false).
+	 * @param modulo
+	 * Módulo del número complejo.
+	 * @param angulo
+	 * Angulo del número complejo.
+	 */
+	public NumeroComplejo(boolean coordenadasRadialesEnGrados, double modulo, double angulo) {
 		// si coordenadasRadialesEnGrados = true, el angulo está en grados, si no, está en radianes
 		if (coordenadasRadialesEnGrados) {
 			// El angulo esta en grados
-			this.parteRe = radio * Math.cos(Math.toRadians(angulo));
-			this.parteIm = radio * Math.sin(Math.toRadians(angulo));
+			this.parteRe = modulo * Math.cos(Math.toRadians(angulo));
+			this.parteIm = modulo * Math.sin(Math.toRadians(angulo));
 		} else {
 			// El angulo esta en radianes
-			this.parteRe = radio * Math.cos(angulo);
-			this.parteIm = radio * Math.sin(angulo);
+			this.parteRe = modulo * Math.cos(angulo);
+			this.parteIm = modulo * Math.sin(angulo);
 		}
 	}
 
+	/**
+	 * Método que devuelve la parte real (Re) del número complejo desde el que se invoca.
+	 * @return
+	 * La parte real (Re) del número complejo.
+	 */
 	public double getRe() {
 		return this.parteRe;
 	}
 
+	/**
+	 * Método que devuelve la parte imaginaria (Im) del número complejo desde el que se invoca.
+	 * @return
+	 * La parte imaginaria (Im) del número complejo.
+	 */
 	public double getIm() {
 		return this.parteIm;
 	}
 
-	public double getRadio() {
+	/**
+	 * Método que devuelve el módulo (o radio) del número complejo desde el que se invoca.
+	 * @return
+	 * El módulo del número complejo.
+	 */
+	public double getModulo() {
 		return Math.sqrt(this.parteRe * this.parteRe + this.parteIm * this.parteIm);
 	}
 
+	/**
+	 * Método que devuelve el ángulo del número complejo desde el que se invoca.
+	 * @param coordenadasRadialesEnGrados
+	 * Boolean que indica si el ángulo se expresa en grados (true) o en radianes (false).
+	 * @return
+	 * El ángulo del número complejo.
+	 */
 	public double getAngulo(boolean coordenadasRadialesEnGrados) {
 		// si coordenadasRadialesEnGrados = true, el angulo está en grados, si no, está en radianes
 		if (coordenadasRadialesEnGrados) {
