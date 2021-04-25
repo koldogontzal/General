@@ -65,6 +65,11 @@ public class FuncionesComplejas {
 				angulo_z1 * z2.getRe() + z2.getIm() * log_nep_radio_z1);
 	}
 
+	public static NumeroComplejo raizCuadrada(NumeroComplejo z) {
+		// Devuelve sqrt(z)
+		return elevadoA(z, toNumeroComplejo(0.5));
+	}
+	
 	public static NumeroComplejo sin(NumeroComplejo z) {
 		// sin z
 		NumeroComplejo ret;

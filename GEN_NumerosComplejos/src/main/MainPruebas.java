@@ -70,7 +70,7 @@ public class MainPruebas {
 			
 				double parteImaginaria = y0 + j * dy;
 				z = new NumeroComplejo(parteReal, parteImaginaria);
-				z3[i][j] = new NumeroComplejo(funcionComplejaEjemplo(z));
+				z3[i][j] = new NumeroComplejo(funcionComplejaMyMathSolutions_2021_04_19(z));
 				double radio = z3[i][j].getRadio();
 
 				// Busca los valores máximo y mínimo
@@ -105,10 +105,16 @@ public class MainPruebas {
 		System.out.println("El valor máximo es " + maxVal + " (de radio " + maxValRadio+ ") situado en " + maxPos);
 
 		System.out.println("Hecho.");
+		
+		for (double x = -3.0; x <= 3.5; x = x + 0.01) {
+			z = new NumeroComplejo(x, 0);
+			System.out.println("El número " + z + " tiene de función de MyMathSolutions " + funcionComplejaMyMathSolutions_2021_04_24(z));;
+		}
+
 
 	}
 	
-	private static NumeroComplejo funcionComplejaEjemplo(NumeroComplejo z) {
+	private static NumeroComplejo funcionComplejaMyMathSolutions_2021_04_19(NumeroComplejo z) {
 		
 		NumeroComplejo ret = FuncionesComplejas
 				.exponencial(FuncionesComplejas.sin(z));
@@ -124,5 +130,16 @@ public class MainPruebas {
 		return ret;
 		
 		//return FuncionesComplejas.sin(z);
+	}
+
+	private static NumeroComplejo funcionComplejaMyMathSolutions_2021_04_24(NumeroComplejo z) {
+		NumeroComplejo ret, a, b;
+		a = new NumeroComplejo(z);
+		b = FuncionesComplejas.multiplicacion(new NumeroComplejo(2, 0),
+				FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(z, FuncionesComplejas.const_neg1)));
+
+		ret = FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(a, b));
+		ret = FuncionesComplejas.suma(ret, FuncionesComplejas.raizCuadrada(FuncionesComplejas.resta(a, b)));
+		return ret;
 	}
 }
