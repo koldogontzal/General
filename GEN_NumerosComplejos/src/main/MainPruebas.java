@@ -13,6 +13,7 @@ public class MainPruebas {
 		System.out.println(FuncionesComplejas.exponencial(FuncionesComplejas.suma(z1, z2)));
 
 		NumeroComplejo z;
+		/*
 		for (double y = -1.0; y <= 3.5; y = y + 0.01) {
 			z = new NumeroComplejo(y, -1.0);
 			System.out.println("El número " + z + " tiene de seno el número " + FuncionesComplejas.sin(z));
@@ -104,9 +105,9 @@ public class MainPruebas {
 		System.out.println("El valor máximo es " + maxVal + " (de radio " + maxValRadio + ") situado en " + maxPos);
 
 		System.out.println("Hecho.");
-
-		for (double x = -10.0; x <= 3.5; x = x + 0.1) {
-			z = new NumeroComplejo(x, 0);
+	*/
+		for (double x = 0.50; x <= 1.50; x = x + 0.01) {
+			z = new NumeroComplejo(1.5, x);
 			System.out.println("El número " + z + " tiene de función de MyMathSolutions "
 					+ funcionComplejaMyMathSolutions_2021_04_24(z));
 			;
