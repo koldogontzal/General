@@ -115,7 +115,7 @@ public class ColorMod extends Color {
 		
 		// Hace que  el hue esté siempre entre 0º y 360º 
 		hue = hue % 360;
-		if (hue < 0f) {
+		while (hue < 0f) {
 			hue = hue + 360f;
 		}
 		

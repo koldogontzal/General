@@ -18,8 +18,8 @@ public abstract class CacheRecursos {
 	protected HashMap<String, Object> recursos;
 
 	public CacheRecursos() {
-		
-		 this.recursos = new HashMap<String, Object>();
+
+		this.recursos = new HashMap<String, Object>();
 	}
 
 	protected Object cargarRecurso(String nombre) {
@@ -28,8 +28,7 @@ public abstract class CacheRecursos {
 		try {
 			url = f.toURI().toURL();
 		} catch (MalformedURLException e) {
-			System.out.println("El nombre del archivo " + nombre
-					+ " no puede cargarse bien");
+			System.out.println("El nombre del archivo " + nombre + " no puede cargarse bien");
 			e.printStackTrace();
 		}
 

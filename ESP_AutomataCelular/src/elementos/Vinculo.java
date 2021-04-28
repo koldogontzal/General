@@ -43,7 +43,7 @@ public class Vinculo extends Celda {
 				this.ligarseConOtroVinculo();
 			}
 		}
-	}
+	} 
 	
 	private void ligarseConOtroVinculo() {
 		// Busca otro vinculo pero sólo entre sus 4 vecinos (no valen diagonales)
