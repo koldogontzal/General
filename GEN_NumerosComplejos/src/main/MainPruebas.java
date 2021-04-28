@@ -112,6 +112,12 @@ public class MainPruebas {
 			;
 		}
 
+		z= new NumeroComplejo(-8, 6);
+		System.out.println("El número " + z + ", tiene de raíz cuadrada el valor " + FuncionesComplejas.raizCuadrada(z) + ".");
+		
+		z= FuncionesComplejas.conjugado(z);
+		System.out.println("El número " + z + ", tiene de raíz cuadrada el valor " + FuncionesComplejas.raizCuadrada(z) + ".");
+	
 	}
 
 	private static NumeroComplejo funcionComplejaMyMathSolutions_2021_04_19(NumeroComplejo z) {

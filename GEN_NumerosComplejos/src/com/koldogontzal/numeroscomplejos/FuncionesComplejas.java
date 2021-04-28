@@ -21,6 +21,17 @@ public class FuncionesComplejas {
 
 	/**
 	 * 
+	 * @param z
+	 * 	Numero complejo original
+	 * @return
+	 * Devuelve el conjugado del número z, de forma que si z = a + ib, el conjugado será a - ib.
+	 */
+	public static NumeroComplejo conjugado(NumeroComplejo z) {
+		return new NumeroComplejo(z.getRe(), -z.getIm());
+	}
+	
+	/**
+	 * 
 	 * @param z1
 	 *            Primer sumando.
 	 * @param z2
