@@ -1,5 +1,6 @@
 package main;
 
+import com.koldogontzal.numeroscomplejos.ConversorPlanocomplejoPixels;
 import com.koldogontzal.numeroscomplejos.FuncionesComplejas;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
@@ -118,6 +119,9 @@ public class MainPruebas {
 		
 		z= FuncionesComplejas.conjugado(z);
 		System.out.println("El número " + z + ", tiene de raíz cuadrada el valor " + FuncionesComplejas.raizCuadrada(z) + ".");
+		
+		ConversorPlanocomplejoPixels c = new ConversorPlanocomplejoPixels(new NumeroComplejo(-3,-1), new NumeroComplejo(3,2), 1200, 500);
+		System.out.println("Conversor c " + c);
 	
 	}
 

@@ -103,8 +103,8 @@ public class ConversorPlanocomplejoPixels {
 	public String toString() {
 		String ret;
 		ret = "Dimensiones en el plano complejo: "
-				+ this.conv.getPuntoInfIzq() + " > "
-				+ this.conv.getPuntoSupDrch()
+				+ this.getNumeroComplejoInfIzq() + " > "
+				+ this.getNumeroComplejoSupDrch()
 				+ "   Para cálculos, se usa el siguiente objeto ConversorPlanorealPixels: " + this.conv;
 		return ret;
 	}
