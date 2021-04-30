@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_Geometria"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_ConversorPlanorealPixels"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GEN_UtilsColor"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
