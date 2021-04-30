@@ -3,6 +3,7 @@
 	<name>GEN_NumerosComplejos</name>
 	<comment></comment>
 	<projects>
+		<project>GEN_Geometria</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

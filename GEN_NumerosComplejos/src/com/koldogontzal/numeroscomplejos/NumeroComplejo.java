@@ -2,6 +2,8 @@ package com.koldogontzal.numeroscomplejos;
 
 import java.text.DecimalFormat;
 
+import com.koldogontzal.geometria2d.Punto;
+
 
 public class NumeroComplejo {
 	private double parteRe;
@@ -24,7 +26,7 @@ public class NumeroComplejo {
 	 * Crea un nuevo objeto NumeroComplejo que es igual al NumeroComplejo z del parámetro.
 	 * 
 	 * @param z
-	 * NumeroComplejo qu se va a duplicar.
+	 * NumeroComplejo que se va a duplicar.
 	 */
 	public NumeroComplejo(NumeroComplejo z) {
 		this.parteRe = z.parteRe;
@@ -53,6 +55,17 @@ public class NumeroComplejo {
 		}
 	}
 
+	/**
+	 * Crea un nuevo objeto NumeroComplejo que es equivalente al objeto Punto p del parámetro. El eje X equivale a la parte real y el eje Y equivale a la parte imaginaria.
+	 * 
+	 * @param p
+	 * Objeto Punto equivalente.
+	 */
+	public NumeroComplejo(Punto p) {
+		this.parteRe = p.getX();
+		this.parteIm = p.getY();
+	}
+	
 	/**
 	 * Método que devuelve la parte real (Re) del número complejo desde el que se invoca.
 	 * @return
@@ -98,6 +111,16 @@ public class NumeroComplejo {
 			return Math.atan2(this.parteIm, this.parteRe);
 		}
 	}
+	
+	/**
+	 * Método que devuelve un objeto Punto, definido en el proyecto GEN_Geometria, para su posterior representación en el Conversor.
+	 * @return
+	 * El objeto Punto que equivale al número zomplejo.
+	 */
+	public Punto toPunto() {
+		return new Punto(this.parteRe, this.parteIm);
+	}
+	
 	
 	@Override
 	public String toString() {
