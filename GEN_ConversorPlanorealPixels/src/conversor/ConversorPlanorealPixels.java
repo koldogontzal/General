@@ -67,6 +67,10 @@ public class ConversorPlanorealPixels {
 		return this.pantX;
 	}
 	
+	public int getPixelsY() {
+		return this.pantY;
+	}
+	
 	private void asignarLimitesReales(Punto p0, Punto p1) {
 		double x0 = p0.getX();
 		double y0 = p0.getY();

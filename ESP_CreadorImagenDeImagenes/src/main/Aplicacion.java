@@ -96,6 +96,6 @@ public class Aplicacion {
 			e.printStackTrace();
 		}
 		
-	} 
+	}
 
 }

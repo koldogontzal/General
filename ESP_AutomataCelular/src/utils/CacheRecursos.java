@@ -1,7 +1,7 @@
 /**
- * Curso B�sico de desarrollo de Juegos en Java - Invaders
+ * Curso Básico de desarrollo de Juegos en Java - Invaders
  * 
- * (c) 2004 Planetalia S.L. - Todos los derechos reservados. Prohibida su reproducci�n
+ * (c) 2004 Planetalia S.L. - Todos los derechos reservados. Prohibida su reproducción
  * 
  * http://www.planetalia.com
  * 
@@ -20,7 +20,7 @@ public abstract class CacheRecursos {
 	public CacheRecursos() {
 
 		this.recursos = new HashMap<String, Object>();
-	}
+	} 
 
 	protected Object cargarRecurso(String nombre) {
 		URL url = null;

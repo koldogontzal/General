@@ -70,11 +70,21 @@ public class ConversorPlanocomplejoPixels {
 	}
 	
 	/**
-	 * Obtiene el ancho en pixels, que ocupa en la pantalla la sección del plano complejo a mostrar.
+	 * 
 	 * @return
+	 * Obtiene el ancho, en pixels, que ocupa en la pantalla la sección del plano complejo a mostrar (eje X).
 	 */
 	public int getPixelsX() {
 		return this.conv.getPixelsX();
+	}
+	
+	/**
+	 * 
+	 * @return
+	 * Obtiene el alto, en pixels, que ocupa en la pantalla la sección del plano complejo a mostrar (eje Y).
+	 */
+	public int getPixelsY() {
+		return this.conv.getPixelsY();
 	}
 	
 	/**
