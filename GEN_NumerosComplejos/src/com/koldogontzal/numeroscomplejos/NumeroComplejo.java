@@ -121,7 +121,42 @@ public class NumeroComplejo {
 		return new Punto(this.parteRe, this.parteIm);
 	}
 	
-	
+	/**
+	 * 
+	 * @param d
+	 * Número real
+	 * 
+	 * @return
+	 * Devuelve el NumeroComplejo que equivale al número real d. 
+	 */
+	public static NumeroComplejo cast(double d) {
+		return new NumeroComplejo(d, 0);
+	}
+
+	/**
+	 * 
+	 * @param d
+	 * Número real
+	 * 
+	 * @return
+	 * Devuelve el NumeroComplejo que equivale al número real d. 
+	 */
+	public static NumeroComplejo cast(float d) {
+		return new NumeroComplejo(d, 0);
+	}
+
+	/**
+	 * 
+	 * @param d
+	 * Número real
+	 * 
+	 * @return
+	 * Devuelve el NumeroComplejo que equivale al número real d. 
+	 */
+	public static NumeroComplejo cast(int d) {
+		return new NumeroComplejo(d, 0);
+	}
+
 	@Override
 	public String toString() {
 		// Debido a que double tiene problemas de precisión, uso estos valores auxiliares para que si alguna de

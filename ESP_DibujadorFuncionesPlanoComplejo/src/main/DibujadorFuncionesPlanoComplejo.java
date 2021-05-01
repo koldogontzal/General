@@ -38,7 +38,7 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 	}
 
 	@SuppressWarnings("deprecation")
-	public void mostrarFunciones() {
+	public void mostrarLienzo() {
 		this.add(this.lienzo, BorderLayout.CENTER);
 		this.pack();
 		this.show();
@@ -46,13 +46,15 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 
 	@Override
 	public void dibujar(LienzoEnPlanoComplejo lienzo, Graphics g) {
-		// TODO Auto-generated method stub
 
 		// Primero recorre la función, buscando el módulo máximo para parametrizar
 		// correctamente el objeto ConversorNumerocomplejoColormod. No recorre todos los
 		// puntos, sino, unicamente 1 de cada 20
 		int paso = 20;
 		ConversorNumerocomplejoColormod convColor = new ConversorNumerocomplejoColormod();
+		// Establece el valor mínimo de saturación en el color. Puede variar entre 0 y 100. 
+		convColor.setMinSat(30);
+		
 		ConversorPlanocomplejoPixels convNumComplej = this.lienzo.getConversorPlanocomplejoPixels();
 		int ancho = this.getWidth();
 		int alto = this.getHeight();
@@ -64,7 +66,8 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 			}
 		}
 
-		// Ahora recorre todos los puntos de la función para dibujarlos uno a uno
+		// En segundo lugar, 
+		// Ahora recorre todos los puntos del lienzo calculando el valor de la función, para pintarlos uno a uno
 		for (int x = 0; x <= ancho; x = x + 1) {
 			for (int y = 0; y <= alto; y = y + 1) {
 				NumeroComplejo fz = funcionComplejaParaDibujar(convNumComplej.convertir(x, y));
@@ -73,10 +76,12 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 				this.lienzo.dibujaPunto(g, new Punto(x, y), c);
 			}
 		}
-
 	}
 
+	
+	// Esta es la función que se quiere dibujar
 	private NumeroComplejo funcionComplejaParaDibujar(NumeroComplejo z) {
+		
 		NumeroComplejo ret, a, b;
 		a = new NumeroComplejo(z);
 		b = FuncionesComplejas.multiplicacionEscalar(2.0,
@@ -85,13 +90,17 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 		ret = FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(a, b));
 		ret = FuncionesComplejas.suma(ret, FuncionesComplejas.raizCuadrada(FuncionesComplejas.resta(a, b)));
 		return ret;
+
 	}
 
+	
+	
+	
 	public static void main(String[] args) {
-		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(new NumeroComplejo(-80, -10),
-				new NumeroComplejo(10, 10));
+		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(new NumeroComplejo(-9, -1),
+				new NumeroComplejo(8, 1));
 
-		dib.mostrarFunciones();
+		dib.mostrarLienzo();
 
 		System.out.println(dib);
 
