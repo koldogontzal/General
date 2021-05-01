@@ -137,6 +137,10 @@ public class ConversorPlanorealPixels {
 		return new Punto(this.xMin + p.getX() / this.facX, this.yMax - p.getY() / this.facY);
 	}
 	
+	public double getFactorConversionX() {
+		return this.facX;
+	}
+	
 	@Override
 	public String toString() {
 		String ret;

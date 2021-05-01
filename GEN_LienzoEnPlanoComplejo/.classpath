@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_NumerosComplejos"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_UtilsColor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GEN_Geometria"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

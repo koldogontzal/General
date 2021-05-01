@@ -109,6 +109,32 @@ public class ConversorPlanocomplejoPixels {
 		return new NumeroComplejo(this.conv.convertir(p));
 	}
 	
+	/**
+	 * Convierte un valor dado en el eje real en una coordenada (pixel) horizontal.
+	 * @param parteReal
+	 * El valor horizontal en el eje real.
+	 * @return
+	 * La coordenada (pixel) horizontal correspondiente.
+	 */
+	public int convX(double parteReal) {
+		return this.conv.convX(parteReal);
+	}
+	
+	/**
+	 * Convierte un valor dado en el eje imaginario en una coordenada (pixel) vertical
+	 * @param parteIm
+	 * El valor vertical en el eje imaginario.
+	 * @return
+	 * La coordenada (pixel) vertical correspondiente.
+	 */
+	public int convY(double parteIm) {
+		return this.conv.convY(parteIm);
+	}
+	
+	public double getFactorConversionX() {
+		return this.conv.getFactorConversionX();
+	}
+	
 	@Override
 	public String toString() {
 		String ret;

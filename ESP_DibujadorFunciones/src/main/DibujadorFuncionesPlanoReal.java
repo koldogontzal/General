@@ -23,7 +23,7 @@ import util.LogaritmoNeperiano;
 import util.Sumatorio;
 
 @SuppressWarnings("unused")
-public class DibujadorFunciones extends Frame implements PlanoRealDibujable {
+public class DibujadorFuncionesPlanoReal extends Frame implements PlanoRealDibujable {
 	
 	/**
 	 * 
@@ -35,7 +35,7 @@ public class DibujadorFunciones extends Frame implements PlanoRealDibujable {
 	private LienzoEnPlanoReal lienzo;
 	
 	
-	public DibujadorFunciones(Punto infIzq, Punto supDrch, Color c) {
+	public DibujadorFuncionesPlanoReal(Punto infIzq, Punto supDrch, Color c) {
 		super("Dibujador de funciones");
 		this.lienzo = new LienzoEnPlanoReal(this, c, infIzq, supDrch, true);
 		this.listadoFunciones = new ArrayList<Funcion>(10);
@@ -82,7 +82,7 @@ public class DibujadorFunciones extends Frame implements PlanoRealDibujable {
 	
 	public static void main(String[] args) {
 		
-		DibujadorFunciones dib = new DibujadorFunciones(new Punto(-1, -10), new Punto(20, 10), Color.BLUE);
+		DibujadorFuncionesPlanoReal dib = new DibujadorFuncionesPlanoReal(new Punto(-1, -10), new Punto(20, 10), Color.BLUE);
 		
 		
 		Sumatorio sum = new Sumatorio();
