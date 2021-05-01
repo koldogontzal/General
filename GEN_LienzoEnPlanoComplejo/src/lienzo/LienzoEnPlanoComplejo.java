@@ -56,6 +56,10 @@ public class LienzoEnPlanoComplejo extends Canvas {
 		// corresponde
 		return new Punto(this.convX(z.getRe()), this.convY(z.getIm()));
 	}
+	
+	public ConversorPlanocomplejoPixels getConversorPlanocomplejoPixels() {
+		return this.conversor;
+	}
 
 	/*
 	 * Paint when the AWT tells us to...
@@ -76,6 +80,7 @@ public class LienzoEnPlanoComplejo extends Canvas {
 		// Fija el color para la figura
 		// g.setColor(this.color);
 
+		
 	}
 
 	private void dibujaEjes(Graphics g) {
@@ -92,30 +97,30 @@ public class LienzoEnPlanoComplejo extends Canvas {
 		// Ejes verticales
 		for (double i = unidadEje * (int) (xMin / unidadEje); i <= unidadEje * (int) (xMax / unidadEje); i = i
 				+ unidadEje) {
-			if (i == 0) {
+			if (i != 0) {
 				g.setColor(Color.gray);
 			} else {
 				g.setColor(Color.cyan);
 			}
 
-			this.dibujaLinea(g, new NumeroComplejo(i, yMin), new NumeroComplejo(i, yMax));
+			this.dibujaEje(g, new NumeroComplejo(i, yMin), new NumeroComplejo(i, yMax));
 		}
 
 		// Ejes horizontales
 		for (double i = unidadEje * (int) (yMin / unidadEje); i <= unidadEje * (int) (yMax / unidadEje); i = i
 				+ unidadEje) {
-			if (i == 0) {
+			if (i != 0) {
 				g.setColor(Color.gray);
 			} else {
 				g.setColor(Color.cyan);
 			}
 
-			this.dibujaLinea(g, new NumeroComplejo(xMin, i), new NumeroComplejo(xMax, i));
+			this.dibujaEje(g, new NumeroComplejo(xMin, i), new NumeroComplejo(xMax, i));
 		}
 
 	}
 
-	public void dibujaLinea(Graphics g, NumeroComplejo zini, NumeroComplejo zfin) {
+	public void dibujaEje(Graphics g, NumeroComplejo zini, NumeroComplejo zfin) {
 		
 		// TO DO: Hacer la línea semi transparente (modificar la LUM del punto)
 		Punto inCn = this.convPunto(zini);
@@ -123,4 +128,11 @@ public class LienzoEnPlanoComplejo extends Canvas {
 		Graphics2D g2 = (Graphics2D) g;
 		g2.drawLine((int) inCn.getX(), (int) inCn.getY(), (int) fnCn.getX(), (int) fnCn.getY());
 	}
+	
+	
+	public void dibujaPunto(Graphics g, Punto p, Color c) {
+		g.setColor(c);
+    	g.drawLine((int)p.getX(), (int)p.getY(), (int)p.getX(), (int)p.getY());
+    }
+	
 }

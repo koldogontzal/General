@@ -110,6 +110,19 @@ public class ConversorPlanocomplejoPixels {
 	}
 	
 	/**
+	 * Convierte un pixel (definido por sus coordenadas X e Y) en el número complejo al que equivale.
+	 * @param coordX
+	 * Coordenada X horizontal del Pixel.
+	 * @param coordY
+	 * Coordenada Y vertical del Pixel.
+	 * @return
+	 * NumeroComplejo al que equivale.
+	 */
+	public NumeroComplejo convertir(int coordX, int coordY) {
+		return convertir(new Pixel(coordX, coordY));
+	}
+	
+	/**
 	 * Convierte un valor dado en el eje real en una coordenada (pixel) horizontal.
 	 * @param parteReal
 	 * El valor horizontal en el eje real.

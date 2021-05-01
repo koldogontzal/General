@@ -15,7 +15,7 @@ public class ConversorNumerocomplejoColormod {
 	 */
 
 	private float maxRadio;
-	private float inversoMaxRadio;
+	private float inversoMaxRadio100;
 	private float minSat = 0;
 	private float restoSat = 100;
 
@@ -33,7 +33,7 @@ public class ConversorNumerocomplejoColormod {
 
 	public void setMaxRadio(float maxRadio) {
 		this.maxRadio = maxRadio;
-		this.inversoMaxRadio = (float) (1.0 / maxRadio);
+		this.inversoMaxRadio100 = (float) (this.restoSat / maxRadio);
 	}
 
 	public void setMinSat(float minSat) {
@@ -58,8 +58,8 @@ public class ConversorNumerocomplejoColormod {
 	public ColorMod convertir(NumeroComplejo z) {
 		ColorMod c;
 		float hue = (float) z.getAngulo(true) + 180;
-		float sat = this.minSat + (float) Math.min(restoSat, z.getModulo() * this.inversoMaxRadio);
-		c = ColorMod.getColorFromHSV(hue, sat, 0);
+		float sat = this.minSat + (float) Math.min(restoSat, z.getModulo() * this.inversoMaxRadio100);
+		c = ColorMod.getColorFromHSV(hue, sat, sat);
 		return c;
 	}
 
