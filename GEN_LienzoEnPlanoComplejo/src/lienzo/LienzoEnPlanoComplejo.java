@@ -7,6 +7,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 
 import com.koldogontzal.geometria2d.Punto;
+import com.koldogontzal.numeroscomplejos.ConversorNumerocomplejoColormod;
 import com.koldogontzal.numeroscomplejos.ConversorPlanocomplejoPixels;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
@@ -16,22 +17,24 @@ public class LienzoEnPlanoComplejo extends Canvas {
 
 	private static final long serialVersionUID = -4609096709890051532L;
 
-	private ConversorPlanocomplejoPixels conversor;
+	private ConversorPlanocomplejoPixels convEspacial;
+	private ConversorNumerocomplejoColormod convColor;
+	
 	private double unidadEje;
 
 	// Resto
 	private PlanoComplejoDibujable objeto;
-	private Color color;
 	private boolean ejes;
 
-	public LienzoEnPlanoComplejo(PlanoComplejoDibujable objetoADibujar, Color color, NumeroComplejo infIzq,
+	public LienzoEnPlanoComplejo(PlanoComplejoDibujable objetoADibujar, NumeroComplejo infIzq,
 			NumeroComplejo supDrch, boolean ejes) {
 
 		this.objeto = objetoADibujar;
-		this.color = color;
 		this.ejes = ejes;
 
-		this.conversor = new ConversorPlanocomplejoPixels(infIzq, supDrch, 100, 100);
+		this.convEspacial = new ConversorPlanocomplejoPixels(infIzq, supDrch, 100, 100);
+		this.convColor = new ConversorNumerocomplejoColormod();
+		
 	}
 
 	public Dimension getPreferredSize() {
@@ -42,13 +45,13 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	private int convX(double x) {
 		// Se introduce una coordenada en el eje X real y se devuelve el pixel al que
 		// corresponde
-		return this.conversor.convX(x);
+		return this.convEspacial.convX(x);
 	}
 
 	private int convY(double y) {
 		// Se introduce una coordenada en el eje Y imaginario y se devuelve el pixel al
 		// que corresponde
-		return this.conversor.convY(y);
+		return this.convEspacial.convY(y);
 	}
 
 	private Punto convPunto(NumeroComplejo z) {
@@ -58,7 +61,7 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	}
 	
 	public ConversorPlanocomplejoPixels getConversorPlanocomplejoPixels() {
-		return this.conversor;
+		return this.convEspacial;
 	}
 
 	/*
@@ -67,7 +70,7 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	public void paint(Graphics g) {
 		// Recalcular valores para el nuevo tamaño de la ventana
 		Dimension size = getSize();
-		this.conversor.CambiarTamagnoPixels(size.width, size.height);
+		this.convEspacial.CambiarTamagnoPixels(size.width, size.height);
 
 		// Dibuja el objeto incrustado
 		this.objeto.dibujar(this, g);
@@ -84,13 +87,13 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	}
 
 	private void dibujaEjes(Graphics g) {
-		double xMin = this.conversor.getNumeroComplejoInfIzq().getRe();
-		double yMin = this.conversor.getNumeroComplejoInfIzq().getIm();
-		double xMax = this.conversor.getNumeroComplejoSupDrch().getRe();
-		double yMax = this.conversor.getNumeroComplejoSupDrch().getIm();
+		double xMin = this.convEspacial.getNumeroComplejoInfIzq().getRe();
+		double yMin = this.convEspacial.getNumeroComplejoInfIzq().getIm();
+		double xMax = this.convEspacial.getNumeroComplejoSupDrch().getRe();
+		double yMax = this.convEspacial.getNumeroComplejoSupDrch().getIm();
 
 		// calcula las unidades de distancia entre ejes
-		double logFactor = Math.log10(this.conversor.getFactorConversionX());
+		double logFactor = Math.log10(this.convEspacial.getFactorConversionX());
 		logFactor = Math.round(logFactor);
 		this.unidadEje = Math.pow(10.0, 2.0 - logFactor);
 

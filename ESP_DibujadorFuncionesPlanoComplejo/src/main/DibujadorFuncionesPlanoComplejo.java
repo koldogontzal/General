@@ -28,7 +28,7 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 
 	public DibujadorFuncionesPlanoComplejo(NumeroComplejo infIzq, NumeroComplejo supDrch) {
 		super("Dibujador de funciones en el plano complejo");
-		this.lienzo = new LienzoEnPlanoComplejo(this, null, infIzq, supDrch, true);
+		this.lienzo = new LienzoEnPlanoComplejo(this, infIzq, supDrch, true);
 
 		this.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
