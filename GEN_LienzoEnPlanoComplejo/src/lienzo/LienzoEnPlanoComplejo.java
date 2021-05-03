@@ -71,6 +71,12 @@ public class LienzoEnPlanoComplejo extends Canvas {
 		// Recalcular valores para el nuevo tamaño de la ventana
 		Dimension size = getSize();
 		this.convEspacial.CambiarTamagnoPixels(size.width, size.height);
+		
+		// Reparametriza el conversor de color
+		// TODO: Pensar si poner aquí esta función o delegarlar al objeto PlanoComplejoDibujable
+	
+		//this.convColor = recalculaConversorNumerocomplejoColormod();
+		
 
 		// Dibuja el objeto incrustado
 		this.objeto.dibujar(this, g);
