@@ -22,14 +22,14 @@ public class FuncionesComplejas {
 	/**
 	 * 
 	 * @param z
-	 * 	Numero complejo original
-	 * @return
-	 * Devuelve el conjugado del número z, de forma que si z = a + ib, el conjugado será a - ib.
+	 *            Numero complejo original
+	 * @return Devuelve el conjugado del número z, de forma que si z = a + ib, el
+	 *         conjugado será a - ib.
 	 */
 	public static NumeroComplejo conjugado(NumeroComplejo z) {
 		return new NumeroComplejo(z.getRe(), -z.getIm());
 	}
-	
+
 	/**
 	 * 
 	 * @param z1
@@ -150,6 +150,41 @@ public class FuncionesComplejas {
 		double angulo_z1 = z1.getAngulo(false);
 		return new NumeroComplejo(false, Math.exp(z2.getRe() * log_nep_radio_z1 - angulo_z1 * z2.getIm()),
 				angulo_z1 * z2.getRe() + z2.getIm() * log_nep_radio_z1);
+	}
+
+	/**
+	 * 
+	 * @param z
+	 *            Numero complejo del que se quiere calcular el logaritmo neperiano.
+	 * @return Devuelve el numero complejo que es el logaritmo neperiano del
+	 *         parámetro.
+	 */
+	public static NumeroComplejo logaritmo(NumeroComplejo z) {
+		return new NumeroComplejo(Math.log(z.getModulo()), z.getAngulo(false));
+	}
+	
+	/**
+	 * 
+	 * @param z
+	 *            Numero complejo del que se quiere calcular el logaritmo en base 10.
+	 * @return Devuelve el numero complejo que es el logaritmo en base 10 del
+	 *         parámetro.
+	 */
+	public static NumeroComplejo logaritmo10(NumeroComplejo z) {
+		return multiplicacionEscalar(1 / Math.log(10), logaritmo(z));
+	}
+	
+	/**
+	 * 
+	 * @param base
+	 * Base para el cálculo del logaritmo. Puede ser un número complejo
+	 * @param z
+	 * Número del que se quiere calcular el logaritmo en la base especificada
+	 * @return
+	 * Devuelve el número complejo c igual tal que potencia(base, c) = z
+	 */
+	public static NumeroComplejo logaritmoBaseZ(NumeroComplejo base, NumeroComplejo z) {
+		return division(logaritmo(z), logaritmo(base));
 	}
 
 	/**

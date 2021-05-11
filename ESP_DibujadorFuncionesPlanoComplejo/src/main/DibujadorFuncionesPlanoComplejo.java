@@ -81,7 +81,7 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 	
 	// Esta es la función que se quiere dibujar
 	private NumeroComplejo funcionComplejaParaDibujar(NumeroComplejo z) {
-		
+		/*
 		NumeroComplejo ret, a, b;
 		a = new NumeroComplejo(z);
 		b = FuncionesComplejas.multiplicacionEscalar(2.0,
@@ -90,7 +90,9 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 		ret = FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(a, b));
 		ret = FuncionesComplejas.suma(ret, FuncionesComplejas.raizCuadrada(FuncionesComplejas.resta(a, b)));
 		return ret;
-
+		*/
+		
+		return FuncionesComplejas.logaritmoBaseZ(new NumeroComplejo(2, -1), z);
 	}
 
 	
