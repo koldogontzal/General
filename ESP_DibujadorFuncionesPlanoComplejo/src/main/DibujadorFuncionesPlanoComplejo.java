@@ -39,8 +39,11 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 
 	@SuppressWarnings("deprecation")
 	public void mostrarLienzo() {
+		System.out.println("DibujadorFuncionesPlanoComplejo añade el objeto lienzo al Frame.");
 		this.add(this.lienzo, BorderLayout.CENTER);
+		System.out.println("DibujadorFuncionesPlanoComplejo empaqueta el Frame.");
 		this.pack();
+		System.out.println("DibujadorFuncionesPlanoComplejo muestra el Frame.");
 		this.show();
 	}
 
@@ -66,6 +69,7 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 			}
 		}
 
+		System.out.println("DibujadorFuncionesPlanoComplejo el método dibuja pinta la función.");
 		// En segundo lugar, 
 		// Ahora recorre todos los puntos del lienzo calculando el valor de la función, para pintarlos uno a uno
 		for (int x = 0; x <= ancho; x = x + 1) {
@@ -99,12 +103,12 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 	
 	
 	public static void main(String[] args) {
-		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(new NumeroComplejo(-9, -1),
-				new NumeroComplejo(8, 1));
+		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(new NumeroComplejo(-1, -1),
+				new NumeroComplejo(1, 1));
 
 		dib.mostrarLienzo();
 
-		System.out.println(dib);
+		System.out.println("En main: " + dib);
 
 	}
 }

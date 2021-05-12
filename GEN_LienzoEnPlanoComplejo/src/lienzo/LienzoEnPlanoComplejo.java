@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Polygon;
 
 import com.koldogontzal.geometria2d.Punto;
 import com.koldogontzal.numeroscomplejos.ConversorNumerocomplejoColormod;
@@ -25,15 +26,20 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	// Resto
 	private PlanoComplejoDibujable objeto;
 	private boolean ejes;
+	private boolean leyenda;
 
 	public LienzoEnPlanoComplejo(PlanoComplejoDibujable objetoADibujar, NumeroComplejo infIzq,
 			NumeroComplejo supDrch, boolean ejes) {
 
 		this.objeto = objetoADibujar;
 		this.ejes = ejes;
+		this.leyenda = true;
 
 		this.convEspacial = new ConversorPlanocomplejoPixels(infIzq, supDrch, 100, 100);
 		this.convColor = new ConversorNumerocomplejoColormod();
+		
+		this.
+		createBufferStrategy(1);
 		
 	}
 
@@ -68,6 +74,9 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	 * Paint when the AWT tells us to...
 	 */
 	public void paint(Graphics g) {
+		
+		g.setPaintMode();
+		
 		// Recalcular valores para el nuevo tamaño de la ventana
 		Dimension size = getSize();
 		this.convEspacial.CambiarTamagnoPixels(size.width, size.height);
@@ -77,17 +86,23 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	
 		//this.convColor = recalculaConversorNumerocomplejoColormod();
 		
+		System.out.println("LienzoEnPlanoComplejo llama al método dibujar del objeto.");
 
 		// Dibuja el objeto incrustado
 		this.objeto.dibujar(this, g);
-
+		
+		System.out.println("En el método paint del objeto: " + this.objeto);
+		
+		System.out.println("LienzoEnPlanoComplejo dibuja los ejes.");
 		// Dibuja los ejes
 		if (this.ejes) {
 			this.dibujaEjes(g);
 		}
 
-		// Fija el color para la figura
-		// g.setColor(this.color);
+		// Dibuja la leyenda
+		if (this.leyenda) {
+			this.dibujaLeyenda(g);
+		}
 
 		
 	}
@@ -103,6 +118,8 @@ public class LienzoEnPlanoComplejo extends Canvas {
 		logFactor = Math.round(logFactor);
 		this.unidadEje = Math.pow(10.0, 2.0 - logFactor);
 
+		g.setXORMode(Color.black);
+		
 		// Ejes verticales
 		for (double i = unidadEje * (int) (xMin / unidadEje); i <= unidadEje * (int) (xMax / unidadEje); i = i
 				+ unidadEje) {
@@ -115,6 +132,7 @@ public class LienzoEnPlanoComplejo extends Canvas {
 			this.dibujaEje(g, new NumeroComplejo(i, yMin), new NumeroComplejo(i, yMax));
 		}
 
+		
 		// Ejes horizontales
 		for (double i = unidadEje * (int) (yMin / unidadEje); i <= unidadEje * (int) (yMax / unidadEje); i = i
 				+ unidadEje) {
@@ -126,12 +144,14 @@ public class LienzoEnPlanoComplejo extends Canvas {
 
 			this.dibujaEje(g, new NumeroComplejo(xMin, i), new NumeroComplejo(xMax, i));
 		}
+		
+		g.setPaintMode();
 
 	}
 
-	public void dibujaEje(Graphics g, NumeroComplejo zini, NumeroComplejo zfin) {
+	private void dibujaEje(Graphics g, NumeroComplejo zini, NumeroComplejo zfin) {
 		
-		// TO DO: Hacer la línea semi transparente (modificar la LUM del punto)
+		// TODO: Hacer la línea semi transparente (modificar la LUM del punto)
 		Punto inCn = this.convPunto(zini);
 		Punto fnCn = this.convPunto(zfin);
 		Graphics2D g2 = (Graphics2D) g;
@@ -144,4 +164,14 @@ public class LienzoEnPlanoComplejo extends Canvas {
     	g.drawLine((int)p.getX(), (int)p.getY(), (int)p.getX(), (int)p.getY());
     }
 	
+	
+	private void dibujaLeyenda(Graphics g) {
+		
+		// Pinta el fondo del cuadrado de la leyenda con un color plano (por defecto el negro)
+    	Dimension size = getSize();
+		g.setColor(Color.black);
+    	g.fillRect(size.width - 210, 10, 200, 300);
+
+	
+	}
 }
