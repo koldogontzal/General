@@ -2,22 +2,6 @@ package com.koldogontzal.numeroscomplejos;
 
 public class FuncionesComplejas {
 
-	public static NumeroComplejo const_0 = FuncionesComplejas.toNumeroComplejo(0);
-	public static NumeroComplejo const_1 = FuncionesComplejas.toNumeroComplejo(1);
-	public static NumeroComplejo const_neg1 = FuncionesComplejas.toNumeroComplejo(-1);
-	public static NumeroComplejo const_i = new NumeroComplejo(0.0, 1.0);
-
-	public static NumeroComplejo toNumeroComplejo(int x) {
-		return new NumeroComplejo((double) x, 0.0);
-	}
-
-	public static NumeroComplejo toNumeroComplejo(float x) {
-		return new NumeroComplejo((double) x, 0.0);
-	}
-
-	public static NumeroComplejo toNumeroComplejo(double x) {
-		return new NumeroComplejo(x, 0.0);
-	}
 
 	/**
 	 * 
@@ -244,8 +228,8 @@ public class FuncionesComplejas {
 	 */
 	public static NumeroComplejo sin(NumeroComplejo z) {
 		NumeroComplejo ret;
-		ret = exponencial(multiplicacion(const_i, z));
-		ret = suma(ret, multiplicacion(const_neg1, exponencial(multiplicacion(new NumeroComplejo(0.0, -1.0), z))));
+		ret = exponencial(multiplicacion(NumeroComplejo.const_i, z));
+		ret = suma(ret, multiplicacion(NumeroComplejo.const_neg1, exponencial(multiplicacion(new NumeroComplejo(0.0, -1.0), z))));
 		NumeroComplejo aux = inverso(new NumeroComplejo(0.0, 2.0));
 		return multiplicacion(aux, ret);
 	}
@@ -258,7 +242,7 @@ public class FuncionesComplejas {
 	 */
 	public static NumeroComplejo cos(NumeroComplejo z) {
 		NumeroComplejo ret;
-		ret = exponencial(multiplicacion(const_i, z));
+		ret = exponencial(multiplicacion(NumeroComplejo.const_i, z));
 		ret = suma(ret, exponencial(multiplicacion(new NumeroComplejo(0.0, -1.0), z)));
 		return multiplicacion(new NumeroComplejo(0.5, 0.0), ret);
 	}

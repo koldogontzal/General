@@ -1,4 +1,6 @@
-package com.koldogontzal.numeroscomplejos;
+package com.koldogontzal.dibujadorfuncionescomplejas;
+
+import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
 import utils.ColorMod;
 

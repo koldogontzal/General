@@ -7,14 +7,14 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Polygon;
 
+import com.koldogontzal.dibujadorfuncionescomplejas.ConversorNumerocomplejoColormod;
+import com.koldogontzal.dibujadorfuncionescomplejas.ConversorPlanocomplejoPixels;
 import com.koldogontzal.geometria2d.Punto;
-import com.koldogontzal.numeroscomplejos.ConversorNumerocomplejoColormod;
-import com.koldogontzal.numeroscomplejos.ConversorPlanocomplejoPixels;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
-import Interfaz.PlanoComplejoDibujable;
+import Interfaz.PlanoComplejoDibujable_old;
 
-public class LienzoEnPlanoComplejo extends Canvas {
+public class LienzoEnPlanoComplejo_old extends Canvas {
 
 	private static final long serialVersionUID = -4609096709890051532L;
 
@@ -24,11 +24,11 @@ public class LienzoEnPlanoComplejo extends Canvas {
 	private double unidadEje;
 
 	// Resto
-	private PlanoComplejoDibujable objeto;
+	private PlanoComplejoDibujable_old objeto;
 	private boolean ejes;
 	private boolean leyenda;
 
-	public LienzoEnPlanoComplejo(PlanoComplejoDibujable objetoADibujar, NumeroComplejo infIzq,
+	public LienzoEnPlanoComplejo_old(PlanoComplejoDibujable_old objetoADibujar, NumeroComplejo infIzq,
 			NumeroComplejo supDrch, boolean ejes) {
 
 		this.objeto = objetoADibujar;

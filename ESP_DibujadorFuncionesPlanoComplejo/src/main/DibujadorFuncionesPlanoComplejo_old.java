@@ -7,28 +7,28 @@ import java.awt.Graphics;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+import com.koldogontzal.dibujadorfuncionescomplejas.ConversorNumerocomplejoColormod;
+import com.koldogontzal.dibujadorfuncionescomplejas.ConversorPlanocomplejoPixels;
 import com.koldogontzal.geometria2d.Punto;
-import com.koldogontzal.numeroscomplejos.ConversorNumerocomplejoColormod;
-import com.koldogontzal.numeroscomplejos.ConversorPlanocomplejoPixels;
 import com.koldogontzal.numeroscomplejos.FuncionesComplejas;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
-import Interfaz.PlanoComplejoDibujable;
-import lienzo.LienzoEnPlanoComplejo;
+import Interfaz.PlanoComplejoDibujable_old;
+import lienzo.LienzoEnPlanoComplejo_old;
 import utils.ColorMod;
 
-public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoComplejoDibujable {
+public class DibujadorFuncionesPlanoComplejo_old extends Frame implements PlanoComplejoDibujable_old {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 4899006624806631337L;
 
-	private LienzoEnPlanoComplejo lienzo;
+	private LienzoEnPlanoComplejo_old lienzo;
 
-	public DibujadorFuncionesPlanoComplejo(NumeroComplejo infIzq, NumeroComplejo supDrch) {
+	public DibujadorFuncionesPlanoComplejo_old(NumeroComplejo infIzq, NumeroComplejo supDrch) {
 		super("Dibujador de funciones en el plano complejo");
-		this.lienzo = new LienzoEnPlanoComplejo(this, infIzq, supDrch, true);
+		this.lienzo = new LienzoEnPlanoComplejo_old(this, infIzq, supDrch, true);
 
 		this.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
@@ -48,7 +48,7 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 	}
 
 	@Override
-	public void dibujar(LienzoEnPlanoComplejo lienzo, Graphics g) {
+	public void dibujar(LienzoEnPlanoComplejo_old lienzo, Graphics g) {
 
 		// Primero recorre la función, buscando el módulo máximo para parametrizar
 		// correctamente el objeto ConversorNumerocomplejoColormod. No recorre todos los
@@ -103,7 +103,7 @@ public class DibujadorFuncionesPlanoComplejo extends Frame implements PlanoCompl
 	
 	
 	public static void main(String[] args) {
-		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(new NumeroComplejo(-1, -1),
+		DibujadorFuncionesPlanoComplejo_old dib = new DibujadorFuncionesPlanoComplejo_old(new NumeroComplejo(-1, -1),
 				new NumeroComplejo(1, 1));
 
 		dib.mostrarLienzo();

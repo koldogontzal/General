@@ -1,15 +1,14 @@
 package main;
 
-import com.koldogontzal.numeroscomplejos.ConversorPlanocomplejoPixels;
 import com.koldogontzal.numeroscomplejos.FuncionesComplejas;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
 public class MainPruebas {
 	public static void main(String[] args) {
 
-		NumeroComplejo z1 = FuncionesComplejas.const_1;
-		NumeroComplejo z2 = FuncionesComplejas.multiplicacion(FuncionesComplejas.const_i,
-				FuncionesComplejas.toNumeroComplejo(2.5));
+		NumeroComplejo z1 = NumeroComplejo.const_1;
+		NumeroComplejo z2 = FuncionesComplejas.multiplicacion(NumeroComplejo.const_i,
+				NumeroComplejo.cast(2.5));
 
 		System.out.println(FuncionesComplejas.exponencial(FuncionesComplejas.suma(z1, z2)));
 
@@ -120,8 +119,6 @@ public class MainPruebas {
 		z= FuncionesComplejas.conjugado(z);
 		System.out.println("El número " + z + ", tiene de raíz cuadrada el valor " + FuncionesComplejas.raizCuadrada(z) + ".");
 		
-		ConversorPlanocomplejoPixels c = new ConversorPlanocomplejoPixels(new NumeroComplejo(-3,-1), new NumeroComplejo(3,2), 1200, 500);
-		System.out.println("Conversor c " + c);
 	
 	}
 
@@ -129,8 +126,8 @@ public class MainPruebas {
 
 		NumeroComplejo ret = FuncionesComplejas.exponencial(FuncionesComplejas.sin(z));
 		ret = FuncionesComplejas.suma(ret,
-				FuncionesComplejas.multiplicacion(FuncionesComplejas.const_neg1, FuncionesComplejas.exponencial(
-						FuncionesComplejas.multiplicacion(FuncionesComplejas.const_neg1, FuncionesComplejas.sin(z)))));
+				FuncionesComplejas.multiplicacion(NumeroComplejo.const_neg1, FuncionesComplejas.exponencial(
+						FuncionesComplejas.multiplicacion(NumeroComplejo.const_neg1, FuncionesComplejas.sin(z)))));
 		ret = FuncionesComplejas.suma(ret, new NumeroComplejo(-4, 0));
 		return ret;
 
@@ -140,7 +137,7 @@ public class MainPruebas {
 		NumeroComplejo ret, a, b;
 		a = new NumeroComplejo(z);
 		b = FuncionesComplejas.multiplicacionEscalar(2.0,
-				FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(z, FuncionesComplejas.const_neg1)));
+				FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(z, NumeroComplejo.const_neg1)));
 
 		ret = FuncionesComplejas.raizCuadrada(FuncionesComplejas.suma(a, b));
 		ret = FuncionesComplejas.suma(ret, FuncionesComplejas.raizCuadrada(FuncionesComplejas.resta(a, b)));

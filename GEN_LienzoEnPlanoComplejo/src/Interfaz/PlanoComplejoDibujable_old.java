@@ -2,10 +2,10 @@ package Interfaz;
 
 import java.awt.Graphics;
 
-import lienzo.LienzoEnPlanoComplejo;
+import lienzo.LienzoEnPlanoComplejo_old;
 
-public interface PlanoComplejoDibujable {
+public interface PlanoComplejoDibujable_old {
 	
-	public abstract void dibujar(LienzoEnPlanoComplejo lienzo, Graphics g); 
+	public abstract void dibujar(LienzoEnPlanoComplejo_old lienzo, Graphics g); 
 
 }

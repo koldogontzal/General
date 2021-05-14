@@ -6,6 +6,13 @@ import com.koldogontzal.geometria2d.Punto;
 
 
 public class NumeroComplejo {
+	
+	public static NumeroComplejo const_0 = NumeroComplejo.cast(0);
+	public static NumeroComplejo const_1 = NumeroComplejo.cast(1);
+	public static NumeroComplejo const_neg1 = NumeroComplejo.cast(-1);
+	public static NumeroComplejo const_i = new NumeroComplejo(0.0, 1.0);
+
+	
 	private double parteRe;
 	private double parteIm;
 	
