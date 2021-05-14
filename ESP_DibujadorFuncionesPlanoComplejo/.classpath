@@ -6,6 +6,5 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_UtilsColor"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_Geometria"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GEN_ConversorPlanorealPixels"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/GEN_LienzoEnPlanoComplejo"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
