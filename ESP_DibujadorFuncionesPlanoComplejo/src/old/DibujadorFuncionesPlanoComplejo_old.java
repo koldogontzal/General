@@ -1,4 +1,4 @@
-package main;
+package old;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -13,8 +13,7 @@ import com.koldogontzal.geometria2d.Punto;
 import com.koldogontzal.numeroscomplejos.FuncionesComplejas;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
-import Interfaz.PlanoComplejoDibujable_old;
-import lienzo.LienzoEnPlanoComplejo_old;
+
 import utils.ColorMod;
 
 public class DibujadorFuncionesPlanoComplejo_old extends Frame implements PlanoComplejoDibujable_old {

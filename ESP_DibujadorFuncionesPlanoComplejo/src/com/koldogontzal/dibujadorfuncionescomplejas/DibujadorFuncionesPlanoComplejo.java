@@ -2,6 +2,7 @@ package com.koldogontzal.dibujadorfuncionescomplejas;
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
@@ -56,7 +57,7 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 
 		g.setPaintMode();
 
-		// Recalcular valores para el nuevo tama�o de la ventana
+		// Recalcular valores para el nuevo tamaño de la ventana
 		Dimension size = getSize();
 		this.convEspacial.CambiarTamagnoPixels(size.width, size.height);
 
@@ -91,7 +92,7 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 	}
 
 	private Punto convPunto(NumeroComplejo z) {
-		// Se introduce un n�mero en el plano complejo y se devuelve el pixel al que
+		// Se introduce un número en el plano complejo y se devuelve el pixel al que
 		// corresponde
 		return new Punto(this.convX(z.getRe()), this.convY(z.getIm()));
 	}
@@ -168,11 +169,11 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 				y = j;
 			}
 
-			// obtiene el valor del color del p�xel
+			// obtiene el valor del color del píxel
 			ColorMod col = this.convColor.convertir(this.func.valor(this.convEspacial.convertir(x, y)));
 
 			if (esEjePrincipal) {
-				col = ColorMod.getColorProporcionalRGB(col, Color.WHITE, 0.5f);
+				col = ColorMod.getColorProporcionalRGB(col, Color.WHITE, 0.35f);
 			} else {
 				col = ColorMod.getColorProporcionalRGB(col, Color.WHITE, 0.15f);
 			}
@@ -196,7 +197,60 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 		Dimension size = getSize();
 		g.setColor(Color.black);
 		g.fillRect(size.width - 210, 10, 200, 300);
+		
+		int posx, posy;
+		g.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 12));
+		
+		// Modulo
+		posx = size.width - 200;
+		posy = 30;
 
+		g.setColor(Color.white);
+		g.drawString("Módulo:", posx, posy);
+		g.drawString("0                                                   Máx", posx, posy + 16);
+		for (int i = 0; i <= 20; i++) {
+			for (int j = 0; j <= 180; j++) {
+				ColorMod c = this.convColor.convertir(new NumeroComplejo(true, j * this.convColor.getMaxRadio() / 180,(double)(i-10) * 180 /10.0));;
+				this.dibujaPunto(g, new Punto(posx+j, posy+i+20), c);
+			}
+		}
+		g.setColor(Color.white);
+		g.drawString("Máx = " + this.convColor.getMaxRadio(), posx, posy+56);
+		
+		
+		// Angulo
+		g.setColor(Color.white);
+
+		posx = size.width - 200;
+		posy = 120;
+		g.drawString("Ángulo:", posx, posy);
+		g.drawString("-180º   -90º         0º         90º     180º", posx, posy + 16);
+
+		for (int i = 0; i <= 180; i++) {
+			ColorMod c = ColorMod.getColorFromHSV(2 * i, 100, 100);
+			g.setColor(c);
+			if ((i % 45) == 0) {
+				g.drawLine(posx + i, posy + 23, posx + i, posy + 36);
+			} else {
+				g.drawLine(posx + i, posy + 26, posx + i, posy + 33);
+			}
+		}
+		g.setColor(Color.white);
+		g.drawString("-π        -π/2          0           π/2          π", posx, posy + 52);
+
+		// Rejilla
+		g.setColor(Color.white);
+		posx = size.width - 200;
+		posy = 210;
+		g.drawString("Grid:", posx, posy);
+		g.drawString("Distancia entre ejes: " + this.unidadEje, posx, posy + 16);
+		NumeroComplejo c00 = this.convEspacial.convertir(0, 0);
+		NumeroComplejo c11 = this.convEspacial.convertir(size.width, size.height);
+		g.drawString("Rango eje real:", posx, posy + 32);
+		g.drawString("[ " + redondearDouble(c00.getRe()) + " ; " + redondearDouble(c11.getRe()) + " ]", posx, posy + 48);
+		g.drawString("Rango eje imaginario:", posx, posy + 64);
+		g.drawString("[ " + redondearDouble(c11.getIm()) + " ; " + redondearDouble(c00.getIm()) + " ]", posx, posy + 80);
+		
 		/*
 		 * int w = getSize().width; int midW = w / 2;
 		 * 
@@ -219,13 +273,21 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 		 */
 
 	}
+	
+	private String redondearDouble(double v) {
+		double redondeo = 1000;
+		
+		return "" + (Math.round(v * 1000) / redondeo);
+		
+		
+	}
 
 	private void recalibrarNumerocomplejoColormod() {
-		// Primero recorre la funci�n, buscando el m�dulo m�ximo para parametrizar
+		// Primero recorre la función, buscando el módulo máximo para parametrizar
 		// correctamente el objeto ConversorNumerocomplejoColormod. No recorre todos los
 		// puntos, sino, unicamente 1 de cada 20
 		int paso = 20;
-		// Establece el valor m�nimo de saturaci�n en el color. Puede variar entre 0 y
+		// Establece el valor mínimo de saturación en el color. Puede variar entre 0 y
 		// 100.
 		this.convColor.setMinSat(30);
 		this.convColor.setMaxRadio(1E-15);
@@ -247,7 +309,7 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 		int alto = this.getHeight();
 
 		// En segundo lugar,
-		// Ahora recorre todos los puntos del lienzo calculando el valor de la funci�n,
+		// Ahora recorre todos los puntos del lienzo calculando el valor de la función,
 		// para pintarlos uno a uno
 		for (int x = 0; x <= ancho; x = x + 1) {
 			for (int y = 0; y <= alto; y = y + 1) {

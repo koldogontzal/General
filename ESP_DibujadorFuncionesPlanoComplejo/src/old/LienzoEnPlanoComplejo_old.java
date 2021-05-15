@@ -1,4 +1,4 @@
-package lienzo;
+package old;
 
 import java.awt.Canvas;
 import java.awt.Color;
@@ -11,8 +11,6 @@ import com.koldogontzal.dibujadorfuncionescomplejas.ConversorNumerocomplejoColor
 import com.koldogontzal.dibujadorfuncionescomplejas.ConversorPlanocomplejoPixels;
 import com.koldogontzal.geometria2d.Punto;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
-
-import Interfaz.PlanoComplejoDibujable_old;
 
 public class LienzoEnPlanoComplejo_old extends Canvas {
 

@@ -1,8 +1,7 @@
-package Interfaz;
+package old;
 
 import java.awt.Graphics;
 
-import lienzo.LienzoEnPlanoComplejo_old;
 
 public interface PlanoComplejoDibujable_old {
 	

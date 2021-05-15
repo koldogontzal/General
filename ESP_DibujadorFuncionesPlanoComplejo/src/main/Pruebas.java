@@ -4,14 +4,13 @@ import com.koldogontzal.dibujadorfuncionescomplejas.DibujadorFuncionesPlanoCompl
 import com.koldogontzal.numeroscomplejos.FuncionesComplejas;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
-import ejemplosfunciones.FuncionComplejaMyMathSolutions_2021_04_19;
-import ejemplosfunciones.FuncionComplejaMyMathSolutions_2021_04_24;
+import ejemplosfunciones.*;
 
 public class Pruebas {
 	public static void main(String[] args) {
 		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(
-				new FuncionComplejaMyMathSolutions_2021_04_19(), 
-				new NumeroComplejo(-8, -8), new NumeroComplejo(8, 8),
+				new EjemploSinDefincionClara(), 
+				new NumeroComplejo(-800, -800), new NumeroComplejo(800, 800),
 				true, true);
 
 		dib.mostrar();

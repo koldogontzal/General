@@ -43,6 +43,10 @@ public class ConversorNumerocomplejoColormod {
 		this.restoSat = 100 - minSat;
 
 	}
+	
+	public float getMaxRadio() {
+		return maxRadio;
+	}
 
 	public boolean modificarMaxRadio(double radio) {
 		return modificarMaxRadio((float) radio);
