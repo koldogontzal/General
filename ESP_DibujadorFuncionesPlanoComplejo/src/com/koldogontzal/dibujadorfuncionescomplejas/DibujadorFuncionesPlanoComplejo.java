@@ -2,6 +2,7 @@ package com.koldogontzal.dibujadorfuncionescomplejas;
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.Graphics;
 
@@ -12,6 +13,7 @@ import com.koldogontzal.geometria2d.Punto;
 import com.koldogontzal.numeroscomplejos.FuncionComplejaMonoparametro;
 import com.koldogontzal.numeroscomplejos.NumeroComplejo;
 
+import apliGraf.VisorTextoConDesplazamiento;
 import utils.ColorMod;
 
 public class DibujadorFuncionesPlanoComplejo extends JPanel {
@@ -25,6 +27,7 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 
 	private ConversorPlanocomplejoPixels convEspacial;
 	private ConversorNumerocomplejoColormod convColor;
+	private VisorTextoConDesplazamiento texto;
 
 	private boolean ejes;
 	private boolean leyenda;
@@ -41,6 +44,7 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 
 		this.convEspacial = new ConversorPlanocomplejoPixels(infIzq, supDrch, 100, 100);
 		this.convColor = new ConversorNumerocomplejoColormod();
+		this.texto = new VisorTextoConDesplazamiento(500);
 
 	}
 
@@ -48,6 +52,7 @@ public class DibujadorFuncionesPlanoComplejo extends JPanel {
 		//
 		JFrame frame = new JFrame();
 		frame.add(this);
+		frame.setTitle("Dibujador de función compleja");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setBounds(20, 20, 1000, 500);
 		frame.setVisible(true);

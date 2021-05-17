@@ -9,8 +9,8 @@ import ejemplosfunciones.*;
 public class Pruebas {
 	public static void main(String[] args) {
 		DibujadorFuncionesPlanoComplejo dib = new DibujadorFuncionesPlanoComplejo(
-				new EjemploSinDefincionClara(), 
-				new NumeroComplejo(-800, -800), new NumeroComplejo(800, 800),
+				new FuncionComplejaMyMathSolutions_2021_05_17(), 
+				new NumeroComplejo(-3, -15), new NumeroComplejo(3, 30),
 				true, true);
 
 		dib.mostrar();
