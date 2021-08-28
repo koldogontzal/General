@@ -26,7 +26,7 @@ public class Opositor {
 			this.nombre = partes[5];
 			this.codExamen = partes[7];
 		} else {
-			System.out.println(linea + " -> No se trata de una línea válida");
+			System.out.println(linea + " -> No se trata de una lï¿½nea vï¿½lida");
 		}
 
 		if (partes.length == 10) {
@@ -59,7 +59,7 @@ public class Opositor {
 		this.codModificado = codModificado;
 	}
 	
-	public void añadirEjercicioServidor(Ejercicio ej) {
+	public void agnadirEjercicioServidor(Ejercicio ej) {
 		this.ejerciciosServidor.add(ej);
 	}
 	
