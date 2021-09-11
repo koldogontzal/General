@@ -59,7 +59,7 @@ public class Opositor {
 		this.codModificado = codModificado;
 	}
 	
-	public void añadirEjercicioServidor(Ejercicio ej) {
+	public void agnadirEjercicioServidor(Ejercicio ej) {
 		this.ejerciciosServidor.add(ej);
 	}
 	

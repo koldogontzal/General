@@ -62,7 +62,7 @@ public class AnalizadorGeneralEjercicios {
 				String strOpositor = ej.getOpositor();
 				if (strOpositor != null) {
 					Opositor opositor = this.listaOpositores.buscarPorCodExamen(strOpositor);
-					opositor.añadirEjercicioServidor(ej);
+					opositor.agnadirEjercicioServidor(ej);
 				} else {
 					// Genera el listado de ejercicios no nulos sin un opositor claro					
 					if (!ej.isEjercicioVacio()) {
